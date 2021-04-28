@@ -26,7 +26,7 @@ Android Auto Apps Downloader is free and offers in app purchases. The free versi
 
 Only requisite for phone is at least Android 6.0.
 
-[GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
+## [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
 ## F.A.Q. 
 
