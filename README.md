@@ -24,7 +24,7 @@ The main goal of this app is having the listed apps in Android Auto with a pain 
 
 Android Auto Apps Downloader is free and offers in app purchases. The free version of the app allows up to 1 download every 30 days. With the PRO version you can enjoy the full experience and download as many times as you want, forever!
 
-Only requisite for phone is at least Android 6.0.
+Only requisite for phone is at least Android 6.0. Obviously the car/unit HAS to be able to run Android Auto.
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
