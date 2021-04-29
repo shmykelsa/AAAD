@@ -35,6 +35,9 @@ If you want to stay updated with development, you can check out the [dedicated T
 # License
 Source code of the app will be shared so that changes can be implemented by whoever wants to do so for personal use, but the software is **NOT** a free software, and you are not allowed to redistirbute modified versions of it, neither as a free application, niether as a commercial product. If you are intending to do so please seek my explicit writing approval for doing so. However you are allowed to modify the software as you wish as long as the modified version is **only** ever used by yourself. For more informations [please read the EULA](https://github.com/shmykelsa/AAAD/blob/main/LICENSE).
 
+# You think PRO asking price is a bargain? 
+Feel free to [donate more](https://www.paypal.com/donate/?hosted_button_id=JAFCYRN32KYZE), and keep the donation receipt. Then hit me up with a mail at help.aaad@gmail.com writing in the subject "[GW]" and a small thought. As a reply a mail with instructions will be sent for PRO activation!
+
 # Notes
 Android Auto Apps Downloader **does not grant** in any way that the provided apps available for installing will actually work on Android Auto. The installing method can fail anytime if Google applies changes to Android Auto. Any software installed by Android Auto Apps Downloader is provided "as it is" and no support can be given by me for malfunctioning apps or malfunctioning Android Auto. 
 
