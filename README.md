@@ -28,6 +28,10 @@ Only requisite for phone is at least Android 6.0. Obviously the car/unit HAS to 
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
+### Updates
+
+If you want to stay updated with development, you can check out the [dedicated Telegram Channel](https://t.me/AAADupdates) 
+
 # License
 Source code of the app will be shared so that changes can be implemented by whoever wants to do so for personal use, but the software is **NOT** a free software, and you are not allowed to redistirbute modified versions of it, neither as a free application, niether as a commercial product. If you are intending to do so please seek my explicit writing approval for doing so. However you are allowed to modify the software as you wish as long as the modified version is **only** ever used by yourself. For more informations [please read the EULA](https://github.com/shmykelsa/AAAD/blob/main/LICENSE).
 
@@ -35,9 +39,9 @@ Source code of the app will be shared so that changes can be implemented by whoe
 Android Auto Apps Downloader **does not grant** in any way that the provided apps available for installing will actually work on Android Auto. The installing method can fail anytime if Google applies changes to Android Auto. Any software installed by Android Auto Apps Downloader is provided "as it is" and no support can be given by me for malfunctioning apps or malfunctioning Android Auto. 
 
 # Copyright
-Gabriele Rizzo (shmykelsa)(©) - 2021 - Lecce, Italia
+Gabriele Rizzo (shmykelsa)© - 2021 - Lecce, Italia
 
-# F.A.Q. 
+# F.A.Q.
 
 ### Why the heck do I need this app? Can’t I just install the apps by myslef?
 
@@ -67,3 +71,6 @@ Any software installed by my app is provided "as is" and I'm not responsible for
 
 Write an email to help.aaad@gmail.com
 
+### Sir how do I download this app????
+
+If you are on mobile, you likely will have a little dropdown menu named "Assets", from there you can see the package (APK) to install the app. Download and install. If you are on a PC, you might see the "Assets" menu already collapsed and from there you can see the APK.
