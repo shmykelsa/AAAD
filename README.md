@@ -30,10 +30,12 @@ Only requisite for phone is at least Android 6.0. Obviously the car/unit HAS to 
 
 ### Updates
 
-If you want to stay updated with development, you can check out the [dedicated Telegram Channel](https://t.me/AAADupdates) 
+If you want to stay updated with development, you can check out the [dedicated Telegram Channel](https://t.me/AAADupdates). Be sure to watch the repository with the banner on the top right, you will be notified via mail if AAAD gets updated (GitHub account needed)! 
 
 # License
 Source code of the app will be shared so that changes can be implemented by whoever wants to do so for personal use, but the software is **NOT** a free software, and you are not allowed to redistirbute modified versions of it, neither as a free application, niether as a commercial product. If you are intending to do so please seek my explicit writing approval for doing so. However you are allowed to modify the software as you wish as long as the modified version is **only** ever used by yourself. For more informations [please read the EULA](https://github.com/shmykelsa/AAAD/blob/main/LICENSE).
+
+PRO version of the app will be bind to one device and the PRO or FREE version (including remaining downloads) of the app will survive app uninstall. For any help with PRO license, please write at help.aaad@gmail.com
 
 # You think PRO asking price is a crazy bargain? 
 Feel free to [donate more](https://www.paypal.com/donate/?hosted_button_id=JAFCYRN32KYZE), and keep the donation receipt. Then hit me up with a mail at help.aaad@gmail.com writing in the subject "[GW]" and a small thought. As a reply a mail with instructions will be sent for PRO activation!
@@ -42,7 +44,7 @@ Feel free to [donate more](https://www.paypal.com/donate/?hosted_button_id=JAFCY
 Android Auto Apps Downloader **does not grant** in any way that the provided apps available for installing will actually work on Android Auto. The installing method can fail anytime if Google applies changes to Android Auto. Any software installed by Android Auto Apps Downloader is provided "as it is" and no support can be given by me for malfunctioning apps or malfunctioning Android Auto. 
 
 # Copyright
-Gabriele Rizzo (shmykelsa)© - 2021 - Lecce, Italia
+Gabriele Rizzo (shmykelsa) © - 2021 - Lecce, Italia
 
 # F.A.Q.
 
@@ -57,6 +59,10 @@ Of course AAAD it’s not a malware. Google Play Store does not like apps that i
 ### Why only those apps? Where is YouTube? Where is Netflix? Where is Instagram?
 
 Not all apps are compatible with Android Auto. You can’t just pick an app and sledge hammer it into Android Auto. I’ve included basically almost every Android Auto app known to date, and the only responsibility of AAAD is to make them available in Android Auto. 
+
+### How do I update the apps installed from AAAD?
+
+AAAD will always download latest version of an app. If one of the apps that you've installed through AAAD gets an update, you can open AAAD and download the update. At the moment, there's no update checker, but I'm planning on making it! 
 
 ### Will you hold my bank account/credit card informations?
 
