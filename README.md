@@ -72,7 +72,7 @@ Of course no. The offered in app purchase is solely processed by PayPal and none
 
 No.
 
-### I have a problem with an app installed by AAAD. Coyld you help me out?
+### I have a problem with an app installed by AAAD. Could you help me out?
 
 Any software installed by my app is provided "as is" and I'm not responsible for any malfunctioning. If you are in this case, please seek help from the software's author instead. 
 
