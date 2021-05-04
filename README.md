@@ -83,3 +83,16 @@ Write an email to help.aaad@gmail.com
 ### Sir how do I download this app????
 
 If you are on mobile, you likely will have a little dropdown menu named "Assets", from there you can see the package (APK) to install the app. Download and install. If you are on a PC, you might see the "Assets" menu already collapsed and from there you can see the APK.
+
+### PayPal is not available in my country! How can I pay for PRO?
+
+Please write to help.aaad@gmail.com with subject including "NOPP" 
+
+### I don't have the option to open with AAAD from Screen2Auto website
+
+If you are using Samsung Browser to download Screen2Auto you might want to enable "Useful features" in settings of Samsung Browser. Alternatively, just use Chrome. Other browser might not work as well, so please change it. 
+
+### I've installed apps with AAAD but it's not appearing on Android Auto???
+
+I'm aware of apps missing in HUAWEI/HONOR, OPPO/REALME and SAMSUNG with ANDROID 8.0. I'm currently gathering all the useful informations to discover the root cause of the issue and as soon as it's found I'm gonna release an update of AAAD!
+
