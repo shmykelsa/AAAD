@@ -1,6 +1,9 @@
-# AAAD
+# AAAD [![Crowdin](https://badges.crowdin.net/aaad/localized.svg)](https://crowdin.com/project/aaad)
+
 
 ![banner](https://i.imgur.com/EeT5Y3v.png)
+
+
 
 Android Auto Apps Downloader (AAAD) is an app for Android Phones that downloads popular Android Auto 3rd party apps and installs them in the correct way to have them in Android Auto. 
 
