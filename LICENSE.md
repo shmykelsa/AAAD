@@ -14,7 +14,7 @@ This EULA agreement shall apply only to the Software supplied by Gabriele Rizzo 
 
 #### License Grant
 
-Gabriele Rizzo (shmykelsa) hereby grants you a personal, non-transferable, non-exclusive licence to use the Android Auto Apps Downloader (AAAD) software on your devices in accordance with the terms of this EULA agreement.
+Gabriele Rizzo (shmykelsa) hereby grants you a personal, non-exclusive licence to use the Android Auto Apps Downloader (AAAD) software on your devices in accordance with the terms of this EULA agreement.
 
 You are permitted to use Android Auto Apps Downloader (AAAD) software under your control. 
 
