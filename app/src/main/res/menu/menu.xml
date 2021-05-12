@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/infos"
+        android:title="@string/About"/>
+
+
+    <item
+        android:id="@+id/help"
+        android:title="@string/help"/>
+
+    <item
+        android:id="@+id/transfer_license"
+        android:title="@string/transfer_license"/>
+
+    <item
+        android:id="@+id/version" />
+
+
+</menu>

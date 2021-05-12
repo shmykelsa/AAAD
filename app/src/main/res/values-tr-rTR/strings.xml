@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_string">Android Auto Apps Downloader\'a (AAAD) hoş geldiniz. Bu yardımcı program, köklü olmayan telefonlar için Android Auto\'ya özel uygulamaların yüklenmesine yardımcı olacaktır. Yüklemek istediğiniz uygulamayı seçin ve yükleyicinin gelmesini bekleyin. Uzun basışta uygulama açıklamaları mevcuttur ÜMİT KAYI.</string>
+    <string name="title_activity_about_payment">Profesyonel sürüm</string>
+    <string name="switch_to_pro_statement">AAAD\'nin ücretsiz sürümü, her ay bir ücretsiz indirme yapmanıza izin verir. Sınırsız ücretsiz indirmenin keyfini çıkarmak istiyorsanız, PRO sürümüne geçebilir ve tüm işlevlerin ve uygulama güncellemelerinin keyfini çıkarabilirsiniz!</string>
+    <string name="congratsPro">Tebrikler, PRO sürümünüz var!</string>
+    <string name="notConnected">Bağlı değil: PRO durumu alınamadı</string>
+    <string name="About">Hakkında</string>
+    <string name="have_promo_code">Promosyon Kodu varmı</string>
+    <string name="promo_code">Promosyon kodu giriniz</string>
+    <string name="input_promo_code_here">Promosyon kodunu buraya girin</string>
+    <string name="fermata_control_dialog">%1$s %2$s dosyasını indirmek üzeresiniz. Ayrıca %3$s yüklemek istiyor musunuz?</string>
+    <string name="about_to_download">%1$sdosyasını indirmek üzeresiniz. Devam etmek istiyor musun?</string>
+    <string name="no">hayır</string>
+    <string name="warning_payment">Ödeme işleminin sonunda, işlemin onaylanması için lütfen manuel olarak \"Satıcıya geri dön\" seçeneğine basın.
+ İçerik Talep.</string>
+    <string name="attention">DİKKAT</string>
+    <string name="next_download_available">Bir sonraki indirme şu tarihte mümkün olacak:%1$s</string>
+    <string name="connect_error">Bağlantı hatası var</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">1 indirme hakkınız kaldı</item>
+        <item quantity="other">İndirme hakkınız kalmadı</item>
+    </plurals>
+    <string name="about_part_one">"Birinci bölüm hakkında<![CDATA[AAAD (Android Auto Apps Downloader) is developed and mantained by Shmykelsa.<br><br>Mevcut uygulamalar aşağıdaki geliştiriciler tarafından mümkün kılınmıştır::<br>]]>"</string>
+    <string name="pro_unlocked">Tebrikler, PRO sürümünün kilidi açıldı</string>
+    <string name="cancelled_payment">Satın alma iptal edildi</string>
+    <string name="please_enter_code">Lütfen bir kod girin</string>
+    <string name="connection_error">Bağlantı hatası, doğrulanamadı</string>
+    <string name="not_valid_code">Geçerli bir kod değil</string>
+    <string name="select_which">Hangisini seçtin!</string>
+    <string name="downloading_progress">Yükleniyor lütfen bekleyiniz... çeviri: Ümit Kayi….....</string>
+    <string name="aa_mirror_plus_description">AAMirror\'a alternatif, daha fazla işlevle.</string>
+    <string name="aapassenger_description">Bu uygulama, yolcuların Android Auto\'daki bazı işlevleri yönetmesine izin vermek için yapıldı. Yolcunun AAPassenger\'ı indirmesini gerektirir. Çalışma durumu şu anda bilinmiyor deniyoruz bro</string>
+    <string name="s2a_description">Android Auto için en eksiksiz ve tam özellikli yansıtma uygulaması. Özelleştirilebilir bir başlatıcı, bölünmüş ekran, özel ekran boyutları ve çok daha fazlası gibi birçok özellik içerir!</string>
+    <string name="aamirror_description">Android Auto için ilk ve uzun ömürlü ekran aynası uygulaması. Bir ailenin atası olan AAMirror, telefonunuzun ekranını arabaya yansıtır.</string>
+    <string name="aa_stream_description">AAMirror\'a bazı ekstra işlevlere sahip başka bir alternatif. Yakın zamanda Annexhack tarafından yeni Android sürümleri için yeniden canlandırıldı ve düzeltildi.</string>
+    <string name="carstream_description">Eskiden \"YouTube Auto\" olarak bilinen CarStream, özel uygulamalar SDK\'sı ile yapılan ilk uygulamalardan biriydi. YouTube\'u Android Auto\'ya ulaştırmanın ana amacı ile doğdu ve daha sonra birçok özelliğe sahip bir web tarayıcısı oldu.    </string>
+    <string name="fermata_description">"Ağ akışları ve ayrıca bir web tarayıcısı gibi birçok özellik ile tam bir oynatıcı deneyimi sunan Android Auto için en eksiksiz video ve ses oynatıcı. Ayrıca, oynatmayı uygulamanın dışında ve direksiyon simidindeki kontrollerden yönetmeye izin veren yardımcı uygulama Fermata Control ile birlikte gelir."</string>
+    <string name="s2a_redirect">Screen2auto web sitesine yönlendirileceksiniz. Oradan sürümü seçin ve AAAD ile açın.
+ İÇERİK TALEP EDİN.</string>
+    <string name="screen2auto_download">Screen2Auto\'yu kuracaksınız. Devam etmek istiyor musun?</string>
+    <string name="press_back_warning">Çıkmak için lütfen GERİ düğmesine tekrar basın</string>
+    <string name="aawidgets_description">Tek bir görevle doğdu. Android Auto\'ya bir widget getirin! Bağlam İsteği!</string>
+    <string name="performance_monitor_description">Bu, Martoreto\'nun aa istatistiklerine dayanan bir performans monitörüdür. Özellikle Volkswagen / Skoda / Seat / Audi MIB2 bilgi-eğlence birimleriyle kullanım için yapılmıştır, ancak Android Auto desteğine sahip oldukları sürece başkalarında da çalışabilir. Volkswagen Otomobillerinde çalışmak için ayrıca VAG uzantısına ihtiyaç vardır.</string>
+    <string name="promotion">% 15 indirim hakkınız var hadi iyisin</string>
+    <string name="first_section_name">Multimedya uygulamaları</string>
+    <string name="second_section_name">Yansıtma uygulamaları</string>
+    <string name="third_section_name">Diğer</string>
+    <string name="might_not_be_compatible">Maalesef, cihazınız uygulama ile uyumlu değil gibi görünüyor.</string>
+    <string name="new_version_available">Yeni sürüm mevcut</string>
+    <string name="go_to_new_version">GitHub\'da yeni bir AAAD sürümü (yeni sürüm) mevcut. Şimdi indirmek ister misin?
+ İÇERİK TALEP?</string>
+    <string name="go_to_download">İndirmeye git</string>
+    <string name="ignore_for_now">Şimdilik yok say</string>
+    <string name="privacy_policy">"<![CDATA[AAAD, kullanıcıyla ilgili herhangi bir kredi kartı bilgisi veya kişisel veri saklamaz. <br> Doğrulama amacıyla AAAD, bir cihazı benzersiz bir şekilde tanımlamak için Android tarafından güvenli bir şekilde oluşturulmuş bir seri numarası toplar. Cihaz serisi, PRO sürümünü doğrulamak için AAAD tarafından işlenir ve cihaz modeli, IMIEI veya konum hakkında herhangi bir yararlı bilgi sağlamaz. <br> Pro sürümün ödemesi yalnızca PayPal tarafından yönetilir ve onay ve geri ödeme amacıyla posta çevrimiçi bir Firebase veritabanında saklanır.]]> İÇERİK TALEP"</string>
+    <string name="privacy">Gizlilik politikası</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="go_pro">Pro sürüme geç</string>
+    <string name="i_m_good">İyiyim</string>
+    <string name="nav2contacts_description">Android Auto\'ya gelen yeni navigasyon uygulamalarıyla, çoğu Google Asistan\'ın telefon rehberinde kayıtlı kişilerin adreslerine gitme desteğinden yoksun. Nav2Contacts kurtarmaya geliyor! Öncelikle kullanmak istediğiniz navigasyon uygulamasını seçin, ardından gitmek istediğiniz kişiyi arayın ve navigasyonu hemen başlatın!
+ İçerik Talep et!</string>
+    <string name="meeting_requirements">Maalesef, bu uygulama en az Android%d gerektiriyor!</string>
+    <string name="back_button_payment_close">Ödeme tamamlandıktan sonra LÜTFEN mavi düğmeye \"Satıcı web sitesine dön\" düğmesine basmayı unutmayın</string>
+    <string name="help">Yardım</string>
+    <string name="help_dialog">Şu anda yardım için bir e-posta göndermek istiyor musunuz?</string>
+    <string name="cpu_architecture_warning">Telefonunuzun CPU mimarisi çoğu uygulama ile uyumlu olmayabilir. Lütfen devam etmeden önce en az bir uygulama indirmeyi deneyin.</string>
+    <string name="i_understand">Anladım</string>
+    <string name="ignore">Görmezden gel</string>
+    <string name="i_want_to_transfer_license_here">Buradan lisansı transfer etmek istiyorum</string>
+    <string name="i_want_to_transfer_license_from_here">Buradan lisansı transfer etmek istiyorum</string>
+    <string name="license_transfer_help">Lisansı bir telefondan diğerine aktarma</string>
+    <string name="transfer_license">Lisans transferi</string>
+    <string name="confirm">Onayla</string>
+    <string name="license_here_confirm">Lisansı bu cihaza aktarmak istediğinizden emin misiniz?</string>
+    <string name="qr_tutorial">Harika, şimdi lisansı aktarmak istediğiniz cihazı açın ve \"Lisansı buradan aktarmak istiyorum\" u seçin, ardından bu QR kodunu tarayın</string>
+    <string name="license_done">Lisans aktarıldı dostum</string>
+    <string name="no_license_found">Bu cihazda aktif bir lisansınız yok</string>
+    <string name="unknown_sources_warning">Devam etmeden önce, yüklemeyi ayarlar bilinmeyen kaynaklardan etkinleştirmelisiniz. Bu seçeneği kapalı bırakmak AAAD\'de sorunlara neden olabilir. Şimdi ayarlara gitmek için Tamam\'a basın, Bilinmeyen Kaynaklar seçeneğini etkinleştirmeniz gerekecektir.
+ İÇERİK TALEP.</string>
+    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
+    <string name="success_transfer">License validated</string>
+</resources>

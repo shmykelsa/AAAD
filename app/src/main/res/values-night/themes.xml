@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">?android:colorBackground</item>
+        <item name="colorPrimaryDark">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

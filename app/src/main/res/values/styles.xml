@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="titleTextColor">#000000</item>
+        <item name="actionBarTheme">@style/MyActionBarTheme</item>
+    </style>
+
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dialog_text_color</item>
+    </style>
+
+
+    <style name="ButtonStyle">
+        <item name="android:elevation">7dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="MenuTheme">
+        <item name="android:colorBackground">@color/menu_background</item>
+        <item name="android:textColor">@color/menu_text_color</item>
+    </style>
+
+    <style name="MyActionBarTheme">
+        <item name="android:background">?backgroundColor</item>
+        <item name="popupTheme">?titleTextColor</item>
+        <item name="tint">?titleTextColor</item>
+    </style>
+
+
+    <style name="NormalTextAppeareance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/raleway_medium</item>
+        <item name="android:textColor">@color/dialog_text_color</item>
+    </style>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_bg</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+
+
+
+</resources>

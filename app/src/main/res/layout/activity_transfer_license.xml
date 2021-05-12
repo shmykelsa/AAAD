@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/receive"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:text="@string/i_want_to_transfer_license_here"
+        android:drawablePadding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/donate"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/i_want_to_transfer_license_from_here"
+        app:layout_constraintEnd_toEndOf="@+id/receive"
+        app:layout_constraintStart_toStartOf="@+id/receive"
+        app:layout_constraintTop_toBottomOf="@+id/receive" />
+
+    <TextView
+        android:id="@+id/textView_transfer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/license_transfer_help"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:paddingHorizontal="30dp"/>
+
+    <ImageView
+        android:id="@+id/img_result_qr"
+        android:visibility="gone"
+        android:layout_width="227dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_transfer"
+        app:layout_constraintVertical_bias="0.141" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
