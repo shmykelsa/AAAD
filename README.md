@@ -36,7 +36,7 @@ Only requisite for phone is at least Android 6.0. Obviously the car/unit HAS to 
 If you want to stay updated with development, you can check out the [dedicated Telegram Channel](https://t.me/AAADupdates). Be sure to watch the repository with the banner on the top right, you will be notified via mail if AAAD gets updated (GitHub account needed)! 
 
 # License
-Source code of the app will be shared so that changes can be implemented by whoever wants to do so for personal use, but the software is **NOT** a free software, and you are not allowed to redistirbute modified versions of it, neither as a free application, niether as a commercial product. If you are intending to do so please seek my explicit writing approval for doing so. However you are allowed to modify the software as you wish as long as the modified version is **only** ever used by yourself. For more informations [please read the EULA](https://github.com/shmykelsa/AAAD/blob/main/LICENSE).
+Source code of the app is shared so that changes can be implemented by whoever wants to do so for personal use, but the software is **NOT** a free software, and you are not allowed to redistirbute modified versions of it, neither as a free application, niether as a commercial product. If you are intending to do so please seek my explicit writing approval for doing so. However you are allowed to modify the software as you wish as long as the modified version is **only** ever used by yourself. For more informations [please read the EULA](https://github.com/shmykelsa/AAAD/blob/main/LICENSE).
 
 PRO version of the app will be bind to one device and the PRO or FREE version (including remaining downloads) of the app will survive app uninstall. For any help with PRO license, please write at help.aaad@gmail.com
 
