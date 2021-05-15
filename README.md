@@ -31,7 +31,9 @@ Android Auto Apps Downloader is free and offers in app purchases. The free versi
 ### Compatibility issues
 
 Android 7.x / 8.x - **Working on a fix**
+
 Oppo/Realme devices - **Working on a fix**
+
 Android Auto 6.4+ and Android 11 - No fix for this. Follow [instructions on how to rollback to a working version](https://github.com/shmykelsa/AAAD/wiki/How-to-downgrade-Android-Auto)
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
