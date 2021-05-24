@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Bienvenido a Android Auto Apps Downloader (AAAD). Esta utilidad ayudará a instalar aplicaciones personalizadas en Android Auto para teléfonos no rooteados. Seleccione la aplicación que desea instalar y espere a que aparezca el instalador. Las descripciones de la aplicación están disponibles con una pulsación larga.</string>
-    <string name="title_activity_about_payment">Versión PRO</string>
-    <string name="switch_to_pro_statement">La versión gratuita de AAAD le permite tener una descarga gratuita cada mes. Si quieres disfrutar de descargas gratuitas ilimitadas, ¡puedes cambiar a la versión PRO y disfrutarás de todas las funcionalidades y actualizaciones de la aplicación!</string>
+    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
+    <string name="title_activity_about_payment">PRO Version</string>
+    <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
     <string name="congratsPro">¡Enhorabuena, tienes la versión PRO!</string>
     <string name="notConnected">No conectado: no se pudo recuperar el estado PRO</string>
-    <string name="About">Acerca de</string>
-    <string name="have_promo_code">Tengo un código de promocional</string>
-    <string name="promo_code">Introduzca el código promocional</string>
-    <string name="input_promo_code_here">Aquí puede introducir el código promocional</string>
-    <string name="fermata_control_dialog">Está a punto de descargar %1$s %2$s. ¿Desea también instalar %3$s?</string>
+    <string name="About">Alrededor</string>
+    <string name="have_promo_code">I have a promo code</string>
+    <string name="promo_code">Ocamica</string>
+    <string name="input_promo_code_here">Input promo code here</string>
+    <string name="fermata_control_dialog">You are about to download %1$s %2$s. Do you also want to install %3$s?</string>
     <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
     <string name="no">no</string>
     <string name="warning_payment">Al final del pago por favor pulse manualmente \"Volver al comerciante\" para validar la transacción.</string>
@@ -18,7 +18,7 @@
     <string name="connect_error">ERROR DE CONEXIÓN</string>
     <plurals name="remaining_downloads">
         <item quantity="one">Tiene 1 descarga restante</item>
-        <item quantity="other">Tiene 0 descarga restante</item>
+        <item quantity="other">No tienes ninguna descarga restante</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) es desarrollado y mantenido por Shmykelsa.<br><br>Las aplicaciones disponibles son posibles por los siguientes desarrolladores:<br>]]>"</string>
     <string name="pro_unlocked">Enhorabuena, versión PRO desbloqueada</string>
@@ -58,18 +58,18 @@
     <string name="nav2contacts_description">Con las nuevas aplicaciones de navegación entrando en Android Auto, muchas de ellas carecen del apoyo del Asistente de Google para navegar a las direcciones de los contactos guardados en tu guía telefónica. ¡Nav2Contactos vienen al rescate! Primero, seleccione la aplicación de navegación que desea utilizar, ¡luego busque el contacto al que desea navegar y comience la navegación de inmediato!</string>
     <string name="meeting_requirements">Esta aplicación requiere al menos Android %d, ¡lo sentimos!</string>
     <string name="back_button_payment_close">PLEASE remember to press the blue button \"Return to merchant website\" after payment is complete</string>
-    <string name="help">Help</string>
-    <string name="help_dialog">Do you want to send an e-mail for help right now?</string>
+    <string name="help">AYUDA</string>
+    <string name="help_dialog">¿Quieres enviar un correo electrónico para recibir ayuda ahora mismo?</string>
     <string name="cpu_architecture_warning">Your phone CPU architecture may not be compatible with most of the apps. Please try to download at least one app before proceeding.</string>
-    <string name="i_understand">I understand</string>
-    <string name="ignore">Ignore</string>
-    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
+    <string name="i_understand">Lo he entendido</string>
+    <string name="ignore">Ignorar</string>
+    <string name="i_want_to_transfer_license_here">I want to transfer license from here</string>
     <string name="i_want_to_transfer_license_from_here">I want to transfer license from here</string>
     <string name="license_transfer_help">If you want to transfer the license from one phone to the other, you are in the right place. Please select what you want to do</string>
     <string name="transfer_license">Transfer License</string>
-    <string name="confirm">Confirmation</string>
+    <string name="confirm">Confirmación</string>
     <string name="license_here_confirm">Are you sure that you want to transfer the license to this device?</string>
-    <string name="qr_tutorial">Great, now open the device that you want to transfer the license from and select \"I want to transfer the license from here\", then scan this QR code</string>
+    <string name="qr_tutorial">Hi</string>
     <string name="license_done">License transferred</string>
     <string name="no_license_found">You don\'t have an active license on this device</string>
     <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>

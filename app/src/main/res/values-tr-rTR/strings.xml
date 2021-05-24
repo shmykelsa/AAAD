@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Android Auto Apps Downloader\'a (AAAD) hoş geldiniz. Bu yardımcı program, köklü olmayan telefonlar için Android Auto\'ya özel uygulamaların yüklenmesine yardımcı olacaktır. Yüklemek istediğiniz uygulamayı seçin ve yükleyicinin gelmesini bekleyin. Uzun basışta uygulama açıklamaları mevcuttur ÜMİT KAYI.</string>
-    <string name="title_activity_about_payment">Profesyonel sürüm</string>
-    <string name="switch_to_pro_statement">AAAD\'nin ücretsiz sürümü, her ay bir ücretsiz indirme yapmanıza izin verir. Sınırsız ücretsiz indirmenin keyfini çıkarmak istiyorsanız, PRO sürümüne geçebilir ve tüm işlevlerin ve uygulama güncellemelerinin keyfini çıkarabilirsiniz!</string>
-    <string name="congratsPro">Tebrikler, PRO sürümünüz var!</string>
-    <string name="notConnected">Bağlı değil: PRO durumu alınamadı</string>
-    <string name="About">Hakkında</string>
-    <string name="have_promo_code">Promosyon Kodu varmı</string>
-    <string name="promo_code">Promosyon kodu giriniz</string>
-    <string name="input_promo_code_here">Promosyon kodunu buraya girin</string>
-    <string name="fermata_control_dialog">%1$s %2$s dosyasını indirmek üzeresiniz. Ayrıca %3$s yüklemek istiyor musunuz?</string>
-    <string name="about_to_download">%1$sdosyasını indirmek üzeresiniz. Devam etmek istiyor musun?</string>
-    <string name="no">hayır</string>
-    <string name="warning_payment">Ödeme işleminin sonunda, işlemin onaylanması için lütfen manuel olarak \"Satıcıya geri dön\" seçeneğine basın.
- İçerik Talep.</string>
-    <string name="attention">DİKKAT</string>
+    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
+    <string name="title_activity_about_payment">PRO sürümü</string>
+    <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
+    <string name="congratsPro">Congratulations, you have PRO version!</string>
+    <string name="notConnected">Not connected: could not retrieve PRO status</string>
+    <string name="About">About</string>
+    <string name="have_promo_code">I have a promo code</string>
+    <string name="promo_code">Enter promo code</string>
+    <string name="input_promo_code_here">Input promo code here</string>
+    <string name="fermata_control_dialog">You are about to download %1$s %2$s. Do you also want to install %3$s?</string>
+    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
+    <string name="no">no</string>
+    <string name="warning_payment">At the end of the payment please manually press \"Return to merchant\" for the transaction to be validated.</string>
+    <string name="attention">ATTENTION</string>
     <string name="next_download_available">Bir sonraki indirme şu tarihte mümkün olacak:%1$s</string>
     <string name="connect_error">Bağlantı hatası var</string>
     <plurals name="remaining_downloads">
@@ -77,6 +76,6 @@
     <string name="no_license_found">Bu cihazda aktif bir lisansınız yok</string>
     <string name="unknown_sources_warning">Devam etmeden önce, yüklemeyi ayarlar bilinmeyen kaynaklardan etkinleştirmelisiniz. Bu seçeneği kapalı bırakmak AAAD\'de sorunlara neden olabilir. Şimdi ayarlara gitmek için Tamam\'a basın, Bilinmeyen Kaynaklar seçeneğini etkinleştirmeniz gerekecektir.
  İÇERİK TALEP.</string>
-    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
-    <string name="success_transfer">License validated</string>
+    <string name="qr_code_permission">İçerik</string>
+    <string name="success_transfer">Lisansın geçerliliği</string>
 </resources>

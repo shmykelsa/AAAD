@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Vítejte v Android Auto Apps Downloader (AAAD). Tento nástroj pomůže nainstalovat vlastní aplikace na Android Auto pro nerootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, až se instalátor objeví. Popisy aplikací jsou k dispozici při dlouhém stisknutí.</string>
-    <string name="title_activity_about_payment">Verze PRO</string>
+    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
+    <string name="title_activity_about_payment">PRO verze</string>
     <string name="switch_to_pro_statement">Bezplatná verze AAAD vám umožňuje jedno stažení zdarma každý měsíc. Pokud chcete využít neomezeného stahování zdarma, musíte přepnout na PRO verzi a budete využívat plné funkce a aktualizace aplikací!</string>
     <string name="congratsPro">Gratulujeme, máte verzi PRO!</string>
     <string name="notConnected">Není připojeno: nelze získat stav PRO verze</string>
@@ -72,10 +72,10 @@
     <string name="transfer_license">Převod licence</string>
     <string name="confirm">Potvrzení</string>
     <string name="license_here_confirm">Jste si jisti, že chcete převést licenci do tohoto zařízení?</string>
-    <string name="qr_tutorial">Výborně, nyní otevřete zařízení, na které chcete převést licenci a vyberte \"Chci převést licenci\", pak naskenujte tento QR kód</string>
+    <string name="qr_tutorial">Skvělé, nyní otevřete zařízení, ze kterého chcete převést licenci a vyberte \"Odsud chci převést licenci\", pak naskenujte tento QR kód</string>
     <string name="license_done">Licence byla převedena</string>
     <string name="no_license_found">Na tomto zařízení nemáte aktivní licenci</string>
-    <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>
-    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
-    <string name="success_transfer">License validated</string>
+    <string name="unknown_sources_warning">Před pokračováním musíte povolit instalaci z neznámých zdrojů. Pokud necháte tuto možnost vypnout, může to způsobit problémy AAAD. Stisknutím tlačítka OK přejděte do nastavení a aktivujte možnost instalace pro Neznámé zdroje.</string>
+    <string name="qr_code_permission">Oprávnění k fotoaparátu je potřebné pro naskenování QR kódu</string>
+    <string name="success_transfer">Licence byla ověřena</string>
 </resources>

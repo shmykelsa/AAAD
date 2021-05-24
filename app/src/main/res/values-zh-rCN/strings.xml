@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
-    <string name="title_activity_about_payment">PRO različica</string>
+    <string name="title_activity_about_payment">PRO Version</string>
     <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
     <string name="congratsPro">Congratulations, you have PRO version!</string>
     <string name="notConnected">Not connected: could not retrieve PRO status</string>
@@ -17,9 +17,6 @@
     <string name="next_download_available">Next download will be available on: %1$s</string>
     <string name="connect_error">CONNECTION ERROR</string>
     <plurals name="remaining_downloads">
-        <item quantity="one">You have 1 download remaining</item>
-        <item quantity="two">You have no download remaining</item>
-        <item quantity="few">You have no download remaining</item>
         <item quantity="other">You have no download remaining</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) is developed and mantained by Shmykelsa.<br><br>The available apps are made possible by the following developers:<br>]]>"</string>

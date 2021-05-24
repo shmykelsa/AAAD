@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Bienvenue sur Android Auto Apps Downloader (AAAD). Cet utilitaire vous permettra d\'installer des applications tierces sur Android Auto pour les téléphones non rootés. Sélectionnez l\'application que vous voulez installer et attendez que le programme d\'installation apparaisse. Pour afficher la description d\'une application, faites un appui long sur son bouton.</string>
+    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">Version PRO</string>
     <string name="switch_to_pro_statement">La version gratuite de AAAD vous permet d\'avoir un téléchargement gratuit par mois. Si vous voulez profiter d\'un nombre illimité de téléchargements, vous pouvez passer à la version PRO afin de bénéficier de toutes les fonctionnalités et mises à jour de l\'application !</string>
     <string name="congratsPro">Félicitations, vous avez la version PRO !</string>

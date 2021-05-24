@@ -73,6 +73,6 @@
     <string name="license_done">Licentie overgedragen</string>
     <string name="no_license_found">U heeft geen actieve licentie op dit apparaat</string>
     <string name="unknown_sources_warning">Voordat u doorgaat, moet u de installatie vanuit onbekende bronnen toestaan. Als u deze optie uitschakelt, kan dit problemen veroorzaken in AAAD. Druk nu op OK om naar de instellingen te gaan, u moet de optie voor onbekende bronnen aanzetten.</string>
-    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
-    <string name="success_transfer">License validated</string>
+    <string name="qr_code_permission">Toestemming nodig om QR code te scannen met camera</string>
+    <string name="success_transfer">Licentie is gevalideerd</string>
 </resources>

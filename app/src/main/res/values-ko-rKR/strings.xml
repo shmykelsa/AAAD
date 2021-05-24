@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
-    <string name="title_activity_about_payment">PRO Version</string>
+    <string name="title_activity_about_payment">프로 버전</string>
     <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
     <string name="congratsPro">Congratulations, you have PRO version!</string>
     <string name="notConnected">Not connected: could not retrieve PRO status</string>
     <string name="About">About</string>
-    <string name="have_promo_code">I have a promo code</string>
-    <string name="promo_code">Enter promo code</string>
+    <string name="have_promo_code">프로모션 코드를 가지고 있습니다.</string>
+    <string name="promo_code">코드를 입력해 주세요</string>
     <string name="input_promo_code_here">Input promo code here</string>
     <string name="fermata_control_dialog">You are about to download %1$s %2$s. Do you also want to install %3$s?</string>
     <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
     <string name="no">no</string>
     <string name="warning_payment">At the end of the payment please manually press \"Return to merchant\" for the transaction to be validated.</string>
-    <string name="attention">ATTENTION</string>
+    <string name="attention">주의</string>
     <string name="next_download_available">Next download will be available on: %1$s</string>
     <string name="connect_error">CONNECTION ERROR</string>
     <plurals name="remaining_downloads">

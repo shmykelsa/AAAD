@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="welcome_string">歡迎使用Android Auto Apps Downloader (AAAD)。本軟體可以在無ROOT的手機上安裝Android Auto第三方應用程式。選擇要安裝的應用程式，等待安裝程式完成。長按選項顯示說明。</string>
-    <string name="title_activity_about_payment">PRO版本</string>
+    <string name="title_activity_about_payment">（專業版）</string>
     <string name="switch_to_pro_statement">AAAD免費版本允許您每月免費下載一次。如果您想要無限的下載及更新，可以升級到PRO版本，您將享受全部功能和應用程式更新</string>
-    <string name="congratsPro">恭喜你，已經升級為PRO版本!</string>
-    <string name="notConnected">無網路連線: 無法驗證PRO版本狀態</string>
-    <string name="About">關於</string>
-    <string name="have_promo_code">我有一個促銷代碼</string>
-    <string name="promo_code">請輸入促銷代碼</string>
-    <string name="input_promo_code_here">請在這裡輸入促銷代碼</string>
+    <string name="congratsPro">Congratulations, you have PRO version! h</string>
+    <string name="notConnected">網路中斷：無法取得專業版！ Jjhfv</string>
+    <string name="About">Day ago</string>
+    <string name="have_promo_code">促銷代碼</string>
+    <string name="promo_code">輸入促銷代碼</string>
+    <string name="input_promo_code_here">在這裡輸入促銷代碼</string>
     <string name="fermata_control_dialog">您要下載 %1$s %2$s，並安裝 %3$s 嗎？</string>
     <string name="about_to_download">您確定要繼續下載 %1$s 嗎？</string>
     <string name="no">否</string>

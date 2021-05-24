@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Vitajte v Android Auto Apps Downloader (AAAD). Táto pomôcka Vám pomôže nainštalovať vlastné aplikácie do Android Auto aj pre telefóny, bez potreby superužívateľa - ROOT. Vyberte aplikáciu, ktorú chcete nainštalovať, a počkajte, kým sa objaví inštalačný program. Popisy aplikácií sú k dispozícii dlhým stlačením.</string>
+    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO Verzia</string>
     <string name="switch_to_pro_statement">Bezplatná verzia AAAD vám umožňuje mať každý mesiac jedno bezplatné stiahnutie. Ak si chcete vychutnať neobmedzené sťahovanie zadarmo, môžete prejsť na verziu PRO a užijete si všetky funkcie a aktualizácie aplikácií!</string>
     <string name="congratsPro">Gratulujeme, máte verziu PRO!</string>
