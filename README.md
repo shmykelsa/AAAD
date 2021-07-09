@@ -104,10 +104,6 @@ Please write to help.aaad@gmail.com with subject including "NOPP"
 
 If you are using Samsung Browser to download Screen2Auto you might want to enable "Useful features" in settings of Samsung Browser. Alternatively, just use Chrome. Other browser might not work as well, so please change it. 
 
-### I've installed apps with AAAD but it's not appearing on Android Auto???
-
-I'm aware of apps missing in HUAWEI/HONOR, OPPO/REALME and SAMSUNG with ANDROID 8.0. I'm currently gathering all the useful informations to discover the root cause of the issue and as soon as it's found I'm gonna release an update of AAAD!
-
 ### How long will my PRO license last?
 
 The pro license is bond to your device and it will survive uninstallations. If you wipe your device, the device ID will be reset and license will not work anymore. In that case, you may want to contact help.aaad@gmail.com and include in the subject "PROWIPED". If you change your device, please write to help.aaad@gmail.com and include in the subject "PROTRANSFER"
