@@ -34,7 +34,9 @@ Android 7.x / 8.x - **Working on a fix**
 
 Oppo/Realme devices - **Working on a fix**
 
-Android Auto 6.4+ and Android 11 - No fix for this. Follow [instructions on how to rollback to a working version](https://github.com/shmykelsa/AAAD/wiki/How-to-downgrade-Android-Auto)
+Android Auto 6.4-6.5 and Android 11+ - AAAD will not have any effect. In this case scenario you can:
+- Update to [Android Auto 6.6](https://www.apkmirror.com/apk/google-inc/android-auto/android-auto-6-6-6125-release/)
+- Follow [instructions on how to rollback to a working version](https://github.com/shmykelsa/AAAD/wiki/How-to-downgrade-Android-Auto)
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
