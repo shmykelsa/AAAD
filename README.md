@@ -107,5 +107,5 @@ If you are using Samsung Browser to download Screen2Auto you might want to enabl
 
 ### How long will my PRO license last?
 
-The pro license is bond to your device and it will survive uninstallations. If you wipe your device, the device ID will be reset and license will not work anymore. In that case, you may want to contact help.aaad@gmail.com and include in the subject "PROWIPED". If you change your device, please write to help.aaad@gmail.com and include in the subject "PROTRANSFER"
+The pro license is bond to your device and it will survive uninstallations. If you wipe your device, the device ID will be reset and license will not work anymore. In that case, you may want to contact help.aaad@gmail.com and include in the subject "PROWIPED". 
 
