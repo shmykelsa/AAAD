@@ -28,16 +28,15 @@ The main goal of this app is having the listed apps in Android Auto with a pain 
 Android Auto Apps Downloader is free and offers in app purchases. The free version of the app allows up to 1 download every 30 days. With the PRO version you can enjoy the full experience and download as many times as you want, forever!
 
 
-### Compatibility issues
+### CURRENT ISSUES
 
 Android 7.x / 8.x - **Working on a fix**
 
 Oppo/Realme devices - **Working on a fix**
 
-Android Auto 6.4-6.5 and Android 11+ - AAAD will not have any effect. In this case scenario you can:
-- Update to [Android Auto 6.6](https://www.apkmirror.com/apk/google-inc/android-auto/android-auto-6-6-6125-release/) (SUGGESTED)
-OR
-- Follow [instructions on how to rollback to a working version](https://github.com/shmykelsa/AAAD/wiki/How-to-downgrade-Android-Auto)
+Screen2Auto is not installing (2021/11/02) - Screen2Auto's website changed something with installation method. A new installation method will be provided in the next few days.
+
+Fermata Auto disappeared from Android Auto 7.1 (2021/11/13) - It appears that Android Auto introduced a lock for Fermata Auto while the other apps are fine. Please rollback Android Auto to an older version. Follow [instructions on how to rollback to a working version](https://github.com/shmykelsa/AAAD/wiki/How-to-downgrade-Android-Auto)
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
