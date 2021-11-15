@@ -36,7 +36,7 @@ Oppo/Realme devices - **Working on a fix**
 
 Screen2Auto is not installing (2021/11/02) - Screen2Auto's website changed something with installation method. A new installation method will be provided in the next few days.
 
-Fermata Auto disappeared from Android Auto 7.1 (2021/11/13) - It appears that Android Auto introduced a lock just for Fermata Auto while the other apps are fine. This issue is currently under investigation. 
+Fermata Auto disappeared from Android Auto 7.1 (2021/11/13) - It appears that Android Auto introduced a lock just for Fermata Auto while the other apps are fine. This issue is currently under investigation. Temporary fix: clear Android Auto's cache and datas before using it.
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
