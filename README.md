@@ -34,7 +34,7 @@ Android 7.x / 8.x - **Working on a fix**
 
 Oppo/Realme devices - **Working on a fix**
 
-Screen2Auto is not installing (2021/11/02) - Screen2Auto's website changed something with installation method. A new installation method will be provided in the next few days.
+Screen2Auto is not installing (2021/11/02) - Update AAAD to version 1.4.1 or superior
 
 Fermata Auto disappeared from Android Auto 7.1 (2021/11/13) - Please update Fermata through AAAD
 
