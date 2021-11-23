@@ -1,16 +1,16 @@
 **GENERAL CONDITIONS OF LICENSE TO USE THE APPLICATION CALLED &quot;AAAD&quot;**
 
-Please read carefully this End User License Agreement before &quot;clicking&quot; the &quot;assets&quot; buttonand proceeding to download or use the &quot;AAAD&quot; Application.
+Please read carefully this End User License Agreement before &quot;clicking&quot; the &quot;assets&quot; button and proceeding to download or use the &quot;AAAD&quot; Application.
 
 **DEFINITIONS**
 
 For the purposes of this License Agreement, items are defined as below:
 
-- **AGREEMENT:** License agreement with the End User that constitutes the entire agreement between the End User and the Company GR SHMYKELSA S.R.L. on the use of the &quot;AAAD&quot; Application.
-- **APP** : the software provided by GR SHMYKELSA S.R.L. called &quot;AAAD&quot; and downloaded by the End User on a Device.
-- **COMPANY** : GR SHMYKELSA S.R.L.with headquartered in Lecce (ITALY) at via Simone Martini, 1. P. IVA: 05166050756.
+- **AGREEMENT:** License agreement with the End User that constitutes the entire agreement between the End User and the Company GRSHMYKELSA S.R.L. on the use of the &quot;AAAD&quot; Application.
+- **APP** : the software provided by GRSHMYKELSA S.R.L. called &quot;AAAD&quot; and downloaded by the End User on a Device.
+- **COMPANY** : GRSHMYKELSA S.R.L. headquartered in Lecce (ITALY) at via Simone Martini, 1. P. IVA: 05166050756.
 - **CONTENT:** refers to content such as: text, images or other information that may be posted, uploaded, linked, or otherwise made available, regardless of form.
-- **DEVICE** : any devicethat can access the App. &quot;AAAD&quot; as a digital smartphone or tablet.
+- **DEVICE** : any device that can access the App. &quot;AAAD&quot; as a digital smartphone or tablet.
 - **THIRD PARTY** SERVICES: any service or content provided by third parties that may be viewed, included, or made available by the App. &quot;AAAD.&quot;
 - **USER:** the individual who accesses or uses the App. &quot;AAAD&quot; or the Company or other legal entity for which such individual accesses or uses the App...
 
@@ -20,34 +20,34 @@ The definitions form an integral and substantial part of this Agreement.
 
 **ART. 2 - OBJECT OF THE CONTRACT**
 
-This User License Agreement for the App. for Mobile Devices called &quot;AAAD&quot; is a legal agreement between the Company GR SHMYKELSA S.R.L. with headquartered in Lecce (Italy) at via Simone Martini, 1 C.F. and P. Iva 05166050756 and the End User.
+This User License Agreement for the App. for Mobile Devices called &quot;AAAD&quot; is a legal agreement between the Company GRSHMYKELSA S.R.L. headquartered in Lecce (Italy) at via Simone Martini, 1 C.F. and P. Iva 05166050756 and the End User.
 
-This Agreement refers to the App., as a software application, its support, as well as all data, files and informations and/or any Content accompanying the App.
+This Agreement refers to the App, as a software application, its support, as well as all datas, files and infos and/or any Content provided by the App.
 
 The License is attributed to the User as free of charge for the version called &quot;FREE&quot;andwhile will foresee a fee for the version called &quot;PRO&quot; and giving him the right to access theContents existing at the date of activation of the App. and the ones by the Company will make available in the future.
 
-The App. is distributed in two versions, a free &quot;FREE&quot; and a paid &quot;PRO&quot; (ata cost of €3.50).
+The App. is distributed in two versions, a free &quot;FREE&quot; and a paid &quot;PRO&quot; (for a cost of €3.50).
 
 **ART. 3 - ACCEPTANCE OF THE CONDITIONS AND TERMS OF USE**
 
-By downloading, installing, and using the App and the contents on the Device, the User expresses his will andconfirms that he has read and understood the conditionsof use of the App, accepting since now to use the App. &quot;AAAD&quot;.Ifthe Customer cannot or does not want to accept any term or condition of the Contract, he must not download, open, and in any case, install or use the App. in the Device of which the User guarantees to be the owner or legitimate owner, nor must he download and use the contents.
+By downloading, installing, and using the App and the contents on the Device, the User expresses his will and confirms that he has read and understood the conditions of use of the App, accepting since now to use the App. &quot;AAAD&quot;. If the Customer cannot, or does not want to accept any term or condition of the Contract, he must not download, open, and in any case, install or use the App. in the Device of which the User guarantees to be the owner or legitimate owner, nor must he download and use the contents.
 
-The App. is granted for use completely free of charge in the &quot;FREE&quot; versionor bypaying the one-off amount of €3.50in the &quot;PRO&quot; version, in compliance with the contractual terms imposed by both the Company and the distribution platform too.
+The App. is granted for use completely free of charge in the &quot;FREE&quot; versionor by paying the one-off amount of €3.50 in the &quot;PRO&quot; version, in compliance with the contractual terms imposed by both the Company and the distribution platform too.
 
 To use the service, the User must accept the following conditions under which it declares, guarantees, and agrees, that:
 
 1. It has the full power and legal capacity to conclude this agreement.
 2. In using the service offered, it undertakes not to violate any rights of the Company or third parties, even indirectly involved, including theseterms of use.
 3. It will get at its own expense the Devices and Internet access, supporting any costs that will be charged by the telephone provider and necessary to use the service offered.
-4. It has an active Internetconnection on its Mobile Device.
+4. It has an active Internet connection on its Mobile Device.
 
 **ART. 4 - GRANT OF LICENSE OF USE**
 
-Subject to the terms and conditions of this Agreement, the Company grants the User a revocable,non-exclusive (without the right to sublicense to third parties)and limited license to download, installandusethe App.strictly by in accordance with the terms of this agreement.
+Subject to the terms and conditions of this Agreement, the Company grants the User a revocable, non-exclusive (without the right to sublicense to third parties) and limited license to download, install and use the App. strictly by in accordance with the terms of this agreement.
 
-The license is granted by the Company to the User solely for its personal and non-commercial purposes, strictly by in accordance with the terms of this Agreement.
+The license is granted by the Company to the User solely for its personal and non-commercial purposes, strictly in accordance with the terms of this Agreement.
 
-This license will give rise to the following attribution:
+This license will gives the following attribution:
 
 - right of the User to download and install a copy of the App. on any Device owned by it, using it within the limits of the functionalities at once and directly made available by the App.
 - The User may change the source code, but only for personal use.
