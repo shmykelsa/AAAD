@@ -38,7 +38,7 @@ Screen2Auto is not installing (2021/11/02) - Fixed: Update AAAD to version 1.4.2
 
 Fermata Auto disappeared from Android Auto 7.1 (2021/11/13) - Fixed: Please update Fermata through AAAD
 
-Android 12 update breaks the apps: a fix should come from the apps' developers. AAAD is just an installation utility and has no responsibility on their functioning (see [FAQs](https://github.com/shmykelsa/AAAD/#i-have-a-problem-with-an-app-installed-by-aaad-could-you-help-me-out))
+Android 12 update on Samsung breaks the apps: a fix should come from the apps' developers. AAAD is just an installation utility and has no responsibility on their functioning (see [FAQs](https://github.com/shmykelsa/AAAD/#i-have-a-problem-with-an-app-installed-by-aaad-could-you-help-me-out))
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
