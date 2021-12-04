@@ -30,15 +30,15 @@ Android Auto Apps Downloader is free and offers in app purchases. The free versi
 
 ### CURRENT ISSUES
 
-Android 7.x / 8.x - **Working on a fix**
+**Oppo/Realme devices are not compatible** - Testing is in progress for a fix
 
-Oppo/Realme devices - **Working on a fix**
+**Android 7.x/8.x devices are not compatible** - Testing is in progress for a fox
 
 Screen2Auto is not installing (2021/11/02) - Fixed: Update AAAD to version 1.4.2 or superior
 
-Fermata Auto disappeared from Android Auto 7.1 (2021/11/13) - Fixed: Please update Fermata through AAAD
+Android 12 update breaks the functioning of the apps: a fix should come from the apps' developers. AAAD is just an installation utility and has no responsibility on their functioning (see [FAQs](https://github.com/shmykelsa/AAAD/#i-have-a-problem-with-an-app-installed-by-aaad-could-you-help-me-out))
 
-Android 12 update on Samsung breaks the apps: a fix should come from the apps' developers. AAAD is just an installation utility and has no responsibility on their functioning (see [FAQs](https://github.com/shmykelsa/AAAD/#i-have-a-problem-with-an-app-installed-by-aaad-could-you-help-me-out))
+**Google is banning multimedia and mirroring apps (2021/12/03)**: We are monitoring the problem to evaluate the best solution. Ideally, the apps inside AAAD must be updated in order for this issue to be solved. AAAD is ready for the updates as soon as they are available.
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
