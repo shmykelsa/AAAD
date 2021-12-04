@@ -38,7 +38,7 @@ Screen2Auto is not installing (2021/11/02) - Fixed: Update AAAD to version 1.4.2
 
 Android 12 update breaks the functioning of the apps: a fix should come from the apps' developers. AAAD is just an installation utility and has no responsibility on their functioning (see [FAQs](https://github.com/shmykelsa/AAAD/#i-have-a-problem-with-an-app-installed-by-aaad-could-you-help-me-out))
 
-**Google is banning multimedia and mirroring apps (2021/12/03)**: We are monitoring the problem to evaluate the best solution. Ideally, the apps inside AAAD must be updated in order for this issue to be solved. AAAD is ready for the updates as soon as they are available. Temporary fix: follow [instructions on how to downgrade Android Auto](https://github.com/shmykelsa/AAAD/wiki/How-to-downgrade-Android-Auto) and install any version before 12/02 (avoid installing very old ones).
+**Google is banning multimedia and mirroring apps (2021/12/03)**: We are monitoring the problem to evaluate the best solution. Ideally, the apps inside AAAD must be updated in order for this issue to be solved. AAAD is ready for the updates as soon as they are available. Temporary fix: clear cache and datas of Android Auto before using it. 
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
