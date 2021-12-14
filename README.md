@@ -34,9 +34,9 @@ Android Auto Apps Downloader is free and offers in app purchases. The free versi
 
 **Android 7.x/8.x devices are not compatible** - Testing is in progress for a fox
 
-Screen2Auto is not installing (2021/11/02) - Fixed: Update AAAD to version 1.4.2 or superior
+**Screen2Auto is not installing (2021/11/02)** - Fixed: Update AAAD to version 1.4.2 or superior
 
-Android 12 update breaks the functioning of the apps: a fix should come from the apps' developers. AAAD is just an installation utility and has no responsibility on their functioning (see [FAQs](https://github.com/shmykelsa/AAAD/#i-have-a-problem-with-an-app-installed-by-aaad-could-you-help-me-out))
+**Android 12 update breaks the functioning of the apps**: a fix should come from the apps' developers. AAAD is just an installation utility and has no responsibility on their functioning (see [FAQs](https://github.com/shmykelsa/AAAD/#i-have-a-problem-with-an-app-installed-by-aaad-could-you-help-me-out))
 
 **Google is banning multimedia and mirroring apps (December 2021)**: W̶e̶ ̶a̶r̶e̶ ̶m̶o̶n̶i̶t̶o̶r̶i̶n̶g̶ ̶t̶h̶e̶ ̶p̶r̶o̶b̶l̶e̶m̶ ̶t̶o̶ ̶e̶v̶a̶l̶u̶a̶t̶e̶ ̶t̶h̶e̶ ̶b̶e̶s̶t̶ ̶s̶o̶l̶u̶t̶i̶o̶n̶.̶ ̶I̶d̶e̶a̶l̶l̶y̶,̶ ̶t̶h̶e̶ ̶a̶p̶p̶s̶ ̶i̶n̶s̶i̶d̶e̶ ̶A̶A̶A̶D̶ ̶m̶u̶s̶t̶ ̶b̶e̶ ̶u̶p̶d̶a̶t̶e̶d̶ ̶i̶n̶ ̶o̶r̶d̶e̶r̶ ̶f̶o̶r̶ ̶t̶h̶i̶s̶ ̶i̶s̶s̶u̶e̶ ̶t̶o̶ ̶b̶e̶ ̶s̶o̶l̶v̶e̶d̶.̶ ̶A̶A̶A̶D̶ ̶i̶s̶ ̶r̶e̶a̶d̶y̶ ̶f̶o̶r̶ ̶t̶h̶e̶ ̶u̶p̶d̶a̶t̶e̶s̶ ̶a̶s̶ ̶s̶o̶o̶n̶ ̶a̶s̶ ̶t̶h̶e̶y̶ ̶a̶r̶e̶ ̶a̶v̶a̶i̶l̶a̶b̶l̶e̶.̶ ̶T̶e̶m̶p̶o̶r̶a̶r̶y̶ ̶f̶i̶x̶:̶ ̶c̶l̶e̶a̶r̶ ̶c̶a̶c̶h̶e̶ ̶a̶n̶d̶ ̶d̶a̶t̶a̶s̶ ̶o̶f̶ ̶A̶n̶d̶r̶o̶i̶d̶ ̶A̶u̶t̶o̶ ̶b̶e̶f̶o̶r̶e̶ ̶u̶s̶i̶n̶g̶ ̶i̶t̶.̶ ̶  
 Fixed 12/13 **You can download the apps again now, a new system will provide up to date apps for compatibility with Google updates**
