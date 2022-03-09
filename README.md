@@ -91,7 +91,7 @@ Any software installed by my app is provided "as is" and I'm not responsible for
 
 ### I have a problem with this app. Could you help me out?
 
-Write an email to help.aaad@gmail.com
+Contact us through the app! Open the top right menu and select "Help".
 
 ### Sir how do I download this app????
 
@@ -101,11 +101,6 @@ If you are on mobile, you likely will have a little dropdown menu named "Assets"
 
 Please write to help.aaad@gmail.com with subject including "NOPP" 
 
-### I don't have the option to open with AAAD from Screen2Auto website
-
-If you are using Samsung Browser to download Screen2Auto you might want to enable "Useful features" in settings of Samsung Browser. Alternatively, just use Chrome. Other browser might not work as well, so please change it. 
-
 ### How long will my PRO license last?
 
-The pro license is bond to your device and it will survive uninstallations. If you wipe your device, the device ID will be reset and license will not work anymore. In that case, you may want to contact help.aaad@gmail.com and include in the subject "PROWIPED". 
-
+There's no expiration date to PRO version of AAAD, but keep in mind that once you purchase a license it is bond to that device. An active license can be transferred autonomously with the function "Transfer license" available in the app's menu. If you are having difficulties retrieving your PRO license after a factory reset, please [contact us](mailto:help.aaad@gmail.com?subject=PROWIPED&body=Hi%2C%0D%0A%0D%0Amy%20AAAD's%20license%20was%20lost%20after%20a%20device%20reset.%0D%0A%0D%0AThe%20e-mail%20I've%20used%20for%20the%20payment%20is%0D%0A%0D%0AThank%20you) with the same device.
