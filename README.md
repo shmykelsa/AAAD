@@ -51,7 +51,7 @@ Source code of the app is shared so that changes can be implemented by whoever w
 PRO version of the app will be bind to one device and the PRO or FREE version (including remaining downloads) of the app will survive app uninstall. For any help with PRO license, please write at help.aaad@gmail.com
 
 # You think PRO asking price is a crazy bargain? 
-Feel free to [donate more](https://www.paypal.com/donate/?hosted_button_id=JAFCYRN32KYZE), and keep the donation receipt. Then hit me up with a mail at help.aaad@gmail.com writing in the subject "[GW]" and a small thought. As a reply a mail with instructions will be sent for PRO activation!
+Feel free to [donate more](https://www.paypal.com/donate/?hosted_button_id=ETWCRAM3MJQ5Y), and keep the donation receipt. Then hit me up with a mail at help.aaad@gmail.com writing in the subject "[GW]" and a small thought. As a reply a mail with instructions will be sent for PRO activation!
 
 # Notes
 Android Auto Apps Downloader **does not grant** in any way that the provided apps available for installing will actually work on Android Auto. The installing method can fail anytime if Google applies changes to Android Auto. Any software installed by Android Auto Apps Downloader is provided "as it is" and no support can be given by me for malfunctioning apps or malfunctioning Android Auto. 
