@@ -79,7 +79,7 @@ AAAD will always download latest version of an app. If one of the apps that you'
 
 ### Will you hold my bank account/credit card informations?
 
-Of course no. The offered in app purchase is solely processed by PayPal and none of the informations are held or shared with me. 
+No. All the details of payment are held by Stripe Inc. and not processed nor passed to myself in any way. Also, I don't really care. 
 
 ### Will this app be available on the Play Store?
 
@@ -97,7 +97,7 @@ Contact us through the app! Open the top right menu and select "Help".
 
 If you are on mobile, you likely will have a little dropdown menu named "Assets", from there you can see the package (APK) to install the app. Download and install. If you are on a PC, you might see the "Assets" menu already collapsed and from there you can see the APK.
 
-### PayPal is not available in my country! How can I pay for PRO?
+### I can't pay for AAAD pro because my card is not supported. How can I pay for PRO?
 
 Please write to help.aaad@gmail.com with subject including "NOPP" 
 
