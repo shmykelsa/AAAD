@@ -24,6 +24,8 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **Android 7.x/8.x devices are not compatible** - Testing is in progress for a fix
 
+**A factory reset wipes the license away** - [Click here](mailto:help.aaad@gmail.com?subject=PROWIPED&body=Hello%2C%0D%0A%0D%0Amy%20license%20was%20lost%20after%20a%20device%20reset.%0D%0A%0D%0AThe%20e-mail%20I%E2%80%99ve%20registered%20for%20my%20payment%20is%3A%20****MODIFY%20HERE****%0D%0A%0D%0ARegards%0D%0A%0D%0A>)
+
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
 ### Updates
@@ -69,6 +71,18 @@ No. All the details of payment are held by Stripe Inc. and not processed nor pas
 ### Will this app be available on the Play Store?
 
 No. It is only officially distributed on GitHub.
+
+### Has the license an expiration date?
+
+No. AAAD is not a subscription, and once a license is obtained you won't be charged anymore.
+
+### What happens if I change my device?
+
+You can transfer a license with the feature "Transfer license" on the top right menu. The license will be crypted inside the device with a key that we will not hold in any way and the above method is the only way to move a license for AAAD pro.
+
+### What happens if I uninstall AAAD?
+
+Nothing. The date for next download will not be impacted and neither your AAAD pro version.
 
 # License
 
