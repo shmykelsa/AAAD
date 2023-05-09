@@ -5,14 +5,13 @@ Please read carefully this End User License Agreement before &quot;clicking&quot
 **DEFINITIONS**
 
 For the purposes of this License Agreement, items are defined as below:
-
-- **AGREEMENT:** License agreement with the End User that constitutes the entire agreement between the End User and the Company GRSHMYKELSA S.R.L. on the use of the &quot;AAAD&quot; Application.
-- **APP** : the software provided by GRSHMYKELSA S.R.L. called &quot;AAAD&quot; and downloaded by the End User on a Device.
-- **COMPANY** : GRSHMYKELSA S.R.L. headquartered in Lecce (ITALY) at via Simone Martini, 1. P. IVA: 05166050756.
-- **CONTENT:** refers to content such as: text, images or other information that may be posted, uploaded, linked, or otherwise made available, regardless of form.
-- **DEVICE** : any device that can access the App. &quot;AAAD&quot; as a digital smartphone or tablet.
-- **THIRD PARTY** SERVICES: any service or content provided by third parties that may be viewed, included, or made available by the App. &quot;AAAD.&quot;
 - **USER:** the individual who accesses or uses the App. &quot;AAAD&quot; or the Company or other legal entity for which such individual accesses or uses the App...
+- **COMPANY** : GRSHMYKELSA S.R.L. headquartered in Lecce (ITALY) at via Simone Martini, 1. P. IVA: 05166050756.
+- **APP** : the software provided by GRSHMYKELSA S.R.L. called &quot;AAAD&quot; and downloaded by the End User on a Device.
+- **AGREEMENT:** License agreement between the Company and the User which defines and constitutes the entire terms and conditions for using the App. 
+- **CONTENT:** refers to content such as: text, images or other information that may be posted, uploaded, linked, or otherwise made available, regardless of form.
+- **DEVICE** : any Android device that can access the App. &quot;AAAD&quot; as a digital smartphone, tablet or any hardware configuration that can natively run the app.
+- **THIRD PARTY** SERVICES: any service or content provided by third parties that may be viewed, included, or made available by the App. &quot;AAAD.&quot;
 
 **ART. 1 - DEFINITIONS**
 
@@ -21,37 +20,32 @@ The definitions form an integral and substantial part of this Agreement.
 **ART. 2 - OBJECT OF THE CONTRACT**
 
 This User License Agreement for the App. for Mobile Devices called &quot;AAAD&quot; is a legal agreement between the Company GRSHMYKELSA S.R.L. headquartered in Lecce (Italy) at via Simone Martini, 1 C.F. and P. Iva 05166050756 and the End User.
+This Agreement refers to the App, as a software application, its technical support, as well as all its data, files and info and/or any Content provided by the App.
 
-This Agreement refers to the App, as a software application, its support, as well as all datas, files and infos and/or any Content provided by the App.
+The License is attributed to the User as free of charge for the version called &quot;FREE&quot;and under a one time fee for the version called &quot;PRO&quot; and giving him/her the right to access all the available Contents at the time of activation of the App. and the ones that the Company will make available in the future.
 
-The License is attributed to the User as free of charge for the version called &quot;FREE&quot;andwhile will foresee a fee for the version called &quot;PRO&quot; and giving him the right to access theContents existing at the date of activation of the App. and the ones by the Company will make available in the future.
-
-The App. is distributed in two versions, a free &quot;FREE&quot; and a paid &quot;PRO&quot; (for a cost of €3.50).
+The App. is distributed in two versions, a free &quot;FREE&quot; and a paid &quot;PRO&quot; (for a cost of EUR 3.50).
 
 **ART. 3 - ACCEPTANCE OF THE CONDITIONS AND TERMS OF USE**
+By downloading, installing, and using the App and its contents on the Device, the User expresses his/her wills and confirms that he/she has read and understood the conditions of use of the App, accepting since now to use the App. &quot;AAAD&quot;. If the Customer cannot, or does not want to accept any term or condition of the Contract, he/she must not download, open, and in any case, install or use the App. On the Device. 
 
-By downloading, installing, and using the App and the contents on the Device, the User expresses his will and confirms that he has read and understood the conditions of use of the App, accepting since now to use the App. &quot;AAAD&quot;. If the Customer cannot, or does not want to accept any term or condition of the Contract, he must not download, open, and in any case, install or use the App. in the Device of which the User guarantees to be the owner or legitimate owner, nor must he download and use the contents.
-
-The App. is granted for use completely free of charge in the &quot;FREE&quot; versionor by paying the one-off amount of €3.50 in the &quot;PRO&quot; version, in compliance with the contractual terms imposed by both the Company and the distribution platform too.
-
+The App. is granted for use completely free of charge in the &quot;FREE&quot; version or by paying the one-off amount of €3.50 in the &quot;PRO&quot; version, in compliance with the contractual terms imposed by both the Company and the distribution platform too.
 To use the service, the User must accept the following conditions under which it declares, guarantees, and agrees, that:
 
-1. It has the full power and legal capacity to conclude this agreement.
-2. In using the service offered, it undertakes not to violate any rights of the Company or third parties, even indirectly involved, including theseterms of use.
-3. It will get at its own expense the Devices and Internet access, supporting any costs that will be charged by the telephone provider and necessary to use the service offered.
-4. It has an active Internet connection on its Mobile Device.
+1. The user must havethe full power and legal capacity to conclude this agreement.
+2.The user will not use the App. in violation of the rights of the Company or any third parties, including the terms and conditions, 
+3. The user will get at its own expense the Devices and Internet access, supporting any costs that will be charged by the telephone provider and necessary to use the service offered.
+4. The user must have an active Internet connection on its Mobile Device for using the App.
+5. The User is the legitimate owner or user of the Device.
 
 **ART. 4 - GRANT OF LICENSE OF USE**
-
-Subject to the terms and conditions of this Agreement, the Company grants the User a revocable, non-exclusive (without the right to sublicense to third parties) and limited license to download, install and use the App. strictly by in accordance with the terms of this agreement.
+The Company grants the User a revocable and non-exclusive (without the right to sublicense to third parties) license. The license is limited to the installation, download and fair use of the App. strictly by in accordance with the terms of this agreement.
 
 The license is granted by the Company to the User solely for its personal and non-commercial purposes, strictly in accordance with the terms of this Agreement.
+This license will give the following attribution:
 
-This license will gives the following attribution:
-
-- right of the User to download and install a copy of the App. on any Device owned by it, using it within the limits of the functionalities at once and directly made available by the App.
+- right of the User to download and install a copy of the App. on one (1) Device owned by him/her, using it within the limits of the functionalities that are directly made available by the App.
 - The User may change the source code, but only for personal use.
-
 The User may **NOT:**
 
 - Modify, alter, adapt, or otherwise modify the software or any part of it for purposes different than personal use.
@@ -62,34 +56,28 @@ The User may **NOT:**
 
 The App. &quot;AAAD&quot; is optimized for Devices supported by the Android operating system.
 
-The Company at the time of activation will ask the User to accept both the terms and conditions of this Agreement and the specifications of the policy andprivacy dedicated to the service too.
-
-User will be allowed to install anduse the App on itsdevices only acting in accordance with the provisions of this Agreement and in compliance with applicable legal provisions.
+User is allowed to install and use the App on its devices only acting in accordance with the provisions of this Agreement and in compliance with applicable legal provisions.
 
 **ART. 5 -THIRD-PARTY SERVICES**
 
-The User acknowledges and agree that the Company will not be responsible for third party services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other person or entity for third party services. When using the App., the applicable third-party terms of contract must be followed.
+The User acknowledges and agree that the Company will not be responsible for third party services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other person or entity for third party services. When using the App., the applicable third-party terms of conditions must be followed.
 
 **ART. 6 - INTELLECTUAL PROPERTY RIGHTS**
 
-The Company reserves the exclusive ownership of all intellectual and industrial property rights, as well as any other rights not expressly supported under this agreement relating to the App. and the service provided. The software is and remains the exclusive property of the Company. The User acknowledges that the App. and the Contents are property of the Company.
+The Company reserves the exclusive ownership of all intellectual and industrial property rights, as well as any other rights not expressly supported under this agreement relating to the App. and the service provided. The software is and remains the exclusive property of the Company. The User acknowledges that the App. and the Contents are solely property of the Company.
 
-This agreement does not transfer any intellectual or industrial property rights on the contents conveyed with the App, including any trademarks, distinctive signs or other works or content subject to privative, which therefore remain the exclusive property of the Company and / or their respective right holders.
+This agreement does not transfer any intellectual or industrial property rights on the contents conveyed with the App, including any trademarks, distinctive signs or other works or content subject to privative, which therefore remain the exclusive property of the Company and/or their respective right holders.
 
-The Company reserves the right, at its sole discretion, to change, suspend or end the App. at any time and without notice.
 
 **ART. 7 - UPDATES TO THE APPLICATION AND CHANGES TO THIS AGREEMENT**
 
-The Company reserves the right to be able, at its sole discretion, unilaterally and at any time:
-
-1. Modify, suspend, or terminate the App.
-2. Modify or replace this Agreement.
-
-This will occur supplying an update version of the App. By installing the recent version, the User accepts the changes ordered by the Company. If the User does not intend to adhere to the changes introduced by the latter, as the sole remedy, the User may at any time and without any cost, justification, or notice, cease to use the application, removing the same from the Devices on which it was installed.
+The Company reserves the right, at its sole discretion, to change, suspend or end the App. at any time and without notice.
+The Company reserves the right to be able, at its sole discretion, unilaterally and at any time to modify or replace this Agreement.
+Any edit to the app will be made public supplying an updated version of the App. By installing the most recent version, the User accepts the changes made by the Company. If the User does not intend to adhere to the changes introduced by the latter, as the sole remedy, the User may at any time and without any cost, justification, or notice, cease to use the application, removing the same from the Devices on which the App. was installed.
 
 **ART. 8 - DISCLAIMER OF WARRANTY**
 
-The User, in express derogation from the provisions of art. 1497 c.c., accepts that the App. subject of this license is granted in the &quot;as is&quot; version and that therefore the Company does not assume and does not recognize any guarantee for original or supervening defects and does not make any promise of quality and / or good functioning of the App. itself. In addition,the Company does not guarantee that any error or malfunction of the software can be eliminated. In no event the Company will be liable for direct or indirect damages caused to the User or to third parties from the use or non-use of the App.
+The User, in express derogation from the provisions of art. 1497 c.c., accepts that the App. subject of this license is granted in the &quot;as is&quot; version and that therefore the Company does not assume and does not recognize any guarantee for original or supervening defects and does not make any promise of quality and / or good functioning of the App. itself. In addition, the Company does not guarantee that any error or malfunction of the software can be eliminated. In no event the Company will be liable for direct or indirect damages caused to the User or to third parties from the use or non-use of the App.
 
 The Company does not guarantee that the App. or the service supplied will always run without errors or without interruptions. Except as expressly and specifically provided in this Agreement, and to the maximum extent allowed by law, the Company does not provide any guarantee with respect to the App. or the service provided, including, but not only limited to, quality warranties, warranties of fitness for a particular purpose, or any other implied warranties arising from commercial practice or usage. The Company, always to the maximum extent allowed by law, will not make any guarantee about the compatibility of the App. with platforms and about the effects that may occur on the functionality of software, services, or third-party products, due to the installation and / or adoption of the application and the service provided.
 
@@ -99,41 +87,39 @@ The Company expressly warns the User not to rely on the possibility that the App
 
 **ART. 10 - INDEMNITY AND LIMITATION OF LIABILITY**
 
-The User to indemnify and hold the Company harmless from any claim or demand, including reasonable attorneys&#39; fees, due to or arising out of:
-
-- utilize of the App.
+The User accepts to indemnify and hold the Company harmless from any claim or demand, including reasonable attorneys&#39; fees, due to or arising out of:
+- use of the App.
 - breach of this Agreement or any provision of law or regulation.
 - violation of any rights of third parties.
 
-In cases of force majeure, unforeseeable circumstances, events got by third parties or chargeable to the same User (as example, but not limited to: hackers, worms, trojans, malware) the Company will in no case be liable for special, incidental, indirect or consequential damagesof any kind.
+In any case of force majeure, unforeseeable circumstances, events provoked by third parties or by the same User (as example, but not limited to: hackers, worms, trojans, malware) the Company will, in no case, be liable for special, incidental, indirect or consequential damages of any kind.
 
-The User expressly acknowledges that the limitation of liability that precedes has been agreed as an essential condition for the performance covered by this Contract and for the effects, waiver, without any reservation, to any consequent action for compensation / reparation.
+The User expressly agrees to the preceding limitation of liability as an essential condition for the performance covered by this Contract and for the effects, waiver, without any reservation, to any consequent action for compensation / reparation.
 
-In any case, the User undertakes to indemnity the Company and its employees/ consultants harmless from any injury and damage suffered by them, from any liability,costs, expenses (including legal), incurred by them, as well as to indemnity them from any action, reason, claim made by third parties who find cause or reason in behavior or omissions attributable to the User, or which are the result of the latter&#39;s failure to comply with the obligations imposed to it by these contractual conditions.
+In any case, the User acknowledges the indemnity the Company and its employees/ consultants harmless from any injury and damage suffered by them, from any liability, costs, expenses (including legal expenses), incurred by them, as well as to indemnity them from any action, reason, claim made by third parties who find cause or reason in behavior or omissions attributable to the User, or which are the result of the latter&#39;s failure to comply with the obligations imposed to it by these contractual conditions.
 
 **ART. 11 - SOFTWARE SUPPORT**
 
-The Company is not subject to the obligation to provide the User with any technical assistance under the terms of this license and does not provide any guarantee that errors or discrepancies specific to the APP. will be corrected in the period of use granted to the User;however, it provides the e-mail address [help.aaad@gmail.com](mailto:help.aaad@gmail.com) in order to solve any problems that may arise in the download operations.
+The Company is not subject to the obligation to provide the User with any technical assistance under the terms of this license and does not provide any guarantee that errors or discrepancies specific to the APP. will be corrected in the period of use granted to the User; however, it provides the e-mail address [help.aaad@gmail.com](mailto:help.aaad@gmail.com) in order to solve any problems that may arise in the download operations.
 
 **ART. 12 - CONSIDERATION AND PAYMENT METHOD OF THE &quot;PRO&quot; VERSION**
 
-Payment for the purchase of the &quot;PRO&quot; version can be made in the manner described below:
+Payment for the purchase of the &quot;PRO&quot; version can be completed with one of the following methods:
 
-1. By credit/debit card. In this case it must be done online by selecting the appropriate button when filling out the order form. For this purpose, only Visa credit/debit cards will be accepted; Visa Electron; MasterCard; Master; American Express. The verification of the correctness of the payment data communicated by the User is in the exclusive competence of the Credit/ Debit Card Issuers, without prejudice to the responsibility of the The User if untruthful information should be entered and / or supplied or accounts from illegal activities or used to commit illegal activities. 
-2. By a PayPal account. In this case it must be conducted in the same way as for the Credit / Debit Card, referred to in point a) above. Payment by PayPal can only be made by the holder / holder of the account PayPal used. Only payments made in euro currency will be accepted. In case of payment through the PayPal method, the User will be directed to the PayPal login page and, once the payment has been confirmed on the PayPal site, the User will be redirected to the platform to confirm the purchase of the App. The verification of the correctness of the payment data communicated by the User is the exclusive competence of PayPal, without prejudice to the User&#39;s responsibility if untruthful information should be entered and / or supplied or accounts from illegal activities or used for the purpose of committing illegal activities.
-
+1. Via an in app purchase with credit/debit card. In this case it must be done by selecting the appropriate button when filling out the order form. For this purpose, only Visa credit/debit cards will be accepted; Visa Electron; MasterCard; Master; American Express. The verification of the correctness of the payment data communicated by the User is in the exclusive competence of the Credit/ Debit Card Issuers, without prejudice to the responsibility of the The User if untruthful information should be entered and / or supplied or accounts from illegal activities or used to commit illegal activities. 
+3. Via an in app purchase with Przelewy24. In this case it must be done by selecting the appropriate button when filling out the order form. The verification of Przelewy24 payments is not automatic. 
+2. By a PayPal account. In this case it must be conducted via an external web page. Payment by PayPal can only be made by the holder / holder of the account PayPal used. Only payments made in euro currency will be accepted. In case of payment through the PayPal method, the User will be directed to the PayPal login page and, once the payment has been confirmed on the PayPal site, the User must follow the actual instructions made available on the website https://github.com/shmykelsa/AAAD#can-i-pay-for-a-license-outside-the-app . The verification of the correctness of the payment data communicated by the User is the exclusive competence of PayPal, without prejudice to the User&#39;s responsibility if untruthful information should be entered and / or supplied or accounts from illegal activities or used for the purpose of committing illegal activities.
 The &quot;PRO&quot; version gives access to:
-
 1. A license valid for 1 (one) physical device owned by the User.
 2. Unlimited downloads of the contents provided by the App.
 
 **ART. 13 - INVOICING**
 
-Exclusively for the purchase of the &quot;PRO&quot; version, among the data needed for the conclusion of the Contract, the User must write down his Tax Code, the Recipient Code, or his PEC for the issuance of the purchase invoice.
+For Italian customers: exclusively for the purchase of the &quot;PRO&quot; version, among the data needed for the conclusion of the Contract, the User must write down his Tax Code, the Recipient Code, or his PEC for the issuance of the purchase invoice.
 
 **ART. 14 - EXPRESS TERMINATION CLAUSE**
 
-The Contract concluded between the Company and the User is ended by right by and for the purposes of art. 1456 of the Civil Code. in the case of violation of articles 2; 3; and 5 of these general conditions of Contract. In this case, the termination of the Contract will occur as soon as the Company declares to the User that it intends to make use of the Express Termination Clause referred to in this article; this may be done in writing and at the choice of the Company, by registered letter with return receipt or PEC. The termination of the Contract due to the fault of the User entails the obligation on the same to uninstall the App. downloaded and installed on its devices, cutting each backup.The Company will have the right to request compensation for all damages suffered and will in no case be needed to return, even partially, any amount paid by the User.
+The Contract concluded between the Company and the User is defined as terminated by right by and for the purposes of art. 1456 of the Civil Code. in the case of violation of articles 2; 3; and 5 of these general conditions of Contract. In this case, the termination of the Contract will occur as soon as the Company declares to the User that it intends to make use of the Express Termination Clause referred to in this article; this may be done in writing and at the choice of the Company, by registered letter with return receipt or PEC. The termination of the Contract due to the fault of the User entails the obligation on the same to uninstall the App. downloaded and installed on its devices, erasing any backup of it. The Company will have the right to request compensation for all damages suffered and will in no case be needed to return, even partially, any amount paid by the User.
 
 **ART. 15 - GENERAL PROVISIONS**
 
@@ -141,11 +127,11 @@ This Agreement cancels and replaces any prior agreements between the parties abo
 
 **ART. 16 - COMMUNICATIONS**
 
-Unless otherwise established, all communications that the User is required to send to GR SHMYKELSA SRL in fulfillment of these general conditions of Contract, must be sent to the following addresses (at the User&#39;s choice): byregistered letter with return receipt to be sent to GR SHMYKELSA SRL via Simone Martini, 1 – 73100 – Lecce (Italy); by PEC to: [grshmykelsa@pec.it](mailto:grshmykelsa@pec.it).
+Unless otherwise established, all communications that the User is required to send to GRSHMYKELSA SRL in fulfillment of these general conditions of Contract, must be sent to the following addresses (at the User&#39;s choice): by registered letter with return receipt to be sent to GRSHMYKELSA SRL via Simone Martini, 1 – 73100 – Lecce (Italy); by PEC to: [grshmykelsa@pec.it](mailto:grshmykelsa@pec.it).
 
 Unless otherwise set up in the earlier articles, all communications to be sent to the User, relating to these general conditions of Contract, may be made by the Company by sending an e-mail or PEC to the e-mail address or certified e-mail indicated by the User.
 
-**ART. 17 - VALIDITY  OF THESE PROVISIONS**
+**ART. 17 - VALIDITY OF THESE PROVISIONS**
 
 In the event that some of the provisions of this document, or part of it, is held to be void, voidable, invalid or ineffective by the judicial authority, or in any case is or becomes wholly or partly devoid of legal effect or ineffective, this provision (or part of it) shall be considered modified, reinterpreted, or supplemented, to the extent and according to the sense necessary for it to be considered admissible by law, and judged to be fully valid and effective by the judicial authority, preserving its legal meaning to the greatest extent possible.
 
@@ -155,7 +141,7 @@ Failure by the Company to exercise, delay in the exercise, or partial exercise, 
 
 **ART. 19 – WITHDRAWAL &quot;PRO&quot; VERSION**
 
-The Userin any case may withdraw from the Contract for any reason, without explanation and without any penalty, within fourteen days since the day itdownloadsandinstalls the App in the&quot;PRO&quot; version, notifying the seller before the expiry of the established term. To this end, the buyer uses the withdrawal form available on the company&#39;s pagesuitable to express the explicit decision to withdraw and sends it by registered letter with return receipt to the following address:GR SHMYKELSA SRL via Simone Martini, 1 – 73100 – Lecce (Italy)or by PEC at grshmykelsa@pec.it. Within fourteen days since the withdrawal date, the User must uninstall the App. downloaded and installed on their devices. The Company will refund all payments received bythe User in fulfillment of the contract, without undue delay and in any case within fourteen days from the date on which it is informed of the consumer&#39;s decision to withdraw from the contract itself, using the same means of payment used by the consumer for the purchase. The Company reserves the right to withhold the refund, until the User has proved that it has removed and uninstalled the App version &quot;PRO&quot; from its devices.
+The User in any case may withdraw from the Contract for any reason, without explanation and without any penalty, within fourteen (14) days since the day it downloads and installs the App in the&quot;PRO&quot; version, notifying the seller before the expiry of the established term. To this end, the buyer uses the withdrawal form available on the company&#39;s page suitable to express the explicit decision to withdraw and sends it by registered letter with return receipt to the following address: GRSHMYKELSA SRL via Simone Martini, 1 – 73100 – Lecce (Italy)or by contacting [contact@grshmykelsa.tec](mailto:contact@grshmykelsa.tech). Within fourteen days since the withdrawal date, the User must uninstall the App. downloaded and installed on their devices. The Company will refund all payments received by the User in fulfillment of the contract, without undue delay and in any case within fourteen days from the date on which it is informed of the consumer&#39;s decision to withdraw from the contract itself, using the same means of payment used by the consumer for the purchase. The Company reserves the right to withhold the refund, until the User has proved that it has removed and uninstalled the App version &quot;PRO&quot; from its devices.
 
 **ART. 20 - APPLICABLE LAW**
 
@@ -177,13 +163,13 @@ By art. 1341 paragraph 2 of the Civil Code. the parties expressly approve the fo
 
 Att.
 
-**GR SHMYKELSA S.L.L.**
+**GRSHMYKELSA S.R.L.**
 
 Via Simone Martini, 1
 
 **73100 – Lecce (Italy)**
 
-Sent by PEC to: [shmykelsa@pec.it](mailto:shmykelsa@pec.it)
+Sent by PEC to: [grshmykelsa@pec.it](mailto:grshmykelsa@pec.it)
 
 or Registered letter with return receipt
 
@@ -191,13 +177,13 @@ or Registered letter with return receipt
 
 The undersigned Name\* \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Surname\* \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-GIVEN
+GIVEN THAT
 
-which have not yet elapsed 14 days from the conclusion of the distance or off-premises contract,
+the time elapsed from the conclusion of the distance or off-premises contract is not superior to 14 days,
 
 COMMUNICATES
 
-To want to withdraw from the contract for the purchase of the App. &quot;AAAD&quot; version &quot;PRO&quot; signed on \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+the willing to withdraw from the contract for the purchase of the App. &quot;AAAD&quot; version &quot;PRO&quot; signed on \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 The undersigned also requests the reimbursement of payments made, equal to € \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -211,4 +197,3 @@ Place and Date
 
 \*The data marked with an asterisk are MANDATORY
 
-8
