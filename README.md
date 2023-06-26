@@ -40,17 +40,33 @@ Android Auto Apps Downloader **does not grant** in any way that the provided app
 
 # F.A.Q.
 
+### How can I have support for this app?
+
+You can contact help team through AAAD app (top right menu > "help"). We are a very small team working from Italy so please keep patience with us in case you write us over night!
+
 ### How do I obtain a license?
 
-To get started, press the bottom text on AAAD.
+To get started, press the bottom text of the AAAD app.
 
 ### Can I pay for a license outside the app?
 
 Sure you can. Feel free to [pay through Stripe](https://buy.stripe.com/14k5mQ3ih6l7dMs8ww) or donate any amount (equal or bigger than the asking price - 3.50 EUR) [via PayPal](https://www.paypal.com/donate/?hosted_button_id=V666UVPT9C5CJ), and keep the donation receipt (bank statement, confirmation page, e-mail etc.). Then please [click here](mailto:help.aaad@gmail.com?subject=%5BGW%5D&body=Please%20don%E2%80%99t%20modify%20the%20subject%20above%20and%20feel%20free%20to%20modify%20this%20body%20leaving%20a%20small%20thought.%20An%20automatic%20response%20will%20then%20guide%20you%20to%20the%20following%20steps%20%3A)) or write an e-mail to help.aaad@gmail.com and write "[GW]" in the subject, and be sure to include also a small thought :). An automatic reply will guide you to the stepts to take after.
 
+### What will a license of AAAD give me?
+
+The license for AAAD pro will give you access to unlimited downloads.
+
+### Do I have to buy a license to have the apps working while the vehicle is not parked?
+
+No. AAAD pro does only give access to unlimited downloads.
+
+### I've downloaded the app "xxx" from AAAD but it's not working well. What can I do?
+
+The best thing is to ask the app's developer as we do not offer support for the apps inside AAAD. The apps are provided "as-is", and being developed by someone else, nobody from AAAD will be able to give the proper technical support for them. As long as the app is listed on Android Auto, apart from the "No new messages during drive" bug, then AAAD is working just as designed. If your app is not listed at all or suffers from the "No new messages during drive" contact help through AAAD app (top right menu > "help").
+
 ### Why the heck do I need this app? Can’t I just install the apps by myslef?
 
-Well yes, you could, but they would not appear in Android Auto. Since the beginning of 2018 the custom apps for Android Auto are blocked by Google, but AAAD installs them in a special way in order to actually see the apps on Android Auto. And no root is needed! Call it magic, if you will.
+Well yes, you could, but they would not appear in Android Auto. Since the beginning of 2018 the custom apps for Android Auto are blocked by Google, but AAAD installs them in a special way in order to actually see the apps on Android Auto. And no root is needed! Call it magic, if you will. If you have a rooted phone, check out [AA AIO TWEAKER](https://github.com/shmykelsa/AA-Tweaker) instead.
 
 ### I have a warning from Google Play Protect warning me about your app! Is this app a malware?
 
