@@ -18,7 +18,7 @@ If you are instead running a rooted device, you might want to consider the free 
 
 AAAD is free and offers in app purchases. The free version of the app allows up to 1 download every 30 days. With the PRO version you can enjoy the full experience and download as many times as you want, forever!
 
-## KNOWN ISSUES
+## 🚨🚨‼‼ KNOWN ISSUES ‼‼🚨🚨
 
 **Oppo/Realme/OnePlus devices won't show apps or "No messages during drive"** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-OnePlus-Realme-Oppo)
 
