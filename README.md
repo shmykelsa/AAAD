@@ -18,13 +18,19 @@ If you are instead running a rooted device, you might want to consider the free 
 
 AAAD is free and offers in app purchases. The free version of the app allows up to 1 download every 30 days. With the PRO version you can enjoy the full experience and download as many times as you want, forever!
 
-### KNOWN ISSUES
+## KNOWN ISSUES
 
-**Oppo/Realme/OnePlus devices won't show apps or "No messages during drive"** - [Instructions](https://github.com/shmykelsa/AAAD/wiki/Fix-for-OnePlus-Realme-Oppo)
+**Oppo/Realme/OnePlus devices won't show apps or "No messages during drive"** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-OnePlus-Realme-Oppo)
+
+**Google Pixel: "No new messages during drive"** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-Pixel-Android-13) before installing
 
 **Android 7.x/8.x devices are not compatible** - Testing is in progress for a fix
 
+**Fermata Auto download shows "App not responding (wait or close)"** - Fermata is quite heavy to download and GitHub servers are not the easiest with downloads. Please keep pressing on "wait". If it does fail, select top menu, select help and contact us through the app describing the steps you take to reproduce the issue. 
+
 **A factory reset wipes the license away** - [Click here](mailto:help.aaad@gmail.com?subject=PROWIPED&body=Hello%2C%0D%0A%0D%0Amy%20license%20was%20lost%20after%20a%20device%20reset.%0D%0A%0D%0AThe%20e-mail%20I%E2%80%99ve%20registered%20for%20my%20payment%20is%3A%20****MODIFY%20HERE****%0D%0A%0D%0ARegards%0D%0A%0D%0A>)
+
+**My download failed because Google Play Protect said Screen2Auto was malicious** - There's a deeper explanation [down here](#i-have-a-warning-from-google-play-protect-warning-me-about-your-app-is-this-app-a-malware). Please take a depp look before downloading Screen2Auto to the popup that comes out from AAAD app. Make sure you click on "Install anyway", and not the blue button that brings you to not install the app. 
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
