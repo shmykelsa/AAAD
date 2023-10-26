@@ -78,9 +78,11 @@ Well yes, you could, but they would not appear in Android Auto. Since the beginn
 
 AAAD does not contain any malware, and neither the apps inside it. Google obviously doesn't like Android Auto modding because of driving security. If you want to avoid any warning you'd want to know that Google Play Protect does not really have any anti-virus feature, rather it just warns of apps that Google doesn't like because of various reasons (e.g. installing other apps like Google Play Store does or contain third party in app purchase system). You can safely disable it by heading into Google Play Store's settings.
 
-### Why only those apps? Where is YouTube? Where is Netflix? Where is Instagram?
+### Why only these apps? Where is YouTube? Where is Netflix? Where is Instagram?
 
-Not all apps are compatible with Android Auto. You can’t just pick an app and sledge hammer it into Android Auto. I’ve included basically almost every Android Auto app known to date, and the only responsibility of AAAD is to make them available in Android Auto. 
+Not all apps are compatible with Android Auto. You can’t just pick an app and sledge-hammer it into Android Auto. As a rule of thumb, no app from Google Play Store will be ever included in AAAD (unless such app has a different APK distributed in another platform). Apps coming from the Play Store are automatically available on Android Auto. Obviously, Google allows only certain types of apps on its store (navigation, music, messages, VOIP). Whenever an app implements Android Auto as functionality, it can't be falling in a different category from the ones allowed by Google. 
+
+AAAD includes basically almost every Android Auto app known to date, and the only responsibility of AAAD is to make them available in Android Auto. If you know for sure there's an app compatible with Android Auto that is not included in AAAD, write to [submit.aaad@gmail.com](mailto:submit.aaad@gmail.com)
 
 ### How do I update the apps installed from AAAD?
 
