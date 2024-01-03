@@ -18,13 +18,17 @@ If you are instead running a rooted device, you might want to consider the free 
 
 AAAD is free and offers in app purchases. The free version of the app allows up to 1 download every 30 days. With the PRO version you can enjoy the full experience and download as many times as you want, forever!
 
-## 🚨🚨‼‼ KNOWN ISSUES ‼‼🚨🚨
+# 🚨🚨‼‼ KNOWN ISSUES ‼‼🚨🚨
 
 **Oppo/Realme/OnePlus devices won't show apps or "No messages during drive"** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-OnePlus-Realme-Oppo)
 
-**Google Pixel: "No new messages during drive"** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-Pixel-Android-13-) before installing
+**Google Pixel: "No new messages during drive" - Android 14 ** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-Pixel-Android-13-) before installing
 
-**Android 7.x/8.x devices are not compatible** - Testing is in progress for a fix
+**Android 14: Not compatible as of now**
+
+**"This organization is currently ineligible to receive donations" - Please download AAAD only from this website, 3rd party downloads are not authorized, endorsed nor supported by our staff**
+
+## **GiroPay/Ideal/Przelewy24 Payment has not been recognized by the app - Please follow[ this link](mailto:help.aaad@gmail.com?subject=AAADSI&body=Hello%2C%0D%0A%0D%0Athis%20is%20a%20pre-formatted%20e-mail.%20Please%20DO%20NOT%20edit%20the%20subject%20above%20and%20modify%20the%20e-mail%20with%20the%20right%20details.%20After%20sending%20the%20e-mail%20you%20will%20receive%20instructions%20on%20how%20to%20activate%20from%20email%20help.aaad%2Bcanned.response%40gmail.com.%20Please%20also%20check%20spam%20folder%20if%20nothing%20came%20to%20you.%0D%0A%0D%0AMethod%20of%20payment%3A%0D%0ADate%20(and%20time%20if%20possible)%3A%0D%0AFull%20name%3A)**
 
 **Fermata Auto download shows "App not responding (wait or close)"** - Fermata is quite heavy to download and GitHub servers are not the easiest with downloads. Please keep pressing on "wait". If it does fail, select top menu, select help and contact us through the app describing the steps you take to reproduce the issue. 
 
