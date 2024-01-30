@@ -22,7 +22,7 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **Oppo/Realme/OnePlus devices won't show apps or "No messages during drive"** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-OnePlus-Realme-Oppo)
 
-**Google Pixel: "No new messages during drive" - Android 14 ** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-Pixel-Android-13-) before installing
+**Google Pixel: "No new messages during drive" - Android 13** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-Pixel-Android-13-) before installing
 
 **Android 14: Not compatible as of now**
 
