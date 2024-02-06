@@ -141,7 +141,7 @@ Failure by the Company to exercise, delay in the exercise, or partial exercise, 
 
 **ART. 19 – WITHDRAWAL &quot;PRO&quot; VERSION**
 
-The User in any case may withdraw from the Contract for any reason, without explanation and without any penalty, within fourteen (14) days since the day it downloads and installs the App in the&quot;PRO&quot; version, notifying the seller before the expiry of the established term. To this end, the buyer uses the withdrawal form available on the company&#39;s page suitable to express the explicit decision to withdraw and sends it by registered letter with return receipt to the following address: GRSHMYKELSA SRL via Simone Martini, 1 – 73100 – Lecce (Italy)or by contacting [contact@grshmykelsa.tec](mailto:contact@grshmykelsa.tech). Within fourteen days since the withdrawal date, the User must uninstall the App. downloaded and installed on their devices. The Company will refund all payments received by the User in fulfillment of the contract, without undue delay and in any case within fourteen days from the date on which it is informed of the consumer&#39;s decision to withdraw from the contract itself, using the same means of payment used by the consumer for the purchase. The Company reserves the right to withhold the refund, until the User has proved that it has removed and uninstalled the App version &quot;PRO&quot; from its devices.
+The User in any case may withdraw from the Contract for any reason, without explanation and without any penalty, within fourteen (14) days since the day it downloads and installs the App in the&quot;PRO&quot; version, notifying the seller before the expiry of the established term. To this end, the buyer uses the withdrawal form available on the company&#39;s page suitable to express the explicit decision to withdraw and sends it by registered letter with return receipt to the following address: GRSHMYKELSA SRL via Simone Martini, 1 – 73100 – Lecce (Italy) or by contacting support team via e-mail [at this link](mailto:help.aaad@gmail.com?subject=RESCPRO&body=Att.%0D%0A%0D%0A**GRSHMYKELSA%20S.R.L.**%0D%0A%0D%0AVia%20Simone%20Martini%2C%201%0D%0A%0D%0A**73100%20%E2%80%93%20Lecce%20(Italy)**%0D%0A%0D%0A**SUBJECT%3A%20WITHDRAWAL%20by%20art.%2052%20et%20se.g.%20of%20the%20Consumer%20Code**%0D%0A%0D%0AThe%20undersigned%20Name%5C*%20%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%20Surname%5C*%20%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%0D%0A%0D%0AGIVEN%20THAT%0D%0A%0D%0Athe%20time%20elapsed%20from%20the%20conclusion%20of%20the%20distance%20or%20off-premises%20contract%20is%20not%20superior%20to%2014%20days%2C%0D%0A%0D%0ACOMMUNICATES%0D%0A%0D%0Athe%20willing%20to%20withdraw%20from%20the%20contract%20for%20the%20purchase%20of%20the%20App.%20%22AAAD%22%20version%20%22PRO%22%20signed%20on%20*___%5C____%5C____.%0D%0A%0D%0AThe%20undersigned%20also%20requests%20the%20reimbursement%20of%20payments%20made%2C%20equal%20to%20%E2%82%AC%20*_______%0D%0AATTACHES%0D%0A%0D%0A*bank%20statement%20or%20any%20other%20form%20of%20proof%20of%20payment%0D%0A*screenshot%20of%20the%20bottom%20of%20the%20%22Info%22%20section%20of%20AAAD%20(top%20right%20menu%3Eabout)%0D%0A%0D%0AKind%20regards%0D%0A%0D%0ASignature%20%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%20%5C_%5C_%20%5C_%5C_%0D%0A%0D%0APlace%20and%20Date%0D%0A%0D%0A%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%5C_%0D%0A%0D%0A%5C*The%20data%20marked%20with%20an%20asterisk%20are%20MANDATORY) or submitting the withdrawal module below via e-mail with subject "RESCPRO". Within fourteen days since the withdrawal date, the User must uninstall the App. downloaded and installed on their devices. The Company will refund all payments received by the User in fulfillment of the contract, without undue delay and in any case within fourteen days from the date on which it is informed of the consumer&#39;s decision to withdraw from the contract itself, using the same means of payment used by the consumer for the purchase. The Company reserves the right to withhold the refund, until the User has proved that it has removed and uninstalled the App version &quot;PRO&quot; from its devices.
 
 **ART. 20 - APPLICABLE LAW**
 
@@ -169,10 +169,6 @@ Via Simone Martini, 1
 
 **73100 – Lecce (Italy)**
 
-Sent by PEC to: [grshmykelsa@pec.it](mailto:grshmykelsa@pec.it)
-
-or Registered letter with return receipt
-
 **SUBJECT: WITHDRAWAL by art. 52 et se.g. of the Consumer Code**
 
 The undersigned Name\* \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Surname\* \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -183,17 +179,22 @@ the time elapsed from the conclusion of the distance or off-premises contract is
 
 COMMUNICATES
 
-the willing to withdraw from the contract for the purchase of the App. &quot;AAAD&quot; version &quot;PRO&quot; signed on \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+the willing to withdraw from the contract for the purchase of the App. "AAAD" version "PRO" signed on *\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
-The undersigned also requests the reimbursement of payments made, equal to € \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+The undersigned also requests the reimbursement of payments made, equal to € *\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+ATTACHES
+
+*bank statement or any other form of proof of payment
+*screenshot of the bottom of the "Info" section of AAAD (top right menu>about)
 
 Kind regards
 
-Signature \_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_ \_\_
+Signature *\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_ \_\_
 
 Place and Date
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 \*The data marked with an asterisk are MANDATORY
 
