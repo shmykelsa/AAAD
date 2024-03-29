@@ -28,13 +28,14 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **"This organization is currently ineligible to receive donations" - Please download AAAD only from this website, 3rd party downloads are not authorized, endorsed nor supported by our staff**
 
-## **GiroPay/Ideal/Przelewy24/Bancontact/EPS Payment has not been recognized by the app - Please follow[ this link](mailto:help.aaad@gmail.com?subject=AAADSI&body=Hello%2C%0D%0A%0D%0Athis%20is%20a%20pre-formatted%20e-mail.%20Please%20DO%20NOT%20edit%20the%20subject%20above%20and%20modify%20the%20e-mail%20with%20the%20right%20details.%20After%20sending%20the%20e-mail%20you%20will%20receive%20instructions%20on%20how%20to%20activate%20from%20email%20help.aaad%2Bcanned.response%40gmail.com.%20Please%20also%20check%20spam%20folder%20if%20nothing%20came%20to%20you.%0D%0A%0D%0AMethod%20of%20payment%3A%0D%0ALast%20four%20(4)%20digits%20of%20the%20card%20used%20(if%20applicable)%3A%0D%0ADate%20(and%20time%20if%20possible)%3A%0D%0AFull%20name%3A%0D%0A%0D%0A)**
+ **GiroPay/Ideal/Przelewy24/Bancontact/EPS Payment has not been recognized by the app - Please follow[ this link](mailto:help.aaad@gmail.com?subject=AAADSI&body=Hello%2C%0D%0A%0D%0Athis%20is%20a%20pre-formatted%20e-mail.%20Please%20DO%20NOT%20edit%20the%20subject%20above%20and%20modify%20the%20e-mail%20with%20the%20right%20details.%20After%20sending%20the%20e-mail%20you%20will%20receive%20instructions%20on%20how%20to%20activate%20from%20email%20help.aaad%2Bcanned.response%40gmail.com.%20Please%20also%20check%20spam%20folder%20if%20nothing%20came%20to%20you.%0D%0A%0D%0AMethod%20of%20payment%3A%0D%0ALast%20four%20(4)%20digits%20of%20the%20card%20used%20(if%20applicable)%3A%0D%0ADate%20(and%20time%20if%20possible)%3A%0D%0AFull%20name%3A%0D%0A%0D%0A)**
 
 **Fermata Auto download shows "App not responding (wait or close)"** - Fermata is quite heavy to download and GitHub servers are not the easiest with downloads. Please keep pressing on "wait". If it does fail, select top menu, select help and contact us through the app describing the steps you take to reproduce the issue. 
 
 **A factory reset wipes the license away** - [Click here](mailto:help.aaad@gmail.com?subject=PROWIPED&body=Hello%2C%0D%0A%0D%0Amy%20license%20was%20lost%20after%20a%20device%20reset.%0D%0A%0D%0AThe%20e-mail%20I%E2%80%99ve%20registered%20for%20my%20payment%20is%3A%20****MODIFY%20HERE****%0D%0A%0D%0ARegards%0D%0A%0D%0A>)
 
-**My download failed because Google Play Protect said Screen2Auto was malicious** - There's a deeper explanation [down here](#i-have-a-warning-from-google-play-protect-warning-me-about-your-app-is-this-app-a-malware). Please take a depp look before downloading Screen2Auto to the popup that comes out from AAAD app. Make sure you click on "Install anyway", and not the blue button that brings you to not install the app. 
+**Google Play Protect erased the downloaded apps** - There's a deeper explanation [down here](#i-have-a-warning-from-google-play-protect-warning-me-about-your-app-is-this-app-a-malware). Please take a depp look before proceeding with installing any app. The install button is usually hidden and the big blue button **WILL NOT** install the app you've chosen. Please use the "Install anyway" button instead. 
+
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
