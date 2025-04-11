@@ -24,7 +24,7 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **Google Pixel: "No new messages during drive" - Android 13** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-Pixel-Android-13-) before installing
 
-**Android 14: Not compatible as of now**
+**Android 14+: Not compatible as of now, consider using [AAWireless USB Dongle](https://www.aawireless.io/)**
 
 **"This organization is currently ineligible to receive donations" - Please download AAAD only from this website, 3rd party downloads are not authorized, endorsed nor supported by our staff**
 
