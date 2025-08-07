@@ -3,6 +3,10 @@
 
 ![banner](https://i.imgur.com/EeT5Y3v.png)
 
+# WARNING: THIS IS THE ONLY OFFICIAL DOWNLOAD SOURCE FOR AAAD. AAADAPK.COM, UPTODOWN, SOFTONIC etc. ARE NOT AFFILIATED WITH AAAD IN ANY WAY.
+
+## Please always download genuine softwares.
+
 
 Android Auto Apps Downloader (AAAD) is an app for Android Phones that downloads popular Android Auto 3rd party apps and installs them in the correct way to have them in Android Auto. 
 
