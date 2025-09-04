@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Welkom bij Android Auto Apps Downloader (AAAD). Deze tool helpt bij het installeren van aangepaste apps op Android Auto voor niet-geroote telefoons. Selecteer de app die u wilt installeren en wacht tot het installatieprogramma klaar is. App-beschrijvingen zijn beschikbaar bij lang drukken.</string>
+    <string name="welcome_string">Welkom bij Android Auto Apps Downloader (AAAD). Deze applicatie helpt je bij het installeren van aangepaste apps voor Android Auto voor telefoons die niet geroot zijn. Selecteer de app die je wilt installeren en wacht tot het Installeer begint. Druk lang op de naam van de app om een beschrijving te zien.</string>
     <string name="title_activity_about_payment">Pro Versie</string>
-    <string name="switch_to_pro_statement">De gratis versie van AAAD geeft je de mogelijkheid om elke maand één gratis download te doen. Als u wilt genieten van onbeperkte downloads, kunt u overschakelen naar de PRO-versie en kunt u genieten van alle functionaliteiten en app-updates!</string>
-    <string name="congratsPro">Gefeliciteerd, u heeft PRO versie!</string>
-    <string name="notConnected">Niet verbonden: kon de PRO status niet ophalen</string>
-    <string name="About">Over</string>
-    <string name="have_promo_code">Ik heb een promocode</string>
-    <string name="promo_code">Promocode invoeren</string>
-    <string name="input_promo_code_here">Voer promocode hier in</string>
+    <string name="switch_to_pro_statement">De gratis versie van AAAD geeft je de mogelijkheid om elke maand één gratis download te doen. Als u wilt genieten van onbeperkte downloads, kunt u overschakelen naar de \"PRO\" versie en kunt u genieten van alle functionaliteiten en updates!</string>
+    <string name="congratsPro">Gefeliciteerd, u heeft de \"PRO\" versie!</string>
+    <string name="notConnected">Niet verbonden: kon de PRO status niet bekomen</string>
+    <string name="About">Thema</string>
+    <string name="have_promo_code">Ik heb een promo code</string>
+    <string name="promo_code">Promo code invoeren</string>
+    <string name="input_promo_code_here">Voer promo code hier in</string>
     <string name="fermata_control_dialog">U staat op het punt om %1$s %2$s te downloaden. Wilt u ook %3$s installeren?</string>
-    <string name="about_to_download">U staat op het punt om %1$s te downloaden. Wilt u doorgaan?</string>
+    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
     <string name="no">nee</string>
     <string name="warning_payment">Aan het einde van de betaling, druk op \"Terug naar handelaar\" om de transactie te valideren.</string>
     <string name="attention">LET OP</string>
@@ -63,7 +63,7 @@
     <string name="cpu_architecture_warning">Mogelijk is de CPU-architectuur van uw telefoon niet compatibel met de meeste van de apps. Probeer ten minste één app te downloaden alvorens verder te gaan.</string>
     <string name="i_understand">Ik begrijp het</string>
     <string name="ignore">Negeren</string>
-    <string name="i_want_to_transfer_license_here">Ik wil de licentie hier naartoe verplaatsen</string>
+    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
     <string name="i_want_to_transfer_license_from_here">Ik wil deze licentie verplaatsen</string>
     <string name="license_transfer_help">Als u de licentie wilt overdragen van de ene telefoon naar de andere, bent u op de juiste plaats. Selecteer wat u wilt doen</string>
     <string name="transfer_license">Overdracht van licentie</string>
@@ -75,4 +75,17 @@
     <string name="unknown_sources_warning">Voordat u doorgaat, moet u de installatie vanuit onbekende bronnen toestaan. Als u deze optie uitschakelt, kan dit problemen veroorzaken in AAAD. Druk nu op OK om naar de instellingen te gaan, u moet de optie voor onbekende bronnen aanzetten.</string>
     <string name="qr_code_permission">Toestemming nodig om QR code te scannen met camera</string>
     <string name="success_transfer">Licentie is gevalideerd</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Het e-mailadres wordt gebruikt om uw aankoop te verifiëren, indien nodig</string>
+    <string name="input_email">Voer uw e-mailadres in...</string>
+    <string name="days_remaining">%d dagen resterend tot de volgende download</string>
+    <string name="hours_remaining">%d uren resterend tot de volgende download</string>
+    <string name="less_than_hour">Minder dan 1 uur resterend tot de volgende download</string>
+    <string name="download_available_now">Download nu beschikbaar!</string>
+    <string name="app_installed_successfully">App succesvol geïnstalleerd!</string>
+    <string name="installation_failed">Installatie mislukt</string>
+    <string name="installation_timeout_title">Installatiestatus</string>
+    <string name="installation_timeout_message">Is de app-installatie succesvol voltooid?</string>
+    <string name="installation_succeeded">Ja, het is geïnstalleerd</string>
+    <string name="installation_failed_or_cancelled">Nee, het is mislukt of geannuleerd</string>
+    <string name="download_not_counted">Download niet geteld - u kunt het opnieuw proberen</string>
 </resources>

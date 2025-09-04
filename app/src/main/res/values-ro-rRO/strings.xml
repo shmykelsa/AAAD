@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Bine ați venit la Android Auto Apps Downloader (AAAD). Această utilitate va ajuta la instalarea aplicațiilor personalizate pe Android Auto pentru telefoane non-rooted. Selectați aplicația pe care doriți să o instalați și să așteptați ca instalatorul să apară. Descrierea aplicației este disponibilă la apăsarea lungă.</string>
+    <string name="welcome_string">Bine ați venit la Android Auto Apps Downloader (AAAD). Această utilitate va ajuta la instalarea aplicațiilor personalizate pe Android Auto pentru telefoane non-rooted. Selectați aplicația pe care doriți să o instalați și să așteptați ca instalatorul să apară. Descrierea aplicației este disponibilă la apăsarea lungă.6004010881509777</string>
     <string name="title_activity_about_payment">Versiunea Pro</string>
     <string name="switch_to_pro_statement">Versiunea gratuită AAAD îți permite să ai o descărcare gratuită în fiecare lună. Dacă vrei să te bucuri de descărcări nelimitate, poți trece la versiunea PRO și te vei bucura de funcționalități și actualizări complete ale aplicației!</string>
-    <string name="congratsPro">Felicitări, aveți versiunea PRO!</string>
+    <string name="congratsPro">Felicitări, ai versiunea PRO!</string>
     <string name="notConnected">Nu este conectat: nu s-a putut prelua statusul PRO</string>
     <string name="About">Despre</string>
     <string name="have_promo_code">Am un cod promoțional</string>
@@ -17,8 +17,8 @@
     <string name="next_download_available">Următoarea descărcare va fi disponibilă pe: %1$s</string>
     <string name="connect_error">EROARE DE CONEXIUNE</string>
     <plurals name="remaining_downloads">
-        <item quantity="one">Mai aveți o descărcare rămasă</item>
-        <item quantity="few">Mai ai o descărcare rămasă</item>
+        <item quantity="one">You have 1 download remaining</item>
+        <item quantity="few">You have 1 download remaining</item>
         <item quantity="other">Nu ai nici o descărcare rămasă</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) este dezvoltat și întreținut de Shmykelsa. <br> <br> Aplicațiile disponibile sunt posibile datorită următorilor dezvoltatori: <br>]]>"</string>
@@ -50,13 +50,13 @@
     <string name="might_not_be_compatible">Din păcate, se pare că dispozitivul tău nu este compatibil cu Fermata.</string>
     <string name="new_version_available">O nouă versiune este disponibilă</string>
     <string name="go_to_new_version">O nouă versiune AAAD (versiunea %1$s) este disponibilă pe GitHub. Doriți să o descărcați acum?</string>
-    <string name="go_to_download">Atingeți pentru a descărca</string>
+    <string name="go_to_download">Go to download</string>
     <string name="ignore_for_now">Ignoră pentru moment</string>
     <string name="privacy_policy">"<![CDATA[AAAD nu stochează informații despre card sau date personale despre utilizator.<br>Pentru validare, AAAD colectează un număr de serie care este generat în siguranță de Android pentru a identifica unic un dispozitiv. Serialul dispozitivului este procesat de AAAD pentru a valida versiunea PRO și nu oferă informații utile despre modelul dispozitivului, IMZ sau locație.<br>Plata versiunii pro este gestionată exclusiv de PayPal și, în scopul confirmării și rambursării, poșta este stocată către o bază de date online cu Firebas.]]>"</string>
     <string name="privacy">Politică de confidenţialitate</string>
     <string name="loading">Se încarcă...</string>
-    <string name="go_pro">ACTIVEAZĂ VERSIUNEA PRO</string>
-    <string name="i_m_good">Sunt bun</string>
+    <string name="go_pro">GO PRO</string>
+    <string name="i_m_good">I\'m good</string>
     <string name="nav2contacts_description">Cu noile aplicații de navigare care ajung în Android Auto, multora dintre ei le lipseşte sprijinul asistentului Google pentru a naviga la adresele contactelor salvate în cartea telefonică. Nav2Contactele vin să salveze ! Mai întâi, selectaţi aplicația de navigare pe care doriţi să o folosiţi, apoi căutaţi contactul la care doriţi să navigaţi şi să porniţi navigarea imediat!</string>
     <string name="meeting_requirements">Această aplicație necesită cel puțin Android %d, ne pare rău!</string>
     <string name="back_button_payment_close">Nu uita să apeși butonul albastru \"Întoarce-te la site-ul comerciant\" după efectuarea plății</string>
@@ -77,4 +77,17 @@
     <string name="unknown_sources_warning">Înainte de a continua, trebuie să activați instalarea din surse necunoscute. Dacă lăsați această opțiune dezactivată, ar putea cauza probleme AAAD. Apăsați OK pentru a merge acum la setări, va trebui să activați opțiunea pentru surse necunoscute.</string>
     <string name="qr_code_permission">Permisiunea camerei este necesară pentru a scana un cod QR</string>
     <string name="success_transfer">Licență validă.</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Grecusorin70@gmail. com</string>
+    <string name="input_email">George. rusu19@gmail. com. să introduceți adresa de... costelalbu99@gmail. com...</string>
+    <string name="days_remaining">%d zile rămân până la următoarea descărcare</string>
+    <string name="hours_remaining">%d ore rămân până la următoarea descărcare</string>
+    <string name="less_than_hour">Mai puțin de 1 oră rămâne până la următoarea descărcare</string>
+    <string name="download_available_now">Descărcare disponibilă acum!</string>
+    <string name="app_installed_successfully">Aplicația a fost instalată cu succes!</string>
+    <string name="installation_failed">Instalarea a eșuat</string>
+    <string name="installation_timeout_title">Starea instalării</string>
+    <string name="installation_timeout_message">S-a finalizat cu succes instalarea aplicației?</string>
+    <string name="installation_succeeded">Da, a fost instalată</string>
+    <string name="installation_failed_or_cancelled">Nu, a eșuat sau a fost anulată</string>
+    <string name="download_not_counted">Descărcare necontorizată - puteți încerca din nou</string>
 </resources>

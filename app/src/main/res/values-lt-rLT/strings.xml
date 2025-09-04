@@ -77,4 +77,8 @@
     <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>
     <string name="qr_code_permission">Reikalingas kameros leidimas norit nuskenuoti QR kodą</string>
     <string name="success_transfer">Licencija patvirtinta</string>
+    <string name="days_remaining">Liko %d dienų iki kito atsisiuntimo</string>
+    <string name="hours_remaining">Liko %d valandų iki kito atsisiuntimo</string>
+    <string name="less_than_hour">Liko mažiau nei 1 valanda iki kito atsisiuntimo</string>
+    <string name="download_available_now">Atsisiuntimas galimas dabar!</string>
 </resources>

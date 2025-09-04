@@ -43,12 +43,8 @@ public class Downloader implements Runnable{
             Request request;
 
             OkHttpClient client = new OkHttpClient();
-            if (this.screen2auto) {
-                request = new Request.Builder().url(this.url).addHeader("REFERER", "https://inceptive.ru").build();
-
-            } else {
-                request = new Request.Builder().url(this.url).build();
-            }
+            // No need for special headers when downloading from Firebase Storage
+            request = new Request.Builder().url(this.url).build();
 
             Response response = client.newCall(request).execute();
             if (!response.isSuccessful()) {

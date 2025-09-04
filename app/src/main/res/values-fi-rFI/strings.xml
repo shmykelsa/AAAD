@@ -75,4 +75,8 @@
     <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>
     <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
     <string name="success_transfer">License validated</string>
+    <string name="days_remaining">%d päivää jäljellä seuraavaan lataukseen</string>
+    <string name="hours_remaining">%d tuntia jäljellä seuraavaan lataukseen</string>
+    <string name="less_than_hour">Alle tunti jäljellä seuraavaan lataukseen</string>
+    <string name="download_available_now">Lataus saatavilla nyt!</string>
 </resources>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">歡迎使用Android Auto Apps Downloader (AAAD)。本軟體可以在無ROOT的手機上安裝Android Auto第三方應用程式。選擇要安裝的應用程式，等待安裝程式完成。長按選項顯示說明。</string>
+    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">（專業版）</string>
-    <string name="switch_to_pro_statement">AAAD免費版本允許您每月免費下載一次。如果您想要無限的下載及更新，可以升級到PRO版本，您將享受全部功能和應用程式更新</string>
-    <string name="congratsPro">Congratulations, you have PRO version! h</string>
-    <string name="notConnected">網路中斷：無法取得專業版！ Jjhfv</string>
+    <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
+    <string name="congratsPro">0.0</string>
+    <string name="notConnected">Not connected: could not retrieve PRO status</string>
     <string name="About">Day ago</string>
-    <string name="have_promo_code">促銷代碼</string>
-    <string name="promo_code">輸入促銷代碼</string>
-    <string name="input_promo_code_here">在這裡輸入促銷代碼</string>
+    <string name="have_promo_code">擁有的優惠碼</string>
+    <string name="promo_code">輸入優惠碼</string>
+    <string name="input_promo_code_here">在此輸入優惠碼</string>
     <string name="fermata_control_dialog">您要下載 %1$s %2$s，並安裝 %3$s 嗎？</string>
     <string name="about_to_download">您確定要繼續下載 %1$s 嗎？</string>
     <string name="no">否</string>
     <string name="warning_payment">付款結束後，請手動按\"返回商戶\"以確認交易。</string>
     <string name="attention">注意</string>
-    <string name="next_download_available">下一次可下載時間為 %1$s</string>
+    <string name="next_download_available">%1$s下一次可下載時間為 %1$s</string>
     <string name="connect_error">錯誤連線</string>
     <plurals name="remaining_downloads">
         <item quantity="other">剩餘可用下載次數 0</item>
@@ -45,7 +45,7 @@
     <string name="third_section_name">其他應用</string>
     <string name="might_not_be_compatible">您的裝置與Fermata不相容。</string>
     <string name="new_version_available">有可用的新版本！</string>
-    <string name="go_to_new_version">GitHub上有新版本的AAAD(版本%1$s)。您要立即下載嗎？</string>
+    <string name="go_to_new_version">GitHub上有新版本的AAAD(版本%1$s)。您要立即下載e嗎？</string>
     <string name="go_to_download">前往下載</string>
     <string name="ignore_for_now">暫時忽略</string>
     <string name="privacy_policy">"<![CDATA[AAAD不存儲有關用戶的任何信用卡訊息或個人數據。<br>為了進行驗證，AAAD收集了由Android安全生成的序號-ANDROID ID，以驗證PRO版本，並且不收集有關裝置型號，IMIEI或位置等重要訊息。<br>PRO版本的付款由PayPal管理，出於確認和退款的使用，郵件將存儲到雲端Firebase數據庫中。]]>"</string>
@@ -73,4 +73,17 @@
     <string name="unknown_sources_warning">在繼續之前，您必須啟用未知來源安裝。 忽略此選項AAAD可能會錯誤。現在按確定進入設定，您必須開啟\"未知來源\"選項。</string>
     <string name="qr_code_permission">需要相機權限才能掃描QR碼</string>
     <string name="success_transfer">授權有效</string>
+    <string name="email_dialog" comment="&#10;Dialog window">如果需要，电子邮件将用于验证您的购买</string>
+    <string name="input_email">請輸入你的E-Mail</string>
+    <string name="days_remaining">距離下次下載還有%d天</string>
+    <string name="hours_remaining">距離下次下載還有%d小時</string>
+    <string name="less_than_hour">距離下次下載不到1小時</string>
+    <string name="download_available_now">現在可以下載！</string>
+    <string name="app_installed_successfully">應用程式安裝成功！</string>
+    <string name="installation_failed">安裝失敗</string>
+    <string name="installation_timeout_title">安裝狀態</string>
+    <string name="installation_timeout_message">應用程式安裝是否成功完成？</string>
+    <string name="installation_succeeded">是的，已安裝</string>
+    <string name="installation_failed_or_cancelled">否，失敗或已取消</string>
+    <string name="download_not_counted">下載未計算 - 您可以重試</string>
 </resources>

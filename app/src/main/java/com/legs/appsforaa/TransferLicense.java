@@ -128,8 +128,12 @@ public class TransferLicense extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.getValue(Boolean.class)) {
                                 Toast.makeText(getApplicationContext(), getString(R.string.success_transfer), Toast.LENGTH_LONG).show();
+                                // Return to MainActivity with refresh request
+                                Intent intent = new Intent(TransferLicense.this, MainActivity.class);
+                                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                intent.putExtra("refresh_pro_status", true);
+                                startActivity(intent);
                                 finish();
-                                startActivity(new Intent(TransferLicense.this, MainActivity.class));
                             }
                         }
 
@@ -190,7 +194,11 @@ public class TransferLicense extends AppCompatActivity {
                                             @Override
                                             public void onSuccess(Void aVoid) {
                                                 Toast.makeText(TransferLicense.this, getString(R.string.license_done), Toast.LENGTH_LONG).show();
-                                                startActivity(new Intent(TransferLicense.this, MainActivity.class));
+                                                // Return to MainActivity with refresh request
+                                                Intent intent = new Intent(TransferLicense.this, MainActivity.class);
+                                                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                                intent.putExtra("refresh_pro_status", true);
+                                                startActivity(intent);
                                                 finish();
                                             }
                                         });

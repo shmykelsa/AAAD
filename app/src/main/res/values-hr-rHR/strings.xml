@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
-    <string name="title_activity_about_payment">PRO Version</string>
-    <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
-    <string name="congratsPro">Congratulations, you have PRO version!</string>
-    <string name="notConnected">Not connected: could not retrieve PRO status</string>
+    <string name="title_activity_about_payment">PRO Verzijom</string>
+    <string name="switch_to_pro_statement">Brezplačno verzija</string>
+    <string name="congratsPro">Čestitamo imate pro verziju</string>
+    <string name="notConnected">Nije povezano. Provjeri pro stanje</string>
     <string name="About">About</string>
     <string name="have_promo_code">I have a promo code</string>
-    <string name="promo_code">Enter promo code</string>
-    <string name="input_promo_code_here">Input promo code here</string>
-    <string name="fermata_control_dialog">You are about to download %1$s %2$s. Do you also want to install %3$s?</string>
-    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
-    <string name="no">no</string>
-    <string name="warning_payment">At the end of the payment please manually press \"Return to merchant\" for the transaction to be validated.</string>
-    <string name="attention">ATTENTION</string>
-    <string name="next_download_available">Next download will be available on: %1$s</string>
-    <string name="connect_error">CONNECTION ERROR</string>
+    <string name="promo_code">Izaberi promocij</string>
+    <string name="input_promo_code_here">Unesi kod ovdje</string>
+    <string name="fermata_control_dialog">Želite li uvjek prenositi 1 2.
+Da li želite instalirati sve za 3s?</string>
+    <string name="about_to_download">Preuzeli ste. Da li želite vidjet nastavak?</string>
+    <string name="no">ne</string>
+    <string name="warning_payment">Na kraju računa ručno odaberi. Vraćanje na nešto. Transakcija neće biti ispravna.</string>
+    <string name="attention">Upozorenje</string>
+    <string name="next_download_available">Sljedeći prenos bit će aktivan za: 1</string>
+    <string name="connect_error">Greska povezivanje</string>
     <plurals name="remaining_downloads">
-        <item quantity="one">You have 1 download remaining</item>
+        <item quantity="one">Dali želite 1 prenošenje</item>
         <item quantity="few">You have no download remaining</item>
         <item quantity="other">You have no download remaining</item>
     </plurals>
@@ -62,7 +63,7 @@
     <string name="help">Help</string>
     <string name="help_dialog">Do you want to send an e-mail for help right now?</string>
     <string name="cpu_architecture_warning">Your phone CPU architecture may not be compatible with most of the apps. Please try to download at least one app before proceeding.</string>
-    <string name="i_understand">I understand</string>
+    <string name="i_understand">Razumijem te</string>
     <string name="ignore">Ignore</string>
     <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
     <string name="i_want_to_transfer_license_from_here">I want to transfer license from here</string>
@@ -76,4 +77,17 @@
     <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>
     <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
     <string name="success_transfer">License validated</string>
+    <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
+    <string name="input_email">Molimo unesite Vašu adresu e-pošte...</string>
+    <string name="days_remaining">Preostaje %d dana do sljedećeg preuzimanja</string>
+    <string name="hours_remaining">Preostaje %d sati do sljedećeg preuzimanja</string>
+    <string name="less_than_hour">Preostaje manje od 1 sata do sljedećeg preuzimanja</string>
+    <string name="download_available_now">Preuzimanje je sada dostupno!</string>
+    <string name="app_installed_successfully">Aplikacija je uspješno instalirana!</string>
+    <string name="installation_failed">Instaliranje nije uspjelo</string>
+    <string name="installation_timeout_title">Status instaliranja</string>
+    <string name="installation_timeout_message">Je li se instaliranje aplikacije uspješno završilo?</string>
+    <string name="installation_succeeded">Da, instalirana je</string>
+    <string name="installation_failed_or_cancelled">Ne, nije uspjelo ili je otkazano</string>
+    <string name="download_not_counted">Preuzimanje se ne računa - možete pokušati ponovno</string>
 </resources>

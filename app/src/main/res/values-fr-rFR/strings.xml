@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
+    <string name="welcome_string">Bienvenue sur Android Auto Apps Downloader (AAAD). Cet utilitaire permettra d\'installer des applications personnalisées sur Android Auto pour les téléphones non rootés. Sélectionnez l\'application que vous voulez installer et attendez que l\'installateur arrive. Les descriptions des applications sont disponibles en appui long.</string>
     <string name="title_activity_about_payment">Version PRO</string>
-    <string name="switch_to_pro_statement">La version gratuite de AAAD vous permet d\'avoir un téléchargement gratuit par mois. Si vous voulez profiter d\'un nombre illimité de téléchargements, vous pouvez passer à la version PRO afin de bénéficier de toutes les fonctionnalités et mises à jour de l\'application !</string>
-    <string name="congratsPro">Félicitations, vous avez la version PRO !</string>
+    <string name="switch_to_pro_statement">La version gratuite de AAAD vous permet d\'avoir un téléchargement gratuit chaque mois. Si vous voulez profiter de téléchargements gratuits illimités, vous pouvez passer à la version PRO et vous bénéficierez de toutes les fonctionnalités et mises à jour de l\'application !</string>
+    <string name="congratsPro">Félicitations, vous disposez de la version PRO !</string>
     <string name="notConnected">Non connecté : impossible de récupérer le statut PRO</string>
     <string name="About">À propos</string>
     <string name="have_promo_code">J\'ai un code promo</string>
-    <string name="promo_code">Entrez un code promo</string>
-    <string name="input_promo_code_here">Entrez un code promo ici</string>
+    <string name="promo_code">Saisir le code promo</string>
+    <string name="input_promo_code_here">Ici vous pouvez saisir le code promo</string>
     <string name="fermata_control_dialog">Vous êtes sur le point de télécharger %1$s %2$s. Voulez-vous également installer %3$s?</string>
     <string name="about_to_download">Vous êtes sur le point de télécharger %1$s. Voulez-vous continuer ?</string>
     <string name="no">non</string>
-    <string name="warning_payment">À la fin du paiement, veuillez appuyer sur \"Retour au marchand\" pour que la transaction soit validée.</string>
+    <string name="warning_payment">Le traitement des paiements est géré de manière sécurisée par Stripe Inc. AAAD ne collecte ni ne stocke vos informations de paiement. À la fin du paiement, veuillez appuyer sur \"Retour au marchand\" pour que la transaction soit validée.</string>
     <string name="attention">ATTENTION</string>
-    <string name="next_download_available">Prochain téléchargement disponible le : %1$s</string>
+    <string name="next_download_available">Next download will be available on: %1$s</string>
     <string name="connect_error">ERREUR DE CONNEXION</string>
     <plurals name="remaining_downloads">
         <item quantity="one">Il vous reste %d téléchargement</item>
@@ -40,6 +40,7 @@
     <string name="press_back_warning">Veuillez cliquer de nouveau sur RETOUR pour quitter</string>
     <string name="aawidgets_description">Né dans un seul but. Apporter un widget sur Android Auto !</string>
     <string name="performance_monitor_description">Il s\'agit d\'un moniteur de performance basé sur aa-stats de Martoreto. Il est conçu spécifiquement pour être utilisé avec les unités d\'infodivertissement MIB2 de Volkswagen/Skoda/Seat/Audi, mais il pourrait aussi fonctionner sur d\'autres unités du moment qu\'Android Auto est supporté. Nécessite également une extension VAG pour fonctionner sur les voitures Volkswagen.</string>
+    <string name="aatorque_description">AATorque apporte l\'application de diagnostic véhicule OBD-II Torque Pro à Android Auto. Surveillez les performances de votre véhicule, affichez les données de diagnostic et accédez aux informations temps réel du véhicule directement depuis l\'écran de votre voiture.</string>
     <string name="promotion">Vous pouvez bénéficier d\'une réduction de 15 %</string>
     <string name="first_section_name">Applications multimédia</string>
     <string name="second_section_name">Applications de mise en miroir</string>
@@ -52,9 +53,9 @@
     <string name="privacy_policy">"<![CDATA[AAAD ne stocke aucune information de carte de crédit ou de données personnelles sur l'utilisateur.<br>À des fins de validation, AAAD collecte un numéro de série qui est généré de manière sécurisée par Android pour identifier de manière unique un appareil. Le numéro de série de l'appareil est traitée par AAAD pour valider la version PRO mais aucune autre information comme le modèle de l'appareil, l'IMEI ou la localisation ne sont récupérés.<br>Le paiement de la version Pro est géré uniquement par PayPal et à des fins de confirmation et de remboursement, le mail est stocké dans une base de données Firebase en ligne.]]>"</string>
     <string name="privacy">Politique de confidentialité</string>
     <string name="loading">Chargement...</string>
-    <string name="go_pro">PASSER À LA PRO</string>
+    <string name="go_pro">GO PRO</string>
     <string name="i_m_good">Je reste comme ça</string>
-    <string name="nav2contacts_description">Avec l\'arrivée de nouvelles applications de navigation dans Android Auto, beaucoup d\'entre elles ne disposent pas de la prise en charge par Google Assistant de la navigation vers les adresses des contacts enregistrés sur le téléphone. C\'est là que Nav2Contacts arrive à la rescousse ! Pour cela, sélectionnez l\'application de navigation que vous souhaitez utiliser, puis recherchez le contact vers lequel vous souhaitez naviguer et lancez la navigation immédiatement !</string>
+    <string name="nav2contacts_description">With the new navigation apps coming into Android Auto, many of them lack of Google Assistant\'s support to navigate to addresses of contacts saved in the phone book. Nav2Contacts come to rescue! First, select the navigation app you want to use, then search the contact you want to navigate to and start the navigation right away!</string>
     <string name="meeting_requirements">Cette application nécessite au moins Android %d, désolé !</string>
     <string name="back_button_payment_close">N\'OUBLIEZ PAS d\'appuyer sur le bouton bleu \"Retour au marchand\" une fois le paiement effectué</string>
     <string name="help">Aide</string>
@@ -74,4 +75,17 @@
     <string name="unknown_sources_warning">Avant de poursuivre, vous devez activer l\'installation à partir de sources inconnues. Si vous laissez cette option désactivée, vous risquez d\'avoir des problèmes avec AAAD. Appuyez sur OK pour aller aux paramètres maintenant, vous devrez activer l\'option pour les Sources Inconnues.</string>
     <string name="qr_code_permission">L\'autorisation d\'accéder à la caméra est requise pour scanner un QR code</string>
     <string name="success_transfer">Licence validée</string>
+    <string name="email_dialog" comment="&#10;Dialog window">L\'e-mail sera utilisé pour vérifier votre achat, si nécessaire</string>
+    <string name="input_email">Veuillez saisir votre e-mail…</string>
+    <string name="days_remaining">%d jours restants jusqu\'à le prochain téléchargement</string>
+    <string name="hours_remaining">%d heures restantes jusqu\'à le prochain téléchargement</string>
+    <string name="less_than_hour">Moins d\'1 heure restante jusqu\'à le prochain téléchargement</string>
+    <string name="download_available_now">Téléchargement disponible maintenant!</string>
+    <string name="app_installed_successfully">Application installée avec succès!</string>
+    <string name="installation_failed">Installation échouée</string>
+    <string name="installation_timeout_title">État de l\'installation</string>
+    <string name="installation_timeout_message">L\'installation de l\'application s\'est-elle terminée avec succès?</string>
+    <string name="installation_succeeded">Oui, elle s\'est installée</string>
+    <string name="installation_failed_or_cancelled">Non, elle a échoué ou a été annulée</string>
+    <string name="download_not_counted">Téléchargement non comptabilisé - vous pouvez réessayer</string>
 </resources>

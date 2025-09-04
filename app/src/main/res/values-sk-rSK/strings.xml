@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
-    <string name="title_activity_about_payment">PRO Verzia</string>
+    <string name="title_activity_about_payment">PRO Verzia palermo</string>
     <string name="switch_to_pro_statement">Bezplatná verzia AAAD vám umožňuje mať každý mesiac jedno bezplatné stiahnutie. Ak si chcete vychutnať neobmedzené sťahovanie zadarmo, môžete prejsť na verziu PRO a užijete si všetky funkcie a aktualizácie aplikácií!</string>
     <string name="congratsPro">Gratulujeme, máte verziu PRO!</string>
     <string name="notConnected">Nepripojené: nie je možné načítať PRO status</string>
-    <string name="About">O</string>
+    <string name="About">1</string>
     <string name="have_promo_code">Mám promo kód</string>
     <string name="promo_code">Vložte promo kód</string>
     <string name="input_promo_code_here">Sem zadajte promo kód</string>
-    <string name="fermata_control_dialog">Chystáte sa stiahnuť %1$s %2$s. Chcete tiež nainštalovať %3$s?</string>
-    <string name="about_to_download">Chystáte sa stiahnuť %1$s. Chcete pokračovať?</string>
+    <string name="fermata_control_dialog">Chystáte sa stiahnuť1$s %2$s. Chcete tiež nainštalovať%3$s?</string>
+    <string name="about_to_download">Chystáte sa stiahnuť %1%1AS$s. Chcete pokračovať?</string>
     <string name="no">nie</string>
-    <string name="warning_payment">Na konci platby prosím manuálne stlačte \"Späť k obchodníkovi\" preto aby sa transakcia zvalidovala.</string>
+    <string name="warning_payment">Na konci platby prosím manuálne stlačte tlačidlo „Späť k obchodníkovi“, aby sa transakcia prijala.</string>
     <string name="attention">POZOR</string>
     <string name="next_download_available">Nasledujúce stiahnutie bude dostupné: %1$s</string>
     <string name="connect_error">CHYBA PRIPOJENIA</string>
@@ -55,8 +55,8 @@
     <string name="privacy">Zásady ochrany osobných údajov</string>
     <string name="loading">Načítávanie...</string>
     <string name="go_pro">Ísť PRO</string>
-    <string name="i_m_good">Som dobrý</string>
-    <string name="nav2contacts_description">Vďaka novým navigačným aplikáciám, ktoré prichádzajú do systému Android Auto, mnohé z nich nemajú podporu Asistenta Google pri navigácii na adresy kontaktov uložených v telefónnom zozname. Nav2Contacts prichádzajú na pomoc! Najskôr vyberte navigačnú aplikáciu, ktorú chcete použiť, potom vyhľadajte kontakt, ku ktorému chcete navigovať, a ihneď spustite navigáciu!</string>
+    <string name="i_m_good">Som dobrý.</string>
+    <string name="nav2contacts_description">Vďaka novým navigačným aplikáciám, ktoré prichádzajú do systému Android Auto, mnohé z nich nemajú podporu Asistenta Google pri navigácii na adresy kontaktov uložených v telefónnom zozname. Nav2Contacts prichádza na pomoc! Najprv vyberte navigačnú aplikáciu, ktorú chcete použiť, potom vyhľadajte kontakt, ku ktorému chcete ísť, a ihneď spustite navigáciu!“!</string>
     <string name="meeting_requirements">Táto aplikácia vyžaduje minimálne Android %d, prepáčte!</string>
     <string name="back_button_payment_close">PROSÍM nezabudnite stlačiť modré tlačidlo „Vrátiť sa k obchodníkovi“ po dokončení platby</string>
     <string name="help">Pomoc</string>
@@ -74,6 +74,19 @@
     <string name="license_done">Licencia prenesená</string>
     <string name="no_license_found">Na tomto zariadení nemáte aktívnu licenciu</string>
     <string name="unknown_sources_warning">Pred pokračovaním musíte povoliť inštaláciu z neznámych zdrojov. Ak ponecháte túto možnosť vypnutú, môže to spôsobiť problémy s AAAD. Stlačením OK prejdite teraz do nastavení, budete musieť povoliť možnosť inštalácie z Neznámeho zdroja.</string>
-    <string name="qr_code_permission">Pre naskenovanie QR kódu je potrebné udeliť oprávnenie pre prístup k fotoaparátu</string>
-    <string name="success_transfer">Licencia validovaná</string>
+    <string name="qr_code_permission">Pre skenovanie QR kódu je potrebné udeliť oprávnenie pre prístup k fotoaparátu</string>
+    <string name="success_transfer">Licencia platná</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Tento e-mail bude použitý v prípade potreby na účel kontroly Vášho nákupu</string>
+    <string name="input_email">patrik.fazekas83@gmail.com</string>
+    <string name="days_remaining">%d dní zostáva do ďalšieho sťahovania</string>
+    <string name="hours_remaining">%d hodín zostáva do ďalšieho sťahovania</string>
+    <string name="less_than_hour">Menej ako hodina zostáva do ďalšieho sťahovania</string>
+    <string name="download_available_now">Sťahovanie je teraz k dispozícii!</string>
+    <string name="app_installed_successfully">Aplikácia bola úspešne nainštalovaná!</string>
+    <string name="installation_failed">Inštalácia zlyhala</string>
+    <string name="installation_timeout_title">Stav inštalácie</string>
+    <string name="installation_timeout_message">Dokončila sa inštalácia aplikácie úspešne?</string>
+    <string name="installation_succeeded">Áno, bola nainštalovaná</string>
+    <string name="installation_failed_or_cancelled">Nie, zlyhala alebo bola zrušená</string>
+    <string name="download_not_counted">Sťahovanie sa nepočíta - môžete to skúsiť znovu</string>
 </resources>

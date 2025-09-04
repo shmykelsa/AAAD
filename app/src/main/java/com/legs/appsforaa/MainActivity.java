@@ -2,7 +2,9 @@ package com.legs.appsforaa;
 
 import android.Manifest;
 import android.app.Dialog;
+import android.app.PendingIntent;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,6 +12,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.StrictMode;
 import android.provider.Settings;
@@ -59,7 +62,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -88,21 +93,38 @@ public class MainActivity extends AppCompatActivity  {
     long currentTime;
     private long ts;
     private DatabaseReference mySecondRef;
+    private boolean unsupportedVersion;
+    private boolean pendingInstallation = false;
+    private String pendingPackageName = null;
+    private long installationStartTime = 0;
+    private static final long INSTALLATION_TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes timeout
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         getApplicationContext();
         final SharedPreferences sharedPreferences = getPreferences(MODE_PRIVATE);
+        
+        // Check for any pending installation from previous session
+        pendingInstallation = sharedPreferences.getBoolean("pending_installation", false);
+        pendingPackageName = sharedPreferences.getString("pending_package_name", null);
+        installationStartTime = sharedPreferences.getLong("installation_start_time", 0);
 
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Handle installation result
+        handleInstallationResult(getIntent());
+        
+        // Handle pro status refresh request
+        handleProStatusRefresh(getIntent());
+
         requestLatest();
 
         remainingDownloads = findViewById(R.id.remaining_downloads);
         verified = new Boolean[1];
+        verified[0] = false; // Initialize to false to prevent NullPointerException
 
         deviceId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
 
@@ -123,7 +145,7 @@ public class MainActivity extends AppCompatActivity  {
                 if (snapshot.exists()) {
                     //USER ALREADY OPENED AAAD
                     verified[0] = snapshot.getValue(Boolean.class);
-                    if (verified[0]) {
+                    if (verified[0] != null && verified[0]) {
                         //USER HAS PRO VERSION
                         remainingDownloads.setText(R.string.congratsPro);
                         pb.setVisibility(View.GONE);
@@ -154,8 +176,10 @@ public class MainActivity extends AppCompatActivity  {
                                                     e.printStackTrace();
                                                 }
 
-                                                long computeNext = currentTime - 2629743000L;
-                                                boolean latestTime = computeNext > lastTime[0];
+                                                // Calculate exact 30 days in milliseconds (30 * 24 * 60 * 60 * 1000)
+                                                long thirtyDaysInMillis = 30L * 24L * 60L * 60L * 1000L;
+                                                long nextAvailableTime = lastTime[0] + thirtyDaysInMillis;
+                                                boolean latestTime = currentTime > nextAvailableTime;
 
 
                                                 SpannableString mySpannableString;
@@ -217,52 +241,49 @@ public class MainActivity extends AppCompatActivity  {
                             }
                         });
 
-                        if (!verified[0]) {
-                            remainingDownloads.setOnClickListener(new View.OnClickListener() {
-                                @Override
-                                public void onClick(View v) {
-                                    final Intent intent = new Intent(MainActivity.this, AboutPaymentActivity.class);
-                                    if (!eligible) {
-                                        intent.putExtra("date", ts);
-                                    }
-                                    startActivity(intent);
+                        if (verified[0] == null || !verified[0]) {
+                            remainingDownloads.setOnClickListener(v -> {
+                                final Intent intent1 = new Intent(MainActivity.this, AboutPaymentActivity.class);
+                                if (!eligible) {
+                                    // Pass the next available download time instead of last download time
+                                    long thirtyDaysInMillis = 30L * 24L * 60L * 60L * 1000L;
+                                    long nextAvailableTime = ts + thirtyDaysInMillis;
+                                    intent1.putExtra("date", nextAvailableTime);
                                 }
+                                startActivity(intent1);
                             });
                         }
                     }
                 } else {
                     verified[0] = false; //SINCE IT'S A NEW USER IT HASN'T YET UPGRADED
-                    myRef.child(deviceId).setValue(Boolean.FALSE, new DatabaseReference.CompletionListener() {
-                        @Override
-                        public void onComplete(@Nullable DatabaseError databaseError, @NonNull DatabaseReference databaseReference) {
-                            //PUSH THE DEVICE ID TO THE DATABASE FOR PRO VERIFICATION
-                            if (databaseError != null) {
-                                Toast.makeText(MainActivity.this, getString(R.string.connection_error), Toast.LENGTH_LONG).show();
-                                remainingDownloads.setText(R.string.notConnected);
-                            } else {
-                                //VALUE PUSHED
-                                pb.setVisibility(View.GONE);
-                                connecting.setVisibility(View.GONE);
-                                eligible = true;
-                                if (iData != null) {
-                                    downloadS2A(iData.toString());
-                                }
-                                SpannableString mySpannableString = new SpannableString(getResources().getQuantityString(R.plurals.remaining_downloads, 1,1));
-                                mySpannableString.setSpan(new UnderlineSpan(), 0, mySpannableString.length(), 0);
-                                remainingDownloads.setText(mySpannableString);
-                                pb.setVisibility(View.GONE);
-                                connecting.setVisibility(View.GONE);
-                                remainingDownloads.setOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View v) {
-                                        final Intent intent = new Intent(MainActivity.this, AboutPaymentActivity.class);
-                                        if (!eligible) {
-                                            intent.putExtra("date", ts);
-                                        }
-                                        startActivity(intent);
-                                    }
-                                });
+                    myRef.child(deviceId).setValue(Boolean.FALSE, (databaseError, databaseReference) -> {
+                        //PUSH THE DEVICE ID TO THE DATABASE FOR PRO VERIFICATION
+                        if (databaseError != null) {
+                            Toast.makeText(MainActivity.this, getString(R.string.connection_error), Toast.LENGTH_LONG).show();
+                            remainingDownloads.setText(R.string.notConnected);
+                        } else {
+                            //VALUE PUSHED
+                            pb.setVisibility(View.GONE);
+                            connecting.setVisibility(View.GONE);
+                            eligible = true;
+                            if (iData != null) {
+                                downloadS2A(iData.toString());
                             }
+                            SpannableString mySpannableString = new SpannableString(getResources().getQuantityString(R.plurals.remaining_downloads, 1,1));
+                            mySpannableString.setSpan(new UnderlineSpan(), 0, mySpannableString.length(), 0);
+                            remainingDownloads.setText(mySpannableString);
+                            pb.setVisibility(View.GONE);
+                            connecting.setVisibility(View.GONE);
+                            remainingDownloads.setOnClickListener(v -> {
+                                final Intent intent12 = new Intent(MainActivity.this, AboutPaymentActivity.class);
+                                if (!eligible) {
+                                    // Pass the next available download time instead of last download time
+                                    long thirtyDaysInMillis = 30L * 24L * 60L * 60L * 1000L;
+                                    long nextAvailableTime = ts + thirtyDaysInMillis;
+                                    intent12.putExtra("date", nextAvailableTime);
+                                }
+                                startActivity(intent12);
+                            });
                         }
                     });
 
@@ -306,363 +327,300 @@ public class MainActivity extends AppCompatActivity  {
 
 
         Button carStreamButton = findViewById(R.id.download_carstream);
-        carStreamButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-                        downloadCarStream();
-                    }
+        carStreamButton.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
                 } else {
-                    shakeButton();
+                    downloadCarStream();
                 }
+            } else {
+                shakeButton();
             }
         });
         setLongClickListener(carStreamButton, R.string.carstream_description);
 
         Button fermataAutoButton = findViewById(R.id.download_fermata);
         setLongClickListener(fermataAutoButton, R.string.fermata_description);
-        fermataAutoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        fermataAutoButton.setOnClickListener(v -> {
 
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-
-                        String baseUrl = "https://api.github.com/repos/AndreyPavlenko/Fermata/releases/latest";
-
-                        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-                        final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-
-
-                        final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
-                                (Request.Method.GET, baseUrl, null, new Response.Listener<JSONObject>() {
-                                    @Override
-                                    public void onResponse(JSONObject response) {
-                                        try {
-
-                                            alertDialog.setMessage(getString(R.string.fermata_control_dialog, "Fermata Auto", response.getString("name"), "Fermata Control"));
-
-                                        } catch (JSONException e) {
-                                            e.printStackTrace();
-                                        } finally {
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    downloadFermata(true);
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(R.string.no), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    downloadFermata(false);
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-                                            alertDialog.show();
-                                        }
-
-                                    }
-                                }, new Response.ErrorListener() {
-
-
-                                    @Override
-                                    public void onErrorResponse(VolleyError error) {
-
-                                    }
-                                });
-
-
-                        queue.add(jsonObjectRequest);
-                    }
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
                 } else {
-                    shakeButton();
-                }
 
+                    String baseUrl = "https://api.github.com/repos/AndreyPavlenko/Fermata/releases/latest";
+
+                    RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+                    final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+
+
+                    final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
+                            (Request.Method.GET, baseUrl, null, response -> {
+                                try {
+
+                                    alertDialog.setMessage(getString(R.string.fermata_control_dialog, "Fermata Auto", response.getString("name"), "Fermata Control"));
+
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                } finally {
+
+                                    alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            downloadFermata(true);
+                                            alertDialog.dismiss();
+                                        }
+                                    });
+
+                                    alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(R.string.no), (dialog, which) -> {
+                                        downloadFermata(false);
+                                        alertDialog.dismiss();
+                                    });
+
+                                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            alertDialog.dismiss();
+                                        }
+                                    });
+                                    alertDialog.show();
+                                }
+
+                            }, error -> {
+
+                            });
+
+
+                    queue.add(jsonObjectRequest);
+                }
+            } else {
+                shakeButton();
             }
+
         });
 
         Button aamirrrorplusButton = findViewById(R.id.download_aamirror_plus);
         setLongClickListener(aamirrrorplusButton, R.string.aa_mirror_plus_description);
-        aamirrrorplusButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-                        downloadAAMirrorPlus();
-                    }
+        aamirrrorplusButton.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
+                } else {
+                    downloadAAMirrorPlus();
+                }
 
-                } else shakeButton();
-            }
+            } else shakeButton();
         });
 
         Button performanceMonitor = findViewById(R.id.download_performance_monitor);
         setLongClickListener(performanceMonitor, R.string.performance_monitor_description);
-        performanceMonitor.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        performanceMonitor.setOnClickListener(v -> {
 
-                if (eligible) {
+            if (eligible) {
 
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-
-
-                        String baseUrl = "https://api.github.com/repos/jilleb/mqb-pm/releases/latest";
-
-                        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-                        final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-
-
-                        final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
-                                (Request.Method.GET, baseUrl, null, new Response.Listener<JSONObject>() {
-                                    @Override
-                                    public void onResponse(JSONObject response) {
-                                        try {
-
-                                            alertDialog.setMessage(getString(R.string.fermata_control_dialog, "Performance Monitor", response.getString("tag_name"), "Extensions For Vag"));
-
-                                        } catch (JSONException e) {
-                                            e.printStackTrace();
-                                        } finally {
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    downloadPM(true);
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(R.string.no), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    downloadPM(false);
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-                                            alertDialog.show();
-                                        }
-
-                                    }
-                                }, new Response.ErrorListener() {
-
-
-                                    @Override
-                                    public void onErrorResponse(VolleyError error) {
-
-                                    }
-                                });
-
-
-                        queue.add(jsonObjectRequest);
-                    }
+                if (needsPermission()) {
+                    askForStoragePermission();
                 } else {
-                    shakeButton();
-                }
 
+
+                    String baseUrl = "https://api.github.com/repos/jilleb/mqb-pm/releases/latest";
+
+                    RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+                    final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+
+
+                    final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
+                            (Request.Method.GET, baseUrl, null, response -> {
+                                try {
+
+                                    alertDialog.setMessage(getString(R.string.fermata_control_dialog, "Performance Monitor", response.getString("tag_name"), "Extensions For Vag"));
+
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                } finally {
+
+                                    alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            downloadPM(true);
+                                            alertDialog.dismiss();
+                                        }
+                                    });
+
+                                    alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(R.string.no), new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            downloadPM(false);
+                                            alertDialog.dismiss();
+                                        }
+                                    });
+
+                                    alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            alertDialog.dismiss();
+                                        }
+                                    });
+                                    alertDialog.show();
+                                }
+
+                            }, new Response.ErrorListener() {
+
+
+                                @Override
+                                public void onErrorResponse(VolleyError error) {
+
+                                }
+                            });
+
+
+                    queue.add(jsonObjectRequest);
+                }
+            } else {
+                shakeButton();
             }
+
+        });
+
+        Button aaTorque = findViewById(R.id.download_aatorque);
+        setLongClickListener(aaTorque, R.string.aatorque_description);
+        aaTorque.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
+                } else {
+                    downloadAATorque();
+                }
+            } else shakeButton();
         });
 
         Button aaPassenger = findViewById(R.id.download_aa_passenger);
         setLongClickListener(aaPassenger, R.string.aapassenger_description);
-        aaPassenger.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-                        downloadAAP();
-                    }
-                } else shakeButton();
-            }
+        aaPassenger.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
+                } else {
+                    downloadAAP();
+                }
+            } else shakeButton();
         });
 
         Button s2a = findViewById(R.id.download_screentwoauto);
         setLongClickListener(s2a, R.string.s2a_description);
-        s2a.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-                        final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-                        alertDialog.setMessage(getString(R.string.s2a_redirect));
-
-                        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://inceptive.ru/blog/20/screen2auto-dublirovanie-ekrana-smartfona-v-android-auto-na-gu")));
-
-                            }
-                        });
-
-                        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(android.R.string.no), new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                alertDialog.dismiss();
-                            }
-                        });
-                        alertDialog.show();
-                    }
+        s2a.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
                 } else {
-                    shakeButton();
+                    // Download Screen2Auto 3.7 directly from Firebase Storage
+                    downloadS2A(null); // URL is now hardcoded in downloadS2A method
                 }
+            } else {
+                shakeButton();
             }
         });
 
         Button aamirrorButton = findViewById(R.id.download_aamirror);
         setLongClickListener(aamirrorButton, R.string.aamirror_description);
-        aamirrorButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-                        downloadAAMirror();
-                    }
+        aamirrorButton.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
                 } else {
-                    shakeButton();
+                    downloadAAMirror();
                 }
+            } else {
+                shakeButton();
             }
         });
 
         Button aawidgets = findViewById(R.id.download_aa_widgets);
         setLongClickListener(aawidgets, R.string.aawidgets_description);
-        aawidgets.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-                        downloadAAWidgets();
-                    }
-
+        aawidgets.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
                 } else {
-                    shakeButton();
+                    downloadAAWidgets();
                 }
+
+            } else {
+                shakeButton();
             }
         });
 
         Button aaStreamButton = findViewById(R.id.download_aa_stream);
         setLongClickListener(aaStreamButton, R.string.aa_stream_description);
-        aaStreamButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (eligible) {
-                    if (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED ) {
-                        askForStoragePermission();
-                    } else {
-                        downloadAAStream();
-                    }
-
+        aaStreamButton.setOnClickListener(v -> {
+            if (eligible) {
+                if (needsPermission()) {
+                    askForStoragePermission();
                 } else {
-                    shakeButton();
+                    downloadAAStream();
                 }
+
+            } else {
+                shakeButton();
             }
         });
 
         Button nav2contacts = findViewById(R.id.download_nav2contacts);
         setLongClickListener(nav2contacts, R.string.nav2contacts_description);
-        nav2contacts.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        nav2contacts.setOnClickListener(v -> {
 
-                if (eligible) {
+            if (eligible) {
 
 
-                    if (Build.VERSION.SDK_INT < 26) {
-                        notMeetingSDK(8);
-                    } else {
-                        String baseUrl = "https://api.github.com/repos/frankkienl/Nav2Contacts/releases/latest";
-
-                        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-                        final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-
-
-                        final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
-                                (Request.Method.GET, baseUrl, null, new Response.Listener<JSONObject>() {
-                                    @Override
-                                    public void onResponse(JSONObject response) {
-                                        try {
-
-                                            alertDialog.setMessage(getString(R.string.about_to_download, "Nav2Contacts " + response.getString("tag_name")));
-
-                                        } catch (JSONException e) {
-                                            e.printStackTrace();
-                                        } finally {
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    downloadN2C();
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-
-                                            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int which) {
-                                                    alertDialog.dismiss();
-                                                }
-                                            });
-                                            alertDialog.show();
-                                        }
-
-                                    }
-                                }, new Response.ErrorListener() {
-
-
-                                    @Override
-                                    public void onErrorResponse(VolleyError error) {
-
-                                    }
-                                });
-
-
-                        queue.add(jsonObjectRequest);
-                    }
+                if (Build.VERSION.SDK_INT < 26) {
+                    notMeetingSDK(8);
                 } else {
-                    shakeButton();
-                }
+                    String baseUrl = "https://api.github.com/repos/frankkienl/Nav2Contacts/releases/latest";
 
+                    RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+                    final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+
+
+                    final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
+                            (Request.Method.GET, baseUrl, null, new Response.Listener<JSONObject>() {
+                                @Override
+                                public void onResponse(JSONObject response) {
+                                    try {
+
+                                        alertDialog.setMessage(getString(R.string.about_to_download, "Nav2Contacts " + response.getString("tag_name")));
+
+                                    } catch (JSONException e) {
+                                        e.printStackTrace();
+                                    } finally {
+
+                                        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                downloadN2C();
+                                                alertDialog.dismiss();
+                                            }
+                                        });
+
+                                        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                alertDialog.dismiss();
+                                            }
+                                        });
+                                        alertDialog.show();
+                                    }
+
+                                }
+                            }, new Response.ErrorListener() {
+
+
+                                @Override
+                                public void onErrorResponse(VolleyError error) {
+
+                                }
+                            });
+
+
+                    queue.add(jsonObjectRequest);
+                }
+            } else {
+                shakeButton();
             }
+
         });
 
         //HEADERS
@@ -679,6 +637,8 @@ public class MainActivity extends AppCompatActivity  {
         RelativeLayout thirdHeader = findViewById(R.id.third_header);
         TextView thirdHeaderTextView = thirdHeader.findViewById(R.id.header_text);
         thirdHeaderTextView.setText(R.string.third_section_name);
+
+
 
 
         if (!SUPPORTED_ABIS.contains("arm64-v8a") && !SUPPORTED_ABIS.contains("armeabi-v7a") && sharedPreferences.getBoolean("ignored_abi", false)) {
@@ -753,17 +713,56 @@ public class MainActivity extends AppCompatActivity  {
                         .setBackgroundColor(R.color.centercolor).build();
 
                 builder2.show();
+            } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R && unsupportedVersion) {
+                final BottomDialog builder2 = new BottomDialog.Builder(MainActivity.this)
+                        .setTitle(R.string.attention)
+                        .setContent(getString(R.string.android_auto_update))
+                        .setPositiveBackgroundColor(R.color.colorPrimary)
+                        .setPositiveText(android.R.string.ok)
+                        .setNegativeText(R.string.ignore)
+                        .onPositive(new BottomDialog.ButtonCallback() {
+                            @Override
+                            public void onClick(@NonNull BottomDialog dialog) {
+                                startActivity(new Intent(android.provider.Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES));
+                            }
+                        })
+                        .onNegative(new BottomDialog.ButtonCallback() {
+                            @Override
+                            public void onClick(@NonNull BottomDialog dialog) {
+
+                            }
+                        })
+                        .setBackgroundColor(R.color.centercolor).build();
+
+                builder2.show();
+
             }
         }
 
 
     }
 
+    private boolean needsPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            return ContextCompat.checkSelfPermission(MainActivity.this,
+                    Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED;
+        } else if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
+            return ContextCompat.checkSelfPermission(MainActivity.this,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED;
+        }
+        return false;
+    }
+
     private void askForStoragePermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            ActivityCompat.requestPermissions(MainActivity.this,
+                    new String[]{Manifest.permission.POST_NOTIFICATIONS},
+                    101);
+        } else if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
             ActivityCompat.requestPermissions(MainActivity.this,
                     new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
                     101);
-
+        }
     }
 
     @Override
@@ -935,8 +934,7 @@ public class MainActivity extends AppCompatActivity  {
                                     @Override
                                     public void run() {
                                         GitHubDownloader downloader = new GitHubDownloader(MainActivity.this, file, downloadURLS.get(finalI));
-                                        downloader.run();
-                                        pDialog.dismiss();
+                                        downloader.startDownload();
                                     }
                                 },3000);
 
@@ -1125,11 +1123,7 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(android.R.string.no), new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
-                alertDialog.dismiss();
-            }
-        });
+        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(android.R.string.no), (dialog, which) -> alertDialog.dismiss());
         alertDialog.show();
 
 
@@ -1142,32 +1136,22 @@ public class MainActivity extends AppCompatActivity  {
         final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
         alertDialog.setMessage(getString(R.string.about_to_download, "AAStream 1.1.0.29"));
 
-        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
+        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), (dialog, which) -> {
 
-                alertDialog.dismiss();
-                final String url = BuildConfig.AASTREAM_LINK;
-                final File file= new File(getApplicationContext().getExternalFilesDir("AAAD") , "aastream" + ".apk");
-                pDialog = ProgressDialog.show(MainActivity.this, "",
-                        getString(R.string.loading), true);
-                pDialog.show();
-                new Handler().postDelayed(new Runnable() {
-
-                    @Override
-                    public void run() {
-                        Downloader downlaoder = new Downloader(MainActivity.this, file, url);
-                        downlaoder.run();
-                        pDialog.dismiss();
-                    }
-                }, 3000);
-            }
+            alertDialog.dismiss();
+            final String url = BuildConfig.AASTREAM_LINK;
+            final File file= new File(getApplicationContext().getExternalFilesDir("AAAD") , "aastream" + ".apk");
+            pDialog = ProgressDialog.show(MainActivity.this, "",
+                    getString(R.string.loading), true);
+            pDialog.show();
+            new Handler().postDelayed(() -> {
+                Downloader downlaoder = new Downloader(MainActivity.this, file, url);
+                downlaoder.run();
+                pDialog.dismiss();
+            }, 3000);
         });
 
-        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(android.R.string.no), new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
-                alertDialog.dismiss();
-            }
-        });
+        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(android.R.string.no), (dialog, which) -> alertDialog.dismiss());
         alertDialog.show();
 
 
@@ -1221,8 +1205,7 @@ public class MainActivity extends AppCompatActivity  {
                                     @Override
                                     public void run() {
                                         GitHubDownloader downlaoder = new GitHubDownloader(MainActivity.this, file, downloadURLS.get(finalI));
-                                        downlaoder.run();
-                                        pDialog.dismiss();
+                                        downlaoder.startDownload();
                                     }
                                 },3000);
 
@@ -1273,7 +1256,7 @@ public class MainActivity extends AppCompatActivity  {
                                         @Override
                                         public void run() {
                                             GitHubDownloader downlaoder = new GitHubDownloader(MainActivity.this, file, downloadURLS.get(finalI));
-                                            downlaoder.run();
+                                            downlaoder.startDownload();
                                         }
                                     }, 3000);
 
@@ -1336,8 +1319,7 @@ public class MainActivity extends AppCompatActivity  {
                                 @Override
                                 public void run() {
                                     GitHubDownloader downlaoder = new GitHubDownloader(MainActivity.this, file, downloadURL1[0]);
-                                    downlaoder.run();
-                                    pDialog.dismiss();
+                                    downlaoder.startDownload();
                                 }
                             }, 3000);
                         }
@@ -1402,19 +1384,20 @@ public class MainActivity extends AppCompatActivity  {
 
     public void downloadS2A (final String data) {
 
-
         if (eligible) {
 
             final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-            alertDialog.setMessage(getString(R.string.screen2auto_download));
+            alertDialog.setMessage(getString(R.string.about_to_download, "Screen2Auto 3.7"));
 
             alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int which) {
 
-
                     alertDialog.dismiss();
 
-                    final File file = new File(getApplicationContext().getExternalFilesDir("AAAD") , "s2a" + ".apk");
+                    final File file = new File(getApplicationContext().getExternalFilesDir("AAAD") , "s2a-3.7" + ".apk");
+
+                    // Use direct Firebase Storage link for Screen2Auto 3.7
+                    final String s2aUrl = "https://firebasestorage.googleapis.com/v0/b/appsforaa-1b443.appspot.com/o/s2a%2F3.7.apk?alt=media&token=658e85c3-22bc-44d3-be98-7a847c5b26e8";
 
                     pDialog = ProgressDialog.show(MainActivity.this, "",
                             getString(R.string.loading), true);
@@ -1423,7 +1406,7 @@ public class MainActivity extends AppCompatActivity  {
 
                         @Override
                         public void run() {
-                            Downloader downlaoder = new Downloader(MainActivity.this, file, data);
+                            Downloader downlaoder = new Downloader(MainActivity.this, file, s2aUrl);
                             downlaoder.setScreen2auto(true);
                             downlaoder.run();
                             pDialog.dismiss();
@@ -1445,38 +1428,153 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
+    private static void installAPKAlt(Context context) {
+        File directory = Environment.getExternalStoragePublicDirectory("myapp_folder");
+
+        File file = new File(directory, "myapp.apk"); // assume refers to "sdcard/myapp_folder/myapp.apk"
+
+
+        Uri fileUri = Uri.fromFile(file); //for Build.VERSION.SDK_INT <= 24
+
+        if (Build.VERSION.SDK_INT >= 24) {
+
+            fileUri = FileProvider.getUriForFile(context, BuildConfig.APPLICATION_ID + ".provider", file);
+        }
+        Intent intent = new Intent(Intent.ACTION_VIEW, fileUri);
+        intent.putExtra(Intent.EXTRA_NOT_UNKNOWN_SOURCE, true);
+        intent.setDataAndType(fileUri, "application/vnd.android.package-archive");
+        intent.setFlags( Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra(Intent.EXTRA_INSTALLER_PACKAGE_NAME, "com.android.vending");
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION); //dont forget add this line
+        context.startActivity(intent);
+    }
+
+
 
     void installAPK(File file) {
-
-        if (!verified[0]) {
-            registerDownload();
-        }
         dismissProgressDialog(pDialog);
+        
+        // Track installation for non-pro users, but don't count download yet
+        if (verified[0] == null || !verified[0]) {
+            pendingInstallation = true;
+            installationStartTime = System.currentTimeMillis();
+            // Try to extract package name from file for verification
+            try {
+                android.content.pm.PackageInfo packageInfo = getPackageManager().getPackageArchiveInfo(file.getAbsolutePath(), 0);
+                if (packageInfo != null) {
+                    pendingPackageName = packageInfo.packageName;
+                }
+            } catch (Exception e) {
+                // If we can't get package name, we'll rely on the installation callback
+                pendingPackageName = null;
+            }
+            // Save the pending installation state
+            savePendingInstallationState();
+        }
 
-            Intent intent;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            if (!getPackageManager().canRequestPackageInstalls()) {
+                Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
+                intent.setData(Uri.parse("package:" + getPackageName()));
+                startActivity(intent);
+                return;
+            }
+        }
 
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                intent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
-                intent.setData(getUri(file));
-                intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_ACTIVITY_NEW_TASK);
-            } else {
-                intent = new Intent(Intent.ACTION_VIEW);
-                intent.setDataAndTypeAndNormalize(Uri.fromFile(file), "application/vnd.android.package-archive");
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        // Use modern PackageInstaller API for Android 14+ (API 34)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            installAPKWithPackageInstaller(file);
+        } else {
+            // Fallback to Intent-based installation for older versions
+            installAPKWithIntent(file);
+        }
+    }
+
+    private void installAPKWithPackageInstaller(File file) {
+        try {
+            PackageManager packageManager = getPackageManager();
+            android.content.pm.PackageInstaller packageInstaller = packageManager.getPackageInstaller();
+
+            // Create session parameters
+            android.content.pm.PackageInstaller.SessionParams params = 
+                new android.content.pm.PackageInstaller.SessionParams(
+                    android.content.pm.PackageInstaller.SessionParams.MODE_FULL_INSTALL);
+            
+            // Set installer package name to Google Play Store
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                params.setInstallerPackageName("com.android.vending");
             }
 
+
+
+            // Create session
+            int sessionId = packageInstaller.createSession(params);
+            android.content.pm.PackageInstaller.Session session = packageInstaller.openSession(sessionId);
+
+            // Copy APK data to session
+            try (OutputStream out = session.openWrite("package", 0, -1);
+                 FileInputStream in = new FileInputStream(file)) {
+                
+                byte[] buffer = new byte[8192];
+                int bytesRead;
+                while ((bytesRead = in.read(buffer)) != -1) {
+                    out.write(buffer, 0, bytesRead);
+                }
+                session.fsync(out);
+            }
+
+            // Create pending intent for installation result
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.setAction("PACKAGE_INSTALLED_ACTION");
+            PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 
+                PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_MUTABLE);
+
+            // Commit session
+            session.commit(pendingIntent.getIntentSender());
+            session.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(this, "Installation failed: " + e.getMessage(), Toast.LENGTH_LONG).show();
+            // Fallback to Intent method
+            installAPKWithIntent(file);
+        }
+    }
+
+    private void installAPKWithIntent(File file) {
+        Intent intent;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            intent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
+            intent.setData(getUri(file));
+            intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.putExtra(Intent.EXTRA_NOT_UNKNOWN_SOURCE, true);
             intent.putExtra(Intent.EXTRA_INSTALLER_PACKAGE_NAME, "com.android.vending");
-            getApplicationContext().startActivity(intent);
+        } else {
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setDataAndType(Uri.fromFile(file), "application/vnd.android.package-archive");
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         }
+        
+        try {
+            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(this, "Unable to install APK", Toast.LENGTH_SHORT).show();
+        }
+    }
 
 
 
-    private void dismissProgressDialog(ProgressDialog pDialog) {
+    public void dismissProgressDialog(ProgressDialog pDialog) {
+        if (pDialog != null && pDialog.isShowing()) {
+            pDialog.dismiss();
+        }
+    }
 
-        pDialog.dismiss();
-
-
+    public void dismissCurrentProgressDialog() {
+        if (pDialog != null && pDialog.isShowing()) {
+            pDialog.dismiss();
+        }
     }
 
     public Uri getUri(File file) {
@@ -1488,6 +1586,13 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     public void registerDownload ()  {
+        // Add logging to track when downloads are counted
+        android.util.Log.w("DownloadCounter", "registerDownload() called from: " + android.util.Log.getStackTraceString(new Exception()));
+        
+        // Immediately set eligible to false to prevent multiple downloads
+        eligible = false;
+        remainingDownloads.setText(getResources().getQuantityString(R.plurals.remaining_downloads, 0, 0));
+        
         try {
             getTime();
         } catch (IOException e) {
@@ -1496,8 +1601,13 @@ public class MainActivity extends AppCompatActivity  {
             mySecondRef.child(deviceId).setValue(currentTime, new DatabaseReference.CompletionListener() {
                 @Override
                 public void onComplete(@Nullable DatabaseError databaseError, @NonNull DatabaseReference databaseReference) {
-                    eligible = false;
-                    remainingDownloads.setText(getResources().getQuantityString(R.plurals.remaining_downloads, 0, 0));
+                    if (databaseError != null) {
+                        // If Firebase write failed, we might want to revert eligible status
+                        // but for security, we'll keep it false to prevent abuse
+                        android.util.Log.e("RegisterDownload", "Failed to register download", databaseError.toException());
+                    }
+                    // Keep eligible = false regardless of database result for security
+                    android.util.Log.i("DownloadCounter", "Download registered successfully, eligible = false");
                 }
             });
             mySecondRef.push();
@@ -1539,6 +1649,192 @@ public class MainActivity extends AppCompatActivity  {
         return super.onPrepareOptionsMenu(menu);
     }
 
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        handleInstallationResult(intent);
+        handleProStatusRefresh(intent);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        // Check if there was a pending installation that completed while the app was in background
+        if (pendingInstallation) {
+            // Check for timeout (installation taking too long, likely failed or cancelled)
+            if (System.currentTimeMillis() - installationStartTime > INSTALLATION_TIMEOUT_MS) {
+                showInstallationTimeoutDialog();
+            } else if (pendingPackageName != null) {
+                checkAndRegisterInstallation();
+            }
+        }
+        
+        // Also periodically check pro status in case it was updated elsewhere
+        // but only if user is not already verified as pro
+        if (verified[0] == null || !verified[0]) {
+            checkProStatusQuietly();
+        }
+    }
+
+    private void checkAndRegisterInstallation() {
+        if (pendingPackageName != null) {
+            android.util.Log.i("DownloadCounter", "Checking installation for package: " + pendingPackageName);
+            try {
+                // Check if the package is now installed
+                getPackageManager().getPackageInfo(pendingPackageName, 0);
+                // If we get here, the package is installed successfully
+                android.util.Log.i("DownloadCounter", "Package found installed: " + pendingPackageName);
+                if (pendingInstallation) {
+                    // Additional safety check: only register if installation check happens soon after initiation
+                    long timeSinceInstallationStarted = System.currentTimeMillis() - installationStartTime;
+                    if (timeSinceInstallationStarted < 60000) { // Within 1 minute
+                        android.util.Log.i("DownloadCounter", "pendingInstallation=true, installation detected within 1 minute, registering download");
+                        // Register download for non-pro users (this handles Intent-based installations)
+                        if (verified[0] == null || !verified[0]) {
+                            registerDownload();
+                        }
+                        clearPendingInstallation();
+                        Toast.makeText(this, getString(R.string.app_installed_successfully), Toast.LENGTH_SHORT).show();
+                    } else {
+                        android.util.Log.w("DownloadCounter", "Package found but too much time passed (" + timeSinceInstallationStarted + "ms), not registering download");
+                        clearPendingInstallation();
+                    }
+                } else {
+                    android.util.Log.i("DownloadCounter", "pendingInstallation=false, not registering download");
+                }
+            } catch (android.content.pm.PackageManager.NameNotFoundException e) {
+                // Package not installed yet, keep waiting
+                android.util.Log.i("DownloadCounter", "Package not found: " + pendingPackageName);
+            }
+        } else {
+            android.util.Log.i("DownloadCounter", "checkAndRegisterInstallation called but pendingPackageName is null");
+        }
+    }
+
+    private void showInstallationTimeoutDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(getString(R.string.installation_timeout_title));
+        builder.setMessage("Installation verification timed out. We couldn't confirm if the app was installed successfully.");
+        builder.setPositiveButton(getString(android.R.string.ok), (dialog, which) -> {
+            // Just clear the pending state - download was already counted when installation started
+            clearPendingInstallation();
+        });
+        builder.setCancelable(false);
+        builder.show();
+    }
+
+    private void clearPendingInstallation() {
+        pendingInstallation = false;
+        pendingPackageName = null;
+        installationStartTime = 0;
+        
+        // Clear from preferences
+        SharedPreferences prefs = getPreferences(MODE_PRIVATE);
+        prefs.edit()
+            .remove("pending_installation")
+            .remove("pending_package_name")
+            .remove("installation_start_time")
+            .apply();
+    }
+
+    private void savePendingInstallationState() {
+        SharedPreferences prefs = getPreferences(MODE_PRIVATE);
+        prefs.edit()
+            .putBoolean("pending_installation", pendingInstallation)
+            .putString("pending_package_name", pendingPackageName)
+            .putLong("installation_start_time", installationStartTime)
+            .apply();
+    }
+
+    private void handleProStatusRefresh(Intent intent) {
+        if (intent != null && intent.getBooleanExtra("refresh_pro_status", false)) {
+            // Force refresh the pro status from Firebase
+            refreshProStatusFromFirebase();
+        }
+    }
+
+    private void refreshProStatusFromFirebase() {
+        FirebaseDatabase database = FirebaseDatabase.getInstance(BuildConfig.FIREBASE_INSTANCE);
+        DatabaseReference userRef = database.getReference("users").child(deviceId);
+        
+        userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if (snapshot.exists()) {
+                    Boolean proStatus = snapshot.getValue(Boolean.class);
+                    if (proStatus != null && proStatus) {
+                        // User is now pro - update UI immediately
+                        verified[0] = true;
+                        updateUIForProUser();
+                        Toast.makeText(MainActivity.this, getString(R.string.congratsPro), Toast.LENGTH_LONG).show();
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                // Silent fail - user can manually refresh or restart app
+            }
+        });
+    }
+
+    private void updateUIForProUser() {
+        remainingDownloads.setText(R.string.congratsPro);
+        eligible = true;
+        
+        // Remove the click listener that opens payment activity
+        remainingDownloads.setOnClickListener(null);
+        
+        // Clear any pending installation state since user is now pro
+        clearPendingInstallation();
+    }
+
+    private void checkProStatusQuietly() {
+        FirebaseDatabase database = FirebaseDatabase.getInstance(BuildConfig.FIREBASE_INSTANCE);
+        DatabaseReference userRef = database.getReference("users").child(deviceId);
+        
+        userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if (snapshot.exists()) {
+                    Boolean proStatus = snapshot.getValue(Boolean.class);
+                    if (proStatus != null && proStatus) {
+                        // User is now pro - update UI immediately (no toast, it's quiet)
+                        verified[0] = true;
+                        updateUIForProUser();
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                // Silent fail
+            }
+        });
+    }
+
+    private void handleInstallationResult(Intent intent) {
+        if (intent != null && "PACKAGE_INSTALLED_ACTION".equals(intent.getAction())) {
+            // Check if installation was successful by looking at the result
+            int resultCode = intent.getIntExtra("android.content.pm.extra.STATUS", -1);
+            if (resultCode == 0) { // PackageInstaller.STATUS_SUCCESS
+                // Installation successful - now register the download
+                if ((verified[0] == null || !verified[0]) && pendingInstallation) {
+                    registerDownload();
+                    clearPendingInstallation();
+                }
+                Toast.makeText(this, getString(R.string.app_installed_successfully), Toast.LENGTH_SHORT).show();
+            } else {
+                // Installation failed or was cancelled - don't register download
+                clearPendingInstallation();
+                String errorMessage = intent.getStringExtra("android.content.pm.extra.STATUS_MESSAGE");
+                Toast.makeText(this, getString(R.string.installation_failed) + ": " + 
+                    (errorMessage != null ? errorMessage : "Unknown error"), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, getString(R.string.download_not_counted), Toast.LENGTH_LONG).show();
+            }
+        }
+    }
 
     @Override
     public void onBackPressed() {
@@ -1612,12 +1908,7 @@ public class MainActivity extends AppCompatActivity  {
                         }
 
                     }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        newVersionName = null;
-                    }
-                });
+                }, error -> newVersionName = null);
         queue.add(jsonObjectRequest);
 
     }
@@ -1637,6 +1928,65 @@ public class MainActivity extends AppCompatActivity  {
         alertDialog.show();
 
 
+    }
+
+    public void downloadAATorque() {
+        String apiUrl = "https://api.github.com/repos/agronick/aa-torque/releases/latest";
+        
+        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+        
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+            Request.Method.GET, apiUrl, null,
+            response -> {
+                try {
+                    String tagName = response.getString("tag_name");
+                    JSONArray assets = response.getJSONArray("assets");
+                    
+                    String downloadUrl = null;
+                    for (int i = 0; i < assets.length(); i++) {
+                        JSONObject asset = assets.getJSONObject(i);
+                        String assetName = asset.getString("name");
+                        if (assetName.endsWith(".apk")) {
+                            downloadUrl = asset.getString("browser_download_url");
+                            break;
+                        }
+                    }
+                    
+                    if (downloadUrl != null) {
+                        final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+                        alertDialog.setMessage(getString(R.string.fermata_control_dialog, "AATorque", tagName, "agronick"));
+                        
+                        final String finalDownloadUrl = downloadUrl;
+                        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(android.R.string.ok), (dialog, which) -> {
+                            pDialog = ProgressDialog.show(MainActivity.this, "", getString(R.string.loading), true);
+                            
+                            final File file = new File(getApplicationContext().getExternalFilesDir("AAAD"), "aatorque.apk");
+                            GitHubDownloader downloader = new GitHubDownloader(MainActivity.this, file, finalDownloadUrl);
+                            downloader.startDownload();
+                            
+                            alertDialog.dismiss();
+                        });
+                        
+                        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(android.R.string.cancel), (dialog, which) -> {
+                            alertDialog.dismiss();
+                        });
+                        
+                        alertDialog.show();
+                    } else {
+                        Toast.makeText(this, "APK not found in latest release", Toast.LENGTH_SHORT).show();
+                    }
+                    
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                    Toast.makeText(this, "Error parsing release data", Toast.LENGTH_SHORT).show();
+                }
+            },
+            error -> {
+                Toast.makeText(this, "Error fetching release data", Toast.LENGTH_SHORT).show();
+            }
+        );
+        
+        queue.add(jsonObjectRequest);
     }
 
 }

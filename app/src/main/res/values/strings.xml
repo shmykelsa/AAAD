@@ -13,7 +13,7 @@
     <string name="fermata_control_dialog">You are about to download %1$s %2$s. Do you also want to install %3$s?</string>
     <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
     <string name="no">no</string>
-    <string name="warning_payment">At the end of the payment please manually press \"Return to merchant\" for the transaction to be validated.</string>
+    <string name="warning_payment">Payment processing is securely handled by Stripe Inc. AAAD does not collect or store your payment information. At the end of the payment, please manually press \"Return to merchant\" for the transaction to be validated.</string>
     <string name="attention">ATTENTION</string>
     <string name="next_download_available">Next download will be available on: %1$s</string>
     <string name="connect_error">CONNECTION ERROR</string>
@@ -42,6 +42,7 @@
     <string name="press_back_warning">Please press BACK again to exit</string>
     <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
     <string name="performance_monitor_description">This is a performance monitor, based on Martoreto\'s aa-stats. It\'s made specifically for use with the Volkswagen/Skoda/Seat/Audi MIB2 infotainment units, but it might also work on others, as long as they have Android Auto support. Needs also VAG extension to work on Volkswagen Cars.</string>
+    <string name="aatorque_description">AATorque brings the OBD-II vehicle diagnostics app Torque Pro to Android Auto. Monitor your car\'s performance, view diagnostic data, and access real-time vehicle information directly from your car\'s display.</string>
     <string name="promotion">You are eligible for a 15% off</string>
     <string name="first_section_name">Multimedia apps</string>
     <string name="second_section_name">Mirroring apps</string>
@@ -56,6 +57,7 @@
     <string name="privacy">Privacy Policy</string>
     <string name="loading">Loading...</string>
     <string name="go_pro">GO PRO</string>
+    <string name="purchase_pro">Purchase Pro</string>
     <string name="i_m_good">I\'m good</string>
     <string name="nav2contacts_description">With the new navigation apps coming into Android Auto, many of them lack of Google Assistant\'s support to navigate to addresses of contacts saved in the phone book. Nav2Contacts come to rescue! First, select the navigation app you want to use, then search the contact you want to navigate to and start the navigation right away!</string>
     <string name="meeting_requirements">This app requires at least Android %d, sorry!</string>
@@ -78,4 +80,20 @@
     <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>
     <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
     <string name="success_transfer">License validated</string>
+    <string name="android_auto_update">You are running Android 11 or superior. In this case, all the apps included inside AAAD will not work on Android Auto 6.4 or superior. For the time being, you can follow the instructions on how to rollback Android Auto manually to a working version that will make AAAD apps functional. If you don\'t want to downgrade, you might want to refrain from installing AAAD apps.</string>
+    <string name="email_dialog">The e-mail will be used in order to verify your purchase, if needed</string>
+    <string name="input_email">Please enter your e-mail...</string>
+    <string name="days_remaining">%d days remaining until next download</string>
+    <string name="hours_remaining">%d hours remaining until next download</string>
+    <string name="less_than_hour">Less than 1 hour remaining until next download</string>
+    <string name="download_available_now">Download available now!</string>
+    <string name="app_installed_successfully">App installed successfully!</string>
+    <string name="installation_failed">Installation failed</string>
+    <string name="installation_timeout_title">Installation Status</string>
+    <string name="installation_timeout_message">Did the app installation complete successfully?</string>
+    <string name="installation_succeeded">Yes, it installed</string>
+    <string name="installation_failed_or_cancelled">No, it failed or was cancelled</string>
+    <string name="download_not_counted">Download not counted - you can try again</string>
+    <string name="installation_timeout_message_secure">Installation verification timed out. Your download has been counted towards your monthly limit for security reasons.</string>
+    <string name="download_was_counted">Download was counted towards your monthly limit</string>
 </resources>

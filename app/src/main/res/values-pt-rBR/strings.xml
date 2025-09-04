@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Bem-vindo ao Android Auto Apps Downloader (AAAD). Este utilitário ajudará a instalar aplicativos personalizados no Android Auto para telefones sem acesso root. Selecione o aplicativo que deseja instalar e espere o instalador aparecer. Toque sobre um aplicativo e segure para ver as descrições detalhadas.</string>
-    <string name="title_activity_about_payment">Versão PRO</string>
-    <string name="switch_to_pro_statement">A versão gratuita do AAAD permite que você faça apenas um download gratuito por mês. Se você quiser desfrutar de downloads gratuitos ilimitados, pode alternar para a versão PRO e poderá desfrutar de todas as funcionalidades e atualizações de aplicativos!</string>
-    <string name="congratsPro">Parabéns, você tem a versão PRO!</string>
-    <string name="notConnected">Não conectado: não foi possível recuperar o status PRO</string>
+    <string name="welcome_string">Bem-vindo ao gerenciador de Apps Automáticos (AAAD). Este utilitário ajudará a instalar apps personalizados no Android Auto para telefones não rooteados. Selecione o aplicativo que você deseja instalar e espere que o instalador apareça. As descrições do aplicativo estão disponíveis no toque prolongado.</string>
+    <string name="title_activity_about_payment">Versão profissional</string>
+    <string name="switch_to_pro_statement">A versão gratuita do AAAD permite que você tenha uma transferência gratuita a cada mês. Se você quiser desfrutar de transferências gratuitas ilimitadas, você pode alternar para a versão profissional e irá desfrutar de todas as funcionalidades e atualizações do aplicativo!</string>
+    <string name="congratsPro">Parabéns, você tem versão profissional!</string>
+    <string name="notConnected">Não conectado: não foi possível recuperar a licença profissional</string>
     <string name="About">Sobre</string>
     <string name="have_promo_code">Eu tenho um código promocional</string>
     <string name="promo_code">Insira o código promocional</string>
     <string name="input_promo_code_here">Insira o código promocional aqui</string>
     <string name="fermata_control_dialog">Você está prestes a baixar %1$s %2$s. Você também deseja instalar %3$s?</string>
-    <string name="about_to_download">Você está prestes a baixar %1$s. Você deseja continuar?</string>
+    <string name="about_to_download">Você está prestes a baixar %1$s. Deseja continuar?</string>
     <string name="no">não</string>
-    <string name="warning_payment">Ao final do pagamento, pressione manualmente \"Retornar ao comerciante\" para que a transação seja validada.</string>
+    <string name="warning_payment">O processamento de pagamentos é tratado com segurança pela Stripe Inc. O AAAD não coleta nem armazena suas informações de pagamento. Ao final do pagamento, pressione manualmente \"Retornar ao comerciante\" para que a transação seja validada.</string>
     <string name="attention">ATENÇÃO</string>
-    <string name="next_download_available">O próximo download estará disponível em: %1$s</string>
+    <string name="next_download_available">A próxima transferência estará disponível em: %1$s</string>
     <string name="connect_error">ERRO DE CONEXÃO</string>
     <plurals name="remaining_downloads">
-        <item quantity="one">Você tem 1 download disponível</item>
+        <item quantity="one">Você tem 1 transferência disponível</item>
         <item quantity="other">Não há mais download restante</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Downloader de aplicativos Android Auto) é desenvolvido e mantido por Shmykelsa. <br><br>Os aplicativos disponíveis são possibilitados pelos seguintes desenvolvedores:<br>]]>"</string>
-    <string name="pro_unlocked">Parabéns, versão PRO desbloqueada</string>
+    <string name="pro_unlocked">Parabéns, versão profissional desbloqueada</string>
     <string name="cancelled_payment">Compra cancelada</string>
-    <string name="please_enter_code">Por favor insira um código</string>
+    <string name="please_enter_code">Key: please_enter_code
+please_enter_code</string>
     <string name="connection_error">Erro de conexão, não foi possível verificar</string>
     <string name="not_valid_code">Não é um código válido</string>
     <string name="select_which">Qual deles?</string>
-    <string name="downloading_progress">Baixando…</string>
+    <string name="downloading_progress">Downloading…</string>
     <string name="aa_mirror_plus_description">Alternativa ao AAMirror com mais algumas funcionalidades.</string>
     <string name="aapassenger_description">Este aplicativo foi feito para permitir que os passageiros gerenciem algumas funcionalidades do Android Auto. Requer que o passageiro baixe o AAPassenger. O estado de trabalho é atualmente desconhecido.</string>
     <string name="s2a_description">O aplicativo de espelhamento mais completo para Android Auto. Inclui muitos recursos como um iniciador personalizável, tela dividida, tamanhos de tela personalizados e muito mais!</string>
@@ -39,7 +40,8 @@
     <string name="screen2auto_download">Você vai instalar o Screen2Auto. Você quer continuar?</string>
     <string name="press_back_warning">Por favor, pressione VOLTAR novamente para sair</string>
     <string name="aawidgets_description">Criado com uma única tarefa. Trazer um widget para o Android Auto!</string>
-    <string name="performance_monitor_description">Este é um monitor de desempenho, baseado nas estatísticas aa de Martoreto. É feito especificamente para uso com unidades de infoentretenimento Volkswagen/Skoda/Seat/Audi MIB2, mas também pode funcionar em outras, desde que tenham suporte para Android Auto. Necessita também de extensão VAG para funcionar em Carros Volkswagen.</string>
+    <string name="performance_monitor_description">Este é um monitor de desempenho, baseado nas estatísticas-aa de Martoreto. É feito especificamente para uso com unidades de infoentretenimento Volkswagen/Skoda/Seat/Audi MIB2, mas também pode funcionar em outras, desde que tenham suporte para Android Auto. Necessita também de extensão VAG para funcionar em Carros Volkswagen.</string>
+    <string name="aatorque_description">AATorque traz o aplicativo de diagnóstico veicular OBD-II Torque Pro para o Android Auto. Monitore o desempenho do seu veículo, visualize dados de diagnóstico e acesse informações do veículo em tempo real diretamente da tela do seu carro.</string>
     <string name="promotion">Você tem direito a 15% de desconto</string>
     <string name="first_section_name">Aplicativos multimídia</string>
     <string name="second_section_name">Aplicativos de espelhamento</string>
@@ -53,9 +55,9 @@
     <string name="privacy">Política de Privacidade</string>
     <string name="loading">Carregando...</string>
     <string name="go_pro">SEJA PRO</string>
-    <string name="i_m_good">Hi</string>
+    <string name="i_m_good">Estou pronto</string>
     <string name="nav2contacts_description">Com os novos aplicativos de navegação entrando no Android Auto, muitos deles não têm suporte do Assistente do Google para navegar por endereços de contatos salvos na agenda telefônica. Nav2contacts vem para resgatar! Primeiro, selecione o aplicativo de navegação que você deseja usar, depois procure o contato para o qual você deseja navegar e inicie a navegação imediatamente!</string>
-    <string name="meeting_requirements">Este aplicativo requer pelo menos Android %d. Desculpe!</string>
+    <string name="meeting_requirements">Este aplicativo requer no mínimo Android %d, desculpe!</string>
     <string name="back_button_payment_close">POR FAVOR lembre-se de pressionar o botão azul \"Voltar ao site do comerciante\" após a conclusão do pagamento</string>
     <string name="help">Ajuda</string>
     <string name="help_dialog">Você quer enviar um e-mail para obter ajuda agora?</string>
@@ -73,5 +75,19 @@
     <string name="no_license_found">Você não tem uma licença ativa neste dispositivo</string>
     <string name="unknown_sources_warning">Antes de prosseguir, você tem que habilitar a instalação de fontes desconhecidas. Deixar esta opção desligar pode causar problemas para o AAAD. Pressione OK para ir para as configurações agora, você terá que ativar a opção de Fontes Desconhecidas.</string>
     <string name="qr_code_permission">A permissão da câmera é necessária para ler um código QR</string>
-    <string name="success_transfer">Licença validada</string>
+    <string name="success_transfer">Licença válida após</string>
+    <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
+    <string name="input_email">Porfavor informe seu e-mail...
+soareslogistics@gmail.com</string>
+    <string name="days_remaining">%d dias restantes até o próximo download</string>
+    <string name="hours_remaining">%d horas restantes até o próximo download</string>
+    <string name="less_than_hour">Menos de 1 hora restante até o próximo download</string>
+    <string name="download_available_now">Download disponível agora!</string>
+    <string name="app_installed_successfully">App instalado com sucesso!</string>
+    <string name="installation_failed">Falha na instalação</string>
+    <string name="installation_timeout_title">Status da Instalação</string>
+    <string name="installation_timeout_message">A instalação do app foi concluída com sucesso?</string>
+    <string name="installation_succeeded">Sim, foi instalado</string>
+    <string name="installation_failed_or_cancelled">Não, falhou ou foi cancelado</string>
+    <string name="download_not_counted">Download não contabilizado - você pode tentar novamente</string>
 </resources>

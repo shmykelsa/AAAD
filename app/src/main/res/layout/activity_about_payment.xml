@@ -18,6 +18,19 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
+        android:id="@+id/upper_textview"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/app_icon"
+        app:layout_constraintBottom_toTopOf="@id/central_textview"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/title_activity_about_payment"
+        android:paddingTop="15dp"/>
+
+    <TextView
         android:id="@+id/central_textview"
         android:gravity="center"
         android:layout_width="match_parent"
@@ -25,7 +38,7 @@
         android:paddingHorizontal="24dp"
         app:layout_constraintTop_toBottomOf="@+id/app_icon"
         app:layout_constraintBottom_toTopOf="@id/next_time_download"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:text="@string/switch_to_pro_statement"
         android:paddingTop="15dp"/>
 
@@ -38,7 +51,8 @@
         app:layout_constraintTop_toBottomOf="@+id/central_textview"
         app:layout_constraintBottom_toTopOf="@id/bottom_layout"
         android:layout_marginBottom="40dp"
-        android:textSize="20sp"
+        android:text=""
+        android:textSize="16sp"
         android:textStyle="bold"
         android:paddingTop="8dp"/>
 
@@ -55,6 +69,7 @@
         android:id="@+id/noproblem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         android:text="@string/i_m_good"
         style="@style/ButtonStyle" />
 
@@ -64,6 +79,7 @@
             android:layout_height="wrap_content"
             android:text="@string/go_pro"
             android:onClick="checkout"
+            android:visibility="visible"
             style="@style/ButtonStyle"
             android:layout_marginTop="18dp"
             />

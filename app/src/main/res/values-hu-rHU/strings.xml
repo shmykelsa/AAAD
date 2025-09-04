@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
-    <string name="title_activity_about_payment">PRO verzió</string>
-    <string name="switch_to_pro_statement">Az AAAD ingyenes verziója lehetővé teszi, hogy havonta egy ingyenes letöltést kapjon. Ha korlátlan ingyenes letöltéseket szeretnél élvezni, válthat a PRO verzióra, és élvezheti a teljes funkcionalitást és az alkalmazásfrissítéseket!</string>
+    <string name="welcome_string">Üdvözöljük az Android Auto Apps Downloader (AAAD). Ez a segédprogram segít az egyedi alkalmazások telepítésében az Android Auto alkalmazásban a nem root telefonokhoz. Válassza ki a telepíteni kívánt alkalmazást, és várja meg a telepítő megjelenését. Az alkalmazások leírása hosszú nyomás alatt elérhető.</string>
+    <string name="title_activity_about_payment">Pro verzió</string>
+    <string name="switch_to_pro_statement">Az AAAD ingyenes verziója lehetővé teszi, hogy havonta egy ingyenes letöltést kapjon. Ha korlátlan ingyenes letöltéseket szeretne élvezni, válthat a PRO verzióra, és élvezheti a teljes funkcionalitást és az alkalmazásfrissítéseket!</string>
     <string name="congratsPro">Gratulálunk, most a PRO verziót használja!</string>
     <string name="notConnected">Nincs csatlakoztatva: nem sikerült lekérni a PRO állapotot</string>
     <string name="About">Névjegy</string>
@@ -17,7 +17,7 @@
     <string name="next_download_available">A következő letöltés a következő helyen lesz elérhető: %1$s</string>
     <string name="connect_error">KAPCSOLÓDÁSI HIBA</string>
     <plurals name="remaining_downloads">
-        <item quantity="one">1 letöltés van hátra</item>
+        <item quantity="one">Nincs több letöltés</item>
         <item quantity="other">Nincs több letöltés</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) Shmykelsa fejlesztő és karbantartó. <br><br>Az elérhető alkalmazásokat a következő fejlesztők teszik lehetővé:<br>]]>"</string>
@@ -27,7 +27,7 @@
     <string name="connection_error">Csatlakozási hiba, nem sikerült ellenőrizni</string>
     <string name="not_valid_code">Érvénytelen kód</string>
     <string name="select_which">Melyik?</string>
-    <string name="downloading_progress">Letöltés…</string>
+    <string name="downloading_progress">Letöltés: </string>
     <string name="aa_mirror_plus_description">Az AAMirror alternatívája néhány további funkcióval.</string>
     <string name="aapassenger_description">Ez az alkalmazás azért készült, hogy az utasok kezelhessék az Android Auto egyes funkcióit. Megköveteli, hogy az utas töltse le az AAPassenger programot. A működési állapot jelenleg ismeretlen.</string>
     <string name="s2a_description">A legteljesebb és legátfogobb tükröző alkalmazás az Android Auto számára. Számos olyan funkciót tartalmaz, mint egy testreszabható indító, osztott képernyő, egyedi képernyőméretek és még sok más!</string>
@@ -74,4 +74,17 @@
     <string name="unknown_sources_warning">A folytatás előtt engedélyeznie kell a telepítést ismeretlen forrásokból. Ha ezt az opciót kikapcsolja, problémákat okozhat az AAAD számára. Nyomja meg az OK gombot, hogy most a beállításokhoz lépjen, aktiválnia kell az Ismeretlen források opciót.</string>
     <string name="qr_code_permission">A QR-kód beolvasásához a kamera engedélye szükséges</string>
     <string name="success_transfer">Engedély érvényesítve</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Párbeszéd ablak</string>
+    <string name="input_email">Kérjük, adja meg e-mail címét...</string>
+    <string name="days_remaining">%d nap van hátra a következő letöltésig</string>
+    <string name="hours_remaining">%d óra van hátra a következő letöltésig</string>
+    <string name="less_than_hour">Kevesebb mint 1 óra van hátra a következő letöltésig</string>
+    <string name="download_available_now">Letöltés most elérhető!</string>
+    <string name="app_installed_successfully">Alkalmazás sikeresen telepítve!</string>
+    <string name="installation_failed">Telepítés sikertelen</string>
+    <string name="installation_timeout_title">Telepítési állapot</string>
+    <string name="installation_timeout_message">Az alkalmazás telepítése sikeresen befejeződött?</string>
+    <string name="installation_succeeded">Igen, telepítve lett</string>
+    <string name="installation_failed_or_cancelled">Nem, sikertelen volt vagy megszakítva</string>
+    <string name="download_not_counted">Letöltés nem számít - újra próbálkozhat</string>
 </resources>

@@ -108,6 +108,15 @@
                 android:text="Performance Monitor" />
 
             <Button
+                android:id="@+id/download_aatorque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                style="@style/ButtonStyle"
+                android:focusable="true"
+                android:text="AATorque" />
+
+            <Button
                 android:id="@+id/download_aa_passenger"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

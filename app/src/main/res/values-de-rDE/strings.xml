@@ -2,18 +2,18 @@
 <resources>
     <string name="welcome_string">Willkommen bei Android Auto Apps Downloader (AAAD). Dieses Programm hilft bei der Installation von benutzerdefinierten Apps in Android Auto auf nicht-gerooteten Telefonen.
 Wähle die App aus welche du installieren möchtest und warte bis die Installer-Meldung erscheint. App-Beschreibungen über langes Drücken verfügbar.</string>
-    <string name="title_activity_about_payment">PRO-Version</string>
+    <string name="title_activity_about_payment">Pro Version</string>
     <string name="switch_to_pro_statement">Mit der kostenlosen Version von AAAD können Sie jeden Monat eine App kostenlos herunterladen und installieren. Wenn Sie unbegrenzte kostenlose Downloads genießen möchten, können Sie zur PRO-Version wechseln und alle Funktionen und App-Updates genießen!</string>
-    <string name="congratsPro">Gratuliere, Sie besitzen die PRO Version!</string>
-    <string name="notConnected">Nicht verbunden: PRO-Status konnte nicht abgerufen werden</string>
+    <string name="congratsPro">Gratuliere, Sie besitzen die Pro-Version!</string>
+    <string name="notConnected">Nicht verbunden: Pro-Status konnte nicht abgerufen werden</string>
     <string name="About">Infos</string>
     <string name="have_promo_code">Ich habe einen Gutschein-Code</string>
     <string name="promo_code">Gutscheincode eingeben</string>
     <string name="input_promo_code_here">Gutschein-Code hier eingeben</string>
     <string name="fermata_control_dialog">Sie sind dabei %1$s %2$s herunterzuladen. Möchten Sie auch %3$s installieren?</string>
     <string name="about_to_download">Sie sind dabei %1$s herunterzuladen. Möchten Sie fortfahren?</string>
-    <string name="no">nein</string>
-    <string name="warning_payment">Bitte am Ende der Zahlung manuell auf \"Zurück zum Händler\" klicken, um die Transaktion abzuschließen.</string>
+    <string name="no">Nein</string>
+    <string name="warning_payment">Die Zahlungsabwicklung wird sicher von Stripe Inc. übernommen. AAAD sammelt oder speichert keine Zahlungsinformationen. Bitte am Ende der Zahlung manuell auf \"Zurück zum Händler\" klicken, um die Transaktion abzuschließen.</string>
     <string name="attention">ACHTUNG</string>
     <string name="next_download_available">Nächster Download verfügbar am: %1$s</string>
     <string name="connect_error">VERBINDUNGSFEHLER</string>
@@ -22,18 +22,18 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
         <item quantity="other">Sie haben keinen Download übrig</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) wird von Shmykelsa entwickelt und verwaltet.<br><br>Die verfügbaren Apps werden von den folgenden Entwicklern bereitgestellt:<br>]]>"</string>
-    <string name="pro_unlocked">Glückwunsch, PRO-Version ist freigeschaltet</string>
+    <string name="pro_unlocked">Glückwunsch, Pro Version ist freigeschaltet</string>
     <string name="cancelled_payment">Kauf abgebrochen</string>
     <string name="please_enter_code">Bitte Code eingeben</string>
     <string name="connection_error">Verbindungsfehler, Verifizierung konnte nicht durchgeführt werden</string>
     <string name="not_valid_code">Ungültiger Code</string>
     <string name="select_which">Welche?</string>
-    <string name="downloading_progress">Herunterladen…</string>
+    <string name="downloading_progress">Herunterladen …</string>
     <string name="aa_mirror_plus_description">Alternative zu AAMirror mit einigen weiteren Funktionen.</string>
-    <string name="aapassenger_description">Diese App wurde für Beifahrer entwickelt, um einige Funktionalitäten von Android Auto zu steuern. Beifahrer benötigt hierzu die AAPassenger App. Funktionsstatus momentan unbekannt.</string>
+    <string name="aapassenger_description">This app was made for allowing passengers to manage some functionalities in Android Auto. Requires the passenger to download AAPassenger. Working state is currently unknown.</string>
     <string name="s2a_description">Die vollständigste und umfassendste Screen-Mirror-App für Android Auto. Enthält viele Funktionen wie einen anpassbaren Launcher, einen Split-Screen, benutzerdefinierte Bildschirmgrößen und vieles mehr!</string>
     <string name="aamirror_description">Die erste und langlebige Screen-Mirror-App für Android Auto. Der Vorreiter einer Familie, AAMirror spiegelt einfach den Bildschirm Ihres Telefons zum Auto.</string>
-    <string name="aa_stream_description">Eine weitere Alternative zu AAMirror mit einigen zusätzlichen Funktionalitäten. Kürzlich wiederbelebt und für neuere Android Versionen von Annexhack angepasst.</string>
+    <string name="aa_stream_description">Another alternative to AAMirror with some extra functionalities. Recently revived and fixed for newer Android versions by Annexhack.</string>
     <string name="carstream_description">Früher bekannt als \"YouTube Auto\", war CarStream eine der ersten Apps, die mit den benutzerdefinierten Apps SDK gemacht wurden. Hauptintention der Entwicklung war es, YouTube auf Android Auto zu bringen, dann wurde es zu einem Webbrowser mit vielen Möglichkeiten.
     </string>
     <string name="fermata_description">"Der vollständigste Video- und Audioplayer für Android Auto, mit vielen Funktionen wie z. B. Netzwerk-Streams und auch einem Webbrowser. Die Zusatz-App Fermata Control ermöglicht die Steuerung der Wiedergabe außerhalb der App und über Lenkradtasten."</string>
@@ -42,6 +42,7 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="press_back_warning">Zum Beenden bitte erneut Zurück drücken</string>
     <string name="aawidgets_description">Für eine einzige Aufgabe geboren! Bring ein Widget auf Android Auto!</string>
     <string name="performance_monitor_description">Dies ist ein Performance-Monitor, basierend auf \"Martoreto´ss aa-Stats\". Es ist speziell für die Verwendung mit den Volkswagen/Skoda/Seat/Audi MIB2 Infotainment Einheiten entwickelt worden, aber es könnte auch für andere funktionieren, solange diese Android Auto unterstützen. Zusätzlich wird eine VAG-Erweiterung benötigt um korrekt in Volkswagen Autos zu funktionieren.</string>
+    <string name="aatorque_description">AATorque bringt die OBD-II Fahrzeugdiagnose-App Torque Pro zu Android Auto. Überwachen Sie die Leistung Ihres Fahrzeugs, zeigen Sie Diagnosedaten an und greifen Sie direkt über das Display Ihres Autos auf Echtzeit-Fahrzeuginformationen zu.</string>
     <string name="promotion">Sie haben Anspruch auf 15% Rabatt</string>
     <string name="first_section_name">Multimedia Apps</string>
     <string name="second_section_name">Mirroring apps</string>
@@ -51,11 +52,11 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="go_to_new_version">Eine neue Version von AAAD (Version %1$s) ist auf GitHub verfügbar. Möchten Sie diese jetzt herunterladen?</string>
     <string name="go_to_download">Zum Download</string>
     <string name="ignore_for_now">Vorläufig ignorieren</string>
-    <string name="privacy_policy">"<![CDATA[AAAD speichert keine Kreditkarteninformationen oder persönlichen Daten über den Benutzer.<br>Zu Validierungszwecken sammelt AAAD eine Seriennummer, die sicher von Android generiert wird, um ein Gerät eindeutig zu identifizieren. Die Seriennummer wird von AAAD zur Validierung der PRO-Version verarbeitet und liefert keine Informationen über das Gerätemodell, IMIEI oder den Standort.<br>Die Zahlung der Pro-Version wird ausschließlich von PayPal verwaltet und zu Bestätigungs- und Erstattungszwecken wird die E-Mail in einer Online-Firebase-Datenbank gespeichert.]]>"</string>
+    <string name="privacy_policy">"<![CDATA[AAAD speichert keine Kreditkarteninformationen oder persönlichen Daten über den Benutzer.<br>Zu Validierungszwecken sammelt AAAD eine Seriennummer, die sicher von Android generiert wird, um ein Gerät eindeutig zu identifizieren. Die Seriennummer wird von AAAD zur Validierung der Pro Version verarbeitet und liefert keine Informationen über das Gerätemodell, IMIEI oder den Standort.<br>Die Zahlung der Pro Version wird ausschließlich von PayPal verwaltet und zu Bestätigungs- und Erstattungszwecken wird die E-Mail in einer Online-Firebase-Datenbank gespeichert.]]>"</string>
     <string name="privacy">Datenschutzerklärung</string>
-    <string name="loading">Wird geladen...</string>
-    <string name="go_pro">PRO erwerben</string>
-    <string name="i_m_good">Ich bin gut</string>
+    <string name="loading">Wird geladen ...</string>
+    <string name="go_pro">Pro erwerben</string>
+    <string name="i_m_good">I\'m good</string>
     <string name="nav2contacts_description">Vielen der neuen Navigations-Apps in Android Auto fehlt die Unterstützung von Google Assistant, um zu Adressen von Kontakten, die im Telefonbuch gespeichert sind, zu navigieren. Nav2Contacts kommt zur Hilfr! Wählen Sie zuerst die Navigations-App aus, die Sie verwenden möchten, suchen Sie dann den Kontakt, zu dem Sie navigieren möchten, und starten Sie sofort die Navigation!</string>
     <string name="meeting_requirements">Diese App benötigt mindestens Android %d, sorry!</string>
     <string name="back_button_payment_close">Bitte denken Sie daran, den blauen Button \"Zurück zur Händler-Website\" zu drücken, nachdem die Zahlung abgeschlossen ist</string>
@@ -76,4 +77,17 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="unknown_sources_warning">Bevor Sie fortfahren, müssen Sie die Installation von unbekannten Quellen aktivieren. Wenn Sie diese Option deaktivieren, kann es zu Problemen mit AAAD kommen. Drücken Sie OK, um jetzt zu den Einstellungen zu wechseln. Sie müssen die Option für unbekannte Quellen aktivieren.</string>
     <string name="qr_code_permission">Du musst Zugriff auf die Kamera gewähren, um einen QR-Code zu scannen</string>
     <string name="success_transfer">Lizenz validiert</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Die E-Mail wird verwendet, um Ihren Kauf zu verifizieren, falls erforderlich</string>
+    <string name="input_email">Gerhardt89@gmx.de</string>
+    <string name="days_remaining">%d Tage verbleiben bis zum nächsten Download</string>
+    <string name="hours_remaining">%d Stunden verbleiben bis zum nächsten Download</string>
+    <string name="less_than_hour">Weniger als 1 Stunde verbleibt bis zum nächsten Download</string>
+    <string name="download_available_now">Download jetzt verfügbar!</string>
+    <string name="app_installed_successfully">App erfolgreich installiert!</string>
+    <string name="installation_failed">Installation fehlgeschlagen</string>
+    <string name="installation_timeout_title">Installationsstatus</string>
+    <string name="installation_timeout_message">Wurde die App-Installation erfolgreich abgeschlossen?</string>
+    <string name="installation_succeeded">Ja, sie wurde installiert</string>
+    <string name="installation_failed_or_cancelled">Nein, sie ist fehlgeschlagen oder wurde abgebrochen</string>
+    <string name="download_not_counted">Download nicht gezählt - Sie können es erneut versuchen</string>
 </resources>

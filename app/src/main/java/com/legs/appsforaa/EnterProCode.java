@@ -71,7 +71,12 @@ public class EnterProCode extends AppCompatActivity {
                                                 Toast.makeText(getApplicationContext(), getString(R.string.connection_error), Toast.LENGTH_LONG).show();
                                             } else {
                                                 Toast.makeText(getApplicationContext(), getString(R.string.pro_unlocked), Toast.LENGTH_LONG).show();
-                                                startActivity(new Intent(EnterProCode.this, MainActivity.class));
+                                                // Return to MainActivity with refresh request
+                                                Intent intent = new Intent(EnterProCode.this, MainActivity.class);
+                                                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                                intent.putExtra("refresh_pro_status", true);
+                                                startActivity(intent);
+                                                finish();
                                             }
 
                                         }

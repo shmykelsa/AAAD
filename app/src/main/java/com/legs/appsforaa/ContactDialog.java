@@ -1,10 +1,12 @@
 package com.legs.appsforaa;
 
 import android.app.Dialog;
+import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
@@ -26,9 +28,11 @@ public class ContactDialog extends DialogFragment {
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setData(Uri.parse("mailto:")); // only email apps should handle this
                 intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "help.aaad@gmail.com" });
-                intent.putExtra(Intent.EXTRA_SUBJECT, "HELP");
-                    startActivity(intent);
-
+                ContentResolver contentResolver = requireActivity().getContentResolver();
+                String androidId = Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID);
+                String subject = "HELP - " + androidId;
+                intent.putExtra(Intent.EXTRA_SUBJECT, subject);
+                startActivity(intent);
             }
         });
 
