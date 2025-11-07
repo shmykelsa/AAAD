@@ -90,4 +90,44 @@ i më i plotë i videos dhe audios për Android Auto, duke shfaqur një përvoj�
     <string name="installation_succeeded">Po, u instalua</string>
     <string name="installation_failed_or_cancelled">Jo, dështoi ose u anulua</string>
     <string name="download_not_counted">Shkarkimi nuk u numërua - mund të provoni përsëri</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Paralajmërim i rëndësishëm</string>
+    <string name="onboarding_warning_message">Ky aplikacion NUK është i lidhur me softonic.com, uptodown.com ose aadapk.com. Burimi i vetëm zyrtar është github.com</string>
+    <string name="onboarding_official_source">Burimi zyrtar: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Ky utilitar do të ndihmojë në instalimin e aplikacioneve të personalizuara në Android Auto për telefonat pa root. Rrëshqitni për të mësuar se si të përdorni aplikacionin, pastaj jepni lejet e kërkuara për të filluar.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Zgjidhni dhe Instaloni</string>
+    <string name="onboarding_page_selection_description">Zgjidhni aplikacionin që dëshironi të instaloni dhe prisni derisa të shfaqet instaluesi i sistemit.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informacioni i Aplikacionit</string>
+    <string name="onboarding_page_info_description">Nëse nuk jeni të sigurt se cilin aplikacion të instaloni, shtypni gjatë butonin për të parë përshkrimin.</string>
+
+    <!-- Page 4: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Konfigurimi i kërkuar</string>
+    <string name="onboarding_permissions_subtitle">Jep leje për të instaluar aplikacione të personalizuara</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Çaktivizo përkohësisht për të lejuar instalimin e aplikacioneve të personalizuara</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect mund të bllokojë instalimin e aplikacioneve të personalizuara. Duhet ta çaktivizoni përkohësisht ose të lejoni AAAD kur kërkohët.</string>
+    <string name="onboarding_open_play_protect">Hap cilësimet e Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Tjetër</string>
+    <string name="onboarding_previous">Mëparshëm</string>
+    <string name="onboarding_skip">Kalo</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Përfundo konfigurimin</string>
+    <string name="show_intro">Shfaq prezantimin</string>
 </resources>

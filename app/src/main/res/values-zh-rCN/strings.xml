@@ -86,4 +86,56 @@
     <string name="installation_succeeded">是的，已安装</string>
     <string name="installation_failed_or_cancelled">否，失败或已取消</string>
     <string name="download_not_counted">下载未计算 - 您可以重试</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ 重要警告</string>
+    <string name="onboarding_warning_message">此应用程序与 softonic.com、uptodown.com 或 aadapk.com 无关。唯一的官方来源是 github.com</string>
+    <string name="onboarding_official_source">官方来源：github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">此工具将帮助为非root手机在Android Auto上安装自定义应用程序。滑动以了解如何使用该应用程序，然后授予所需权限以开始使用。</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">选择并安装</string>
+    <string name="onboarding_page_selection_description">选择您要安装的应用程序，然后等待系统安装程序出现。</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">应用程序信息</string>
+    <string name="onboarding_page_info_description">如果您不确定要安装哪个应用程序，请长按按钮查看描述。</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">必需设置</string>
+    <string name="onboarding_permissions_subtitle">授予权限以安装自定义应用程序</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play 保护机制</string>
+    <string name="onboarding_play_protect_description">暂时禁用以允许安装自定义应用程序</string>
+    <string name="onboarding_play_protect_warning">Google Play 保护机制可能会阻止安装自定义应用程序。您需要暂时禁用它或在提示时允许 AAAD。</string>
+    <string name="onboarding_open_play_protect">打开 Play 保护机制设置</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">下一步</string>
+    <string name="onboarding_previous">上一步</string>
+    <string name="onboarding_skip">跳过</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">完成设置</string>
+    <string name="show_intro">显示介绍</string>
 </resources>

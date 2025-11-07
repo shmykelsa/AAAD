@@ -48,24 +48,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:screenOrientation="portrait"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AA_Apps_Downloader">
 
+        <!-- New Launcher Activity -->
         <activity
-            android:name=".AboutPaymentActivity"
+            android:name=".LauncherActivity"
             android:screenOrientation="portrait"
-            android:exported="false"
-            android:label="@string/title_activity_about_payment" />
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:exported="true">
-
+            android:exported="true"
+            android:theme="@style/Theme.AA_Apps_Downloader">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
 
+        <!-- Onboarding Activity (Old) -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/Theme.AA_Apps_Downloader" />
 
+        <!-- Onboarding Activity (New - Multi-page) -->
+        <activity
+            android:name=".OnboardingActivityNew"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/Theme.AA_Apps_Downloader" />
+
+        <!-- New Material You Main Activity -->
+        <activity
+            android:name=".MainActivityNew"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/Theme.AA_Apps_Downloader">
             <intent-filter android:label="Install Screen2Auto">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -74,22 +90,35 @@
                     android:host="inceptive.ru"
                     android:pathPrefix="/projects/s2a/download/" />
             </intent-filter>
-
         </activity>
 
-        <activity android:name=".EnterProCode"
+        <!-- Legacy Main Activity (kept for compatibility) -->
+        <activity 
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <!-- Payment Activity -->
+        <activity
+            android:name=".AboutPaymentActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:label="@string/title_activity_about_payment" />
+
+        <!-- Pro Code Entry -->
+        <activity 
+            android:name=".EnterProCode"
             android:screenOrientation="portrait"
             android:noHistory="true"
             android:label="ACTIVATE PRO"
-            android:exported="false"
-            />
+            android:exported="false" />
 
-
-        <activity android:name=".TransferLicense"
-
+        <!-- License Transfer -->
+        <activity 
+            android:name=".TransferLicense"
             android:screenOrientation="portrait"
             android:label="TRANSFER LICENSE"
-            android:exported="false"/>
+            android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

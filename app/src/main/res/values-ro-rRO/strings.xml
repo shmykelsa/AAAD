@@ -90,4 +90,56 @@
     <string name="installation_succeeded">Da, a fost instalată</string>
     <string name="installation_failed_or_cancelled">Nu, a eșuat sau a fost anulată</string>
     <string name="download_not_counted">Descărcare necontorizată - puteți încerca din nou</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Avertisment important</string>
+    <string name="onboarding_warning_message">Această aplicație NU este afiliată cu softonic.com, uptodown.com sau aadapk.com. Singura sursă oficială este github.com</string>
+    <string name="onboarding_official_source">Sursă oficială: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Acest utilitar va ajuta la instalarea aplicațiilor personalizate pe Android Auto pentru telefoane fără root. Glisați pentru a învăța cum să utilizați aplicația, apoi acordați permisiunile necesare pentru a începe.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Selectați și instalați</string>
+    <string name="onboarding_page_selection_description">Selectați aplicația pe care doriți să o instalați și așteptați ca programul de instalare al sistemului să apară.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informații despre aplicație</string>
+    <string name="onboarding_page_info_description">Dacă nu sunteți sigur ce aplicație să instalați, apăsați lung butonul pentru a obține o descriere.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Configurare necesară</string>
+    <string name="onboarding_permissions_subtitle">Acordați permisiuni pentru a instala aplicații personalizate</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Dezactivați temporar pentru a permite instalarea aplicațiilor personalizate</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect poate bloca instalarea aplicațiilor personalizate. Trebuie să îl dezactivați temporar sau să permiteți AAAD când vi se solicită.</string>
+    <string name="onboarding_open_play_protect">Deschideți setările Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Următorul</string>
+    <string name="onboarding_previous">Anterior</string>
+    <string name="onboarding_skip">Omite</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Finalizare configurare</string>
+    <string name="show_intro">Afișează introducerea</string>
 </resources>

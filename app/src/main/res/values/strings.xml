@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">AAAD</string>
-    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
+    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. 11 App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO Version</string>
     <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
     <string name="congratsPro">Congratulations, you have PRO version!</string>
@@ -48,6 +48,82 @@
     <string name="second_section_name">Mirroring apps</string>
     <string name="third_section_name">Others</string>
     <string name="might_not_be_compatible">Unfortunately, it seems like your device is not compatible with Fermata.</string>
+
+    <!-- Onboarding Strings -->
+    <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Important Warning</string>
+    <string name="onboarding_warning_message">This app is NOT affiliated with softonic.com, uptodown.com, or aadapk.com. The only official source is github.com</string>
+    <string name="onboarding_official_source">Official source: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">This utility will help install custom apps on Android Auto for non rooted phones. Swipe through to learn how to use the app, then grant the required permissions to get started.</string>
+
+    <!-- Page 3: App Selection -->
+    <string name="onboarding_page_selection_title">Select and Install</string>
+    <string name="onboarding_page_selection_description">Select the app you want to install and wait for the system installer to come up.</string>
+
+    <!-- Page 4: App Info -->
+    <string name="onboarding_page_info_title">App Information</string>
+    <string name="onboarding_page_info_description">If you are unsure about which app to install, long press the button to have a description.</string>
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Required Setup</string>
+    <string name="onboarding_permissions_subtitle">Grant permissions to install custom apps</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Temporarily disable to allow custom app installation</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect may block installation of custom apps. You need to temporarily disable it or allow AAAD when prompted.</string>
+    <string name="onboarding_open_play_protect">Open Play Protect Settings</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_previous">Previous</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Finish Setup</string>
+    <string name="show_intro">Show intro</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installed</string>
+    <string name="status_update_available">Update Available</string>
+    <string name="status_not_installed">Not Installed</string>
+    <string name="status_downloading">Downloading…</string>
+    <string name="status_installing">Installing…</string>
+    
+    <!-- Action Buttons -->
+    <string name="action_install">Install</string>
+    <string name="action_update">Update</string>
+    <string name="action_open">Open</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="action_cancel">Cancel</string>
+    
+    <!-- Error Messages -->
+    <string name="error_download_failed">Download failed</string>
+    <string name="error_installation_failed">Installation failed</string>
+    <string name="error_network_unavailable">Network unavailable</string>
+    <string name="error_insufficient_storage">Insufficient storage</string>
+    
+    <!-- Progress Messages -->
+    <string name="progress_downloading">Downloading %1$s…</string>
+    <string name="progress_installing">Installing %1$s…</string>
+    <string name="progress_checking_updates">Checking for updates…</string>
+    
+    <!-- Version Format Strings -->
+    <string name="version_format">Version %1$s</string>
+    <string name="installed_version_format">Installed: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    
+    <!-- Hero Section -->
+    <string name="hero_title">Android Auto Apps</string>
+    <string name="hero_subtitle">Install custom apps for your Android Auto experience</string>
+    <string name="refresh_apps">Refresh apps</string>
     <string name="new_version_available">New version available</string>
     <string name="go_to_new_version">A new version of AAAD (version %1$s) is available on GitHub. Do you want to download it now?</string>
     <string name="go_to_download">Go to download</string>

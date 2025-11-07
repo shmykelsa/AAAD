@@ -846,6 +846,10 @@ public class MainActivity extends AppCompatActivity  {
                 startActivity(new Intent(this, TransferLicense.class));
                 break;
             }
+            case R.id.show_intro : {
+                startActivity(new Intent(this, OnboardingActivityNew.class));
+                break;
+            }
             default: break;
         }
         return true;
@@ -1535,7 +1539,6 @@ public class MainActivity extends AppCompatActivity  {
 
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(this, "Installation failed: " + e.getMessage(), Toast.LENGTH_LONG).show();
             // Fallback to Intent method
             installAPKWithIntent(file);
         }
@@ -1829,8 +1832,7 @@ public class MainActivity extends AppCompatActivity  {
                 // Installation failed or was cancelled - don't register download
                 clearPendingInstallation();
                 String errorMessage = intent.getStringExtra("android.content.pm.extra.STATUS_MESSAGE");
-                Toast.makeText(this, getString(R.string.installation_failed) + ": " + 
-                    (errorMessage != null ? errorMessage : "Unknown error"), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, (errorMessage != null ? errorMessage : "Unknown error"), Toast.LENGTH_LONG).show();
                 Toast.makeText(this, getString(R.string.download_not_counted), Toast.LENGTH_LONG).show();
             }
         }
@@ -1839,6 +1841,7 @@ public class MainActivity extends AppCompatActivity  {
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
             this.finishAffinity();
             return;
         }

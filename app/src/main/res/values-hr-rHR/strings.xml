@@ -90,4 +90,56 @@ Da li želite instalirati sve za 3s?</string>
     <string name="installation_succeeded">Da, instalirana je</string>
     <string name="installation_failed_or_cancelled">Ne, nije uspjelo ili je otkazano</string>
     <string name="download_not_counted">Preuzimanje se ne računa - možete pokušati ponovno</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Važno upozorenje</string>
+    <string name="onboarding_warning_message">Ova aplikacija NIJE povezana sa softonic.com, uptodown.com ili aadapk.com. Jedini službeni izvor je github.com</string>
+    <string name="onboarding_official_source">Službeni izvor: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Ovaj alat pomoći će instalirati prilagođene aplikacije na Android Auto za telefone bez roota. Kliznite da naučite kako koristiti aplikaciju, zatim dodijelite potrebne dozvole za početak.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Odaberi i instaliraj</string>
+    <string name="onboarding_page_selection_description">Odaberite aplikaciju koju želite instalirati i pričekajte da se pojavi instalacijski program sustava.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informacije o aplikaciji</string>
+    <string name="onboarding_page_info_description">Ako niste sigurni koju aplikaciju instalirati, dugo pritisnite gumb da biste dobili opis.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Potrebno postavljanje</string>
+    <string name="onboarding_permissions_subtitle">Dodijelite dozvole za instalaciju prilagođenih aplikacija</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Privremeno onemogućite za dopuštanje instalacije prilagođenih aplikacija</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect može blokirati instalaciju prilagođenih aplikacija. Morate ga privremeno onemogućiti ili dopustiti AAAD kad se to zatraži.</string>
+    <string name="onboarding_open_play_protect">Otvori postavke Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Sljedeće</string>
+    <string name="onboarding_previous">Prethodno</string>
+    <string name="onboarding_skip">Preskoči</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Završi postavljanje</string>
+    <string name="show_intro">Prikaži uvod</string>
 </resources>

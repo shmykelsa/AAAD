@@ -87,4 +87,56 @@
     <string name="installation_succeeded">はい、インストールされました</string>
     <string name="installation_failed_or_cancelled">いいえ、失敗またはキャンセルされました</string>
     <string name="download_not_counted">ダウンロードはカウントされていません - 再試行できます</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ 重要な警告</string>
+    <string name="onboarding_warning_message">このアプリはsoftonic.com、uptodown.com、aadapk.comとは関係ありません。唯一の公式ソースはgithub.comです</string>
+    <string name="onboarding_official_source">公式ソース: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">このユーティリティは、ルート化されていない電話のAndroid Autoにカスタムアプリをインストールするのに役立ちます。アプリの使用方法を学ぶためにスワイプし、次に開始するために必要な権限を付与してください。</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">選択してインストール</string>
+    <string name="onboarding_page_selection_description">インストールしたいアプリを選択し、システムインストーラーが表示されるまで待ちます。</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">アプリ情報</string>
+    <string name="onboarding_page_info_description">どのアプリをインストールすればよいかわからない場合は、ボタンを長押しして説明を表示してください。</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">必要なセットアップ</string>
+    <string name="onboarding_permissions_subtitle">カスタムアプリをインストールするための権限を付与</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">カスタムアプリのインストールを許可するために一時的に無効にする</string>
+    <string name="onboarding_play_protect_warning">Google Play Protectはカスタムアプリのインストールをブロックする可能性があります。一時的に無効にするか、プロンプトが表示されたらAAADを許可する必要があります。</string>
+    <string name="onboarding_open_play_protect">Play Protect設定を開く</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">次へ</string>
+    <string name="onboarding_previous">前へ</string>
+    <string name="onboarding_skip">スキップ</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">セットアップを完了</string>
+    <string name="show_intro">イントロを表示</string>
 </resources>

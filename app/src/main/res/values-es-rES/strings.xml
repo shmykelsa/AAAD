@@ -91,4 +91,56 @@ te PRO</string>
     <string name="installation_succeeded">Sí, se instaló</string>
     <string name="installation_failed_or_cancelled">No, falló o fue cancelada</string>
     <string name="download_not_counted">Descarga no contada - puedes intentar de nuevo</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Advertencia importante</string>
+    <string name="onboarding_warning_message">Esta aplicación NO está afiliada con softonic.com, uptodown.com o aadapk.com. La única fuente oficial es github.com</string>
+    <string name="onboarding_official_source">Fuente oficial: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Esta utilidad te ayudará a instalar aplicaciones personalizadas en Android Auto para teléfonos sin root. Desliza para aprender a usar la aplicación y luego concede los permisos necesarios para comenzar.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Seleccionar e Instalar</string>
+    <string name="onboarding_page_selection_description">Selecciona la aplicación que deseas instalar y espera a que aparezca el instalador del sistema.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Información de la Aplicación</string>
+    <string name="onboarding_page_info_description">Si no estás seguro de qué aplicación instalar, mantén presionado el botón para ver una descripción.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Configuración requerida</string>
+    <string name="onboarding_permissions_subtitle">Concede permisos para instalar aplicaciones personalizadas</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Desactiva temporalmente para permitir la instalación de aplicaciones personalizadas</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect puede bloquear la instalación de aplicaciones personalizadas. Debes desactivarlo temporalmente o permitir AAAD cuando se te solicite.</string>
+    <string name="onboarding_open_play_protect">Abrir configuración de Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Siguiente</string>
+    <string name="onboarding_previous">Anterior</string>
+    <string name="onboarding_skip">Omitir</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Finalizar configuración</string>
+    <string name="show_intro">Mostrar introducción</string>
 </resources>

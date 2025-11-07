@@ -89,4 +89,56 @@
     <string name="installation_succeeded">Da, nameščena je</string>
     <string name="installation_failed_or_cancelled">Ne, neuspešna je bila ali preklicana</string>
     <string name="download_not_counted">Prenos se ne šteje - lahko poskusite znova</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Pomembno opozorilo</string>
+    <string name="onboarding_warning_message">Ta aplikacija NI povezana s softonic.com, uptodown.com ali aadapk.com. Edini uradni vir je github.com</string>
+    <string name="onboarding_official_source">Uradni vir: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">To orodje bo pomagalo namestiti prilagojene aplikacije na Android Auto za telefone brez roota. Drsajte, da se naučite uporabljati aplikacijo, nato dodelite zahtevana dovoljenja za začetek.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Izberite in namestite</string>
+    <string name="onboarding_page_selection_description">Izberite aplikacijo, ki jo želite namestiti, in počakajte, da se prikaže sistemski namestitveni program.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informacije o aplikaciji</string>
+    <string name="onboarding_page_info_description">Če niste prepričani, katero aplikacijo namestiti, dolgo pritisnite gumb za opis.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Zahtevana nastavitev</string>
+    <string name="onboarding_permissions_subtitle">Dodelite dovoljenja za namestitev prilagojenih aplikacij</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Začasno onemogočite za dovoljenje namestitve prilagojenih aplikacij</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect lahko blokira namestitev prilagojenih aplikacij. Začasno ga morate onemogočiti ali dovoliti AAAD, ko ste pozvani.</string>
+    <string name="onboarding_open_play_protect">Odpri nastavitve Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Naprej</string>
+    <string name="onboarding_previous">Nazaj</string>
+    <string name="onboarding_skip">Preskoči</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Zaključi nastavitev</string>
+    <string name="show_intro">Prikaži uvod</string>
 </resources>

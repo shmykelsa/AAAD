@@ -88,4 +88,56 @@
     <string name="installation_succeeded">Ja, het is geïnstalleerd</string>
     <string name="installation_failed_or_cancelled">Nee, het is mislukt of geannuleerd</string>
     <string name="download_not_counted">Download niet geteld - u kunt het opnieuw proberen</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Belangrijke waarschuwing</string>
+    <string name="onboarding_warning_message">Deze app is NIET gelieerd aan softonic.com, uptodown.com of aadapk.com. De enige officiële bron is github.com</string>
+    <string name="onboarding_official_source">Officiële bron: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Dit hulpprogramma helpt bij het installeren van aangepaste apps op Android Auto voor telefoons zonder root. Swipe door om te leren hoe je de app gebruikt en verleen vervolgens de vereiste machtigingen om te beginnen.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Selecteren en Installeren</string>
+    <string name="onboarding_page_selection_description">Selecteer de app die je wilt installeren en wacht tot de systeeminstaller verschijnt.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">App-informatie</string>
+    <string name="onboarding_page_info_description">Als je niet zeker bent welke app je moet installeren, houd dan de knop lang ingedrukt om een beschrijving te zien.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Vereiste installatie</string>
+    <string name="onboarding_permissions_subtitle">Verleen machtigingen om aangepaste apps te installeren</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Tijdelijk uitschakelen om installatie van aangepaste apps toe te staan</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect kan de installatie van aangepaste apps blokkeren. U moet het tijdelijk uitschakelen of AAAD toestaan wanneer daarom wordt gevraagd.</string>
+    <string name="onboarding_open_play_protect">Play Protect-instellingen openen</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Volgende</string>
+    <string name="onboarding_previous">Vorige</string>
+    <string name="onboarding_skip">Overslaan</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Installatie voltooien</string>
+    <string name="show_intro">Toon intro</string>
 </resources>

@@ -15,6 +15,10 @@
         android:title="@string/transfer_license"/>
 
     <item
+        android:id="@+id/show_intro"
+        android:title="@string/show_intro"/>
+
+    <item
         android:id="@+id/version" />
 
 

@@ -86,4 +86,45 @@
     <string name="installation_succeeded">是的，已安裝</string>
     <string name="installation_failed_or_cancelled">否，失敗或已取消</string>
     <string name="download_not_counted">下載未計算 - 您可以重試</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ 重要警告</string>
+    <string name="onboarding_warning_message">此應用程式與 softonic.com、uptodown.com 或 aadapk.com 無關。唯一的官方來源是 github.com</string>
+    <string name="onboarding_official_source">官方來源：github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">此實用程式將幫助在無需 root 權限的手機上為 Android Auto 安裝自訂應用程式。滑動以了解如何使用該應用程式，然後授予所需的權限以開始使用。</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">選擇並安裝</string>
+    <string name="onboarding_page_selection_description">選擇您要安裝的應用程式，然後等待系統安裝程式出現。</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">應用程式資訊</string>
+    <string name="onboarding_page_info_description">如果您不確定要安裝哪個應用程式，請長按按鈕以查看說明。</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">必需設定</string>
+    <string name="onboarding_permissions_subtitle">授予權限以安裝自訂應用程式</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play 保護機制</string>
+    <string name="onboarding_play_protect_description">暫時停用以允許安裝自訂應用程式</string>
+    <string name="onboarding_play_protect_warning">Google Play 保護機制可能會阻止安裝自訂應用程式。您需要暫時停用它或在提示時允許 AAAD。</string>
+    <string name="onboarding_open_play_protect">開啟 Play 保護機制設定</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">下一步</string>
+    <string name="onboarding_previous">上一步</string>
+    <string name="onboarding_skip">略過</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">完成設定</string>
+    <string name="show_intro">顯示介紹</string>
 </resources>

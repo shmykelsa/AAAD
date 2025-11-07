@@ -88,4 +88,56 @@ input_promo_code_here</string>
     <string name="installation_succeeded">Sí, s\'ha instal·lat</string>
     <string name="installation_failed_or_cancelled">No, ha fallat o s\'ha cancel·lat</string>
     <string name="download_not_counted">Descàrrega no comptada - podeu tornar-ho a provar</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Advertència important</string>
+    <string name="onboarding_warning_message">Aquesta aplicació NO està afiliada amb softonic.com, uptodown.com o aadapk.com. L\'única font oficial és github.com</string>
+    <string name="onboarding_official_source">Font oficial: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Aquesta utilitat t\'ajudarà a instal·lar aplicacions personalitzades a Android Auto per a telèfons sense root. Llisca per aprendre com utilitzar l\'aplicació i després concedeix els permisos necessaris per començar.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Selecciona i instal·la</string>
+    <string name="onboarding_page_selection_description">Selecciona l\'aplicació que vols instal·lar i espera que aparegui l\'instal·lador del sistema.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informació de l\'aplicació</string>
+    <string name="onboarding_page_info_description">Si no estàs segur de quina aplicació instal·lar, mantén premut el botó per obtenir una descripció.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Configuració necessària</string>
+    <string name="onboarding_permissions_subtitle">Concedeix permisos per instal·lar aplicacions personalitzades</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Desactiva temporalment per permetre la instal·lació d\'aplicacions personalitzades</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect pot bloquejar la instal·lació d\'aplicacions personalitzades. Has de desactivar-lo temporalment o permetre AAAD quan se\'t demani.</string>
+    <string name="onboarding_open_play_protect">Obre la configuració de Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Següent</string>
+    <string name="onboarding_previous">Anterior</string>
+    <string name="onboarding_skip">Omet</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Finalitza la configuració</string>
+    <string name="show_intro">Mostra la introducció</string>
 </resources>

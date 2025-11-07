@@ -88,4 +88,45 @@
     <string name="installation_succeeded">Ja, den installerades</string>
     <string name="installation_failed_or_cancelled">Nej, den misslyckades eller avbröts</string>
     <string name="download_not_counted">Nedladdning räknas inte - du kan försöka igen</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Viktig varning</string>
+    <string name="onboarding_warning_message">Denna app är INTE ansluten till softonic.com, uptodown.com eller aadapk.com. Den enda officiella källan är github.com</string>
+    <string name="onboarding_official_source">Officiell källa: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Detta verktyg hjälper dig att installera anpassade appar på Android Auto för telefoner utan root. Svep igenom för att lära dig hur du använder appen och ge sedan de behörigheter som krävs för att komma igång.</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Välj och installera</string>
+    <string name="onboarding_page_selection_description">Välj den app du vill installera och vänta på att systeminstallatören ska visas.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Appinformation</string>
+    <string name="onboarding_page_info_description">Om du är osäker på vilken app du ska installera, tryck länge på knappen för att se en beskrivning.</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Nödvändig installation</string>
+    <string name="onboarding_permissions_subtitle">Ge behörigheter för att installera anpassade appar</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Inaktivera tillfälligt för att tillåta installation av anpassade appar</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect kan blockera installation av anpassade appar. Du måste tillfälligt inaktivera den eller tillåta AAAD när du uppmanas.</string>
+    <string name="onboarding_open_play_protect">Öppna Play Protect-inställningar</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Nästa</string>
+    <string name="onboarding_previous">Föregående</string>
+    <string name="onboarding_skip">Hoppa över</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Slutför installation</string>
+    <string name="show_intro">Visa intro</string>
 </resources>

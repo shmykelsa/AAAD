@@ -88,4 +88,56 @@
     <string name="installation_succeeded">Oui, elle s\'est installée</string>
     <string name="installation_failed_or_cancelled">Non, elle a échoué ou a été annulée</string>
     <string name="download_not_counted">Téléchargement non comptabilisé - vous pouvez réessayer</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Avertissement important</string>
+    <string name="onboarding_warning_message">Cette application n\'est PAS affiliée à softonic.com, uptodown.com ou aadapk.com. La seule source officielle est github.com</string>
+    <string name="onboarding_official_source">Source officielle : github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Cet utilitaire vous aidera à installer des applications personnalisées sur Android Auto pour les téléphones non rootés. Faites glisser pour apprendre à utiliser l\'application, puis accordez les autorisations requises pour commencer.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Sélectionner et Installer</string>
+    <string name="onboarding_page_selection_description">Sélectionnez l\'application que vous souhaitez installer et attendez que le programme d\'installation du système apparaisse.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informations sur l\'Application</string>
+    <string name="onboarding_page_info_description">Si vous n\'êtes pas sûr de l\'application à installer, appuyez longuement sur le bouton pour avoir une description.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Configuration requise</string>
+    <string name="onboarding_permissions_subtitle">Accorder les autorisations pour installer des applications personnalisées</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Désactiver temporairement pour permettre l\'installation d\'applications personnalisées</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect peut bloquer l\'installation d\'applications personnalisées. Vous devez le désactiver temporairement ou autoriser AAAD lorsque vous y êtes invité.</string>
+    <string name="onboarding_open_play_protect">Ouvrir les paramètres Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Suivant</string>
+    <string name="onboarding_previous">Précédent</string>
+    <string name="onboarding_skip">Passer</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Terminer la configuration</string>
+    <string name="show_intro">Afficher l\'intro</string>
 </resources>

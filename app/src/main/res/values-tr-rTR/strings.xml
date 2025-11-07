@@ -88,4 +88,45 @@
     <string name="installation_succeeded">Evet, yüklendi</string>
     <string name="installation_failed_or_cancelled">Hayır, başarısız oldu veya iptal edildi</string>
     <string name="download_not_counted">İndirme sayılmadı - tekrar deneyebilirsiniz</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Önemli uyarı</string>
+    <string name="onboarding_warning_message">Bu uygulama softonic.com, uptodown.com veya aadapk.com ile bağlantılı DEĞİLDİR. Tek resmi kaynak github.com\'dur</string>
+    <string name="onboarding_official_source">Resmi kaynak: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Bu yardımcı program, root erişimi olmayan telefonlar için Android Auto\'ya özel uygulamalar yüklemenize yardımcı olacaktır. Uygulamayı nasıl kullanacağınızı öğrenmek için kaydırın, ardından başlamak için gerekli izinleri verin.</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Seçin ve Yükleyin</string>
+    <string name="onboarding_page_selection_description">Yüklemek istediğiniz uygulamayı seçin ve sistem yükleyicisinin açılmasını bekleyin.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Uygulama Bilgisi</string>
+    <string name="onboarding_page_info_description">Hangi uygulamayı yükleyeceğinizden emin değilseniz, açıklama için düğmeye uzun basın.</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Gerekli kurulum</string>
+    <string name="onboarding_permissions_subtitle">Özel uygulamaları yüklemek için izin verin</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Özel uygulama yüklemesine izin vermek için geçici olarak devre dışı bırakın</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect özel uygulama yüklemesini engelleyebilir. Geçici olarak devre dışı bırakmanız veya istendiğinde AAAD\'ye izin vermeniz gerekir.</string>
+    <string name="onboarding_open_play_protect">Play Protect ayarlarını aç</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">İleri</string>
+    <string name="onboarding_previous">Geri</string>
+    <string name="onboarding_skip">Atla</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Kurulumu tamamla</string>
+    <string name="show_intro">Tanıtımı göster</string>
 </resources>

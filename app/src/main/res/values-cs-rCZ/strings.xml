@@ -92,4 +92,56 @@ rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, a
     <string name="installation_succeeded">Ano, byla nainstalována</string>
     <string name="installation_failed_or_cancelled">Ne, se nezdařila nebo byla zrušena</string>
     <string name="download_not_counted">Stažení se nepočítá - můžete to zkusit znovu</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Důležité upozornění</string>
+    <string name="onboarding_warning_message">Tato aplikace NENÍ spojena se softonic.com, uptodown.com nebo aadapk.com. Jediným oficiálním zdrojem je github.com</string>
+    <string name="onboarding_official_source">Oficiální zdroj: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Tento nástroj vám pomůže nainstalovat vlastní aplikace do Android Auto pro telefony bez rootu. Projděte si, jak používat aplikaci, a poté udělte požadovaná oprávnění pro začátek.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Vybrat a nainstalovat</string>
+    <string name="onboarding_page_selection_description">Vyberte aplikaci, kterou chcete nainstalovat, a počkejte, až se zobrazí systémový instalátor.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informace o aplikaci</string>
+    <string name="onboarding_page_info_description">Pokud si nejste jisti, kterou aplikaci nainstalovat, dlouze stiskněte tlačítko pro zobrazení popisu.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Požadované nastavení</string>
+    <string name="onboarding_permissions_subtitle">Udělte oprávnění k instalaci vlastních aplikací</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Dočasně deaktivujte pro povolení instalace vlastních aplikací</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect může blokovat instalaci vlastních aplikací. Musíte jej dočasně deaktivovat nebo povolit AAAD při výzvě.</string>
+    <string name="onboarding_open_play_protect">Otevřít nastavení Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Další</string>
+    <string name="onboarding_previous">Předchozí</string>
+    <string name="onboarding_skip">Přeskočit</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Dokončit nastavení</string>
+    <string name="show_intro">Zobrazit úvod</string>
 </resources>

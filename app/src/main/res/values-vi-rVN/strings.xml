@@ -87,4 +87,45 @@
     <string name="installation_succeeded">Có, đã được cài đặt</string>
     <string name="installation_failed_or_cancelled">Không, thất bại hoặc đã bị hủy</string>
     <string name="download_not_counted">Lượt tải xuống không được tính - bạn có thể thử lại</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Cảnh báo quan trọng</string>
+    <string name="onboarding_warning_message">Ứng dụng này KHÔNG liên kết với softonic.com, uptodown.com hoặc aadapk.com. Nguồn chính thức duy nhất là github.com</string>
+    <string name="onboarding_official_source">Nguồn chính thức: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Tiện ích này sẽ giúp cài đặt các ứng dụng tùy chỉnh trên Android Auto cho điện thoại không root. Vuốt qua để tìm hiểu cách sử dụng ứng dụng, sau đó cấp các quyền cần thiết để bắt đầu.</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Chọn và cài đặt</string>
+    <string name="onboarding_page_selection_description">Chọn ứng dụng bạn muốn cài đặt và đợi trình cài đặt hệ thống xuất hiện.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Thông tin ứng dụng</string>
+    <string name="onboarding_page_info_description">Nếu bạn không chắc chắn về ứng dụng nào cần cài đặt, hãy nhấn giữ nút để xem mô tả.</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Thiết lập bắt buộc</string>
+    <string name="onboarding_permissions_subtitle">Cấp quyền để cài đặt ứng dụng tùy chỉnh</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Tạm thời vô hiệu hóa để cho phép cài đặt ứng dụng tùy chỉnh</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect có thể chặn cài đặt ứng dụng tùy chỉnh. Bạn cần tạm thời vô hiệu hóa nó hoặc cho phép AAAD khi được nhắc.</string>
+    <string name="onboarding_open_play_protect">Mở cài đặt Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Tiếp theo</string>
+    <string name="onboarding_previous">Trước</string>
+    <string name="onboarding_skip">Bỏ qua</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Hoàn tất thiết lập</string>
+    <string name="show_intro">Hiển thị giới thiệu</string>
 </resources>

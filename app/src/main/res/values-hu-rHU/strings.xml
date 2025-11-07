@@ -87,4 +87,56 @@
     <string name="installation_succeeded">Igen, telepítve lett</string>
     <string name="installation_failed_or_cancelled">Nem, sikertelen volt vagy megszakítva</string>
     <string name="download_not_counted">Letöltés nem számít - újra próbálkozhat</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Fontos figyelmeztetés</string>
+    <string name="onboarding_warning_message">Ez az alkalmazás NEM kapcsolódik a softonic.com, uptodown.com vagy aadapk.com webhelyekhez. Az egyetlen hivatalos forrás a github.com</string>
+    <string name="onboarding_official_source">Hivatalos forrás: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Ez az eszköz segít egyedi alkalmazások telepítésében az Android Auto-ra rootolás nélküli telefonokon. Csúsztassa végig, hogy megtanulja az alkalmazás használatát, majd adja meg a szükséges engedélyeket a kezdéshez.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Válasszon és telepítsen</string>
+    <string name="onboarding_page_selection_description">Válassza ki a telepíteni kívánt alkalmazást, és várja meg, amíg megjelenik a rendszer telepítője.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Alkalmazás információk</string>
+    <string name="onboarding_page_info_description">Ha nem biztos abban, hogy melyik alkalmazást telepítse, hosszan nyomja meg a gombot a leírás megtekintéséhez.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Others</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Szükséges beállítás</string>
+    <string name="onboarding_permissions_subtitle">Engedélyek megadása egyedi alkalmazások telepítéséhez</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Átmenetileg tiltsa le az egyedi alkalmazások telepítésének engedélyezéséhez</string>
+    <string name="onboarding_play_protect_warning">A Google Play Protect blokkolhatja az egyedi alkalmazások telepítését. Átmenetileg le kell tiltania, vagy engedélyeznie kell az AAAD-t, amikor a rendszer kéri.</string>
+    <string name="onboarding_open_play_protect">Play Protect beállítások megnyitása</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Következő</string>
+    <string name="onboarding_previous">Előző</string>
+    <string name="onboarding_skip">Kihagyás</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Beállítás befejezése</string>
+    <string name="show_intro">Bemutató megjelenítése</string>
 </resources>

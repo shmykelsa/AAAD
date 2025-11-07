@@ -90,4 +90,45 @@
     <string name="installation_succeeded">Так, його встановлено</string>
     <string name="installation_failed_or_cancelled">Ні, не вдалося або було скасовано</string>
     <string name="download_not_counted">Завантаження не враховано - можете спробувати знову</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Важливе попередження</string>
+    <string name="onboarding_warning_message">Цей додаток НЕ пов\'язаний із softonic.com, uptodown.com або aadapk.com. Єдине офіційне джерело - github.com</string>
+    <string name="onboarding_official_source">Офіційне джерело: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Ця утиліта допоможе встановити користувацькі додатки на Android Auto для телефонів без root-доступу. Проведіть пальцем, щоб дізнатися, як користуватися додатком, а потім надайте необхідні дозволи, щоб почати.</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Вибрати та встановити</string>
+    <string name="onboarding_page_selection_description">Виберіть додаток, який хочете встановити, і зачекайте, поки з\'явиться системний інсталятор.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Інформація про додаток</string>
+    <string name="onboarding_page_info_description">Якщо ви не впевнені, який додаток встановити, довго натисніть кнопку, щоб побачити опис.</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Необхідне налаштування</string>
+    <string name="onboarding_permissions_subtitle">Надайте дозволи для встановлення користувацьких програм</string>
+    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
+    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
+    <string name="onboarding_notifications_title">Notifications</string>
+    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_play_protect_title">Google Play Захист</string>
+    <string name="onboarding_play_protect_description">Тимчасово вимкніть, щоб дозволити встановлення користувацьких програм</string>
+    <string name="onboarding_play_protect_warning">Google Play Захист може блокувати встановлення користувацьких програм. Вам потрібно тимчасово вимкнути його або дозволити AAAD при запиті.</string>
+    <string name="onboarding_open_play_protect">Відкрити налаштування Play Захисту</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Далі</string>
+    <string name="onboarding_previous">Назад</string>
+    <string name="onboarding_skip">Пропустити</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    <string name="onboarding_continue">Continue to App</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_finish">Завершити налаштування</string>
+    <string name="show_intro">Показати вступ</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Legacy colors for backward compatibility -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -12,11 +13,70 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="dialog_text_color">#ff000000</color>
+    <!-- Material3 Light Theme Colors -->
+    <color name="md_theme_light_primary">#006C51</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#89F8D3</color>
+    <color name="md_theme_light_onPrimaryContainer">#002016</color>
+    <color name="md_theme_light_secondary">#4B635B</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#CDE9DD</color>
+    <color name="md_theme_light_onSecondaryContainer">#072018</color>
+    <color name="md_theme_light_tertiary">#3F6377</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#C3E8FF</color>
+    <color name="md_theme_light_onTertiaryContainer">#001E2E</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_background">#F5FFF8</color>
+    <color name="md_theme_light_onBackground">#161D19</color>
+    <color name="md_theme_light_surface">#F5FFF8</color>
+    <color name="md_theme_light_onSurface">#161D19</color>
+    <color name="md_theme_light_surfaceVariant">#DBE5DF</color>
+    <color name="md_theme_light_onSurfaceVariant">#3F4944</color>
+    <color name="md_theme_light_outline">#6F7974</color>
+    <color name="md_theme_light_outlineVariant">#BFC9C3</color>
+    <color name="md_theme_light_scrim">#000000</color>
+    <color name="md_theme_light_inverseSurface">#2B322E</color>
+    <color name="md_theme_light_inverseOnSurface">#ECF2ED</color>
+    <color name="md_theme_light_inversePrimary">#6DDBB7</color>
 
+    <!-- Material3 Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#6DDBB7</color>
+    <color name="md_theme_dark_onPrimary">#003829</color>
+    <color name="md_theme_dark_primaryContainer">#00513C</color>
+    <color name="md_theme_dark_onPrimaryContainer">#89F8D3</color>
+    <color name="md_theme_dark_secondary">#B1CDC1</color>
+    <color name="md_theme_dark_onSecondary">#1D352D</color>
+    <color name="md_theme_dark_secondaryContainer">#334B43</color>
+    <color name="md_theme_dark_onSecondaryContainer">#CDE9DD</color>
+    <color name="md_theme_dark_tertiary">#A7CCE2</color>
+    <color name="md_theme_dark_onTertiary">#0D3448</color>
+    <color name="md_theme_dark_tertiaryContainer">#274B5F</color>
+    <color name="md_theme_dark_onTertiaryContainer">#C3E8FF</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#0E1511</color>
+    <color name="md_theme_dark_onBackground">#E0E3DE</color>
+    <color name="md_theme_dark_surface">#0E1511</color>
+    <color name="md_theme_dark_onSurface">#E0E3DE</color>
+    <color name="md_theme_dark_surfaceVariant">#3F4944</color>
+    <color name="md_theme_dark_onSurfaceVariant">#BFC9C3</color>
+    <color name="md_theme_dark_outline">#89938E</color>
+    <color name="md_theme_dark_outlineVariant">#3F4944</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+    <color name="md_theme_dark_inverseSurface">#E0E3DE</color>
+    <color name="md_theme_dark_inverseOnSurface">#2B322E</color>
+    <color name="md_theme_dark_inversePrimary">#006C51</color>
+
+    <!-- Additional UI colors -->
+    <color name="dialog_text_color">#ff000000</color>
     <color name="menu_background">@android:color/background_light</color>
     <color name="menu_text_color">@android:color/background_dark</color>
-
     <color name="bottomcolor">#ECECEC</color>
     <color name="centercolor">#E4E4E4</color>
     <color name="topcolor">#E8E8E8</color>

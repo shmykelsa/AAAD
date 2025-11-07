@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">#FFFFFF</item>
-        <item name="colorPrimaryDark">#FFFFFF</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="titleTextColor">#000000</item>
-        <item name="actionBarTheme">@style/MyActionBarTheme</item>
-    </style>
+    <!-- Legacy AppTheme moved to themes.xml to avoid conflicts -->
 
     <style name="TitleBarTextAppearance" parent="android:TextAppearance">
         <item name="android:fontFamily">@font/raleway_semibold</item>
@@ -51,7 +44,34 @@
         <item name="bottomSheetStyle">@style/BottomSheet</item>
     </style>
 
+    <!-- Material3 Component Styles -->
+    
+    <!-- Circular ImageView Style -->
+    <style name="CircularImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 
+    <!-- Button Styles -->
+    <style name="Widget.Material3.Button.TonalButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">?attr/colorSecondaryContainer</item>
+        <item name="android:textColor">?attr/colorOnSecondaryContainer</item>
+    </style>
 
+    <!-- Status Chip Styles -->
+    <style name="StatusChip.Installed" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">?attr/colorSecondary</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="StatusChip.UpdateAvailable" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">?attr/colorError</item>
+        <item name="android:textColor">?attr/colorOnError</item>
+    </style>
+
+    <style name="StatusChip.NotInstalled" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">?attr/colorSurface</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
 
 </resources>
