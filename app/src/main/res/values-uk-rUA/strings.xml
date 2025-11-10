@@ -93,7 +93,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Важливе попередження</string>
-    <string name="onboarding_warning_message">Цей додаток НЕ пов\'язаний із softonic.com, uptodown.com або aadapk.com. Єдине офіційне джерело - github.com</string>
+    <string name="onboarding_warning_message">Цей додаток НЕ пов\'язаний із softonic.com, uptodown.com або aadapk.com, aadapk.app. Єдине офіційне джерело - github.com</string>
     <string name="onboarding_official_source">Офіційне джерело: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -131,4 +131,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Завершити налаштування</string>
     <string name="show_intro">Показати вступ</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Встановлено</string>
+    <string name="status_update_available">Доступне оновлення</string>
+    <string name="status_update_to_version">Оновити до %1$s</string>
+    <string name="status_not_installed">Не встановлено</string>
+    <string name="status_downloading">Завантаження…</string>
+    <string name="status_installing">Встановлення…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Встановити</string>
+    <string name="action_update">Оновити</string>
+    <string name="action_open">Відкрити</string>
+    <string name="action_uninstall">Видалити</string>
+    <string name="action_cancel">Скасувати</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Помилка завантаження</string>
+    <string name="error_installation_failed">Помилка встановлення</string>
+    <string name="error_network_unavailable">Мережа недоступна</string>
+    <string name="error_insufficient_storage">Недостатньо місця</string>
+    <string name="error_cannot_open_app">Неможливо відкрити додаток - не знайдено активність запуску</string>
+    <string name="error_download_tracking_failed">Не вдалося оновити статус завантаження</string>
+    <string name="error_loading_catalog">Не вдалося завантажити каталог додатків</string>
+
 </resources>

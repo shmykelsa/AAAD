@@ -91,7 +91,7 @@ input_promo_code_here</string>
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Advertència important</string>
-    <string name="onboarding_warning_message">Aquesta aplicació NO està afiliada amb softonic.com, uptodown.com o aadapk.com. L\'única font oficial és github.com</string>
+    <string name="onboarding_warning_message">Aquesta aplicació NO està afiliada amb softonic.com, uptodown.com o aadapk.com, aadapk.app. L\'única font oficial és github.com</string>
     <string name="onboarding_official_source">Font oficial: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -140,4 +140,41 @@ input_promo_code_here</string>
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Finalitza la configuració</string>
     <string name="show_intro">Mostra la introducció</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Instal·lat</string>
+    <string name="status_update_available">Actualització disponible</string>
+    <string name="status_update_to_version">Actualitza a %1$s</string>
+    <string name="status_not_installed">No instal·lat</string>
+    <string name="status_downloading">Descarregant…</string>
+    <string name="status_installing">Instal·lant…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instal·la</string>
+    <string name="action_update">Actualitza</string>
+    <string name="action_open">Obre</string>
+    <string name="action_uninstall">Desinstal·la</string>
+    <string name="action_cancel">Cancel·la</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">La descàrrega ha fallat</string>
+    <string name="error_installation_failed">La instal·lació ha fallat</string>
+    <string name="error_network_unavailable">La xarxa no està disponible</string>
+    <string name="error_insufficient_storage">Emmagatzematge insuficient</string>
+    <string name="error_cannot_open_app">No es pot obrir l\'aplicació - no s\'ha trobat cap activitat d\'inici</string>
+    <string name="error_download_tracking_failed">No s\'ha pogut actualitzar l\'estat de la descàrrega</string>
+    <string name="error_loading_catalog">No s\'ha pogut carregar el catàleg d\'aplicacions</string>
+    <string name="error_not_eligible">Has d\'actualitzar a PRO o esperar la teva següent descàrrega gratuïta.</string>
+    <string name="error_no_internet">Sense connexió a Internet</string>
+    <string name="error_no_internet_message">Si us plau, connecta\'t a Internet per carregar la informació de l\'aplicació i continuar.</string>
+    <string name="error_initialization_failed">Error en inicialitzar les dades de l\'aplicació</string>
+    <string name="error_metadata_fetch_failed">Error en obtenir actualitzacions de l\'aplicació</string>
+    <string name="error_metadata_fetch_failed_message">No s\'ha pogut recuperar la informació més recent de l\'aplicació. Si us plau, comprova la teva connexió a Internet i torna-ho a intentar.</string>
+    <string name="action_retry">Torna-ho a intentar</string>
+    <string name="action_continue_offline">Continua sense connexió</string>
+    <string name="loading_app_data">Carregant informació de l\'aplicació…</string>
+    <string name="loading_checking_updates">Comprovant actualitzacions…</string>
+    <string name="loading_please_wait">Si us plau, espera…</string>
+
 </resources>

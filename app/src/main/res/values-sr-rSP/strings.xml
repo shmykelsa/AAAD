@@ -83,7 +83,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Важно упозорење</string>
-    <string name="onboarding_warning_message">Ова апликација НИЈЕ повезана са softonic.com, uptodown.com или aadapk.com. Једини званични извор је github.com</string>
+    <string name="onboarding_warning_message">Ова апликација НИЈЕ повезана са softonic.com, uptodown.com или aadapk.com, aadapk.app. Једини званични извор је github.com</string>
     <string name="onboarding_official_source">Званични извор: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -121,4 +121,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Заврши подешавање</string>
     <string name="show_intro">Прикажи увод</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Instalirano</string>
+    <string name="status_update_available">Ažuriranje dostupno</string>
+    <string name="status_update_to_version">Ažuriraj na %1$s</string>
+    <string name="status_not_installed">Nije instalirano</string>
+    <string name="status_downloading">Preuzimanje…</string>
+    <string name="status_installing">Instaliranje…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instaliraj</string>
+    <string name="action_update">Ažuriraj</string>
+    <string name="action_open">Otvori</string>
+    <string name="action_uninstall">Deinstaliraj</string>
+    <string name="action_cancel">Otkaži</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Preuzimanje nije uspelo</string>
+    <string name="error_installation_failed">Instalacija nije uspela</string>
+    <string name="error_network_unavailable">Mreža nije dostupna</string>
+    <string name="error_insufficient_storage">Nedovoljno prostora za skladištenje</string>
+    <string name="error_cannot_open_app">Ne mogu da otvorim aplikaciju - aktivnost pokretanja nije pronađena</string>
+    <string name="error_download_tracking_failed">Ažuriranje statusa preuzimanja nije uspelo</string>
+    <string name="error_loading_catalog">Učitavanje kataloga aplikacija nije uspelo</string>
+
 </resources>

@@ -93,7 +93,7 @@ Da li želite instalirati sve za 3s?</string>
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Važno upozorenje</string>
-    <string name="onboarding_warning_message">Ova aplikacija NIJE povezana sa softonic.com, uptodown.com ili aadapk.com. Jedini službeni izvor je github.com</string>
+    <string name="onboarding_warning_message">Ova aplikacija NIJE povezana sa softonic.com, uptodown.com ili aadapk.com, aadapk.app. Jedini službeni izvor je github.com</string>
     <string name="onboarding_official_source">Službeni izvor: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -142,4 +142,41 @@ Da li želite instalirati sve za 3s?</string>
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Završi postavljanje</string>
     <string name="show_intro">Prikaži uvod</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Instalirano</string>
+    <string name="status_update_available">Ažuriranje dostupno</string>
+    <string name="status_update_to_version">Ažuriraj na %1$s</string>
+    <string name="status_not_installed">Nije instalirano</string>
+    <string name="status_downloading">Preuzimanje…</string>
+    <string name="status_installing">Instaliranje…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instaliraj</string>
+    <string name="action_update">Ažuriraj</string>
+    <string name="action_open">Otvori</string>
+    <string name="action_uninstall">Deinstaliraj</string>
+    <string name="action_cancel">Otkaži</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Preuzimanje nije uspjelo</string>
+    <string name="error_installation_failed">Instalacija nije uspjela</string>
+    <string name="error_network_unavailable">Mreža nije dostupna</string>
+    <string name="error_insufficient_storage">Nedovoljno prostora za pohranu</string>
+    <string name="error_cannot_open_app">Nije moguće otvoriti aplikaciju - aktivnost pokretanja nije pronađena</string>
+    <string name="error_download_tracking_failed">Ažuriranje statusa preuzimanja nije uspjelo</string>
+    <string name="error_loading_catalog">Učitavanje kataloga aplikacija nije uspjelo</string>
+    <string name="error_not_eligible">Morate nadograditi na PRO ili pričekati sljedeće besplatno preuzimanje.</string>
+    <string name="error_no_internet">Nema internetske veze</string>
+    <string name="error_no_internet_message">Molimo povežite se na internet kako biste učitali informacije o aplikaciji i nastavili.</string>
+    <string name="error_initialization_failed">Inicijalizacija podataka aplikacije nije uspjela</string>
+    <string name="error_metadata_fetch_failed">Dohvaćanje ažuriranja aplikacije nije uspjelo</string>
+    <string name="error_metadata_fetch_failed_message">Nije moguće dohvatiti najnovije informacije o aplikaciji. Provjerite internetsku vezu i pokušajte ponovo.</string>
+    <string name="action_retry">Pokušaj ponovo</string>
+    <string name="action_continue_offline">Nastavi bez veze</string>
+    <string name="loading_app_data">Učitavanje informacija o aplikaciji…</string>
+    <string name="loading_checking_updates">Provjera ažuriranja…</string>
+    <string name="loading_please_wait">Molimo pričekajte…</string>
+
 </resources>

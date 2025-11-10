@@ -93,7 +93,7 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Wichtige Warnung</string>
-    <string name="onboarding_warning_message">Diese App ist NICHT mit softonic.com, uptodown.com oder aadapk.com verbunden. Die einzige offizielle Quelle ist github.com</string>
+    <string name="onboarding_warning_message">Diese App ist NICHT mit softonic.com, uptodown.com oder aadapk.com, aadapk.app verbunden. Die einzige offizielle Quelle ist github.com</string>
     <string name="onboarding_official_source">Offizielle Quelle: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -142,4 +142,41 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Einrichtung abschließen</string>
     <string name="show_intro">Intro anzeigen</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installiert</string>
+    <string name="status_update_available">Update verfügbar</string>
+    <string name="status_update_to_version">Auf %1$s aktualisieren</string>
+    <string name="status_not_installed">Nicht installiert</string>
+    <string name="status_downloading">Wird heruntergeladen…</string>
+    <string name="status_installing">Wird installiert…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installieren</string>
+    <string name="action_update">Aktualisieren</string>
+    <string name="action_open">Öffnen</string>
+    <string name="action_uninstall">Deinstallieren</string>
+    <string name="action_cancel">Abbrechen</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Download fehlgeschlagen</string>
+    <string name="error_installation_failed">Installation fehlgeschlagen</string>
+    <string name="error_network_unavailable">Netzwerk nicht verfügbar</string>
+    <string name="error_insufficient_storage">Unzureichender Speicherplatz</string>
+    <string name="error_cannot_open_app">App kann nicht geöffnet werden - keine Startaktivität gefunden</string>
+    <string name="error_download_tracking_failed">Fehler beim Aktualisieren des Download-Status</string>
+    <string name="error_loading_catalog">Fehler beim Laden des App-Katalogs</string>
+    <string name="error_not_eligible">Sie müssen auf PRO upgraden oder auf Ihren nächsten kostenlosen Download warten.</string>
+    <string name="error_no_internet">Keine Internetverbindung</string>
+    <string name="error_no_internet_message">Bitte verbinden Sie sich mit dem Internet, um App-Informationen zu laden und fortzufahren.</string>
+    <string name="error_initialization_failed">Fehler beim Initialisieren der App-Daten</string>
+    <string name="error_metadata_fetch_failed">Fehler beim Abrufen von App-Updates</string>
+    <string name="error_metadata_fetch_failed_message">Die neuesten App-Informationen konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.</string>
+    <string name="action_retry">Wiederholen</string>
+    <string name="action_continue_offline">Offline fortfahren</string>
+    <string name="loading_app_data">App-Informationen werden geladen…</string>
+    <string name="loading_checking_updates">Auf Updates prüfen…</string>
+    <string name="loading_please_wait">Bitte warten…</string>
+
 </resources>

@@ -90,7 +90,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ 重要な警告</string>
-    <string name="onboarding_warning_message">このアプリはsoftonic.com、uptodown.com、aadapk.comとは関係ありません。唯一の公式ソースはgithub.comです</string>
+    <string name="onboarding_warning_message">このアプリはsoftonic.com、uptodown.com、aadapk.com, aadapk.appとは関係ありません。唯一の公式ソースはgithub.comです</string>
     <string name="onboarding_official_source">公式ソース: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -139,4 +139,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">セットアップを完了</string>
     <string name="show_intro">イントロを表示</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">インストール済み</string>
+    <string name="status_update_available">更新可能</string>
+    <string name="status_update_to_version">%1$sに更新</string>
+    <string name="status_not_installed">未インストール</string>
+    <string name="status_downloading">ダウンロード中…</string>
+    <string name="status_installing">インストール中…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">インストール</string>
+    <string name="action_update">更新</string>
+    <string name="action_open">開く</string>
+    <string name="action_uninstall">アンインストール</string>
+    <string name="action_cancel">キャンセル</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">ダウンロード失敗</string>
+    <string name="error_installation_failed">インストール失敗</string>
+    <string name="error_network_unavailable">ネットワーク利用不可</string>
+    <string name="error_insufficient_storage">ストレージ不足</string>
+    <string name="error_cannot_open_app">アプリを開けません - 起動アクティビティが見つかりません</string>
+    <string name="error_download_tracking_failed">ダウンロードステータスの更新に失敗しました</string>
+    <string name="error_loading_catalog">アプリカタログの読み込みに失敗しました</string>
+
 </resources>

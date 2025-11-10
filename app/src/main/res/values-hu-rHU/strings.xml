@@ -90,7 +90,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Fontos figyelmeztetés</string>
-    <string name="onboarding_warning_message">Ez az alkalmazás NEM kapcsolódik a softonic.com, uptodown.com vagy aadapk.com webhelyekhez. Az egyetlen hivatalos forrás a github.com</string>
+    <string name="onboarding_warning_message">Ez az alkalmazás NEM kapcsolódik a softonic.com, uptodown.com vagy aadapk.com, aadapk.app webhelyekhez. Az egyetlen hivatalos forrás a github.com</string>
     <string name="onboarding_official_source">Hivatalos forrás: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -139,4 +139,41 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Beállítás befejezése</string>
     <string name="show_intro">Bemutató megjelenítése</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Telepítve</string>
+    <string name="status_update_available">Frissítés elérhető</string>
+    <string name="status_update_to_version">Frissítés erre: %1$s</string>
+    <string name="status_not_installed">Nincs telepítve</string>
+    <string name="status_downloading">Letöltés…</string>
+    <string name="status_installing">Telepítés…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Telepítés</string>
+    <string name="action_update">Frissítés</string>
+    <string name="action_open">Megnyitás</string>
+    <string name="action_uninstall">Eltávolítás</string>
+    <string name="action_cancel">Mégse</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Letöltés sikertelen</string>
+    <string name="error_installation_failed">Telepítés sikertelen</string>
+    <string name="error_network_unavailable">A hálózat nem elérhető</string>
+    <string name="error_insufficient_storage">Nincs elég tárhely</string>
+    <string name="error_cannot_open_app">Az alkalmazás nem nyitható meg - nem található indítási tevékenység</string>
+    <string name="error_download_tracking_failed">Nem sikerült frissíteni a letöltés állapotát</string>
+    <string name="error_loading_catalog">Nem sikerült betölteni az alkalmazáskatalógust</string>
+    <string name="error_not_eligible">Frissítenie kell a PRO verzióra, vagy meg kell várnia a következő ingyenes letöltést.</string>
+    <string name="error_no_internet">Nincs internetkapcsolat</string>
+    <string name="error_no_internet_message">Kérjük, csatlakozzon az internethez az alkalmazás információk betöltéséhez és a folytatáshoz.</string>
+    <string name="error_initialization_failed">Az alkalmazásadatok inicializálása sikertelen</string>
+    <string name="error_metadata_fetch_failed">Az alkalmazásfrissítések lekérése sikertelen</string>
+    <string name="error_metadata_fetch_failed_message">Nem sikerült lekérni a legfrissebb alkalmazásinformációkat. Ellenőrizze az internetkapcsolatot, és próbálja újra.</string>
+    <string name="action_retry">Újra</string>
+    <string name="action_continue_offline">Folytatás offline</string>
+    <string name="loading_app_data">Alkalmazásinformációk betöltése…</string>
+    <string name="loading_checking_updates">Frissítések keresése…</string>
+    <string name="loading_please_wait">Kérjük, várjon…</string>
+
 </resources>

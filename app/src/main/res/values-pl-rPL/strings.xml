@@ -93,7 +93,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Ważne ostrzeżenie</string>
-    <string name="onboarding_warning_message">Ta aplikacja NIE jest powiązana z softonic.com, uptodown.com lub aadapk.com. Jedynym oficjalnym źródłem jest github.com</string>
+    <string name="onboarding_warning_message">Ta aplikacja NIE jest powiązana z softonic.com, uptodown.com lub aadapk.com, aadapk.app. Jedynym oficjalnym źródłem jest github.com</string>
     <string name="onboarding_official_source">Oficjalne źródło: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -142,4 +142,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Zakończ konfigurację</string>
     <string name="show_intro">Pokaż wprowadzenie</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Zainstalowane</string>
+    <string name="status_update_available">Dostępna aktualizacja</string>
+    <string name="status_update_to_version">Zaktualizuj do %1$s</string>
+    <string name="status_not_installed">Nie zainstalowane</string>
+    <string name="status_downloading">Pobieranie…</string>
+    <string name="status_installing">Instalowanie…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Zainstaluj</string>
+    <string name="action_update">Zaktualizuj</string>
+    <string name="action_open">Otwórz</string>
+    <string name="action_uninstall">Odinstaluj</string>
+    <string name="action_cancel">Anuluj</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Pobieranie nie powiodło się</string>
+    <string name="error_installation_failed">Instalacja nie powiodła się</string>
+    <string name="error_network_unavailable">Sieć niedostępna</string>
+    <string name="error_insufficient_storage">Niewystarczająca pamięć</string>
+    <string name="error_cannot_open_app">Nie można otworzyć aplikacji - nie znaleziono aktywności uruchamiania</string>
+    <string name="error_download_tracking_failed">Nie udało się zaktualizować statusu pobierania</string>
+    <string name="error_loading_catalog">Nie udało się załadować katalogu aplikacji</string>
+
 </resources>

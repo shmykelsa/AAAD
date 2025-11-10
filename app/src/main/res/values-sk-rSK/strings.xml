@@ -92,7 +92,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Dôležité upozornenie</string>
-    <string name="onboarding_warning_message">Táto aplikácia NIE JE spojená so softonic.com, uptodown.com alebo aadapk.com. Jediným oficiálnym zdrojom je github.com</string>
+    <string name="onboarding_warning_message">Táto aplikácia NIE JE spojená so softonic.com, uptodown.com alebo aadapk.com, aadapk.app. Jediným oficiálnym zdrojom je github.com</string>
     <string name="onboarding_official_source">Oficiálny zdroj: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -141,4 +141,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Dokončiť nastavenie</string>
     <string name="show_intro">Zobraziť úvod</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Nainštalované</string>
+    <string name="status_update_available">Aktualizácia k dispozícii</string>
+    <string name="status_update_to_version">Aktualizovať na %1$s</string>
+    <string name="status_not_installed">Nenainštalované</string>
+    <string name="status_downloading">Sťahovanie…</string>
+    <string name="status_installing">Inštalácia…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Nainštalovať</string>
+    <string name="action_update">Aktualizovať</string>
+    <string name="action_open">Otvoriť</string>
+    <string name="action_uninstall">Odinštalovať</string>
+    <string name="action_cancel">Zrušiť</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Sťahovanie zlyhalo</string>
+    <string name="error_installation_failed">Inštalácia zlyhala</string>
+    <string name="error_network_unavailable">Sieť nie je k dispozícii</string>
+    <string name="error_insufficient_storage">Nedostatok úložného priestoru</string>
+    <string name="error_cannot_open_app">Nie je možné otvoriť aplikáciu - nebola nájdená spúšťacia aktivita</string>
+    <string name="error_download_tracking_failed">Aktualizácia stavu sťahovania zlyhala</string>
+    <string name="error_loading_catalog">Načítanie katalógu aplikácií zlyhalo</string>
+
 </resources>

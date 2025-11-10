@@ -95,7 +95,7 @@ rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, a
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Důležité upozornění</string>
-    <string name="onboarding_warning_message">Tato aplikace NENÍ spojena se softonic.com, uptodown.com nebo aadapk.com. Jediným oficiálním zdrojem je github.com</string>
+    <string name="onboarding_warning_message">Tato aplikace NENÍ spojena se softonic.com, uptodown.com nebo aadapk.com, aadapk.app. Jediným oficiálním zdrojem je github.com</string>
     <string name="onboarding_official_source">Oficiální zdroj: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -144,4 +144,41 @@ rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, a
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Dokončit nastavení</string>
     <string name="show_intro">Zobrazit úvod</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Nainstalováno</string>
+    <string name="status_update_available">Aktualizace k dispozici</string>
+    <string name="status_update_to_version">Aktualizovat na %1$s</string>
+    <string name="status_not_installed">Nenainstalováno</string>
+    <string name="status_downloading">Stahování…</string>
+    <string name="status_installing">Instalace…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instalovat</string>
+    <string name="action_update">Aktualizovat</string>
+    <string name="action_open">Otevřít</string>
+    <string name="action_uninstall">Odinstalovat</string>
+    <string name="action_cancel">Zrušit</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Stahování se nezdařilo</string>
+    <string name="error_installation_failed">Instalace se nezdařila</string>
+    <string name="error_network_unavailable">Síť není k dispozici</string>
+    <string name="error_insufficient_storage">Nedostatek úložného prostoru</string>
+    <string name="error_cannot_open_app">Nelze otevřít aplikaci - nebyla nalezena spouštěcí aktivita</string>
+    <string name="error_download_tracking_failed">Nepodařilo se aktualizovat stav stahování</string>
+    <string name="error_loading_catalog">Nepodařilo se načíst katalog aplikací</string>
+    <string name="error_not_eligible">Musíte upgradovat na PRO nebo počkat na další bezplatné stahování.</string>
+    <string name="error_no_internet">Žádné připojení k internetu</string>
+    <string name="error_no_internet_message">Připojte se k internetu pro načtení informací o aplikaci a pokračování.</string>
+    <string name="error_initialization_failed">Inicializace dat aplikace se nezdařila</string>
+    <string name="error_metadata_fetch_failed">Načtení aktualizací aplikace se nezdařilo</string>
+    <string name="error_metadata_fetch_failed_message">Nepodařilo se získat nejnovější informace o aplikaci. Zkontrolujte připojení k internetu a zkuste to znovu.</string>
+    <string name="action_retry">Zkusit znovu</string>
+    <string name="action_continue_offline">Pokračovat offline</string>
+    <string name="loading_app_data">Načítání informací o aplikaci…</string>
+    <string name="loading_checking_updates">Kontrola aktualizací…</string>
+    <string name="loading_please_wait">Prosím čekejte…</string>
+
 </resources>

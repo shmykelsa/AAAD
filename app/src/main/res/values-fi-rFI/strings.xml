@@ -82,7 +82,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Tärkeä varoitus</string>
-    <string name="onboarding_warning_message">Tämä sovellus EI ole yhteydessä softonic.com, uptodown.com tai aadapk.com. Ainoa virallinen lähde on github.com</string>
+    <string name="onboarding_warning_message">Tämä sovellus EI ole yhteydessä softonic.com, uptodown.com tai aadapk.com, aadapk.app. Ainoa virallinen lähde on github.com</string>
     <string name="onboarding_official_source">Virallinen lähde: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -131,4 +131,41 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Viimeistele asennus</string>
     <string name="show_intro">Näytä esittely</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Asennettu</string>
+    <string name="status_update_available">Päivitys saatavilla</string>
+    <string name="status_update_to_version">Päivitä versioon %1$s</string>
+    <string name="status_not_installed">Ei asennettu</string>
+    <string name="status_downloading">Ladataan…</string>
+    <string name="status_installing">Asennetaan…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Asenna</string>
+    <string name="action_update">Päivitä</string>
+    <string name="action_open">Avaa</string>
+    <string name="action_uninstall">Poista asennus</string>
+    <string name="action_cancel">Peruuta</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Lataus epäonnistui</string>
+    <string name="error_installation_failed">Asennus epäonnistui</string>
+    <string name="error_network_unavailable">Verkko ei käytettävissä</string>
+    <string name="error_insufficient_storage">Tallennustila ei riitä</string>
+    <string name="error_cannot_open_app">Sovellusta ei voi avata - käynnistystoimintoa ei löytynyt</string>
+    <string name="error_download_tracking_failed">Latauksen tilan päivitys epäonnistui</string>
+    <string name="error_loading_catalog">Sovellusluettelon lataus epäonnistui</string>
+    <string name="error_not_eligible">Sinun on päivitettävä PRO-versioon tai odotettava seuraavaa ilmaista lataustasi.</string>
+    <string name="error_no_internet">Ei internet-yhteyttä</string>
+    <string name="error_no_internet_message">Yhdistä internetiin ladataksesi sovellustiedot ja jatkaaksesi.</string>
+    <string name="error_initialization_failed">Sovellustietojen alustus epäonnistui</string>
+    <string name="error_metadata_fetch_failed">Sovelluspäivitysten haku epäonnistui</string>
+    <string name="error_metadata_fetch_failed_message">Uusimpien sovellustietojen noutaminen epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
+    <string name="action_retry">Yritä uudelleen</string>
+    <string name="action_continue_offline">Jatka offline-tilassa</string>
+    <string name="loading_app_data">Ladataan sovellustietoja…</string>
+    <string name="loading_checking_updates">Tarkistetaan päivityksiä…</string>
+    <string name="loading_please_wait">Odota hetki…</string>
+
 </resources>

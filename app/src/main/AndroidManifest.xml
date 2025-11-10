@@ -26,6 +26,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <queries>
+        <!-- Allow package installer intents -->
         <intent>
             <action android:name="android.intent.action.INSTALL_PACKAGE" />
             <data android:scheme="package" />
@@ -38,6 +39,19 @@
             <action android:name="android.intent.action.VIEW" />
             <data android:scheme="file" />
         </intent>
+
+        <!-- Declare specific packages we want to detect as installed (Android 11+) -->
+        <package android:name="com.carstream" />
+        <package android:name="me.AndreyPavlenko.Fermata" />
+        <package android:name="ru.inceptive.screentwoauto" />
+        <package android:name="maps.kiao2client.android" />
+        <package android:name="maps.mobilejiohubclient.android" />
+        <package android:name="maps.mobilejiohub.android" />
+        <package android:name="com.aapassenger" />
+        <package android:name="com.aawidgets" />
+        <package android:name="com.nav2contacts" />
+        <package android:name="com.performancemonitor" />
+        <package android:name="com.aatorque" />
     </queries>
 
     <application
@@ -129,6 +143,18 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/paths" />
         </provider>
+
+        <!-- BroadcastReceiver for package installation/removal events -->
+        <receiver
+            android:name=".receivers.PackageInstallReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
 
     </application>
 

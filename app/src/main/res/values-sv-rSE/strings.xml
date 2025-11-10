@@ -91,7 +91,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Viktig varning</string>
-    <string name="onboarding_warning_message">Denna app är INTE ansluten till softonic.com, uptodown.com eller aadapk.com. Den enda officiella källan är github.com</string>
+    <string name="onboarding_warning_message">Denna app är INTE ansluten till softonic.com, uptodown.com eller aadapk.com, aadapk.app. Den enda officiella källan är github.com</string>
     <string name="onboarding_official_source">Officiell källa: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -129,4 +129,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Slutför installation</string>
     <string name="show_intro">Visa intro</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installerad</string>
+    <string name="status_update_available">Uppdatering tillgänglig</string>
+    <string name="status_update_to_version">Uppdatera till %1$s</string>
+    <string name="status_not_installed">Inte installerad</string>
+    <string name="status_downloading">Laddar ner…</string>
+    <string name="status_installing">Installerar…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installera</string>
+    <string name="action_update">Uppdatera</string>
+    <string name="action_open">Öppna</string>
+    <string name="action_uninstall">Avinstallera</string>
+    <string name="action_cancel">Avbryt</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Nedladdning misslyckades</string>
+    <string name="error_installation_failed">Installation misslyckades</string>
+    <string name="error_network_unavailable">Nätverket är inte tillgängligt</string>
+    <string name="error_insufficient_storage">Otillräckligt lagringsutrymme</string>
+    <string name="error_cannot_open_app">Kan inte öppna appen - ingen startaktivitet hittades</string>
+    <string name="error_download_tracking_failed">Det gick inte att uppdatera nedladdningsstatus</string>
+    <string name="error_loading_catalog">Det gick inte att läsa in appkatalogen</string>
+
 </resources>

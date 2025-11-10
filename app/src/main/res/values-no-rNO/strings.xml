@@ -82,7 +82,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Viktig advarsel</string>
-    <string name="onboarding_warning_message">Denne appen er IKKE tilknyttet softonic.com, uptodown.com eller aadapk.com. Den eneste offisielle kilden er github.com</string>
+    <string name="onboarding_warning_message">Denne appen er IKKE tilknyttet softonic.com, uptodown.com eller aadapk.com, aadapk.app. Den eneste offisielle kilden er github.com</string>
     <string name="onboarding_official_source">Offisiell kilde: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -131,4 +131,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Fullfør oppsett</string>
     <string name="show_intro">Vis intro</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installert</string>
+    <string name="status_update_available">Oppdatering tilgjengelig</string>
+    <string name="status_update_to_version">Oppdater til %1$s</string>
+    <string name="status_not_installed">Ikke installert</string>
+    <string name="status_downloading">Laster ned…</string>
+    <string name="status_installing">Installerer…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installer</string>
+    <string name="action_update">Oppdater</string>
+    <string name="action_open">Åpne</string>
+    <string name="action_uninstall">Avinstaller</string>
+    <string name="action_cancel">Avbryt</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Nedlasting mislyktes</string>
+    <string name="error_installation_failed">Installasjon mislyktes</string>
+    <string name="error_network_unavailable">Nettverk utilgjengelig</string>
+    <string name="error_insufficient_storage">Utilstrekkelig lagringsplass</string>
+    <string name="error_cannot_open_app">Kan ikke åpne appen - ingen startaktivitet funnet</string>
+    <string name="error_download_tracking_failed">Kunne ikke oppdatere nedlastingsstatus</string>
+    <string name="error_loading_catalog">Kunne ikke laste inn appkatalog</string>
+
 </resources>

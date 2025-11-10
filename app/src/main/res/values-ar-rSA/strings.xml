@@ -95,7 +95,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ تحذير مهم</string>
-    <string name="onboarding_warning_message">هذا التطبيق ليس تابعاً لـ softonic.com أو uptodown.com أو aadapk.com. المصدر الرسمي الوحيد هو github.com</string>
+    <string name="onboarding_warning_message">هذا التطبيق ليس تابعاً لـ softonic.com أو uptodown.com أو aadapk.com, aadapk.app. المصدر الرسمي الوحيد هو github.com</string>
     <string name="onboarding_official_source">المصدر الرسمي: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -144,4 +144,41 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">إنهاء الإعداد</string>
     <string name="show_intro">عرض المقدمة</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">مثبت</string>
+    <string name="status_update_available">التحديث متاح</string>
+    <string name="status_update_to_version">التحديث إلى %1$s</string>
+    <string name="status_not_installed">غير مثبت</string>
+    <string name="status_downloading">جارٍ التنزيل…</string>
+    <string name="status_installing">جارٍ التثبيت…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">تثبيت</string>
+    <string name="action_update">تحديث</string>
+    <string name="action_open">فتح</string>
+    <string name="action_uninstall">إلغاء التثبيت</string>
+    <string name="action_cancel">إلغاء</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">فشل التنزيل</string>
+    <string name="error_installation_failed">فشل التثبيت</string>
+    <string name="error_network_unavailable">الشبكة غير متوفرة</string>
+    <string name="error_insufficient_storage">مساحة التخزين غير كافية</string>
+    <string name="error_cannot_open_app">لا يمكن فتح التطبيق - لم يتم العثور على نشاط التشغيل</string>
+    <string name="error_download_tracking_failed">فشل تحديث حالة التنزيل</string>
+    <string name="error_loading_catalog">فشل تحميل كتالوج التطبيقات</string>
+    <string name="error_not_eligible">تحتاج إلى الترقية إلى PRO أو الانتظار حتى التنزيل المجاني التالي.</string>
+    <string name="error_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_no_internet_message">يرجى الاتصال بالإنترنت لتحميل معلومات التطبيق والمتابعة.</string>
+    <string name="error_initialization_failed">فشل تهيئة بيانات التطبيق</string>
+    <string name="error_metadata_fetch_failed">فشل جلب تحديثات التطبيق</string>
+    <string name="error_metadata_fetch_failed_message">تعذر استرجاع أحدث معلومات التطبيق. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_continue_offline">المتابعة دون اتصال</string>
+    <string name="loading_app_data">تحميل معلومات التطبيق…</string>
+    <string name="loading_checking_updates">البحث عن تحديثات…</string>
+    <string name="loading_please_wait">يرجى الانتظار…</string>
+
 </resources>

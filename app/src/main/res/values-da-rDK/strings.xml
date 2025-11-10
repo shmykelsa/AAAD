@@ -91,7 +91,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Vigtig advarsel</string>
-    <string name="onboarding_warning_message">Denne app er IKKE tilknyttet softonic.com, uptodown.com eller aadapk.com. Den eneste officielle kilde er github.com</string>
+    <string name="onboarding_warning_message">Denne app er IKKE tilknyttet softonic.com, uptodown.com eller aadapk.com, aadapk.app. Den eneste officielle kilde er github.com</string>
     <string name="onboarding_official_source">Officiel kilde: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -140,4 +140,41 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Afslut opsætning</string>
     <string name="show_intro">Vis intro</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installeret</string>
+    <string name="status_update_available">Opdatering tilgængelig</string>
+    <string name="status_update_to_version">Opdater til %1$s</string>
+    <string name="status_not_installed">Ikke installeret</string>
+    <string name="status_downloading">Downloader…</string>
+    <string name="status_installing">Installerer…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installer</string>
+    <string name="action_update">Opdater</string>
+    <string name="action_open">Åbn</string>
+    <string name="action_uninstall">Afinstaller</string>
+    <string name="action_cancel">Annuller</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Download mislykkedes</string>
+    <string name="error_installation_failed">Installation mislykkedes</string>
+    <string name="error_network_unavailable">Netværk utilgængeligt</string>
+    <string name="error_insufficient_storage">Utilstrækkeligt lagerplads</string>
+    <string name="error_cannot_open_app">Kan ikke åbne app - ingen startaktivitet fundet</string>
+    <string name="error_download_tracking_failed">Kunne ikke opdatere downloadstatus</string>
+    <string name="error_loading_catalog">Kunne ikke indlæse appkatalog</string>
+    <string name="error_not_eligible">Du skal opgradere til PRO eller vente på din næste gratis download.</string>
+    <string name="error_no_internet">Ingen internetforbindelse</string>
+    <string name="error_no_internet_message">Opret forbindelse til internettet for at indlæse appinformation og fortsætte.</string>
+    <string name="error_initialization_failed">Kunne ikke initialisere appdata</string>
+    <string name="error_metadata_fetch_failed">Kunne ikke hente appopdateringer</string>
+    <string name="error_metadata_fetch_failed_message">Kunne ikke hente de seneste appinformationer. Kontroller din internetforbindelse og prøv igen.</string>
+    <string name="action_retry">Prøv igen</string>
+    <string name="action_continue_offline">Fortsæt offline</string>
+    <string name="loading_app_data">Indlæser appinformation…</string>
+    <string name="loading_checking_updates">Kontrollerer for opdateringer…</string>
+    <string name="loading_please_wait">Vent venligst…</string>
+
 </resources>

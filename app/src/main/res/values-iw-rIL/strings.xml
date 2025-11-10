@@ -92,7 +92,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ אזהרה חשובה</string>
-    <string name="onboarding_warning_message">אפליקציה זו אינה קשורה ל-softonic.com, uptodown.com או aadapk.com. המקור הרשמי היחיד הוא github.com</string>
+    <string name="onboarding_warning_message">אפליקציה זו אינה קשורה ל-softonic.com, uptodown.com או aadapk.com, aadapk.app. המקור הרשמי היחיד הוא github.com</string>
     <string name="onboarding_official_source">מקור רשמי: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -141,4 +141,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">סיים הגדרה</string>
     <string name="show_intro">הצג הקדמה</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">מותקן</string>
+    <string name="status_update_available">עדכון זמין</string>
+    <string name="status_update_to_version">עדכן ל-%1$s</string>
+    <string name="status_not_installed">לא מותקן</string>
+    <string name="status_downloading">מוריד…</string>
+    <string name="status_installing">מתקין…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">התקן</string>
+    <string name="action_update">עדכן</string>
+    <string name="action_open">פתח</string>
+    <string name="action_uninstall">הסר התקנה</string>
+    <string name="action_cancel">ביטול</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">ההורדה נכשלה</string>
+    <string name="error_installation_failed">ההתקנה נכשלה</string>
+    <string name="error_network_unavailable">הרשת אינה זמינה</string>
+    <string name="error_insufficient_storage">אין מספיק אחסון</string>
+    <string name="error_cannot_open_app">לא ניתן לפתוח את האפליקציה - לא נמצאה פעילות הפעלה</string>
+    <string name="error_download_tracking_failed">עדכון מצב ההורדה נכשל</string>
+    <string name="error_loading_catalog">טעינת קטלוג האפליקציות נכשלה</string>
+
 </resources>

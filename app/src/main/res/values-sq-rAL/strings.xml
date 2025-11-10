@@ -93,7 +93,7 @@ i më i plotë i videos dhe audios për Android Auto, duke shfaqur një përvoj�
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Paralajmërim i rëndësishëm</string>
-    <string name="onboarding_warning_message">Ky aplikacion NUK është i lidhur me softonic.com, uptodown.com ose aadapk.com. Burimi i vetëm zyrtar është github.com</string>
+    <string name="onboarding_warning_message">Ky aplikacion NUK është i lidhur me softonic.com, uptodown.com ose aadapk.com, aadapk.app. Burimi i vetëm zyrtar është github.com</string>
     <string name="onboarding_official_source">Burimi zyrtar: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -130,4 +130,30 @@ i më i plotë i videos dhe audios për Android Auto, duke shfaqur një përvoj�
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Përfundo konfigurimin</string>
     <string name="show_intro">Shfaq prezantimin</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">I instaluar</string>
+    <string name="status_update_available">Përditësim i disponueshëm</string>
+    <string name="status_update_to_version">Përditëso në %1$s</string>
+    <string name="status_not_installed">I painstaluar</string>
+    <string name="status_downloading">Duke shkarkuar…</string>
+    <string name="status_installing">Duke instaluar…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instalo</string>
+    <string name="action_update">Përditëso</string>
+    <string name="action_open">Hap</string>
+    <string name="action_uninstall">Çinstalo</string>
+    <string name="action_cancel">Anulo</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Shkarkimi dështoi</string>
+    <string name="error_installation_failed">Instalimi dështoi</string>
+    <string name="error_network_unavailable">Rrjeti nuk është i disponueshëm</string>
+    <string name="error_insufficient_storage">Hapësirë ruajtjeje e pamjaftueshme</string>
+    <string name="error_cannot_open_app">Nuk mund të hapet aplikacioni - aktiviteti i nisjes nuk u gjet</string>
+    <string name="error_download_tracking_failed">Përditësimi i statusit të shkarkimit dështoi</string>
+    <string name="error_loading_catalog">Ngarkimi i katalogut të aplikacioneve dështoi</string>
+
 </resources>

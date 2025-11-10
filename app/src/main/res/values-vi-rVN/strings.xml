@@ -90,7 +90,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Cảnh báo quan trọng</string>
-    <string name="onboarding_warning_message">Ứng dụng này KHÔNG liên kết với softonic.com, uptodown.com hoặc aadapk.com. Nguồn chính thức duy nhất là github.com</string>
+    <string name="onboarding_warning_message">Ứng dụng này KHÔNG liên kết với softonic.com, uptodown.com hoặc aadapk.com, aadapk.app. Nguồn chính thức duy nhất là github.com</string>
     <string name="onboarding_official_source">Nguồn chính thức: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -128,4 +128,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Hoàn tất thiết lập</string>
     <string name="show_intro">Hiển thị giới thiệu</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Đã cài đặt</string>
+    <string name="status_update_available">Có bản cập nhật</string>
+    <string name="status_update_to_version">Cập nhật lên %1$s</string>
+    <string name="status_not_installed">Chưa cài đặt</string>
+    <string name="status_downloading">Đang tải xuống…</string>
+    <string name="status_installing">Đang cài đặt…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Cài đặt</string>
+    <string name="action_update">Cập nhật</string>
+    <string name="action_open">Mở</string>
+    <string name="action_uninstall">Gỡ cài đặt</string>
+    <string name="action_cancel">Hủy</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Tải xuống thất bại</string>
+    <string name="error_installation_failed">Cài đặt thất bại</string>
+    <string name="error_network_unavailable">Mạng không khả dụng</string>
+    <string name="error_insufficient_storage">Không đủ dung lượng lưu trữ</string>
+    <string name="error_cannot_open_app">Không thể mở ứng dụng - không tìm thấy hoạt động khởi chạy</string>
+    <string name="error_download_tracking_failed">Cập nhật trạng thái tải xuống thất bại</string>
+    <string name="error_loading_catalog">Tải danh mục ứng dụng thất bại</string>
+
 </resources>

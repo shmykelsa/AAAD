@@ -92,7 +92,7 @@ Nav2Contacts viene in soccorso! Prima di tutto, seleziona l\'app che desideri ut
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Avviso importante</string>
-    <string name="onboarding_warning_message">Questa app NON è affiliata con softonic.com, uptodown.com o aadapk.com. L\'unica fonte ufficiale è github.com</string>
+    <string name="onboarding_warning_message">Questa app NON è affiliata con softonic.com, uptodown.com o aadapk.com, aadapk.app. L\'unica fonte ufficiale è github.com</string>
     <string name="onboarding_official_source">Fonte ufficiale: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -141,4 +141,30 @@ Nav2Contacts viene in soccorso! Prima di tutto, seleziona l\'app che desideri ut
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Completa configurazione</string>
     <string name="show_intro">Mostra introduzione</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installato</string>
+    <string name="status_update_available">Aggiornamento disponibile</string>
+    <string name="status_update_to_version">Aggiorna a %1$s</string>
+    <string name="status_not_installed">Non installato</string>
+    <string name="status_downloading">Download in corso…</string>
+    <string name="status_installing">Installazione in corso…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installa</string>
+    <string name="action_update">Aggiorna</string>
+    <string name="action_open">Apri</string>
+    <string name="action_uninstall">Disinstalla</string>
+    <string name="action_cancel">Annulla</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Download fallito</string>
+    <string name="error_installation_failed">Installazione fallita</string>
+    <string name="error_network_unavailable">Rete non disponibile</string>
+    <string name="error_insufficient_storage">Spazio di archiviazione insufficiente</string>
+    <string name="error_cannot_open_app">Impossibile aprire l\'app - nessuna attività di avvio trovata</string>
+    <string name="error_download_tracking_failed">Impossibile aggiornare lo stato del download</string>
+    <string name="error_loading_catalog">Impossibile caricare il catalogo delle app</string>
+
 </resources>

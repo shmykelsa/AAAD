@@ -1,6 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Material3 Light Theme -->
-    <style name="Theme.AA_Apps_Downloader" parent="Theme.Material3.DayNight">
+    <style name="Theme.AA_Apps_Downloader" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
@@ -32,6 +34,8 @@
 
     <!-- Dynamic Color Theme for Android 12+ -->
     <style name="Theme.AA_Apps_Downloader.DynamicColors" parent="Theme.Material3.DynamicColors.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <!-- Dynamic colors will override these automatically -->
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>

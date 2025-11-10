@@ -91,7 +91,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Belangrijke waarschuwing</string>
-    <string name="onboarding_warning_message">Deze app is NIET gelieerd aan softonic.com, uptodown.com of aadapk.com. De enige officiële bron is github.com</string>
+    <string name="onboarding_warning_message">Deze app is NIET gelieerd aan softonic.com, uptodown.com of aadapk.com, aadapk.app. De enige officiële bron is github.com</string>
     <string name="onboarding_official_source">Officiële bron: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -140,4 +140,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Installatie voltooien</string>
     <string name="show_intro">Toon intro</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Geïnstalleerd</string>
+    <string name="status_update_available">Update beschikbaar</string>
+    <string name="status_update_to_version">Bijwerken naar %1$s</string>
+    <string name="status_not_installed">Niet geïnstalleerd</string>
+    <string name="status_downloading">Downloaden…</string>
+    <string name="status_installing">Installeren…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installeren</string>
+    <string name="action_update">Bijwerken</string>
+    <string name="action_open">Openen</string>
+    <string name="action_uninstall">Verwijderen</string>
+    <string name="action_cancel">Annuleren</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Download mislukt</string>
+    <string name="error_installation_failed">Installatie mislukt</string>
+    <string name="error_network_unavailable">Netwerk niet beschikbaar</string>
+    <string name="error_insufficient_storage">Onvoldoende opslagruimte</string>
+    <string name="error_cannot_open_app">Kan app niet openen - geen startactiviteit gevonden</string>
+    <string name="error_download_tracking_failed">Kon downloadstatus niet bijwerken</string>
+    <string name="error_loading_catalog">Kan app-catalogus niet laden</string>
+
 </resources>

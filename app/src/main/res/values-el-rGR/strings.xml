@@ -91,7 +91,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Σημαντική προειδοποίηση</string>
-    <string name="onboarding_warning_message">Αυτή η εφαρμογή ΔΕΝ συνδέεται με το softonic.com, uptodown.com ή aadapk.com. Η μόνη επίσημη πηγή είναι το github.com</string>
+    <string name="onboarding_warning_message">Αυτή η εφαρμογή ΔΕΝ συνδέεται με το softonic.com, uptodown.com ή aadapk.com, aadapk.app. Η μόνη επίσημη πηγή είναι το github.com</string>
     <string name="onboarding_official_source">Επίσημη πηγή: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -140,4 +140,41 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Ολοκλήρωση ρύθμισης</string>
     <string name="show_intro">Εμφάνιση εισαγωγής</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Εγκατεστημένο</string>
+    <string name="status_update_available">Διαθέσιμη ενημέρωση</string>
+    <string name="status_update_to_version">Ενημέρωση σε %1$s</string>
+    <string name="status_not_installed">Μη εγκατεστημένο</string>
+    <string name="status_downloading">Λήψη…</string>
+    <string name="status_installing">Εγκατάσταση…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Εγκατάσταση</string>
+    <string name="action_update">Ενημέρωση</string>
+    <string name="action_open">Άνοιγμα</string>
+    <string name="action_uninstall">Απεγκατάσταση</string>
+    <string name="action_cancel">Ακύρωση</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Η λήψη απέτυχε</string>
+    <string name="error_installation_failed">Η εγκατάσταση απέτυχε</string>
+    <string name="error_network_unavailable">Το δίκτυο δεν είναι διαθέσιμο</string>
+    <string name="error_insufficient_storage">Ανεπαρκής αποθηκευτικός χώρος</string>
+    <string name="error_cannot_open_app">Δεν είναι δυνατό το άνοιγμα της εφαρμογής - δεν βρέθηκε δραστηριότητα εκκίνησης</string>
+    <string name="error_download_tracking_failed">Απέτυχε η ενημέρωση κατάστασης λήψης</string>
+    <string name="error_loading_catalog">Απέτυχε η φόρτωση του καταλόγου εφαρμογών</string>
+    <string name="error_not_eligible">Πρέπει να αναβαθμίσετε σε PRO ή να περιμένετε την επόμενη δωρεάν λήψη σας.</string>
+    <string name="error_no_internet">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
+    <string name="error_no_internet_message">Συνδεθείτε στο διαδίκτυο για να φορτώσετε τις πληροφορίες της εφαρμογής και να συνεχίσετε.</string>
+    <string name="error_initialization_failed">Απέτυχε η προετοιμασία των δεδομένων της εφαρμογής</string>
+    <string name="error_metadata_fetch_failed">Απέτυχε η λήψη ενημερώσεων εφαρμογής</string>
+    <string name="error_metadata_fetch_failed_message">Δεν ήταν δυνατή η ανάκτηση των πιο πρόσφατων πληροφοριών εφαρμογής. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά.</string>
+    <string name="action_retry">Επανάληψη</string>
+    <string name="action_continue_offline">Συνέχεια εκτός σύνδεσης</string>
+    <string name="loading_app_data">Φόρτωση πληροφοριών εφαρμογής…</string>
+    <string name="loading_checking_updates">Έλεγχος για ενημερώσεις…</string>
+    <string name="loading_please_wait">Παρακαλώ περιμένετε…</string>
+
 </resources>

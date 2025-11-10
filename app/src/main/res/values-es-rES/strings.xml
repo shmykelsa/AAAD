@@ -94,7 +94,7 @@ te PRO</string>
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Advertencia importante</string>
-    <string name="onboarding_warning_message">Esta aplicación NO está afiliada con softonic.com, uptodown.com o aadapk.com. La única fuente oficial es github.com</string>
+    <string name="onboarding_warning_message">Esta aplicación NO está afiliada con softonic.com, uptodown.com o aadapk.com, aadapk.app. La única fuente oficial es github.com</string>
     <string name="onboarding_official_source">Fuente oficial: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -143,4 +143,41 @@ te PRO</string>
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Finalizar configuración</string>
     <string name="show_intro">Mostrar introducción</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Instalado</string>
+    <string name="status_update_available">Actualización disponible</string>
+    <string name="status_update_to_version">Actualizar a %1$s</string>
+    <string name="status_not_installed">No instalado</string>
+    <string name="status_downloading">Descargando…</string>
+    <string name="status_installing">Instalando…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instalar</string>
+    <string name="action_update">Actualizar</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_uninstall">Desinstalar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Descarga fallida</string>
+    <string name="error_installation_failed">Instalación fallida</string>
+    <string name="error_network_unavailable">Red no disponible</string>
+    <string name="error_insufficient_storage">Almacenamiento insuficiente</string>
+    <string name="error_cannot_open_app">No se puede abrir la aplicación - no se encontró actividad de inicio</string>
+    <string name="error_download_tracking_failed">Error al actualizar el estado de descarga</string>
+    <string name="error_loading_catalog">Error al cargar el catálogo de aplicaciones</string>
+    <string name="error_not_eligible">Necesitas actualizar a PRO o esperar tu próxima descarga gratuita.</string>
+    <string name="error_no_internet">Sin conexión a Internet</string>
+    <string name="error_no_internet_message">Por favor, conéctate a Internet para cargar la información de la aplicación y continuar.</string>
+    <string name="error_initialization_failed">Error al inicializar los datos de la aplicación</string>
+    <string name="error_metadata_fetch_failed">Error al obtener actualizaciones de la aplicación</string>
+    <string name="error_metadata_fetch_failed_message">No se pudo recuperar la información más reciente de la aplicación. Por favor, verifica tu conexión a Internet e inténtalo de nuevo.</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_continue_offline">Continuar sin conexión</string>
+    <string name="loading_app_data">Cargando información de la aplicación…</string>
+    <string name="loading_checking_updates">Buscando actualizaciones…</string>
+    <string name="loading_please_wait">Por favor, espera…</string>
+
 </resources>

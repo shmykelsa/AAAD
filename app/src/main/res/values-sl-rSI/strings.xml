@@ -92,7 +92,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Pomembno opozorilo</string>
-    <string name="onboarding_warning_message">Ta aplikacija NI povezana s softonic.com, uptodown.com ali aadapk.com. Edini uradni vir je github.com</string>
+    <string name="onboarding_warning_message">Ta aplikacija NI povezana s softonic.com, uptodown.com ali aadapk.com, aadapk.app. Edini uradni vir je github.com</string>
     <string name="onboarding_official_source">Uradni vir: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -141,4 +141,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Zaključi nastavitev</string>
     <string name="show_intro">Prikaži uvod</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Nameščeno</string>
+    <string name="status_update_available">Na voljo posodobitev</string>
+    <string name="status_update_to_version">Posodobi na %1$s</string>
+    <string name="status_not_installed">Ni nameščeno</string>
+    <string name="status_downloading">Prenos…</string>
+    <string name="status_installing">Namestitev…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Namesti</string>
+    <string name="action_update">Posodobi</string>
+    <string name="action_open">Odpri</string>
+    <string name="action_uninstall">Odstrani</string>
+    <string name="action_cancel">Prekliči</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Prenos ni uspel</string>
+    <string name="error_installation_failed">Namestitev ni uspela</string>
+    <string name="error_network_unavailable">Omrežje ni na voljo</string>
+    <string name="error_insufficient_storage">Nezadostna shramba</string>
+    <string name="error_cannot_open_app">Aplikacije ni mogoče odpreti - ni najdena zagonska aktivnost</string>
+    <string name="error_download_tracking_failed">Posodobitev stanja prenosa ni uspela</string>
+    <string name="error_loading_catalog">Nalaganje kataloga aplikacij ni uspelo</string>
+
 </resources>

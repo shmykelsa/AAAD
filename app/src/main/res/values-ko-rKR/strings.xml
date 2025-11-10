@@ -89,7 +89,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ 중요 경고</string>
-    <string name="onboarding_warning_message">이 앱은 softonic.com, uptodown.com 또는 aadapk.com과 관련이 없습니다. 유일한 공식 소스는 github.com입니다</string>
+    <string name="onboarding_warning_message">이 앱은 softonic.com, uptodown.com 또는 aadapk.com, aadapk.app과 관련이 없습니다. 유일한 공식 소스는 github.com입니다</string>
     <string name="onboarding_official_source">공식 소스: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -138,4 +138,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">설정 완료</string>
     <string name="show_intro">소개 표시</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">설치됨</string>
+    <string name="status_update_available">업데이트 가능</string>
+    <string name="status_update_to_version">%1$s(으)로 업데이트</string>
+    <string name="status_not_installed">설치되지 않음</string>
+    <string name="status_downloading">다운로드 중…</string>
+    <string name="status_installing">설치 중…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">설치</string>
+    <string name="action_update">업데이트</string>
+    <string name="action_open">열기</string>
+    <string name="action_uninstall">제거</string>
+    <string name="action_cancel">취소</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">다운로드 실패</string>
+    <string name="error_installation_failed">설치 실패</string>
+    <string name="error_network_unavailable">네트워크를 사용할 수 없음</string>
+    <string name="error_insufficient_storage">저장 공간 부족</string>
+    <string name="error_cannot_open_app">앱을 열 수 없음 - 시작 활동을 찾을 수 없습니다</string>
+    <string name="error_download_tracking_failed">다운로드 상태 업데이트 실패</string>
+    <string name="error_loading_catalog">앱 카탈로그 로드 실패</string>
+
 </resources>

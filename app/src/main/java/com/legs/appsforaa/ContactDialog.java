@@ -30,7 +30,7 @@ public class ContactDialog extends DialogFragment {
                 intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "help.aaad@gmail.com" });
                 ContentResolver contentResolver = requireActivity().getContentResolver();
                 String androidId = Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID);
-                String subject = "HELP - " + androidId;
+                String subject = "HELP -- " + androidId;
                 intent.putExtra(Intent.EXTRA_SUBJECT, subject);
                 startActivity(intent);
             }

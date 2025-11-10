@@ -91,7 +91,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Avertissement important</string>
-    <string name="onboarding_warning_message">Cette application n\'est PAS affiliée à softonic.com, uptodown.com ou aadapk.com. La seule source officielle est github.com</string>
+    <string name="onboarding_warning_message">Cette application n\'est PAS affiliée à softonic.com, uptodown.com ou aadapk.com, aadapk.app. La seule source officielle est github.com</string>
     <string name="onboarding_official_source">Source officielle : github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -140,4 +140,41 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Terminer la configuration</string>
     <string name="show_intro">Afficher l\'intro</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installé</string>
+    <string name="status_update_available">Mise à jour disponible</string>
+    <string name="status_update_to_version">Mettre à jour vers %1$s</string>
+    <string name="status_not_installed">Non installé</string>
+    <string name="status_downloading">Téléchargement…</string>
+    <string name="status_installing">Installation…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installer</string>
+    <string name="action_update">Mettre à jour</string>
+    <string name="action_open">Ouvrir</string>
+    <string name="action_uninstall">Désinstaller</string>
+    <string name="action_cancel">Annuler</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Échec du téléchargement</string>
+    <string name="error_installation_failed">Échec de l\'installation</string>
+    <string name="error_network_unavailable">Réseau indisponible</string>
+    <string name="error_insufficient_storage">Stockage insuffisant</string>
+    <string name="error_cannot_open_app">Impossible d\'ouvrir l\'application - aucune activité de lancement trouvée</string>
+    <string name="error_download_tracking_failed">Échec de la mise à jour du statut de téléchargement</string>
+    <string name="error_loading_catalog">Échec du chargement du catalogue d\'applications</string>
+    <string name="error_not_eligible">Vous devez passer à la version PRO ou attendre votre prochain téléchargement gratuit.</string>
+    <string name="error_no_internet">Pas de connexion Internet</string>
+    <string name="error_no_internet_message">Veuillez vous connecter à Internet pour charger les informations de l\'application et continuer.</string>
+    <string name="error_initialization_failed">Échec de l\'initialisation des données de l\'application</string>
+    <string name="error_metadata_fetch_failed">Échec de la récupération des mises à jour de l\'application</string>
+    <string name="error_metadata_fetch_failed_message">Impossible de récupérer les dernières informations de l\'application. Veuillez vérifier votre connexion Internet et réessayer.</string>
+    <string name="action_retry">Réessayer</string>
+    <string name="action_continue_offline">Continuer hors ligne</string>
+    <string name="loading_app_data">Chargement des informations de l\'application…</string>
+    <string name="loading_checking_updates">Vérification des mises à jour…</string>
+    <string name="loading_please_wait">Veuillez patienter…</string>
+
 </resources>

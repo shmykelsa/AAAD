@@ -81,4 +81,12 @@
     <color name="centercolor">#E4E4E4</color>
     <color name="topcolor">#E8E8E8</color>
 
+    <!-- Status Chip Colors (Light Theme) -->
+    <color name="status_not_installed_bg">@color/md_theme_light_surfaceVariant</color>
+    <color name="status_not_installed_text">@color/md_theme_light_onSurfaceVariant</color>
+    <color name="status_installed_bg">@color/md_theme_light_tertiaryContainer</color>
+    <color name="status_installed_text">@color/md_theme_light_onTertiaryContainer</color>
+    <color name="status_update_bg">#FFF3E0</color> <!-- Amber/Orange background -->
+    <color name="status_update_text">#E65100</color> <!-- Dark Orange text -->
+
 </resources>

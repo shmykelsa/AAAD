@@ -52,6 +52,12 @@
         <item name="cornerSize">50%</item>
     </style>
 
+    <!-- Rounded Square ImageView for App Icons -->
+    <style name="RoundedSquareImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
     <!-- Button Styles -->
     <style name="Widget.Material3.Button.TonalButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="backgroundTint">?attr/colorSecondaryContainer</item>

@@ -91,7 +91,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Önemli uyarı</string>
-    <string name="onboarding_warning_message">Bu uygulama softonic.com, uptodown.com veya aadapk.com ile bağlantılı DEĞİLDİR. Tek resmi kaynak github.com\'dur</string>
+    <string name="onboarding_warning_message">Bu uygulama softonic.com, uptodown.com veya aadapk.com, aadapk.app ile bağlantılı DEĞİLDİR. Tek resmi kaynak github.com\'dur</string>
     <string name="onboarding_official_source">Resmi kaynak: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -129,4 +129,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Kurulumu tamamla</string>
     <string name="show_intro">Tanıtımı göster</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Yüklü</string>
+    <string name="status_update_available">Güncelleme mevcut</string>
+    <string name="status_update_to_version">%1$s sürümüne güncelle</string>
+    <string name="status_not_installed">Yüklü değil</string>
+    <string name="status_downloading">İndiriliyor…</string>
+    <string name="status_installing">Yükleniyor…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Yükle</string>
+    <string name="action_update">Güncelle</string>
+    <string name="action_open">Aç</string>
+    <string name="action_uninstall">Kaldır</string>
+    <string name="action_cancel">İptal</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">İndirme başarısız</string>
+    <string name="error_installation_failed">Yükleme başarısız</string>
+    <string name="error_network_unavailable">Ağ kullanılamıyor</string>
+    <string name="error_insufficient_storage">Yetersiz depolama alanı</string>
+    <string name="error_cannot_open_app">Uygulama açılamıyor - başlatma etkinliği bulunamadı</string>
+    <string name="error_download_tracking_failed">İndirme durumu güncellenemedi</string>
+    <string name="error_loading_catalog">Uygulama kataloğu yüklenemedi</string>
+
 </resources>

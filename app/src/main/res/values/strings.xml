@@ -52,7 +52,7 @@
     <!-- Onboarding Strings -->
     <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Important Warning</string>
-    <string name="onboarding_warning_message">This app is NOT affiliated with softonic.com, uptodown.com, or aadapk.com. The only official source is github.com</string>
+    <string name="onboarding_warning_message">This app is NOT affiliated with softonic.com, uptodown.com, or aadapk.com, aadapk.app. The only official source is github.com</string>
     <string name="onboarding_official_source">Official source: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -93,6 +93,7 @@
     <!-- Installation Status -->
     <string name="status_installed">Installed</string>
     <string name="status_update_available">Update Available</string>
+    <string name="status_update_to_version">Update to %1$s</string>
     <string name="status_not_installed">Not Installed</string>
     <string name="status_downloading">Downloading…</string>
     <string name="status_installing">Installing…</string>
@@ -109,6 +110,20 @@
     <string name="error_installation_failed">Installation failed</string>
     <string name="error_network_unavailable">Network unavailable</string>
     <string name="error_insufficient_storage">Insufficient storage</string>
+    <string name="error_cannot_open_app">Cannot open app - no launcher activity found</string>
+    <string name="error_download_tracking_failed">Failed to update download status</string>
+    <string name="error_loading_catalog">Failed to load app catalog</string>
+    <string name="error_not_eligible">You need to upgrade to PRO or wait for your next free download.</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_no_internet_message">Please connect to the internet to load app information and continue.</string>
+    <string name="error_initialization_failed">Failed to initialize app data</string>
+    <string name="error_metadata_fetch_failed">Failed to fetch app updates</string>
+    <string name="error_metadata_fetch_failed_message">Could not retrieve the latest app information. Please check your internet connection and try again.</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_continue_offline">Continue Offline</string>
+    <string name="loading_app_data">Loading app information…</string>
+    <string name="loading_checking_updates">Checking for updates…</string>
+    <string name="loading_please_wait">Please wait…</string>
     
     <!-- Progress Messages -->
     <string name="progress_downloading">Downloading %1$s…</string>
@@ -124,6 +139,7 @@
     <string name="hero_title">Android Auto Apps</string>
     <string name="hero_subtitle">Install custom apps for your Android Auto experience</string>
     <string name="refresh_apps">Refresh apps</string>
+    <string name="downloads_remaining">Downloads remaining</string>
     <string name="new_version_available">New version available</string>
     <string name="go_to_new_version">A new version of AAAD (version %1$s) is available on GitHub. Do you want to download it now?</string>
     <string name="go_to_download">Go to download</string>

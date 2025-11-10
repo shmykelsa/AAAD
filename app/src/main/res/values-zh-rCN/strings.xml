@@ -89,7 +89,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ 重要警告</string>
-    <string name="onboarding_warning_message">此应用程序与 softonic.com、uptodown.com 或 aadapk.com 无关。唯一的官方来源是 github.com</string>
+    <string name="onboarding_warning_message">此应用程序与 softonic.com、uptodown.com 或 aadapk.com, aadapk.app 无关。唯一的官方来源是 github.com</string>
     <string name="onboarding_official_source">官方来源：github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -138,4 +138,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">完成设置</string>
     <string name="show_intro">显示介绍</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">已安装</string>
+    <string name="status_update_available">可更新</string>
+    <string name="status_update_to_version">更新到 %1$s</string>
+    <string name="status_not_installed">未安装</string>
+    <string name="status_downloading">下载中…</string>
+    <string name="status_installing">安装中…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">安装</string>
+    <string name="action_update">更新</string>
+    <string name="action_open">打开</string>
+    <string name="action_uninstall">卸载</string>
+    <string name="action_cancel">取消</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">下载失败</string>
+    <string name="error_installation_failed">安装失败</string>
+    <string name="error_network_unavailable">网络不可用</string>
+    <string name="error_insufficient_storage">存储空间不足</string>
+    <string name="error_cannot_open_app">无法打开应用 - 未找到启动活动</string>
+    <string name="error_download_tracking_failed">更新下载状态失败</string>
+    <string name="error_loading_catalog">加载应用目录失败</string>
+
 </resources>

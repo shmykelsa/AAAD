@@ -91,7 +91,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Aviso importante</string>
-    <string name="onboarding_warning_message">Esta aplicação NÃO está afiliada ao softonic.com, uptodown.com ou aadapk.com. A única fonte oficial é github.com</string>
+    <string name="onboarding_warning_message">Esta aplicação NÃO está afiliada ao softonic.com, uptodown.com ou aadapk.com, aadapk.app. A única fonte oficial é github.com</string>
     <string name="onboarding_official_source">Fonte oficial: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -140,4 +140,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Concluir configuração</string>
     <string name="show_intro">Mostrar introdução</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Instalado</string>
+    <string name="status_update_available">Atualização disponível</string>
+    <string name="status_update_to_version">Atualizar para %1$s</string>
+    <string name="status_not_installed">Não instalado</string>
+    <string name="status_downloading">A transferir…</string>
+    <string name="status_installing">A instalar…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instalar</string>
+    <string name="action_update">Atualizar</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_uninstall">Desinstalar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Falha na transferência</string>
+    <string name="error_installation_failed">Falha na instalação</string>
+    <string name="error_network_unavailable">Rede indisponível</string>
+    <string name="error_insufficient_storage">Armazenamento insuficiente</string>
+    <string name="error_cannot_open_app">Não é possível abrir a aplicação - nenhuma atividade de início encontrada</string>
+    <string name="error_download_tracking_failed">Falha ao atualizar o estado da transferência</string>
+    <string name="error_loading_catalog">Falha ao carregar o catálogo de aplicações</string>
+
 </resources>

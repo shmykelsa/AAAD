@@ -92,7 +92,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Важное предупреждение</string>
-    <string name="onboarding_warning_message">Это приложение НЕ связано с softonic.com, uptodown.com или aadapk.com. Единственный официальный источник - github.com</string>
+    <string name="onboarding_warning_message">Это приложение НЕ связано с softonic.com, uptodown.com или aadapk.com, aadapk.app. Единственный официальный источник - github.com</string>
     <string name="onboarding_official_source">Официальный источник: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -141,4 +141,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Завершить настройку</string>
     <string name="show_intro">Показать введение</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Установлено</string>
+    <string name="status_update_available">Доступно обновление</string>
+    <string name="status_update_to_version">Обновить до %1$s</string>
+    <string name="status_not_installed">Не установлено</string>
+    <string name="status_downloading">Загрузка…</string>
+    <string name="status_installing">Установка…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Установить</string>
+    <string name="action_update">Обновить</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_uninstall">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Ошибка загрузки</string>
+    <string name="error_installation_failed">Ошибка установки</string>
+    <string name="error_network_unavailable">Сеть недоступна</string>
+    <string name="error_insufficient_storage">Недостаточно места</string>
+    <string name="error_cannot_open_app">Невозможно открыть приложение - не найдено активности запуска</string>
+    <string name="error_download_tracking_failed">Не удалось обновить статус загрузки</string>
+    <string name="error_loading_catalog">Не удалось загрузить каталог приложений</string>
+
 </resources>

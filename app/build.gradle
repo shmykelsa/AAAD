@@ -82,6 +82,7 @@ android {
         buildConfigField "String", "AAMIRROR_LINK", "\"${localProperties['AAMIRROR_LINK']}\""
         buildConfigField "String", "AAWIDGETS_LINK", "\"${localProperties['AAWIDGETS_LINK']}\""
         buildConfigField "String", "AASTREAM_LINK", "\"${localProperties['AASTREAM_LINK']}\""
+        buildConfigField "String", "APP_CATALOG_URL", "\"${localProperties['APP_CATALOG_URL']}\""
 
     }
 

@@ -84,7 +84,7 @@
     <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Svarbus įspėjimas</string>
-    <string name="onboarding_warning_message">Ši programa NĖRA susijusi su softonic.com, uptodown.com ar aadapk.com. Vienintelis oficialus šaltinis yra github.com</string>
+    <string name="onboarding_warning_message">Ši programa NĖRA susijusi su softonic.com, uptodown.com ar aadapk.com, aadapk.app. Vienintelis oficialus šaltinis yra github.com</string>
     <string name="onboarding_official_source">Oficialus šaltinis: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
@@ -133,4 +133,30 @@
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_finish">Užbaigti sąranką</string>
     <string name="show_intro">Rodyti įvadą</string>
+    <string name="downloads_remaining">Downloads remaining</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Įdiegta</string>
+    <string name="status_update_available">Galimas atnaujinimas</string>
+    <string name="status_update_to_version">Atnaujinti į %1$s</string>
+    <string name="status_not_installed">Neįdiegta</string>
+    <string name="status_downloading">Atsiunčiama…</string>
+    <string name="status_installing">Įdiegiama…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Įdiegti</string>
+    <string name="action_update">Atnaujinti</string>
+    <string name="action_open">Atidaryti</string>
+    <string name="action_uninstall">Pašalinti</string>
+    <string name="action_cancel">Atšaukti</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Atsisiuntimas nepavyko</string>
+    <string name="error_installation_failed">Įdiegimas nepavyko</string>
+    <string name="error_network_unavailable">Tinklas nepasiekiamas</string>
+    <string name="error_insufficient_storage">Nepakanka saugyklos vietos</string>
+    <string name="error_cannot_open_app">Nepavyko atidaryti programos - nerasta paleidimo veikla</string>
+    <string name="error_download_tracking_failed">Nepavyko atnaujinti atsisiuntimo būsenos</string>
+    <string name="error_loading_catalog">Nepavyko įkelti programų katalogo</string>
+
 </resources>
