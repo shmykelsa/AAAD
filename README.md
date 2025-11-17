@@ -28,7 +28,7 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **Google Pixel: "No new messages during drive" - Android 13** - Please apply [this fix](https://github.com/shmykelsa/AAAD/wiki/Fix-for-Pixel-Android-13-) before installing
 
-**Android 14+: Not compatible as of now, consider using [AAWireless USB Dongle](https://www.aawireless.io/)**
+**Android 14+: Versions below 2.0 are not compatible, compatibility still uncertain under 2.x.x, consider using [AAWireless USB Dongle](https://www.aawireless.io/) for making the apps available on Android Auto**
 
 **"This organization is currently ineligible to receive donations" - Please download AAAD only from this website, 3rd party downloads are not authorized, endorsed nor supported by our staff**
 
@@ -65,7 +65,7 @@ To get started, press the bottom text of the AAAD app.
 
 ### Can I pay for a license outside the app?
 
-Sure you can. Feel free to [pay through Stripe](https://buy.stripe.com/14k5mQ3ih6l7dMs8ww) or donate any amount (equal or bigger than the asking price - 3.50 EUR) [via PayPal](https://www.paypal.com/donate/?hosted_button_id=V666UVPT9C5CJ), and keep the donation receipt (bank statement, confirmation page, e-mail etc.). Then please [click here](mailto:help.aaad@gmail.com?subject=%5BGW%5D&body=Please%20don%E2%80%99t%20modify%20the%20subject%20above%20and%20feel%20free%20to%20modify%20this%20body%20leaving%20a%20small%20thought.%20An%20automatic%20response%20will%20then%20guide%20you%20to%20the%20following%20steps%20%3A)) or write an e-mail to help.aaad@gmail.com and write "[GW]" in the subject, and be sure to include also a small thought :). An automatic reply will guide you to the stepts to take after.
+Sure you can. Feel free to [pay through Stripe](https://buy.stripe.com/6oU7sKbscaLe0El2fdcAo01) or donate any amount (equal or bigger than the asking price - 3.50 EUR) [via PayPal](https://www.paypal.com/donate/?hosted_button_id=V666UVPT9C5CJ), and keep the donation receipt (bank statement, confirmation page, e-mail etc.). Then please [click here](mailto:help.aaad@gmail.com?subject=%5BGW%5D&body=Please%20don%E2%80%99t%20modify%20the%20subject%20above%20and%20feel%20free%20to%20modify%20this%20body%20leaving%20a%20small%20thought.%20An%20automatic%20response%20will%20then%20guide%20you%20to%20the%20following%20steps%20%3A)) or write an e-mail to help.aaad@gmail.com and write "[GW]" in the subject, and be sure to include also a small thought :). An automatic reply will guide you to the stepts to take after.
 
 ### What will a license of AAAD give me?
 
