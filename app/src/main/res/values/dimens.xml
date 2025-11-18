@@ -16,4 +16,10 @@
     <!-- Card stroke widths -->
     <dimen name="card_stroke_width_default">1dp</dimen>
     <dimen name="card_stroke_width_selected">2dp</dimen>
+
+    <!-- Category spacing - reduced for better content density -->
+    <dimen name="category_spacing_top">4dp</dimen>
+
+    <!-- Bottom padding for FAB clearance -->
+    <dimen name="content_bottom_padding">80dp</dimen>
 </resources>

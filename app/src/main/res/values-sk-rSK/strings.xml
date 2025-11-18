@@ -3,14 +3,10 @@
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO Verzia palermo</string>
     <string name="switch_to_pro_statement">Bezplatná verzia AAAD vám umožňuje mať každý mesiac jedno bezplatné stiahnutie. Ak si chcete vychutnať neobmedzené sťahovanie zadarmo, môžete prejsť na verziu PRO a užijete si všetky funkcie a aktualizácie aplikácií!</string>
-    <string name="congratsPro">Gratulujeme, máte verziu PRO!</string>
-    <string name="notConnected">Nepripojené: nie je možné načítať PRO status</string>
-    <string name="About">1</string>
+    <string name="congratsPro">Gratulujeme, máte verziu PRO!</string>    <string name="About">1</string>
     <string name="have_promo_code">Mám promo kód</string>
     <string name="promo_code">Vložte promo kód</string>
-    <string name="input_promo_code_here">Sem zadajte promo kód</string>
-    <string name="fermata_control_dialog">Chystáte sa stiahnuť1$s %2$s. Chcete tiež nainštalovať%3$s?</string>
-    <string name="about_to_download">Chystáte sa stiahnuť %1%1AS$s. Chcete pokračovať?</string>
+    <string name="input_promo_code_here">Sem zadajte promo kód</string>    <string name="about_to_download">Chystáte sa stiahnuť %1%1AS$s. Chcete pokračovať?</string>
     <string name="no">nie</string>
     <string name="warning_payment">Na konci platby prosím manuálne stlačte tlačidlo „Späť k obchodníkovi“, aby sa transakcia prijala.</string>
     <string name="attention">POZOR</string>
@@ -27,9 +23,7 @@
     <string name="cancelled_payment">Nákup prerušený</string>
     <string name="please_enter_code">Prosím vložte kód</string>
     <string name="connection_error">Chyba pripojenia, nepodarilo sa overiť</string>
-    <string name="not_valid_code">Nie je platný kód</string>
-    <string name="select_which">Ktorý?</string>
-    <string name="downloading_progress">Sťahujem…</string>
+    <string name="not_valid_code">Nie je platný kód</string>    <string name="downloading_progress">Sťahujem…</string>
     <string name="aa_mirror_plus_description">Alternatíva k AAMirror s niektorými ďalšími funkciami.</string>
     <string name="aapassenger_description">Táto aplikácia bola vyvinutá preto, aby umožnila cestujúcim spravovať niektoré funkcie v systéme Android Auto. Vyžaduje od cestujúceho stiahnutie aplikácie AAPassenger. Funkčnosť tejto aplikácie nie je momentálne známa.</string>
     <string name="s2a_description">Najkompletnejšia a najkompletnejšia zrkadlová aplikácia pre Android Auto. Zahŕňa mnoho funkcií, ako je prispôsobiteľný spúšťač, rozdelená obrazovka, vlastné veľkosti obrazovky a oveľa viac!</string>
@@ -38,33 +32,14 @@
     <string name="carstream_description">Predtým známe ako \"YouTube Auto\", CarStrem bola jedna z prvých aplikácií pomocou vlastnej aplikácie SDK. Zrodil sa s hlavným účelom poskytovania služby YouTube pre Android Auto a potom sa stal webovým prehliadačom s mnohými funkciami.    </string>
     <string name="fermata_description">"Najkompletnejší video a audio prehrávač pre Android Auto s plnohodnotným prehrávačom s mnohými funkciami, ako sú sieťové toky a tiež webový prehliadač. Dodáva sa tiež s doplnkovou aplikáciou Fermata Control, ktorá umožňuje spravovať prehrávanie mimo aplikácie a z ovládacích prvkov na volante."</string>
     <string name="s2a_redirect">Budete presmerovaní na webovú stránku screen2auto. Odtiaľ vyberte verziu a otvorte pomocou AAAD.</string>
-    <string name="screen2auto_download">Chystáte sa nainštalovať Screen2Auto. Chcete pokračovať?</string>
-    <string name="press_back_warning">Prosím stačte späť znova pre vypnutie</string>
-    <string name="aawidgets_description">Stvorený na jedinú úlohu. Priniesť widget do Android Auto!</string>
+    <string name="screen2auto_download">Chystáte sa nainštalovať Screen2Auto. Chcete pokračovať?</string>    <string name="aawidgets_description">Stvorený na jedinú úlohu. Priniesť widget do Android Auto!</string>
     <string name="performance_monitor_description">Toto je monitor výkonu založený na Martoreto\'s aa-stats. Je vyrobený špeciálne pre použitie s informačno-zábavnými jednotkami Volkswagen / Škoda / Seat / Audi MIB2, ale môže fungovať aj na iných, ak majú podporu Android Auto. Potrebuje tiež rozšírenie VAG aby to fungovalo na automobiloch VW.</string>
-    <string name="promotion">Máte nárok na zľavu 15%</string>
-    <string name="first_section_name">Multimediálne aplikácie</string>
-    <string name="second_section_name">Zrkadlené aplikácie</string>
-    <string name="third_section_name">Ostatné</string>
-    <string name="might_not_be_compatible">Bohužiaľ sa zdá, že vaše zariadenie nie je kompatibilné s Fermata.</string>
-    <string name="new_version_available">K dispozícii je nová verzia</string>
-    <string name="go_to_new_version">Nová verzia AAAD (verzia%1$s) je dostupná na GitHub. Chcete ju teraz stiahnuť?</string>
-    <string name="go_to_download">Prejdite na stiahnutie</string>
-    <string name="ignore_for_now">Na teraz ignorovať</string>
-    <string name="privacy_policy">"<![CDATA[AAAD neuchováva žiadne informácie o kreditnej karte ani osobné údaje o užívateľovi.<br>a účely overenia zhromažďuje AAAD sériové číslo, ktoré bezpečne generuje Android, aby jednoznačne identifikovala zariadenie. Sériové číslo zariadenia spracováva AAAD na overenie verzie PRO a neposkytuje žiadne užitočné informácie o modeli zariadenia, IMIEI alebo polohe.<br>Platbu za PRO verziu spravuje výhradne služba PayPal a na účely potvrdenia a vrátenia platby sa pošta ukladá do online databázy Firebase.]]>"</string>
-    <string name="privacy">Zásady ochrany osobných údajov</string>
-    <string name="loading">Načítávanie...</string>
+    <string name="promotion">Máte nárok na zľavu 15%</string>    <string name="loading">Načítávanie...</string>
     <string name="go_pro">Ísť PRO</string>
     <string name="i_m_good">Som dobrý.</string>
-    <string name="nav2contacts_description">Vďaka novým navigačným aplikáciám, ktoré prichádzajú do systému Android Auto, mnohé z nich nemajú podporu Asistenta Google pri navigácii na adresy kontaktov uložených v telefónnom zozname. Nav2Contacts prichádza na pomoc! Najprv vyberte navigačnú aplikáciu, ktorú chcete použiť, potom vyhľadajte kontakt, ku ktorému chcete ísť, a ihneď spustite navigáciu!“!</string>
-    <string name="meeting_requirements">Táto aplikácia vyžaduje minimálne Android %d, prepáčte!</string>
-    <string name="back_button_payment_close">PROSÍM nezabudnite stlačiť modré tlačidlo „Vrátiť sa k obchodníkovi“ po dokončení platby</string>
+    <string name="nav2contacts_description">Vďaka novým navigačným aplikáciám, ktoré prichádzajú do systému Android Auto, mnohé z nich nemajú podporu Asistenta Google pri navigácii na adresy kontaktov uložených v telefónnom zozname. Nav2Contacts prichádza na pomoc! Najprv vyberte navigačnú aplikáciu, ktorú chcete použiť, potom vyhľadajte kontakt, ku ktorému chcete ísť, a ihneď spustite navigáciu!“!</string>    <string name="back_button_payment_close">PROSÍM nezabudnite stlačiť modré tlačidlo „Vrátiť sa k obchodníkovi“ po dokončení platby</string>
     <string name="help">Pomoc</string>
-    <string name="help_dialog">Chcete poslať e-mail pre pomoc teraz?</string>
-    <string name="cpu_architecture_warning">Architektúra procesora vášho telefónu nemusí byť kompatibilná s väčšinou aplikácií. Skôr ako budete pokračovať, skúste si stiahnuť aspoň jednu aplikáciu.</string>
-    <string name="i_understand">Rozumiem</string>
-    <string name="ignore">Ignorovať</string>
-    <string name="i_want_to_transfer_license_here">Chcem preniesť licenciu sem</string>
+    <string name="help_dialog">Chcete poslať e-mail pre pomoc teraz?</string>    <string name="i_want_to_transfer_license_here">Chcem preniesť licenciu sem</string>
     <string name="i_want_to_transfer_license_from_here">Chcem preniesť licenciu odtiaľto</string>
     <string name="license_transfer_help">Ak chcete preniesť licenciu z jedného telefónu na druhý, ste na správnom mieste. Vyberte, čo chcete urobiť</string>
     <string name="transfer_license">Preniesť licenciu</string>
@@ -72,24 +47,16 @@
     <string name="license_here_confirm">Ste si istý, že chcete preniesť licenciu sem?</string>
     <string name="qr_tutorial">Skvelé, teraz otvorte zariadenie, na ktoré chcete preniesť licenciu, vyberte možnosť „Chcem preniesť licenciu sem“ a potom naskenujte tento QR kód</string>
     <string name="license_done">Licencia prenesená</string>
-    <string name="no_license_found">Na tomto zariadení nemáte aktívnu licenciu</string>
-    <string name="unknown_sources_warning">Pred pokračovaním musíte povoliť inštaláciu z neznámych zdrojov. Ak ponecháte túto možnosť vypnutú, môže to spôsobiť problémy s AAAD. Stlačením OK prejdite teraz do nastavení, budete musieť povoliť možnosť inštalácie z Neznámeho zdroja.</string>
-    <string name="qr_code_permission">Pre skenovanie QR kódu je potrebné udeliť oprávnenie pre prístup k fotoaparátu</string>
+    <string name="no_license_found">Na tomto zariadení nemáte aktívnu licenciu</string>    <string name="qr_code_permission">Pre skenovanie QR kódu je potrebné udeliť oprávnenie pre prístup k fotoaparátu</string>
     <string name="success_transfer">Licencia platná</string>
     <string name="email_dialog" comment="&#10;Dialog window">Tento e-mail bude použitý v prípade potreby na účel kontroly Vášho nákupu</string>
     <string name="input_email">patrik.fazekas83@gmail.com</string>
     <string name="days_remaining">%d dní zostáva do ďalšieho sťahovania</string>
     <string name="hours_remaining">%d hodín zostáva do ďalšieho sťahovania</string>
     <string name="less_than_hour">Menej ako hodina zostáva do ďalšieho sťahovania</string>
-    <string name="download_available_now">Sťahovanie je teraz k dispozícii!</string>
-    <string name="app_installed_successfully">Aplikácia bola úspešne nainštalovaná!</string>
-    <string name="installation_failed">Inštalácia zlyhala</string>
-    <string name="installation_timeout_title">Stav inštalácie</string>
-    <string name="installation_timeout_message">Dokončila sa inštalácia aplikácie úspešne?</string>
+    <string name="download_available_now">Sťahovanie je teraz k dispozícii!</string>    <string name="installation_failed">Inštalácia zlyhala</string>    <string name="installation_timeout_message">Dokončila sa inštalácia aplikácie úspešne?</string>
     <string name="installation_succeeded">Áno, bola nainštalovaná</string>
-    <string name="installation_failed_or_cancelled">Nie, zlyhala alebo bola zrušená</string>
-    <string name="download_not_counted">Sťahovanie sa nepočíta - môžete to skúsiť znovu</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Nie, zlyhala alebo bola zrušená</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Dôležité upozornenie</string>
     <string name="onboarding_warning_message">Táto aplikácia NIE JE spojená so softonic.com, uptodown.com alebo aadapk.com, aadapk.app. Jediným oficiálnym zdrojom je github.com</string>
@@ -167,4 +134,64 @@
     <string name="error_download_tracking_failed">Aktualizácia stavu sťahovania zlyhala</string>
     <string name="error_loading_catalog">Načítanie katalógu aplikácií zlyhalo</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Preniesť licenciu</string>
+    <string name="checking_license_status">Kontrola stavu licencie…</string>
+    <string name="qr_code_icon">Ikona QR kódu</string>
+    <string name="receiver_title">Prijať PRO licenciu</string>
+    <string name="receiver_subtitle">Zobrazte tento QR kód na prenos licencie na toto zariadenie</string>
+    <string name="qr_code_to_scan">QR kód na prenos licencie</string>
+    <string name="receiver_instructions_title">Ako to funguje</string>
+    <string name="receiver_instructions_step1">Na zariadení s PRO otvorte AAAD a prejdite do Preniesť licenciu</string>
+    <string name="receiver_instructions_step2">Klepnite na tlačidlo Naskenovať QR kód na tomto zariadení</string>
+    <string name="receiver_instructions_step3">Naskenujte tento QR kód na dokončenie prenosu</string>
+    <string name="transfer_license_icon">Ikona prenosu licencie</string>
+    <string name="sender_title">Preniesť PRO licenciu</string>
+    <string name="sender_subtitle">Preneste svoju licenciu na nové zariadenie</string>
+    <string name="sender_warning">⚠️ Upozornenie: Prenosom licencie odstránite PRO stav z tohto zariadenia a aktivujete ho na novom zariadení. Túto akciu nemožno vrátiť späť.</string>
+    <string name="sender_instructions_title">Ako preniesť</string>
+    <string name="sender_step_1">Otvorte AAAD na novom zariadení</string>
+    <string name="sender_step_2">Prejdite do ponuky Preniesť licenciu</string>
+    <string name="sender_step_3">Na novom zariadení sa zobrazí QR kód</string>
+    <string name="sender_step_4">Klepnite na tlačidlo nižšie a naskenujte tento QR kód</string>
+    <string name="scan_qr_code">Naskenovať QR kód</string>
+    <string name="camera_permission_required">Na skenovanie QR kódov je vyžadované povolenie kamery</string>
+    <string name="error_checking_license">Nepodarilo sa skontrolovať stav licencie. Skúste to znova.</string>
+    <string name="error_generating_qr">Nepodarilo sa vygenerovať QR kód</string>
+    <string name="license_received_success">Licencia úspešne prijatá!</string>
+    <string name="scan_error_title">Chyba skenovania</string>
+    <string name="scan_error_message">Nepodarilo sa naskenovať QR kód. Skúste to znova.</string>
+    <string name="confirm_transfer_title">Potvrdiť prenos</string>
+    <string name="confirm_transfer_message">Naozaj chcete preniesť svoju PRO licenciu na nové zariadenie? Tým odstránite PRO z tohto zariadenia.</string>
+    <string name="confirm_transfer_yes">Preniesť licenciu</string>
+    <string name="confirm_transfer_no">Zrušiť</string>
+    <string name="license_transferred_success">Licencia úspešne prenesená!</string>
+    <string name="error_transferring_license">Nepodarilo sa preniesť licenciu. Skúste to znova.</string>
+    <string name="support_title">Potrebujete pomoc?</string>
+    <string name="support_icon">Ikona pomoci</string>
+    <string name="support_subtitle">Sme tu, aby sme vám pomohli!</string>
+    <string name="support_description">Máte problémy s AAAD? Pošlite nám e-mail a my vám odpovieme čo najskôr. Čím viac podrobností poskytnete, tým rýchlejšie vám môžeme pomôcť!</string>
+    <string name="support_email_will_include">Váš e-mail bude obsahovať:</string>
+    <string name="support_email_item_device">Model zariadenia a verzia Android</string>
+    <string name="support_email_item_version">Informácie o verzii AAAD</string>
+    <string name="support_email_item_description">Priestor na popis vášho problému</string>
+    <string name="support_include_logs">Zahrnúť diagnostické protokoly</string>
+    <string name="support_logs_explanation">Odporúčané - Pomáha nám rýchlejšie riešiť problémy. Obsahuje iba informácie o zariadení a konfiguráciu aplikácie, žiadne osobné údaje.</string>
+    <string name="support_send_email">Odoslať e-mail na podporu</string>
+    <string name="support_privacy_note">Rešpektujeme vaše súkromie. Protokoly neobsahujú osobné údaje, heslá ani platobné údaje.</string>
+    <string name="support_preparing_email">Príprava e-mailu…</string>
+    <string name="support_log_generation_failed">Nepodarilo sa vygenerovať protokoly, odosielanie e-mailu bez prílohy</string>
+    <string name="support_email_failed">Nepodarilo sa otvoriť e-mailovú aplikáciu. Pošlite e-mail priamo na help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Vybrať e-mailovú aplikáciu</string>
+    <string name="support_email_subject">Žiadosť o podporu AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

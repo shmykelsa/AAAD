@@ -3,16 +3,12 @@
     <string name="welcome_string">Benvingut/bevinguda a Android Auto Apps Downloader (AAAD). Aquesta ferramenta permet instal•lar aplicacions a Android Auto a smartphones sense robot. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">Versió Pro yew</string>
     <string name="switch_to_pro_statement">La versió gratuïta d’AAAD us permet tenir una descàrrega gratuïta cada mes. Si voleu gaudir de descàrregues gratuïtes il·limitades, podeu canviar a la versió PRO i gaudireu de totes les funcionalitats i actualitzacions de les aplicacions!</string>
-    <string name="congratsPro">Felicitats, ja ets PRO!</string>
-    <string name="notConnected">No connectat: no s\'ha pogut recuperar l\'estat PRO</string>
-    <string name="About">Quant a</string>
+    <string name="congratsPro">Felicitats, ja ets PRO!</string>    <string name="About">Quant a</string>
     <string name="have_promo_code">PromocionPromocional</string>
     <string name="promo_code">Promocioromocionromocional</string>
     <string name="input_promo_code_here">Ingrese el código promocional aquí
 input_promo_code_here
-input_promo_code_here</string>
-    <string name="fermata_control_dialog">Esteu a punt de descarregar %1$s %2$s. També voleu instal·lar %3$s?</string>
-    <string name="about_to_download">Está a punto de descargar %1$s. ¿Desea continuar?</string>
+input_promo_code_here</string>    <string name="about_to_download">Está a punto de descargar %1$s. ¿Desea continuar?</string>
     <string name="no">no</string>
     <string name="warning_payment">Al final del pagament, premeu manualment \"Torna al comerciant\" per validar la transacció.</string>
     <string name="next_download_available">La nova descarrnext_download_availableega estarà disponible en %1$s</string>
@@ -26,9 +22,7 @@ input_promo_code_here</string>
     <string name="cancelled_payment">S\'ha cancel·lat la compra</string>
     <string name="please_enter_code">Introduïu un codi</string>
     <string name="connection_error">Error de connexió, no s\'ha pogut verificar</string>
-    <string name="not_valid_code">Codi no vàlid</string>
-    <string name="select_which">Quin?</string>
-    <string name="downloading_progress">Descarregant…</string>
+    <string name="not_valid_code">Codi no vàlid</string>    <string name="downloading_progress">Descarregant…</string>
     <string name="aa_mirror_plus_description">Alternativa a AAMirror amb algunes funcionalitats més.</string>
     <string name="aapassenger_description">Aquesta aplicació s\'ha creat per permetre als passatgers gestionar algunes funcionalitats d\'Android Auto. Requereix que el passatger descarregui AAPassenger. Actualment es desconeix l’estat de treball.</string>
     <string name="s2a_description">L’aplicació de rèplica més completa i completa amb Android Auto. Inclou moltes funcions com ara un iniciador personalitzable, pantalla dividida, mides de pantalla personalitzades i molt més!</string>
@@ -37,33 +31,14 @@ input_promo_code_here</string>
     <string name="carstream_description">Coneguda anteriorment com a \"YouTube Auto\", CarStream va ser una de les primeres aplicacions creades amb l\'SDK d\'aplicacions personalitzades. Va néixer amb el propòsit principal de proporcionar YouTube a Android Auto i després es va convertir en un navegador web amb moltes funcions.    </string>
     <string name="fermata_description">"El reproductor de vídeo i àudio més complet per a Android Auto, que ofereix una experiència de reproductor completa amb moltes funcions, com ara fluxos de xarxa i també un navegador web. També inclou l'aplicació complementària Fermata Control que permet gestionar la reproducció fora de l'aplicació i des dels controls del volant."</string>
     <string name="s2a_redirect">Se us redirigirà al lloc web screen2auto. A partir d’aquí, seleccioneu la versió i obriu-la amb AAAD.</string>
-    <string name="screen2auto_download">Instal·laràs Screen2Auto. Vols continuar?</string>
-    <string name="press_back_warning">Torneu a prémer TORNAR per sortir</string>
-    <string name="aawidgets_description">Neix amb una sola tasca. Porteu un widget a Android Auto!</string>
+    <string name="screen2auto_download">Instal·laràs Screen2Auto. Vols continuar?</string>    <string name="aawidgets_description">Neix amb una sola tasca. Porteu un widget a Android Auto!</string>
     <string name="performance_monitor_description">Es tracta d’un monitor de rendiment, basat en les aa-stats de Martoreto. Està fet específicament per utilitzar-lo amb les unitats d’entreteniment Volkswagen / Skoda / Seat / Audi MIB2, però també pot funcionar en altres, sempre que tinguin suport per a Android Auto. També necessita una extensió VAG per treballar en Volkswagen Cars.</string>
-    <string name="promotion">Podeu obtenir un 15% de descompte</string>
-    <string name="first_section_name">Apps multimedia</string>
-    <string name="second_section_name">Apps Mirall</string>
-    <string name="third_section_name">Altres</string>
-    <string name="might_not_be_compatible">Malauradament, sembla que el vostre dispositiu no és compatible amb Fermata.</string>
-    <string name="new_version_available">Nova versió disponible</string>
-    <string name="go_to_new_version">Hi ha disponible una nova versió d\'AAAD (versió %1$s) a GitHub. La voleu descarregar ara?</string>
-    <string name="go_to_download">Ves a descarregas</string>
-    <string name="ignore_for_now">Ignora per ara</string>
-    <string name="privacy_policy">"<![CDATA[AAAD no emmagatzema cap informació de targeta de crèdit ni dades personals sobre l'usuari.<br> A efectes de validació, AAAD recopila un número de sèrie que Android genera de manera segura per identificar un dispositiu de manera única. AAAD processa la sèrie del dispositiu per validar la versió PRO i no proporciona cap informació útil sobre el model del dispositiu, IMIEI o la ubicació.<br> El pagament de la versió professional és gestionat exclusivament per PayPal i, a efectes de confirmació i reembossament, el correu emmagatzemat a una base de dades de Firebase en línia.]]>"</string>
-    <string name="privacy">Política de privacitat</string>
-    <string name="loading">S\'està carregant…</string>
+    <string name="promotion">Podeu obtenir un 15% de descompte</string>    <string name="loading">S\'està carregant…</string>
     <string name="go_pro">Sigues PRO</string>
     <string name="i_m_good">Sóc bó</string>
-    <string name="nav2contacts_description">Amb les noves aplicacions de navegació que entren a Android Auto, moltes d’elles no tenen assistència de l’Assistent de Google per navegar a les adreces dels contactes desats a la guia telefònica. Nav2Contacts ve a rescatar! Primer, seleccioneu l\'aplicació de navegació que vulgueu utilitzar i, a continuació, cerqueu el contacte al qual voleu navegar i inicieu la navegació immediatament!</string>
-    <string name="meeting_requirements">Aquesta aplicació requereix almenys Android %d, ho sento!</string>
-    <string name="back_button_payment_close">Rerordeu prémer el botó blau \"Torna al lloc web del comerciant\" un cop finalitzat el pagament</string>
+    <string name="nav2contacts_description">Amb les noves aplicacions de navegació que entren a Android Auto, moltes d’elles no tenen assistència de l’Assistent de Google per navegar a les adreces dels contactes desats a la guia telefònica. Nav2Contacts ve a rescatar! Primer, seleccioneu l\'aplicació de navegació que vulgueu utilitzar i, a continuació, cerqueu el contacte al qual voleu navegar i inicieu la navegació immediatament!</string>    <string name="back_button_payment_close">Rerordeu prémer el botó blau \"Torna al lloc web del comerciant\" un cop finalitzat el pagament</string>
     <string name="help">Ajuda</string>
-    <string name="help_dialog">Voleu enviar un correu electrònic per obtenir ajuda en aquest moment?</string>
-    <string name="cpu_architecture_warning">És possible que l\'arquitectura de la CPU del telèfon no sigui compatible amb la majoria de les aplicacions. Proveu de descarregar almenys una aplicació abans de continuar.</string>
-    <string name="i_understand">Ho entenc</string>
-    <string name="ignore">Ignora</string>
-    <string name="i_want_to_transfer_license_here">Vull transferir la llicència aquí</string>
+    <string name="help_dialog">Voleu enviar un correu electrònic per obtenir ajuda en aquest moment?</string>    <string name="i_want_to_transfer_license_here">Vull transferir la llicència aquí</string>
     <string name="i_want_to_transfer_license_from_here">Vull transferir la llicència des d’aquí</string>
     <string name="license_transfer_help">Si voleu transferir la llicència d’un telèfon a l’altre, esteu al lloc adequat. Seleccioneu què voleu fer</string>
     <string name="transfer_license">Tranferir llicència</string>
@@ -71,24 +46,16 @@ input_promo_code_here</string>
     <string name="license_here_confirm">Esteu segur que voleu transferir la llicència a aquest dispositiu?</string>
     <string name="qr_tutorial">Genial, ara obriu el dispositiu des del qual voleu transferir la llicència i seleccioneu \"Vull transferir la llicència des d\'aquí\" i, a continuació, escaneu aquest codi QR</string>
     <string name="license_done">Llicència transferida</string>
-    <string name="no_license_found">No teniu cap llicència activa en aquest dispositiu</string>
-    <string name="unknown_sources_warning">Abans de continuar, heu d’habilitar la instal·lació des de fonts desconegudes. Deixar aquesta opció desactivada pot provocar problemes a AAAD. Premeu D\'acord per anar a la configuració ara, haureu d\'activar l\'opció de fonts desconegudes.</string>
-    <string name="qr_code_permission">Cal el permís de la càmera per escanejar un codi QR</string>
+    <string name="no_license_found">No teniu cap llicència activa en aquest dispositiu</string>    <string name="qr_code_permission">Cal el permís de la càmera per escanejar un codi QR</string>
     <string name="success_transfer">License validated</string>
     <string name="email_dialog" comment="&#10;Dialog window">Finestra de diàleg</string>
     <string name="input_email">joancamposferre@gmail.com</string>
     <string name="days_remaining">Queden %d dies per a la següent descàrrega</string>
     <string name="hours_remaining">Queden %d hores per a la següent descàrrega</string>
     <string name="less_than_hour">Queda menys d\'1 hora per a la següent descàrrega</string>
-    <string name="download_available_now">Descàrrega disponible ara!</string>
-    <string name="app_installed_successfully">Aplicació instal·lada amb èxit!</string>
-    <string name="installation_failed">Error en la instal·lació</string>
-    <string name="installation_timeout_title">Estat de la instal·lació</string>
-    <string name="installation_timeout_message">S\'ha completat amb èxit la instal·lació de l\'aplicació?</string>
+    <string name="download_available_now">Descàrrega disponible ara!</string>    <string name="installation_failed">Error en la instal·lació</string>    <string name="installation_timeout_message">S\'ha completat amb èxit la instal·lació de l\'aplicació?</string>
     <string name="installation_succeeded">Sí, s\'ha instal·lat</string>
-    <string name="installation_failed_or_cancelled">No, ha fallat o s\'ha cancel·lat</string>
-    <string name="download_not_counted">Descàrrega no comptada - podeu tornar-ho a provar</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">No, ha fallat o s\'ha cancel·lat</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Advertència important</string>
     <string name="onboarding_warning_message">Aquesta aplicació NO està afiliada amb softonic.com, uptodown.com o aadapk.com, aadapk.app. L\'única font oficial és github.com</string>
@@ -177,4 +144,64 @@ input_promo_code_here</string>
     <string name="loading_checking_updates">Comprovant actualitzacions…</string>
     <string name="loading_please_wait">Si us plau, espera…</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Transferir llicència</string>
+    <string name="checking_license_status">Comprovant l\'estat de la llicència…</string>
+    <string name="qr_code_icon">Icona de codi QR</string>
+    <string name="receiver_title">Rebre llicència PRO</string>
+    <string name="receiver_subtitle">Mostra aquest codi QR per transferir una llicència a aquest dispositiu</string>
+    <string name="qr_code_to_scan">Codi QR per a la transferència de llicència</string>
+    <string name="receiver_instructions_title">Com funciona</string>
+    <string name="receiver_instructions_step1">Al dispositiu amb PRO, obre AAAD i vés a Transferir llicència</string>
+    <string name="receiver_instructions_step2">Toca el botó Escaneja el codi QR a aquest dispositiu</string>
+    <string name="receiver_instructions_step3">Escaneja aquest codi QR per completar la transferència</string>
+    <string name="transfer_license_icon">Icona de transferència de llicència</string>
+    <string name="sender_title">Transferir llicència PRO</string>
+    <string name="sender_subtitle">Transfereix la teva llicència a un nou dispositiu</string>
+    <string name="sender_warning">⚠️ Advertència: Transferir la teva llicència eliminarà l\'estat PRO d\'aquest dispositiu i l\'activarà al nou dispositiu. Aquesta acció no es pot desfer.</string>
+    <string name="sender_instructions_title">Com transferir</string>
+    <string name="sender_step_1">Obre AAAD al teu nou dispositiu</string>
+    <string name="sender_step_2">Vés al menú Transferir llicència</string>
+    <string name="sender_step_3">Apareixerà un codi QR al nou dispositiu</string>
+    <string name="sender_step_4">Toca el botó de sota i escaneja aquest codi QR</string>
+    <string name="scan_qr_code">Escaneja el codi QR</string>
+    <string name="camera_permission_required">Es requereix permís de càmera per escanejar codis QR</string>
+    <string name="error_checking_license">No s\'ha pogut comprovar l\'estat de la llicència. Torna-ho a provar.</string>
+    <string name="error_generating_qr">No s\'ha pogut generar el codi QR</string>
+    <string name="license_received_success">Llicència rebuda correctament!</string>
+    <string name="scan_error_title">Error d\'escaneig</string>
+    <string name="scan_error_message">No s\'ha pogut escanejar el codi QR. Torna-ho a provar.</string>
+    <string name="confirm_transfer_title">Confirma la transferència</string>
+    <string name="confirm_transfer_message">Estàs segur que vols transferir la teva llicència PRO al nou dispositiu? Això eliminarà el PRO d\'aquest dispositiu.</string>
+    <string name="confirm_transfer_yes">Transferir llicència</string>
+    <string name="confirm_transfer_no">Cancel·la</string>
+    <string name="license_transferred_success">Llicència transferida correctament!</string>
+    <string name="error_transferring_license">No s\'ha pogut transferir la llicència. Torna-ho a provar.</string>
+    <string name="support_title">Necessites ajuda?</string>
+    <string name="support_icon">Icona d\'ajuda</string>
+    <string name="support_subtitle">Som aquí per ajudar-te!</string>
+    <string name="support_description">Tens problemes amb AAAD? Envia\'ns un correu electrònic i et respondrem tan aviat com sigui possible. Com més detalls proporcionis, més ràpid et podrem ajudar!</string>
+    <string name="support_email_will_include">El teu correu electrònic inclourà:</string>
+    <string name="support_email_item_device">Model de dispositiu i versió d\'Android</string>
+    <string name="support_email_item_version">Informació de la versió d\'AAAD</string>
+    <string name="support_email_item_description">Espai per descriure el teu problema</string>
+    <string name="support_include_logs">Inclou registres de diagnòstic</string>
+    <string name="support_logs_explanation">Recomanat - Ens ajuda a solucionar problemes més ràpidament. Conté només informació del dispositiu i configuració de l\'aplicació, sense dades personals.</string>
+    <string name="support_send_email">Envia un correu electrònic al suport</string>
+    <string name="support_privacy_note">Respectem la teva privadesa. Els registres no inclouen informació personal, contrasenyes o dades de pagament.</string>
+    <string name="support_preparing_email">Preparant el correu electrònic…</string>
+    <string name="support_log_generation_failed">No s\'han pogut generar els registres, enviant correu electrònic sense adjunt</string>
+    <string name="support_email_failed">No s\'ha pogut obrir l\'aplicació de correu electrònic. Envia un correu electrònic directament a help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Tria l\'aplicació de correu electrònic</string>
+    <string name="support_email_subject">Sol·licitud de suport AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

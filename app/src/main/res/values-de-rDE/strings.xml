@@ -4,14 +4,10 @@
 Wähle die App aus welche du installieren möchtest und warte bis die Installer-Meldung erscheint. App-Beschreibungen über langes Drücken verfügbar.</string>
     <string name="title_activity_about_payment">Pro Version</string>
     <string name="switch_to_pro_statement">Mit der kostenlosen Version von AAAD können Sie jeden Monat eine App kostenlos herunterladen und installieren. Wenn Sie unbegrenzte kostenlose Downloads genießen möchten, können Sie zur PRO-Version wechseln und alle Funktionen und App-Updates genießen!</string>
-    <string name="congratsPro">Gratuliere, Sie besitzen die Pro-Version!</string>
-    <string name="notConnected">Nicht verbunden: Pro-Status konnte nicht abgerufen werden</string>
-    <string name="About">Infos</string>
+    <string name="congratsPro">Gratuliere, Sie besitzen die Pro-Version!</string>    <string name="About">Infos</string>
     <string name="have_promo_code">Ich habe einen Gutschein-Code</string>
     <string name="promo_code">Gutscheincode eingeben</string>
-    <string name="input_promo_code_here">Gutschein-Code hier eingeben</string>
-    <string name="fermata_control_dialog">Sie sind dabei %1$s %2$s herunterzuladen. Möchten Sie auch %3$s installieren?</string>
-    <string name="about_to_download">Sie sind dabei %1$s herunterzuladen. Möchten Sie fortfahren?</string>
+    <string name="input_promo_code_here">Gutschein-Code hier eingeben</string>    <string name="about_to_download">Sie sind dabei %1$s herunterzuladen. Möchten Sie fortfahren?</string>
     <string name="no">Nein</string>
     <string name="warning_payment">Die Zahlungsabwicklung wird sicher von Stripe Inc. übernommen. AAAD sammelt oder speichert keine Zahlungsinformationen. Bitte am Ende der Zahlung manuell auf \"Zurück zum Händler\" klicken, um die Transaktion abzuschließen.</string>
     <string name="attention">ACHTUNG</string>
@@ -26,9 +22,7 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="cancelled_payment">Kauf abgebrochen</string>
     <string name="please_enter_code">Bitte Code eingeben</string>
     <string name="connection_error">Verbindungsfehler, Verifizierung konnte nicht durchgeführt werden</string>
-    <string name="not_valid_code">Ungültiger Code</string>
-    <string name="select_which">Welche?</string>
-    <string name="downloading_progress">Herunterladen …</string>
+    <string name="not_valid_code">Ungültiger Code</string>    <string name="downloading_progress">Herunterladen …</string>
     <string name="aa_mirror_plus_description">Alternative zu AAMirror mit einigen weiteren Funktionen.</string>
     <string name="aapassenger_description">This app was made for allowing passengers to manage some functionalities in Android Auto. Requires the passenger to download AAPassenger. Working state is currently unknown.</string>
     <string name="s2a_description">Die vollständigste und umfassendste Screen-Mirror-App für Android Auto. Enthält viele Funktionen wie einen anpassbaren Launcher, einen Split-Screen, benutzerdefinierte Bildschirmgrößen und vieles mehr!</string>
@@ -38,34 +32,15 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     </string>
     <string name="fermata_description">"Der vollständigste Video- und Audioplayer für Android Auto, mit vielen Funktionen wie z. B. Netzwerk-Streams und auch einem Webbrowser. Die Zusatz-App Fermata Control ermöglicht die Steuerung der Wiedergabe außerhalb der App und über Lenkradtasten."</string>
     <string name="s2a_redirect">Sie werden zur screen2auto Webseite weitergeleitet. Dort wählen Sie bitte die Version aus und öffnen sie anschließend mit AAAD.</string>
-    <string name="screen2auto_download">Sie sind dabei Screen2Auto zu installieren. Möchten Sie fortfahren?</string>
-    <string name="press_back_warning">Zum Beenden bitte erneut Zurück drücken</string>
-    <string name="aawidgets_description">Für eine einzige Aufgabe geboren! Bring ein Widget auf Android Auto!</string>
+    <string name="screen2auto_download">Sie sind dabei Screen2Auto zu installieren. Möchten Sie fortfahren?</string>    <string name="aawidgets_description">Für eine einzige Aufgabe geboren! Bring ein Widget auf Android Auto!</string>
     <string name="performance_monitor_description">Dies ist ein Performance-Monitor, basierend auf \"Martoreto´ss aa-Stats\". Es ist speziell für die Verwendung mit den Volkswagen/Skoda/Seat/Audi MIB2 Infotainment Einheiten entwickelt worden, aber es könnte auch für andere funktionieren, solange diese Android Auto unterstützen. Zusätzlich wird eine VAG-Erweiterung benötigt um korrekt in Volkswagen Autos zu funktionieren.</string>
     <string name="aatorque_description">AATorque bringt die OBD-II Fahrzeugdiagnose-App Torque Pro zu Android Auto. Überwachen Sie die Leistung Ihres Fahrzeugs, zeigen Sie Diagnosedaten an und greifen Sie direkt über das Display Ihres Autos auf Echtzeit-Fahrzeuginformationen zu.</string>
-    <string name="promotion">Sie haben Anspruch auf 15% Rabatt</string>
-    <string name="first_section_name">Multimedia Apps</string>
-    <string name="second_section_name">Mirroring apps</string>
-    <string name="third_section_name">Sonstige</string>
-    <string name="might_not_be_compatible">Leider scheint es so, als ob dein Gerät nicht mit Fermata kompatibel wäre.</string>
-    <string name="new_version_available">Neue Version verfügbar</string>
-    <string name="go_to_new_version">Eine neue Version von AAAD (Version %1$s) ist auf GitHub verfügbar. Möchten Sie diese jetzt herunterladen?</string>
-    <string name="go_to_download">Zum Download</string>
-    <string name="ignore_for_now">Vorläufig ignorieren</string>
-    <string name="privacy_policy">"<![CDATA[AAAD speichert keine Kreditkarteninformationen oder persönlichen Daten über den Benutzer.<br>Zu Validierungszwecken sammelt AAAD eine Seriennummer, die sicher von Android generiert wird, um ein Gerät eindeutig zu identifizieren. Die Seriennummer wird von AAAD zur Validierung der Pro Version verarbeitet und liefert keine Informationen über das Gerätemodell, IMIEI oder den Standort.<br>Die Zahlung der Pro Version wird ausschließlich von PayPal verwaltet und zu Bestätigungs- und Erstattungszwecken wird die E-Mail in einer Online-Firebase-Datenbank gespeichert.]]>"</string>
-    <string name="privacy">Datenschutzerklärung</string>
-    <string name="loading">Wird geladen ...</string>
+    <string name="promotion">Sie haben Anspruch auf 15% Rabatt</string>    <string name="loading">Wird geladen ...</string>
     <string name="go_pro">Pro erwerben</string>
     <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">Vielen der neuen Navigations-Apps in Android Auto fehlt die Unterstützung von Google Assistant, um zu Adressen von Kontakten, die im Telefonbuch gespeichert sind, zu navigieren. Nav2Contacts kommt zur Hilfr! Wählen Sie zuerst die Navigations-App aus, die Sie verwenden möchten, suchen Sie dann den Kontakt, zu dem Sie navigieren möchten, und starten Sie sofort die Navigation!</string>
-    <string name="meeting_requirements">Diese App benötigt mindestens Android %d, sorry!</string>
-    <string name="back_button_payment_close">Bitte denken Sie daran, den blauen Button \"Zurück zur Händler-Website\" zu drücken, nachdem die Zahlung abgeschlossen ist</string>
+    <string name="nav2contacts_description">Vielen der neuen Navigations-Apps in Android Auto fehlt die Unterstützung von Google Assistant, um zu Adressen von Kontakten, die im Telefonbuch gespeichert sind, zu navigieren. Nav2Contacts kommt zur Hilfr! Wählen Sie zuerst die Navigations-App aus, die Sie verwenden möchten, suchen Sie dann den Kontakt, zu dem Sie navigieren möchten, und starten Sie sofort die Navigation!</string>    <string name="back_button_payment_close">Bitte denken Sie daran, den blauen Button \"Zurück zur Händler-Website\" zu drücken, nachdem die Zahlung abgeschlossen ist</string>
     <string name="help">Hilfe</string>
-    <string name="help_dialog">Möchten Sie jetzt eine E-Mail für Hilfe senden?</string>
-    <string name="cpu_architecture_warning">Ihre CPU-Architektur Ihres Telefons ist möglicherweise nicht kompatibel mit den meisten Apps. Bitte versuchen Sie mindestens eine App herunterzuladen, bevor Sie fortfahren.</string>
-    <string name="i_understand">Ich habe verstanden</string>
-    <string name="ignore">Ignorieren</string>
-    <string name="i_want_to_transfer_license_here">Ich möchte die Lizenz auf dieses Gerät übertragen</string>
+    <string name="help_dialog">Möchten Sie jetzt eine E-Mail für Hilfe senden?</string>    <string name="i_want_to_transfer_license_here">Ich möchte die Lizenz auf dieses Gerät übertragen</string>
     <string name="i_want_to_transfer_license_from_here">Ich möchte die Lizenz von diesem Gerät übertragen</string>
     <string name="license_transfer_help">Wenn Sie die Lizenz von einem Telefon auf ein anderes übertragen möchten, sind Sie an der richtigen Stelle. Bitte wählen Sie aus, was Sie tun möchten</string>
     <string name="transfer_license">Lizenz übertragen</string>
@@ -73,24 +48,16 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="license_here_confirm">Sind Sie sicher, dass Sie die Lizenz auf dieses Gerät übertragen möchten?</string>
     <string name="qr_tutorial">Großartig, öffnen Sie nun das Gerät, von dem Sie die Lizenz übertragen möchten, und wählen Sie \"Ich möchte die Lizenz von diesem Gerät übertragen\" und scannen Sie dann diesen QR-Code</string>
     <string name="license_done">Lizenz übertragen</string>
-    <string name="no_license_found">Du hast keine aktive Lizenz auf diesem Gerät</string>
-    <string name="unknown_sources_warning">Bevor Sie fortfahren, müssen Sie die Installation von unbekannten Quellen aktivieren. Wenn Sie diese Option deaktivieren, kann es zu Problemen mit AAAD kommen. Drücken Sie OK, um jetzt zu den Einstellungen zu wechseln. Sie müssen die Option für unbekannte Quellen aktivieren.</string>
-    <string name="qr_code_permission">Du musst Zugriff auf die Kamera gewähren, um einen QR-Code zu scannen</string>
+    <string name="no_license_found">Du hast keine aktive Lizenz auf diesem Gerät</string>    <string name="qr_code_permission">Du musst Zugriff auf die Kamera gewähren, um einen QR-Code zu scannen</string>
     <string name="success_transfer">Lizenz validiert</string>
     <string name="email_dialog" comment="&#10;Dialog window">Die E-Mail wird verwendet, um Ihren Kauf zu verifizieren, falls erforderlich</string>
     <string name="input_email">Gerhardt89@gmx.de</string>
     <string name="days_remaining">%d Tage verbleiben bis zum nächsten Download</string>
     <string name="hours_remaining">%d Stunden verbleiben bis zum nächsten Download</string>
     <string name="less_than_hour">Weniger als 1 Stunde verbleibt bis zum nächsten Download</string>
-    <string name="download_available_now">Download jetzt verfügbar!</string>
-    <string name="app_installed_successfully">App erfolgreich installiert!</string>
-    <string name="installation_failed">Installation fehlgeschlagen</string>
-    <string name="installation_timeout_title">Installationsstatus</string>
-    <string name="installation_timeout_message">Wurde die App-Installation erfolgreich abgeschlossen?</string>
+    <string name="download_available_now">Download jetzt verfügbar!</string>    <string name="installation_failed">Installation fehlgeschlagen</string>    <string name="installation_timeout_message">Wurde die App-Installation erfolgreich abgeschlossen?</string>
     <string name="installation_succeeded">Ja, sie wurde installiert</string>
-    <string name="installation_failed_or_cancelled">Nein, sie ist fehlgeschlagen oder wurde abgebrochen</string>
-    <string name="download_not_counted">Download nicht gezählt - Sie können es erneut versuchen</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Nein, sie ist fehlgeschlagen oder wurde abgebrochen</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Wichtige Warnung</string>
     <string name="onboarding_warning_message">Diese App ist NICHT mit softonic.com, uptodown.com oder aadapk.com, aadapk.app verbunden. Die einzige offizielle Quelle ist github.com</string>
@@ -179,4 +146,64 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="loading_checking_updates">Auf Updates prüfen…</string>
     <string name="loading_please_wait">Bitte warten…</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Lizenz übertragen</string>
+    <string name="checking_license_status">Lizenzstatus wird überprüft…</string>
+    <string name="qr_code_icon">QR-Code-Symbol</string>
+    <string name="receiver_title">PRO-Lizenz empfangen</string>
+    <string name="receiver_subtitle">Zeigen Sie diesen QR-Code an, um eine Lizenz auf dieses Gerät zu übertragen</string>
+    <string name="qr_code_to_scan">QR-Code für Lizenzübertragung</string>
+    <string name="receiver_instructions_title">So funktioniert es</string>
+    <string name="receiver_instructions_step1">Öffnen Sie auf dem Gerät mit PRO AAAD und gehen Sie zu Lizenz übertragen</string>
+    <string name="receiver_instructions_step2">Tippen Sie auf diesem Gerät auf die Schaltfläche QR-Code scannen</string>
+    <string name="receiver_instructions_step3">Scannen Sie diesen QR-Code, um die Übertragung abzuschließen</string>
+    <string name="transfer_license_icon">Lizenzübertragungssymbol</string>
+    <string name="sender_title">PRO-Lizenz übertragen</string>
+    <string name="sender_subtitle">Übertragen Sie Ihre Lizenz auf ein neues Gerät</string>
+    <string name="sender_warning">⚠️ Warnung: Durch die Übertragung Ihrer Lizenz wird der PRO-Status von diesem Gerät entfernt und auf dem neuen Gerät aktiviert. Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="sender_instructions_title">So übertragen Sie</string>
+    <string name="sender_step_1">Öffnen Sie AAAD auf Ihrem neuen Gerät</string>
+    <string name="sender_step_2">Gehen Sie zum Menü Lizenz übertragen</string>
+    <string name="sender_step_3">Ein QR-Code wird auf dem neuen Gerät angezeigt</string>
+    <string name="sender_step_4">Tippen Sie auf die Schaltfläche unten und scannen Sie diesen QR-Code</string>
+    <string name="scan_qr_code">QR-Code scannen</string>
+    <string name="camera_permission_required">Kameraberechtigung ist erforderlich, um QR-Codes zu scannen</string>
+    <string name="error_checking_license">Lizenzstatus konnte nicht überprüft werden. Bitte versuchen Sie es erneut.</string>
+    <string name="error_generating_qr">QR-Code konnte nicht generiert werden</string>
+    <string name="license_received_success">Lizenz erfolgreich empfangen!</string>
+    <string name="scan_error_title">Scanfehler</string>
+    <string name="scan_error_message">QR-Code konnte nicht gescannt werden. Bitte versuchen Sie es erneut.</string>
+    <string name="confirm_transfer_title">Übertragung bestätigen</string>
+    <string name="confirm_transfer_message">Möchten Sie Ihre PRO-Lizenz wirklich auf das neue Gerät übertragen? Dadurch wird PRO von diesem Gerät entfernt.</string>
+    <string name="confirm_transfer_yes">Lizenz übertragen</string>
+    <string name="confirm_transfer_no">Abbrechen</string>
+    <string name="license_transferred_success">Lizenz erfolgreich übertragen!</string>
+    <string name="error_transferring_license">Lizenz konnte nicht übertragen werden. Bitte versuchen Sie es erneut.</string>
+    <string name="support_title">Benötigen Sie Hilfe?</string>
+    <string name="support_icon">Hilfesymbol</string>
+    <string name="support_subtitle">Wir sind hier, um Ihnen zu helfen!</string>
+    <string name="support_description">Haben Sie Probleme mit AAAD? Senden Sie uns eine E-Mail und wir werden uns so schnell wie möglich bei Ihnen melden. Je mehr Details Sie angeben, desto schneller können wir Ihnen helfen!</string>
+    <string name="support_email_will_include">Ihre E-Mail wird enthalten:</string>
+    <string name="support_email_item_device">Gerätemodell und Android-Version</string>
+    <string name="support_email_item_version">AAAD-Versionsinformationen</string>
+    <string name="support_email_item_description">Platz zur Beschreibung Ihres Problems</string>
+    <string name="support_include_logs">Diagnoseprotokolle einschließen</string>
+    <string name="support_logs_explanation">Empfohlen - Hilft uns, Probleme schneller zu beheben. Enthält nur Geräteinformationen und App-Konfiguration, keine persönlichen Daten.</string>
+    <string name="support_send_email">E-Mail an Support senden</string>
+    <string name="support_privacy_note">Wir respektieren Ihre Privatsphäre. Die Protokolle enthalten keine persönlichen Informationen, Passwörter oder Zahlungsdaten.</string>
+    <string name="support_preparing_email">E-Mail wird vorbereitet…</string>
+    <string name="support_log_generation_failed">Protokolle konnten nicht generiert werden, E-Mail wird ohne Anhang gesendet</string>
+    <string name="support_email_failed">E-Mail-App konnte nicht geöffnet werden. Bitte senden Sie eine E-Mail direkt an help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">E-Mail-App auswählen</string>
+    <string name="support_email_subject">AAAD Support-Anfrage</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

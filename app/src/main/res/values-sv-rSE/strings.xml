@@ -3,14 +3,10 @@
     <string name="welcome_string">Välkommen till Android Auto Apps Downloader (AAAD). Det här verktyget hjälper till att installera anpassade appar på Android Auto för icke rotade telefoner. Välj den app du vill installera och vänta på att installationsprogrammet ska komma upp. Appbeskrivningar finns på långtryck.</string>
     <string name="title_activity_about_payment">Pro version</string>
     <string name="switch_to_pro_statement">Den fria versionen av AAAD ger dig en gratis nedladdning per månad. Om du vill njuta av obegränsade nedladdningar, kan du byta till PRO versionen och du kommer att njuta av full funktionalitet och app uppdateringar!</string>
-    <string name="congratsPro">Grattis, du har PRO-versionen!</string>
-    <string name="notConnected">Ej ansluten: kunde inte hämta PRO-status</string>
-    <string name="About">Om</string>
+    <string name="congratsPro">Grattis, du har PRO-versionen!</string>    <string name="About">Om</string>
     <string name="have_promo_code">Jag har en kampanjkod</string>
     <string name="promo_code">Ange kampanjkod</string>
-    <string name="input_promo_code_here">Ange kampanjkod här</string>
-    <string name="fermata_control_dialog">Du håller på att ladda ner %1$s %2$s. Vill du också installera %3$s?</string>
-    <string name="about_to_download">Du håller på att ladda ner %1$s. Vill du fortsätta?</string>
+    <string name="input_promo_code_here">Ange kampanjkod här</string>    <string name="about_to_download">Du håller på att ladda ner %1$s. Vill du fortsätta?</string>
     <string name="no">nej</string>
     <string name="warning_payment">Vid slutet av betalningen, tryck manuellt på \"Återgå till handlaren\" för att transaktionen ska valideras.</string>
     <string name="attention">OBS</string>
@@ -25,9 +21,7 @@
     <string name="cancelled_payment">Köp avbrutet</string>
     <string name="please_enter_code">Ange kod</string>
     <string name="connection_error">Anslutningsfel, kunde inte verifiera</string>
-    <string name="not_valid_code">Inte en giltig kod</string>
-    <string name="select_which">Välj en.</string>
-    <string name="downloading_progress">Laddar ner…</string>
+    <string name="not_valid_code">Inte en giltig kod</string>    <string name="downloading_progress">Laddar ner…</string>
     <string name="aa_mirror_plus_description">Alternativ till AAMirror med några fler funktioner.</string>
     <string name="aapassenger_description">Denna app gjordes för att tillåta passagerare att hantera vissa funktioner i Android Auto. Kräver att passageraren laddar ner AAPassenger. Statusen är för närvarande okänd.</string>
     <string name="s2a_description">Den mest kompletta och fullfjädrade speglingsappen för Android Auto. Innehåller många funktioner som en anpassningsbar launcher, delad skärm, anpassade skärmstorlekar och mycket mer!</string>
@@ -37,33 +31,14 @@
     </string>
     <string name="fermata_description">"Den mest kompletta video- och ljudspelaren för Android Auto, med en full spelarupplevelse med många funktioner som nätverksstreaming och även en webbläsare. Den levereras också med den medföljande appen Fermata Control som gör det möjligt att hantera uppspelningen utanför appen och från styrningarna på ratten."</string>
     <string name="s2a_redirect">Du kommer att omdirigeras till screen2autos webbplats. Därifrån väljer du version och öppna med AAAD.</string>
-    <string name="screen2auto_download">Du kommer att installera Screen2Auto. Vill du fortsätta?</string>
-    <string name="press_back_warning">Klicka \"Tillbaka\" igen för att avsluta</string>
-    <string name="aawidgets_description">Född med en enda uppgift. Möjliggöra widgets till Android Auto!</string>
+    <string name="screen2auto_download">Du kommer att installera Screen2Auto. Vill du fortsätta?</string>    <string name="aawidgets_description">Född med en enda uppgift. Möjliggöra widgets till Android Auto!</string>
     <string name="performance_monitor_description">Detta är en prestandaövervakare, baserad på Martoretos aa-statistik. Den är speciellt framtagen för användning med Volkswagen/Skoda/Seat/Audi MIB2 infotainmentsystem men det kan också fungera på andra, så länge de har stöd för Android Auto. Behöver också VAG utökning för att fungera med Volkswagen Cars.</string>
-    <string name="promotion">Du är berättigad till 15 % rabatt</string>
-    <string name="first_section_name">Multimedia appar</string>
-    <string name="second_section_name">Speglingsappar</string>
-    <string name="third_section_name">Övrigt</string>
-    <string name="might_not_be_compatible">Tyvärr verkar det som om din enhet inte är kompatibel med Fermata.</string>
-    <string name="new_version_available">Ny version finns tillgänglig</string>
-    <string name="go_to_new_version">En ny version av AAAD (version %1$s) finns tillgänglig på GitHub. Vill du ladda ner den nu?</string>
-    <string name="go_to_download">Gå till nerladdningar</string>
-    <string name="ignore_for_now">Ignorera för tillfället</string>
-    <string name="privacy_policy">"<![CDATA[AAAD lagrar inga kreditkortsuppgifter eller personuppgifter om användaren.<br>För valideringsändamål samlar AAAD in ett serienummer som är säkert genererat av Android för att identifiera en enhet på ett unikt sätt. Enhetens serienr behandlas av AAAD för att validera PRO-versionen och ger inte någon användbar information om enhetsmodellen, IMIEI eller plats.<br>Betalningen av pro-versionen hanteras enbart av PayPal och för bekräftelse- och återbetalningsändamål lagras posten i en online Firebase-databas.]]>"</string>
-    <string name="privacy">Integritetspolicy</string>
-    <string name="loading">Laddar...</string>
+    <string name="promotion">Du är berättigad till 15 % rabatt</string>    <string name="loading">Laddar...</string>
     <string name="go_pro">Köp PRO</string>
     <string name="i_m_good">Jag är nöjd</string>
-    <string name="nav2contacts_description">Med de nya navigeringsappar som kommer till Android Auto, många av dem saknar Google Assistents stöd för att navigera till adresser till kontakter som sparats i telefonboken. Nav2Contacts kommer till din räddning! Välj först den navigationsapp du vill använda, sök sedan den kontakt du vill navigera till och starta navigeringen direkt!</string>
-    <string name="meeting_requirements">Denna app kräver minst Android %d, tyvärr!</string>
-    <string name="back_button_payment_close">Kom ihåg att trycka på den blå knappen \"Återgå till handlarens webbplats\" efter att betalningen är klar</string>
+    <string name="nav2contacts_description">Med de nya navigeringsappar som kommer till Android Auto, många av dem saknar Google Assistents stöd för att navigera till adresser till kontakter som sparats i telefonboken. Nav2Contacts kommer till din räddning! Välj först den navigationsapp du vill använda, sök sedan den kontakt du vill navigera till och starta navigeringen direkt!</string>    <string name="back_button_payment_close">Kom ihåg att trycka på den blå knappen \"Återgå till handlarens webbplats\" efter att betalningen är klar</string>
     <string name="help">Hjälp</string>
-    <string name="help_dialog">Vill du skicka ett mail för att få hjälp nu?</string>
-    <string name="cpu_architecture_warning">Din telefonens CPU-arkitektur kanske inte är kompatibel med de flesta apparna. Försök att ladda ner minst en app innan du fortsätter.</string>
-    <string name="i_understand">Jag förstår</string>
-    <string name="ignore">Ignorera</string>
-    <string name="i_want_to_transfer_license_here">Jag vill överföra licensen hit</string>
+    <string name="help_dialog">Vill du skicka ett mail för att få hjälp nu?</string>    <string name="i_want_to_transfer_license_here">Jag vill överföra licensen hit</string>
     <string name="i_want_to_transfer_license_from_here">Jag vill överföra licensen härifrån</string>
     <string name="license_transfer_help">Om du vill överföra licensen från en telefon till en annan är du på rätt plats. Välj vad du vill göra</string>
     <string name="transfer_license">Överför licens</string>
@@ -71,24 +46,16 @@
     <string name="license_here_confirm">Är du säker på att du vill överföra licensen till den här enheten?</string>
     <string name="qr_tutorial">Bra, nu öppna enheten som du vill överföra licensen från och välj \"Jag vill överföra licensen härifrån\", skanna sedan denna QR-kod</string>
     <string name="license_done">Licensen överförd</string>
-    <string name="no_license_found">Du har inte en aktiv licens på denna enhet</string>
-    <string name="unknown_sources_warning">Innan du fortsätter, måste du aktivera möjligheten att göra installation från okända källor. Om du inte gör det kan det orsaka problem för AAAD. Tryck OK för att gå till inställningar nu, måste du aktivera alternativet för Okända Källor.</string>
-    <string name="qr_code_permission">Behörigheten till kameran behövs för att skanna QR-koder</string>
+    <string name="no_license_found">Du har inte en aktiv licens på denna enhet</string>    <string name="qr_code_permission">Behörigheten till kameran behövs för att skanna QR-koder</string>
     <string name="success_transfer">Licens giltig</string>
     <string name="email_dialog" comment="&#10;Dialog window">Epostadressen kommer vid behov att användas för att verifiera ditt köp</string>
     <string name="input_email">Vänligen ange din epostadress...</string>
     <string name="days_remaining">%d dagar kvar till nästa nedladdning</string>
     <string name="hours_remaining">%d timmar kvar till nästa nedladdning</string>
     <string name="less_than_hour">Mindre än 1 timme kvar till nästa nedladdning</string>
-    <string name="download_available_now">Nedladdning tillgänglig nu!</string>
-    <string name="app_installed_successfully">Appen installerades framgångsrikt!</string>
-    <string name="installation_failed">Installation misslyckades</string>
-    <string name="installation_timeout_title">Installationsstatus</string>
-    <string name="installation_timeout_message">Slutfördes appinstallationen framgångsrikt?</string>
+    <string name="download_available_now">Nedladdning tillgänglig nu!</string>    <string name="installation_failed">Installation misslyckades</string>    <string name="installation_timeout_message">Slutfördes appinstallationen framgångsrikt?</string>
     <string name="installation_succeeded">Ja, den installerades</string>
-    <string name="installation_failed_or_cancelled">Nej, den misslyckades eller avbröts</string>
-    <string name="download_not_counted">Nedladdning räknas inte - du kan försöka igen</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Nej, den misslyckades eller avbröts</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Viktig varning</string>
     <string name="onboarding_warning_message">Denna app är INTE ansluten till softonic.com, uptodown.com eller aadapk.com, aadapk.app. Den enda officiella källan är github.com</string>
@@ -155,4 +122,64 @@
     <string name="error_download_tracking_failed">Det gick inte att uppdatera nedladdningsstatus</string>
     <string name="error_loading_catalog">Det gick inte att läsa in appkatalogen</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Överför licens</string>
+    <string name="checking_license_status">Kontrollerar licensstatus…</string>
+    <string name="qr_code_icon">QR-kodikon</string>
+    <string name="receiver_title">Ta emot PRO-licens</string>
+    <string name="receiver_subtitle">Visa denna QR-kod för att överföra en licens till denna enhet</string>
+    <string name="qr_code_to_scan">QR-kod för licensöverföring</string>
+    <string name="receiver_instructions_title">Så här fungerar det</string>
+    <string name="receiver_instructions_step1">På enheten med PRO, öppna AAAD och gå till Överför licens</string>
+    <string name="receiver_instructions_step2">Tryck på knappen Skanna QR-kod på den enheten</string>
+    <string name="receiver_instructions_step3">Skanna denna QR-kod för att slutföra överföringen</string>
+    <string name="transfer_license_icon">Licensöverföringsikon</string>
+    <string name="sender_title">Överför PRO-licens</string>
+    <string name="sender_subtitle">Överför din licens till en ny enhet</string>
+    <string name="sender_warning">⚠️ Varning: Att överföra din licens tar bort PRO-status från denna enhet och aktiverar den på den nya enheten. Denna åtgärd kan inte ångras.</string>
+    <string name="sender_instructions_title">Hur man överför</string>
+    <string name="sender_step_1">Öppna AAAD på din nya enhet</string>
+    <string name="sender_step_2">Gå till menyn Överför licens</string>
+    <string name="sender_step_3">En QR-kod visas på den nya enheten</string>
+    <string name="sender_step_4">Tryck på knappen nedan och skanna den QR-koden</string>
+    <string name="scan_qr_code">Skanna QR-kod</string>
+    <string name="camera_permission_required">Kameratillstånd krävs för att skanna QR-koder</string>
+    <string name="error_checking_license">Kunde inte kontrollera licensstatus. Försök igen.</string>
+    <string name="error_generating_qr">Kunde inte generera QR-kod</string>
+    <string name="license_received_success">Licens mottagen!</string>
+    <string name="scan_error_title">Skanningsfel</string>
+    <string name="scan_error_message">Kunde inte skanna QR-kod. Försök igen.</string>
+    <string name="confirm_transfer_title">Bekräfta överföring</string>
+    <string name="confirm_transfer_message">Är du säker på att du vill överföra din PRO-licens till den nya enheten? Detta tar bort PRO från denna enhet.</string>
+    <string name="confirm_transfer_yes">Överför licens</string>
+    <string name="confirm_transfer_no">Avbryt</string>
+    <string name="license_transferred_success">Licens överförd!</string>
+    <string name="error_transferring_license">Kunde inte överföra licens. Försök igen.</string>
+    <string name="support_title">Behöver du hjälp?</string>
+    <string name="support_icon">Hjälpikon</string>
+    <string name="support_subtitle">Vi är här för att hjälpa dig!</string>
+    <string name="support_description">Har du problem med AAAD? Skicka oss ett e-postmeddelande så återkommer vi så snart som möjligt. Ju mer detaljer du ger, desto snabbare kan vi hjälpa!</string>
+    <string name="support_email_will_include">Ditt e-postmeddelande kommer att innehålla:</string>
+    <string name="support_email_item_device">Enhetsmodell och Android-version</string>
+    <string name="support_email_item_version">AAAD-versionsinformation</string>
+    <string name="support_email_item_description">Utrymme för att beskriva ditt problem</string>
+    <string name="support_include_logs">Inkludera diagnostikloggar</string>
+    <string name="support_logs_explanation">Rekommenderat - Hjälper oss att felsöka snabbare. Innehåller endast enhetsinformation och appkonfiguration, inga personuppgifter.</string>
+    <string name="support_send_email">Skicka e-post till support</string>
+    <string name="support_privacy_note">Vi respekterar din integritet. Inga personuppgifter, lösenord eller betalningsdata ingår i loggarna.</string>
+    <string name="support_preparing_email">Förbereder e-post…</string>
+    <string name="support_log_generation_failed">Kunde inte generera loggar, skickar e-post utan bilaga</string>
+    <string name="support_email_failed">Kunde inte öppna e-postapp. Skicka e-post direkt till help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Välj e-postapp</string>
+    <string name="support_email_subject">AAAD Supportbegäran</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

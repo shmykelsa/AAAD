@@ -3,14 +3,10 @@
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO Version</string>
     <string name="switch_to_pro_statement">AAADの無料版は、毎月1回だけ無料ダウンロードができます。 無制限に無料ダウンロードしたい場合は、PROバージョンに切り替えましょう。PROバージョンでは完全な機能とアプリのアップデートがお楽しみいただけます</string>
-    <string name="congratsPro">Congratulations, you have PRO version!</string>
-    <string name="notConnected">接続されていません: PROステータスを取得できませんでした</string>
-    <string name="About">About</string>
+    <string name="congratsPro">Congratulations, you have PRO version!</string>    <string name="About">About</string>
     <string name="have_promo_code">プロモコードをお持ちの方はこちらへ</string>
     <string name="promo_code">プロモコードを入力してください</string>
-    <string name="input_promo_code_here">こちらにプロモコードを入力してください</string>
-    <string name="fermata_control_dialog">あなたは%1$s %2$sをダウンロードしようとしています。 %3$s もインストールしますか？</string>
-    <string name="about_to_download">%1$sをダウンロードしようとしています。続行しますか？</string>
+    <string name="input_promo_code_here">こちらにプロモコードを入力してください</string>    <string name="about_to_download">%1$sをダウンロードしようとしています。続行しますか？</string>
     <string name="no">いいえ</string>
     <string name="warning_payment">支払いの終了時、取引を検証するために手動で「Return to merchant」を押してください</string>
     <string name="attention">重要</string>
@@ -24,9 +20,7 @@
     <string name="cancelled_payment">購入をキャンセルしました</string>
     <string name="please_enter_code">コードを入力してください</string>
     <string name="connection_error">接続エラー。検証できませんでした</string>
-    <string name="not_valid_code">無効なコードです</string>
-    <string name="select_which">どちらにしますか?</string>
-    <string name="downloading_progress">ダウンロード中…</string>
+    <string name="not_valid_code">無効なコードです</string>    <string name="downloading_progress">ダウンロード中…</string>
     <string name="aa_mirror_plus_description">AAMirrorの代わりとなるミラーリングアプリ。 より機能が充実しています</string>
     <string name="aapassenger_description">このアプリは同乗者がAndroid Autoの機能を操作できるように作られました。同乗者がAAPassengerをダウンロードする必要があります。作業状態は現在分かりません</string>
     <string name="s2a_description">Android Auto用の最も完全でフル機能のミラーリングアプリ。カスタマイズ可能なランチャー、分割スクリーン、スクリーンサイズのカスタマイズなど多くの機能が含まれています</string>
@@ -36,33 +30,14 @@
     </string>
     <string name="fermata_description">"Android Auto用の最も完全なビデオ兼オーディオプレーヤーです。 ネットワークストリームやウェブブラウザなどの多くの機能を備えています。 また、アプリ外やステアリングホイール上のリモコンスイッチから再生を操作できるコンパニオンアプリFermata Controlが付属しています"</string>
     <string name="s2a_redirect">screen2auto ウェブサイトにリダイレクトします。 そこからバージョンを選択し、AAADで開いてください</string>
-    <string name="screen2auto_download">Screen2Autoをインストールしようとしています。 続行しますか？</string>
-    <string name="press_back_warning">終了するにはもう一度「戻る」をタップしてください</string>
-    <string name="aawidgets_description">たったひとつの役割のために誕生しました。Android Autoにウィジェットをもたらします</string>
+    <string name="screen2auto_download">Screen2Autoをインストールしようとしています。 続行しますか？</string>    <string name="aawidgets_description">たったひとつの役割のために誕生しました。Android Autoにウィジェットをもたらします</string>
     <string name="performance_monitor_description">これは、Martoreto氏によるaa-statsに基づいたパフォーマンスモニタです。 これは、特にフォルクスワーゲン/シュコダ/セアト/アウディMIB2純正ナビで使用するために作られています 。 ですが、Android Autoのサポートがあれば、上記以外でも対応する可能性があります。 フォルクスワーゲン車で動作するためにはVAG拡張も必要です。</string>
-    <string name="promotion">あなたは15％オフの対象です</string>
-    <string name="first_section_name">マルチメディアアプリ</string>
-    <string name="second_section_name">ミラーリングアプリ</string>
-    <string name="third_section_name">その他</string>
-    <string name="might_not_be_compatible">残念ながら、お使いの端末はFermataと互換性がないようです。</string>
-    <string name="new_version_available">新しいバージョンがあります</string>
-    <string name="go_to_new_version">GitHubでAAAD (バージョン %1$s) の新しいバージョンが利用可能です。今すぐダウンロードしますか？</string>
-    <string name="go_to_download">ダウンロードする</string>
-    <string name="ignore_for_now">今は無視する</string>
-    <string name="privacy_policy">"<![CDATA[AAADはユーザーのどんなクレジットカード情報や個人情報もも蓄積しません。<br> AAADは検証を目的に、Androidが安全に生成した端末の個別識別のためのシリアルナンバーを収集します。 端末のシリアルはPROバージョンの検証のために処理されます。 端末のモデルやIMEI番号、位置情報など、どんな役立つ情報も提供しません。 <br> PROバージョンの購入は唯一PayPalによって管理されます。確認や返金目的のメール情報のみオンライン上のFirebaseデータベースに蓄積されます]]>"</string>
-    <string name="privacy">プライバシーポリシー</string>
-    <string name="loading">ロード中...</string>
+    <string name="promotion">あなたは15％オフの対象です</string>    <string name="loading">ロード中...</string>
     <string name="go_pro">PROにする</string>
     <string name="i_m_good">結構です</string>
-    <string name="nav2contacts_description">新しいナビゲーションアプリをAndroid Autoに追加しても、 多くの場合は、電話帳にある連絡先の住所に道案内するGoogle Assistantのサポート機能に対応していません。そこで Nav2Contactsの出番です。 まず、使用するナビゲーションアプリを選択し、次に目的地の連絡先を検索してください。 すぐに道案内が始まりますよ</string>
-    <string name="meeting_requirements">残念ですが、このアプリは最低でも Android %dが必要です</string>
-    <string name="back_button_payment_close">お支払いが完了したら、「Return to merchant website」ボタンを押してください。</string>
+    <string name="nav2contacts_description">新しいナビゲーションアプリをAndroid Autoに追加しても、 多くの場合は、電話帳にある連絡先の住所に道案内するGoogle Assistantのサポート機能に対応していません。そこで Nav2Contactsの出番です。 まず、使用するナビゲーションアプリを選択し、次に目的地の連絡先を検索してください。 すぐに道案内が始まりますよ</string>    <string name="back_button_payment_close">お支払いが完了したら、「Return to merchant website」ボタンを押してください。</string>
     <string name="help">ヘルプ</string>
-    <string name="help_dialog">今すぐヘルプのためにE メールを送信しますか?</string>
-    <string name="cpu_architecture_warning">お使いの端末のCPUアーキテクチャはほとんどのアプリと互換性がないかもしれません。続行する前に少なくとも1つのアプリをダウンロードしてみてください</string>
-    <string name="i_understand">同意</string>
-    <string name="ignore">無視</string>
-    <string name="i_want_to_transfer_license_here">このデバイスにライセンスを転送する</string>
+    <string name="help_dialog">今すぐヘルプのためにE メールを送信しますか?</string>    <string name="i_want_to_transfer_license_here">このデバイスにライセンスを転送する</string>
     <string name="i_want_to_transfer_license_from_here">このデバイスからライセンスを転送する</string>
     <string name="license_transfer_help">一つのスマホから別のスマホにライセンスを転送したい場合は、こちらからどうぞ。 やりたいことを選んでください</string>
     <string name="transfer_license">ライセンスの転送</string>
@@ -70,24 +45,16 @@
     <string name="license_here_confirm">Are you sure that you want to transfer the license to this device?</string>
     <string name="qr_tutorial">よくできました。 今からライセンス転送元のデバイスを開き、 「このデバイスからライセンスを転送する」を選択してください 。 そして、このQRコードをスキャンしてください</string>
     <string name="license_done">ライセンスが転送されました</string>
-    <string name="no_license_found">このデバイスに有効なライセンスがありません</string>
-    <string name="unknown_sources_warning">続行する前に、不明なソースからのインストールを有効にする必要があります。このオプションをオフにすると、AAADに問題が生じる可能性があります。 「OK」を押して設定に移動し、不明なソースのオプションを有効にする必要があります</string>
-    <string name="qr_code_permission">QRコードをスキャンするにはカメラの権限が必要です</string>
+    <string name="no_license_found">このデバイスに有効なライセンスがありません</string>    <string name="qr_code_permission">QRコードをスキャンするにはカメラの権限が必要です</string>
     <string name="success_transfer">ライセンスが有効になりました</string>
     <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
     <string name="input_email">Pengoat96@gmail. com</string>
     <string name="days_remaining">次のダウンロードまで%d日残っています</string>
     <string name="hours_remaining">次のダウンロードまで%d時間残っています</string>
     <string name="less_than_hour">次のダウンロードまで1時間未満です</string>
-    <string name="download_available_now">ダウンロードが利用可能です！</string>
-    <string name="app_installed_successfully">アプリのインストールが完了しました！</string>
-    <string name="installation_failed">インストールに失敗しました</string>
-    <string name="installation_timeout_title">インストール状況</string>
-    <string name="installation_timeout_message">アプリのインストールは正常に完了しましたか？</string>
+    <string name="download_available_now">ダウンロードが利用可能です！</string>    <string name="installation_failed">インストールに失敗しました</string>    <string name="installation_timeout_message">アプリのインストールは正常に完了しましたか？</string>
     <string name="installation_succeeded">はい、インストールされました</string>
-    <string name="installation_failed_or_cancelled">いいえ、失敗またはキャンセルされました</string>
-    <string name="download_not_counted">ダウンロードはカウントされていません - 再試行できます</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">いいえ、失敗またはキャンセルされました</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ 重要な警告</string>
     <string name="onboarding_warning_message">このアプリはsoftonic.com、uptodown.com、aadapk.com, aadapk.appとは関係ありません。唯一の公式ソースはgithub.comです</string>
@@ -165,4 +132,64 @@
     <string name="error_download_tracking_failed">ダウンロードステータスの更新に失敗しました</string>
     <string name="error_loading_catalog">アプリカタログの読み込みに失敗しました</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">ライセンスの転送</string>
+    <string name="checking_license_status">ライセンス状態を確認中…</string>
+    <string name="qr_code_icon">QRコードアイコン</string>
+    <string name="receiver_title">PROライセンスを受信</string>
+    <string name="receiver_subtitle">このQRコードを表示してライセンスをこのデバイスに転送</string>
+    <string name="qr_code_to_scan">ライセンス転送用QRコード</string>
+    <string name="receiver_instructions_title">使用方法</string>
+    <string name="receiver_instructions_step1">PROを持っているデバイスで、AAADを開いてライセンスの転送に移動</string>
+    <string name="receiver_instructions_step2">そのデバイスでQRコードをスキャンボタンをタップ</string>
+    <string name="receiver_instructions_step3">このQRコードをスキャンして転送を完了</string>
+    <string name="transfer_license_icon">ライセンス転送アイコン</string>
+    <string name="sender_title">PROライセンスの転送</string>
+    <string name="sender_subtitle">ライセンスを新しいデバイスに転送</string>
+    <string name="sender_warning">⚠️ 警告：ライセンスを転送すると、このデバイスからPROステータスが削除され、新しいデバイスでアクティブ化されます。この操作は元に戻せません。</string>
+    <string name="sender_instructions_title">転送方法</string>
+    <string name="sender_step_1">新しいデバイスでAAADを開く</string>
+    <string name="sender_step_2">ライセンスの転送メニューに移動</string>
+    <string name="sender_step_3">新しいデバイスにQRコードが表示される</string>
+    <string name="sender_step_4">下のボタンをタップしてそのQRコードをスキャン</string>
+    <string name="scan_qr_code">QRコードをスキャン</string>
+    <string name="camera_permission_required">QRコードをスキャンするにはカメラの許可が必要です</string>
+    <string name="error_checking_license">ライセンス状態の確認に失敗しました。もう一度お試しください。</string>
+    <string name="error_generating_qr">QRコードの生成に失敗しました</string>
+    <string name="license_received_success">ライセンスの受信に成功しました！</string>
+    <string name="scan_error_title">スキャンエラー</string>
+    <string name="scan_error_message">QRコードのスキャンに失敗しました。もう一度お試しください。</string>
+    <string name="confirm_transfer_title">転送を確認</string>
+    <string name="confirm_transfer_message">PROライセンスを新しいデバイスに転送してもよろしいですか？これによりこのデバイスからPROが削除されます。</string>
+    <string name="confirm_transfer_yes">ライセンスを転送</string>
+    <string name="confirm_transfer_no">キャンセル</string>
+    <string name="license_transferred_success">ライセンスの転送に成功しました！</string>
+    <string name="error_transferring_license">ライセンスの転送に失敗しました。もう一度お試しください。</string>
+    <string name="support_title">ヘルプが必要ですか？</string>
+    <string name="support_icon">ヘルプアイコン</string>
+    <string name="support_subtitle">私たちはあなたを助けるためにここにいます！</string>
+    <string name="support_description">AAADで問題が発生していますか？メールを送信していただければ、できるだけ早く返信いたします。詳細を提供していただくほど、迅速にサポートできます！</string>
+    <string name="support_email_will_include">メールには以下が含まれます：</string>
+    <string name="support_email_item_device">デバイスモデルとAndroidバージョン</string>
+    <string name="support_email_item_version">AAADバージョン情報</string>
+    <string name="support_email_item_description">問題を説明するスペース</string>
+    <string name="support_include_logs">診断ログを含める</string>
+    <string name="support_logs_explanation">推奨 - 問題の迅速な解決に役立ちます。デバイス情報とアプリ設定のみが含まれ、個人データは含まれません。</string>
+    <string name="support_send_email">サポートにメールを送信</string>
+    <string name="support_privacy_note">プライバシーを尊重します。ログには個人情報、パスワード、支払いデータは含まれません。</string>
+    <string name="support_preparing_email">メールを準備中…</string>
+    <string name="support_log_generation_failed">ログを生成できませんでした。添付ファイルなしでメールを送信します</string>
+    <string name="support_email_failed">メールアプリを開けませんでした。help.aaad@gmail.comに直接メールを送信してください。</string>
+    <string name="support_choose_email_app">メールアプリを選択</string>
+    <string name="support_email_subject">AAADサポートリクエスト</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

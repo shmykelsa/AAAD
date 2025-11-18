@@ -3,7 +3,7 @@
     <files-path
         name="files"
         path="." />
-    <files-path
+    <cache-path
         name="cache"
         path="." />
     <external-path

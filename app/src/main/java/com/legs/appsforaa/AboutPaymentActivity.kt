@@ -2,17 +2,19 @@ package com.legs.appsforaa
 
 import android.content.Intent
 import android.os.Bundle
-import android.provider.Settings
 import android.util.Log
 import android.view.Menu
+import com.legs.appsforaa.utils.Logger
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.WindowCompat
 import androidx.lifecycle.lifecycleScope
 import com.google.firebase.database.*
+import com.legs.appsforaa.utils.applyBottomInsetPadding
 import com.stripe.android.PaymentConfiguration
 import com.stripe.android.Stripe
 import com.stripe.android.paymentsheet.PaymentSheet
@@ -37,13 +39,18 @@ class AboutPaymentActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Enable edge-to-edge display for proper insets handling
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+
         setContentView(R.layout.activity_about_payment)
+
+        // Apply bottom insets to bottom layout for 3-button navbar compatibility
+        findViewById<View>(R.id.bottom_layout).applyBottomInsetPadding()
 
         val extras = intent.extras
         val nextTry = extras?.getLong("date")
         val promo = extras?.getBoolean("promotion") ?: false
-
-        deviceId = Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
 
         // Initialize Stripe
         PaymentConfiguration.init(
@@ -55,29 +62,43 @@ class AboutPaymentActivity : AppCompatActivity() {
         // Initialize PaymentSheet
         paymentSheet = PaymentSheet(this, ::onPaymentSheetResult)
 
-        // Display countdown in days if user is in cooldown
-        if (nextTry != null && nextTry > 0) {
-            val nextTimeTextView = findViewById<TextView>(R.id.next_time_download)
-            val currentTime = System.currentTimeMillis()
-            val timeRemaining = nextTry - currentTime
-            
-            if (timeRemaining > 0) {
-                val daysRemaining = (timeRemaining / (24L * 60L * 60L * 1000L)).toInt()
-                val hoursRemaining = ((timeRemaining % (24L * 60L * 60L * 1000L)) / (60L * 60L * 1000L)).toInt()
-                
-                val countdownText = when {
-                    daysRemaining > 0 -> getString(R.string.days_remaining, daysRemaining)
-                    hoursRemaining > 0 -> getString(R.string.hours_remaining, hoursRemaining)
-                    else -> getString(R.string.less_than_hour)
+        // Authenticate and initialize (MUST happen before database access)
+        lifecycleScope.launch {
+            try {
+                // Authenticate with Firebase (silent, no UI)
+                deviceId = com.legs.appsforaa.managers.AuthManager.ensureAuthenticated()
+                Logger.d("AboutPaymentActivity", "Authentication successful, UID: $deviceId")
+
+                // Display countdown in days if user is in cooldown
+                if (nextTry != null && nextTry > 0) {
+                    val nextTimeTextView = findViewById<TextView>(R.id.next_time_download)
+                    val currentTime = System.currentTimeMillis()
+                    val timeRemaining = nextTry - currentTime
+
+                    if (timeRemaining > 0) {
+                        val daysRemaining = (timeRemaining / (24L * 60L * 60L * 1000L)).toInt()
+                        val hoursRemaining = ((timeRemaining % (24L * 60L * 60L * 1000L)) / (60L * 60L * 1000L)).toInt()
+
+                        val countdownText = when {
+                            daysRemaining > 0 -> getString(R.string.days_remaining, daysRemaining)
+                            hoursRemaining > 0 -> getString(R.string.hours_remaining, hoursRemaining)
+                            else -> getString(R.string.less_than_hour)
+                        }
+                        nextTimeTextView.text = countdownText
+                    } else {
+                        nextTimeTextView.text = getString(R.string.download_available_now)
+                    }
                 }
-                nextTimeTextView.text = countdownText
-            } else {
-                nextTimeTextView.text = getString(R.string.download_available_now)
+
+                // Check if user is already pro
+                checkProStatus()
+            } catch (e: Exception) {
+                Logger.e("AboutPaymentActivity", "Authentication failed", e)
+                Toast.makeText(this@AboutPaymentActivity,
+                    "Authentication failed: ${e.message}", Toast.LENGTH_LONG).show()
+                finish()
             }
         }
-
-        // Check if user is already pro
-        checkProStatus()
     }
 
     private fun checkProStatus() {
@@ -335,7 +356,7 @@ class AboutPaymentActivity : AppCompatActivity() {
             if (databaseError != null) {
                 Log.e("Firebase", "Failed to save email", databaseError.toException())
             } else {
-                Log.d("Firebase", "Email saved successfully for device: $deviceId")
+                Logger.d("Firebase", "Email saved successfully for device: $deviceId")
                 // Set pro status to true in Firebase
                 deviceRef.setValue(true) { dbError, _ ->
                     if (dbError == null) {
@@ -349,7 +370,7 @@ class AboutPaymentActivity : AppCompatActivity() {
 
     private fun refreshMainActivity() {
         // Create intent to return to MainActivity and refresh pro status
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, MainActivityNew::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
         intent.putExtra("refresh_pro_status", true)
         startActivity(intent)

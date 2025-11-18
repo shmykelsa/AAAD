@@ -3,15 +3,10 @@
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO Verzijom</string>
     <string name="switch_to_pro_statement">Brezplačno verzija</string>
-    <string name="congratsPro">Čestitamo imate pro verziju</string>
-    <string name="notConnected">Nije povezano. Provjeri pro stanje</string>
-    <string name="About">About</string>
+    <string name="congratsPro">Čestitamo imate pro verziju</string>    <string name="About">About</string>
     <string name="have_promo_code">I have a promo code</string>
     <string name="promo_code">Izaberi promocij</string>
-    <string name="input_promo_code_here">Unesi kod ovdje</string>
-    <string name="fermata_control_dialog">Želite li uvjek prenositi 1 2.
-Da li želite instalirati sve za 3s?</string>
-    <string name="about_to_download">Preuzeli ste. Da li želite vidjet nastavak?</string>
+    <string name="input_promo_code_here">Unesi kod ovdje</string>    <string name="about_to_download">Preuzeli ste. Da li želite vidjet nastavak?</string>
     <string name="no">ne</string>
     <string name="warning_payment">Na kraju računa ručno odaberi. Vraćanje na nešto. Transakcija neće biti ispravna.</string>
     <string name="attention">Upozorenje</string>
@@ -27,9 +22,7 @@ Da li želite instalirati sve za 3s?</string>
     <string name="cancelled_payment">Purchase cancelled</string>
     <string name="please_enter_code">Please enter a code</string>
     <string name="connection_error">Connection error, could not verify</string>
-    <string name="not_valid_code">Not a valid code</string>
-    <string name="select_which">Which one?</string>
-    <string name="downloading_progress">Downloading…</string>
+    <string name="not_valid_code">Not a valid code</string>    <string name="downloading_progress">Downloading…</string>
     <string name="aa_mirror_plus_description">Alternative to AAMirror with some more functionalities.</string>
     <string name="aapassenger_description">This app was made for allowing passengers to manage some functionalities in Android Auto. Requires the passenger to download AAPassenger. Working state is currently unknown.</string>
     <string name="s2a_description">The most complete and full-featured mirroring app for Android Auto. Includes many features like a customizable launcher, split screen, custom screen sizes and much more!</string>
@@ -39,33 +32,14 @@ Da li želite instalirati sve za 3s?</string>
     </string>
     <string name="fermata_description">"The most complete video and audio player for Android Auto, featuring a full player experience with many features such as network streams and also a web browser. It also comes with the companion app Fermata Control that allows to manage the playback outside the app and from the controls on steering wheel."</string>
     <string name="s2a_redirect">You will be redirected to screen2auto website. From there, select the version and open with AAAD.</string>
-    <string name="screen2auto_download">You are going to install Screen2Auto. Do you want to continue?</string>
-    <string name="press_back_warning">Please press BACK again to exit</string>
-    <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
+    <string name="screen2auto_download">You are going to install Screen2Auto. Do you want to continue?</string>    <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
     <string name="performance_monitor_description">This is a performance monitor, based on Martoreto\'s aa-stats. It\'s made specifically for use with the Volkswagen/Skoda/Seat/Audi MIB2 infotainment units, but it might also work on others, as long as they have Android Auto support. Needs also VAG extension to work on Volkswagen Cars.</string>
-    <string name="promotion">You are eligible for a 15% off</string>
-    <string name="first_section_name">Multimedia apps</string>
-    <string name="second_section_name">Mirroring apps</string>
-    <string name="third_section_name">Others</string>
-    <string name="might_not_be_compatible">Unfortunately, it seems like your device is not compatible with Fermata.</string>
-    <string name="new_version_available">New version available</string>
-    <string name="go_to_new_version">A new version of AAAD (version %1$s) is available on GitHub. Do you want to download it now?</string>
-    <string name="go_to_download">Go to download</string>
-    <string name="ignore_for_now">Ignore for now</string>
-    <string name="privacy_policy">"<![CDATA[AAAD does not store any credit card information or personal datas about the user.<br>For validation purposes, AAAD collects a serial number that is securely generated by Android to identify uniquely a device. The device serial is processed by AAAD to validate PRO version and does not provide any useful information about the device model, IMIEI or location.<br>The payment of the pro version is solely managed by PayPal and for confirmation and refund purposes the mail is stored to a online Firebase database.]]>"</string>
-    <string name="privacy">Privacy Policy</string>
-    <string name="loading">Loading...</string>
+    <string name="promotion">You are eligible for a 15% off</string>    <string name="loading">Loading...</string>
     <string name="go_pro">GO PRO</string>
     <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">With the new navigation apps coming into Android Auto, many of them lack of Google Assistant\'s support to navigate to addresses of contacts saved in the phone book. Nav2Contacts come to rescue! First, select the navigation app you want to use, then search the contact you want to navigate to and start the navigation right away!</string>
-    <string name="meeting_requirements">This app requires at least Android %d, sorry!</string>
-    <string name="back_button_payment_close">PLEASE remember to press the blue button \"Return to merchant website\" after payment is complete</string>
+    <string name="nav2contacts_description">With the new navigation apps coming into Android Auto, many of them lack of Google Assistant\'s support to navigate to addresses of contacts saved in the phone book. Nav2Contacts come to rescue! First, select the navigation app you want to use, then search the contact you want to navigate to and start the navigation right away!</string>    <string name="back_button_payment_close">PLEASE remember to press the blue button \"Return to merchant website\" after payment is complete</string>
     <string name="help">Help</string>
-    <string name="help_dialog">Do you want to send an e-mail for help right now?</string>
-    <string name="cpu_architecture_warning">Your phone CPU architecture may not be compatible with most of the apps. Please try to download at least one app before proceeding.</string>
-    <string name="i_understand">Razumijem te</string>
-    <string name="ignore">Ignore</string>
-    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
+    <string name="help_dialog">Do you want to send an e-mail for help right now?</string>    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
     <string name="i_want_to_transfer_license_from_here">I want to transfer license from here</string>
     <string name="license_transfer_help">If you want to transfer the license from one phone to the other, you are in the right place. Please select what you want to do</string>
     <string name="transfer_license">Transfer License</string>
@@ -73,24 +47,16 @@ Da li želite instalirati sve za 3s?</string>
     <string name="license_here_confirm">Are you sure that you want to transfer the license to this device?</string>
     <string name="qr_tutorial">Great, now open the device that you want to transfer the license from and select \"I want to transfer the license from here\", then scan this QR code</string>
     <string name="license_done">License transferred</string>
-    <string name="no_license_found">You don\'t have an active license on this device</string>
-    <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>
-    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
+    <string name="no_license_found">You don\'t have an active license on this device</string>    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
     <string name="success_transfer">License validated</string>
     <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
     <string name="input_email">Molimo unesite Vašu adresu e-pošte...</string>
     <string name="days_remaining">Preostaje %d dana do sljedećeg preuzimanja</string>
     <string name="hours_remaining">Preostaje %d sati do sljedećeg preuzimanja</string>
     <string name="less_than_hour">Preostaje manje od 1 sata do sljedećeg preuzimanja</string>
-    <string name="download_available_now">Preuzimanje je sada dostupno!</string>
-    <string name="app_installed_successfully">Aplikacija je uspješno instalirana!</string>
-    <string name="installation_failed">Instaliranje nije uspjelo</string>
-    <string name="installation_timeout_title">Status instaliranja</string>
-    <string name="installation_timeout_message">Je li se instaliranje aplikacije uspješno završilo?</string>
+    <string name="download_available_now">Preuzimanje je sada dostupno!</string>    <string name="installation_failed">Instaliranje nije uspjelo</string>    <string name="installation_timeout_message">Je li se instaliranje aplikacije uspješno završilo?</string>
     <string name="installation_succeeded">Da, instalirana je</string>
-    <string name="installation_failed_or_cancelled">Ne, nije uspjelo ili je otkazano</string>
-    <string name="download_not_counted">Preuzimanje se ne računa - možete pokušati ponovno</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Ne, nije uspjelo ili je otkazano</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Važno upozorenje</string>
     <string name="onboarding_warning_message">Ova aplikacija NIJE povezana sa softonic.com, uptodown.com ili aadapk.com, aadapk.app. Jedini službeni izvor je github.com</string>
@@ -179,4 +145,64 @@ Da li želite instalirati sve za 3s?</string>
     <string name="loading_checking_updates">Provjera ažuriranja…</string>
     <string name="loading_please_wait">Molimo pričekajte…</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Prenesi licencu</string>
+    <string name="checking_license_status">Provjera statusa licence…</string>
+    <string name="qr_code_icon">Ikona QR koda</string>
+    <string name="receiver_title">Primi PRO licencu</string>
+    <string name="receiver_subtitle">Prikaži ovaj QR kod za prijenos licence na ovaj uređaj</string>
+    <string name="qr_code_to_scan">QR kod za prijenos licence</string>
+    <string name="receiver_instructions_title">Kako funkcionira</string>
+    <string name="receiver_instructions_step1">Na uređaju s PRO-om, otvori AAAD i idi na Prenesi licencu</string>
+    <string name="receiver_instructions_step2">Dodirni gumb Skeniraj QR kod na tom uređaju</string>
+    <string name="receiver_instructions_step3">Skeniraj ovaj QR kod za završetak prijenosa</string>
+    <string name="transfer_license_icon">Ikona prijenosa licence</string>
+    <string name="sender_title">Prenesi PRO licencu</string>
+    <string name="sender_subtitle">Prenesi svoju licencu na novi uređaj</string>
+    <string name="sender_warning">⚠️ Upozorenje: Prijenos licence uklonit će PRO status s ovog uređaja i aktivirati ga na novom uređaju. Ova radnja se ne može poništiti.</string>
+    <string name="sender_instructions_title">Kako prenijeti</string>
+    <string name="sender_step_1">Otvori AAAD na novom uređaju</string>
+    <string name="sender_step_2">Idi na izbornik Prenesi licencu</string>
+    <string name="sender_step_3">QR kod će se pojaviti na novom uređaju</string>
+    <string name="sender_step_4">Dodirni gumb ispod i skeniraj taj QR kod</string>
+    <string name="scan_qr_code">Skeniraj QR kod</string>
+    <string name="camera_permission_required">Potrebna je dozvola za kameru za skeniranje QR kodova</string>
+    <string name="error_checking_license">Neuspjela provjera statusa licence. Pokušaj ponovo.</string>
+    <string name="error_generating_qr">Neuspjelo generiranje QR koda</string>
+    <string name="license_received_success">Licenca uspješno primljena!</string>
+    <string name="scan_error_title">Greška skeniranja</string>
+    <string name="scan_error_message">Neuspjelo skeniranje QR koda. Pokušaj ponovo.</string>
+    <string name="confirm_transfer_title">Potvrdi prijenos</string>
+    <string name="confirm_transfer_message">Jesi li siguran da želiš prenijeti svoju PRO licencu na novi uređaj? Ovo će ukloniti PRO s ovog uređaja.</string>
+    <string name="confirm_transfer_yes">Prenesi licencu</string>
+    <string name="confirm_transfer_no">Odustani</string>
+    <string name="license_transferred_success">Licenca uspješno prenesena!</string>
+    <string name="error_transferring_license">Neuspjeli prijenos licence. Pokušaj ponovo.</string>
+    <string name="support_title">Trebaš pomoć?</string>
+    <string name="support_icon">Ikona pomoći</string>
+    <string name="support_subtitle">Tu smo da ti pomognemo!</string>
+    <string name="support_description">Imaš problema s AAAD-om? Pošalji nam e-mail i javit ćemo se što prije. Što više detalja pružiš, brže možemo pomoći!</string>
+    <string name="support_email_will_include">Tvoj e-mail će uključivati:</string>
+    <string name="support_email_item_device">Model uređaja i verzija Androida</string>
+    <string name="support_email_item_version">Informacije o verziji AAAD-a</string>
+    <string name="support_email_item_description">Prostor za opis problema</string>
+    <string name="support_include_logs">Uključi dijagnostičke zapise</string>
+    <string name="support_logs_explanation">Preporučeno - Pomaže nam brže riješiti problem. Sadržava samo informacije o uređaju i konfiguraciji aplikacije, bez osobnih podataka.</string>
+    <string name="support_send_email">Pošalji e-mail podršci</string>
+    <string name="support_privacy_note">Poštujemo tvoju privatnost. Zapisi ne sadrže osobne informacije, lozinke ili podatke o plaćanju.</string>
+    <string name="support_preparing_email">Priprema e-maila…</string>
+    <string name="support_log_generation_failed">Neuspjelo generiranje zapisa, šaljem e-mail bez privitka</string>
+    <string name="support_email_failed">Neuspjelo otvaranje e-mail aplikacije. Pošalji e-mail izravno na help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Odaberi e-mail aplikaciju</string>
+    <string name="support_email_subject">AAAD Zahtjev za podršku</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

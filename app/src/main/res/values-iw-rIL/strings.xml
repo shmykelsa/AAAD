@@ -3,14 +3,10 @@
     <string name="welcome_string">ברוך הבא לאנדרואיד אוטו מוריד האפליקציות (AAAD). כלי זה יעזור לך להתקין אפליקציות מותאמות אישית על האנדרואיד אוטו שלך למכשירים ללא ROOT. בחר את האפליקציה שאתה רוצה להתקין וחכה שההתקנה תופיע. תיאור האפליקציה מופיע שלוחצים לחיצה ארוכה.</string>
     <string name="title_activity_about_payment">גרסת פרו</string>
     <string name="switch_to_pro_statement">גרסא חינמית של AAAD מאפשרת לך הודעה אחת בחינם בכל חודש. אם אתה רוצה להנות מהורדות ללא הגבלה, אתה יכול לשדרג לגרסאת PRO ותוכל להנות מפונקציות מלאות ועדכוני תוכנה!</string>
-    <string name="congratsPro">מזל טוב, כעת יש לך גרסת PRO!</string>
-    <string name="notConnected">לא מחובר: לא ניתן להשיג סטטוס גרסת פרו</string>
-    <string name="About">אודות</string>
+    <string name="congratsPro">מזל טוב, כעת יש לך גרסת PRO!</string>    <string name="About">אודות</string>
     <string name="have_promo_code">יש לי קוד מבצע</string>
     <string name="promo_code">הזן קוד מבצע</string>
-    <string name="input_promo_code_here">הזן קוד מבצע</string>
-    <string name="fermata_control_dialog">אתה עומד להוריד %1$s %2$s. האם גם להתקין %3$s?</string>
-    <string name="about_to_download">אתה מתחיל להוריד %1$s. האם להמשיך?</string>
+    <string name="input_promo_code_here">הזן קוד מבצע</string>    <string name="about_to_download">אתה מתחיל להוריד %1$s. האם להמשיך?</string>
     <string name="no">לא</string>
     <string name="warning_payment">לאחר סיום התשלום בבקשה לחץ חזור לחנות כדי השתשלום יושלם.</string>
     <string name="attention">שים לב</string>
@@ -27,9 +23,7 @@
     <string name="cancelled_payment">הרכישה בוטלה</string>
     <string name="please_enter_code">בבקשה הזן קוד</string>
     <string name="connection_error">שגיאת חיבור, לא ניתן לאמת</string>
-    <string name="not_valid_code">קוד שגוי</string>
-    <string name="select_which">איזה מהם?</string>
-    <string name="downloading_progress">בהורדה…</string>
+    <string name="not_valid_code">קוד שגוי</string>    <string name="downloading_progress">בהורדה…</string>
     <string name="aa_mirror_plus_description">חלופה ל־AAMirror עם כמה פונקציות נוספות.</string>
     <string name="aapassenger_description">האפליקציה הזו נוצרה כדי להאפשר לנוסעים לנהל פונקציות של אנדאוריד אוטו. נדרש מהנוסע להוריד AAPassenger. איכות השימוש כרגע לא נודעת.</string>
     <string name="s2a_description">התוכנה מלאת הפיצרים והשלמה ביותר כדי לשקף מסך לאנדרואיד אוטו. כוללת פיצרים רבים כמו התאמת ממשק הפעלה, חלוקת מסך, התאמת גודל מסך ועוד הרבה יותר!</string>
@@ -38,33 +32,14 @@
     <string name="carstream_description">הידועה גם כ\"YouTube Auto\", CarStream היא אחת התוכנות הראשונות שנוצרה ע\"י SDK מותאם. היא נולדה במטרה לספק יוטיוב לאנדרואיד אוטו ונפכה לדפדפן אינטרנט עם המון שימושים.    </string>
     <string name="fermata_description">"הנגן הכי מלא לוידאו ואודיו לאנדאוריד אוטו, מאפשר ניגון בחוויה מלאה עם המון פיצרים כמו הזרמת רשת וגם דפדפן. הוא גם נהיה אפליקצית הדרכה מדריך לFermata Control שמאפשרת לך לנהל רשימות השמעה מחוץ לתוכנה ושליטה דרך הלחצנים בהגה."</string>
     <string name="s2a_redirect">אתה מופנה לאתר המפתח של screen2auto. משם, בחר גרסא ופתח אותה ע\"י AAAD.</string>
-    <string name="screen2auto_download">אתה הולך להתקין Screen2Auto. האם להמשיך?</string>
-    <string name="press_back_warning">לחץ אחורה שוב כדי לצאת</string>
-    <string name="aawidgets_description">נולד עם משימה אחת בלבד. להוסיף וויגטים לאנדרואיד אוטו!</string>
+    <string name="screen2auto_download">אתה הולך להתקין Screen2Auto. האם להמשיך?</string>    <string name="aawidgets_description">נולד עם משימה אחת בלבד. להוסיף וויגטים לאנדרואיד אוטו!</string>
     <string name="performance_monitor_description">זו תוכנת ניטור ביצועים, מבוססת על Martoreto\'s aa-stats. היא נוצרה במיוחד לפעול עם Volkswagen/Skoda/Seat/Audi MIB2 יחידות מידע, אבל אולי גם תעבוד עם נוספים, במידה ויש להם תמיכה באנדרואיד אוטו. צריך גם הרחבת VAG כדי לעבוד על רכבי Volkswagen.</string>
-    <string name="promotion">קיבלת 15% הנחה</string>
-    <string name="first_section_name">אפליקציות מולטימדיה</string>
-    <string name="second_section_name">אפליקציות שיקוף</string>
-    <string name="third_section_name">אחרים</string>
-    <string name="might_not_be_compatible">לצערנו, נראה שהמכשיר שלך לא מותאם לFermata.</string>
-    <string name="new_version_available">גרסא חדשה זמינה</string>
-    <string name="go_to_new_version">גרסא חדשה של AAAD (גרסא %1$s) זמינה בGitHub. האם להוריד אותה?</string>
-    <string name="go_to_download">מעבר להורדה</string>
-    <string name="ignore_for_now">כרגע התעלם</string>
-    <string name="privacy_policy">"<![CDATA[AAAD לא שומר שום פרטי כ. אשראי או מידע אישי בבסיס הנתונים על המשתמשים.<br>בשביל לאמת, AAAD אוסף מספר סידורי שנוסר ע"י מערכת אנדאוריד באופן ייחודי לכל מכשיר. המספר הסידורי מעובד ע"י AAAD כדי לאמת גרסאת PRO ולא מספק מידע שימושי על מודל המכשיר, המספר הסידורי או המיקום.<br>התשלום עבור גרסאת הPRO מנוהלת באופן בלעדי ע"י Paypal ולאישור או זיכוי כתובת המייל מאוכסנת במאגר מידע של Firebase.]]>"</string>
-    <string name="privacy">מדיניות הפרטיות</string>
-    <string name="loading">טוען...</string>
+    <string name="promotion">קיבלת 15% הנחה</string>    <string name="loading">טוען...</string>
     <string name="go_pro">לעבור לPRO</string>
     <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">עם תוכנות הניווט החדשות המגיעות לאנדרואיד אוטו, ברבים מהם חסרה תמיכת העוזרת האישית של גוגל לניווט לכתובת של אנשי הקשר השמורים בטלפון. Nav2Contacts באים לעזור! ראשית, בחר תוכנת ניווט שאתה רוצה להשתמש, לאמר מכן חפש את איש הקשר ונווט אליו כדי להתחיל בניווט אליו מיד!  </string>
-    <string name="meeting_requirements">האפליקציה הזו דורשת את גרסאת האנדואיד האחרונה %d, סליחה! !</string>
-    <string name="back_button_payment_close"> בבקשה זכור ללחוץ על הכפתור הכחול \"חזור לאתר המפתח\" לאחר שהתשלום הושלם</string>
+    <string name="nav2contacts_description">עם תוכנות הניווט החדשות המגיעות לאנדרואיד אוטו, ברבים מהם חסרה תמיכת העוזרת האישית של גוגל לניווט לכתובת של אנשי הקשר השמורים בטלפון. Nav2Contacts באים לעזור! ראשית, בחר תוכנת ניווט שאתה רוצה להשתמש, לאמר מכן חפש את איש הקשר ונווט אליו כדי להתחיל בניווט אליו מיד!  </string>    <string name="back_button_payment_close"> בבקשה זכור ללחוץ על הכפתור הכחול \"חזור לאתר המפתח\" לאחר שהתשלום הושלם</string>
     <string name="help">עזרה</string>
-    <string name="help_dialog">לשלוח דוא״ל לקבלת עזרה כרגע?</string>
-    <string name="cpu_architecture_warning"> ארכיטקטורת המעבד שלך בטלפון כנראה לא מתאימה לרוב האפליקציות. בבקשה נסה להוריד לפחות אפליקציה אחת לפני שאתה ממשיך.</string>
-    <string name="i_understand"> אני מבין</string>
-    <string name="ignore"> התעלם</string>
-    <string name="i_want_to_transfer_license_here"> ארצה להעביר לכאן רישיון</string>
+    <string name="help_dialog">לשלוח דוא״ל לקבלת עזרה כרגע?</string>    <string name="i_want_to_transfer_license_here"> ארצה להעביר לכאן רישיון</string>
     <string name="i_want_to_transfer_license_from_here"> ארצה להעביר מכאן רישיון</string>
     <string name="license_transfer_help">  אם אתה רוצה לעביר את הרשיון מטלפון אחר לאחר, אתה במקום הנכון. בבקשה בחר מה אתה רוצה לעשות</string>
     <string name="transfer_license"> העבר רישיון</string>
@@ -72,24 +47,16 @@
     <string name="license_here_confirm">להעביר את הרישיון למכשיר הזה?</string>
     <string name="qr_tutorial"> נהדר, עכשיו פתח את המכשיר שאתה רוצה להעביר ממנו את הרשיון ובחר \"אני רוצה להעביר את הרשיון מפה\", לאחר מכן סרוק את קוד הQR הזה</string>
     <string name="license_done">הרישיון הועבר</string>
-    <string name="no_license_found"> אין לך רשיון פעיל במכשיר</string>
-    <string name="unknown_sources_warning"> לפני שממשיכים, בבקשה אפשר התקנה ממקורות לא ידועים. השארת האפשרת הזו כבויה יכולה לגרום לבעיות בAAAD. לחץ אישור כדי לעבור להגדרות עכשיו, אתה צריך לאפשר התקנה ממקורות לא ידועים.</string>
-    <string name="qr_code_permission">נדרש הרשאות מצלמה כדי לסרוק קוד </string>
+    <string name="no_license_found"> אין לך רשיון פעיל במכשיר</string>    <string name="qr_code_permission">נדרש הרשאות מצלמה כדי לסרוק קוד </string>
     <string name="success_transfer">הרישיון אומת</string>
     <string name="email_dialog" comment="&#10;Dialog window"> כתובת הדוא״ל תשתמש כדי לאמת את הרכישה שלך, במידת הצורך </string>
     <string name="input_email">נא למלא את כתובת הדוא״ל שלך… </string>
     <string name="days_remaining">נותרו %d ימים עד ההורדה הבאה</string>
     <string name="hours_remaining">נותרו %d שעות עד ההורדה הבאה</string>
     <string name="less_than_hour">פחות משעה אחת נותרה עד ההורדה הבאה</string>
-    <string name="download_available_now">ההורדה זמינה עכשיו!</string>
-    <string name="app_installed_successfully">האפליקציה הותקנה בהצלחה!</string>
-    <string name="installation_failed">ההתקנה נכשלה</string>
-    <string name="installation_timeout_title">מצב ההתקנה</string>
-    <string name="installation_timeout_message">האם התקנת האפליקציה הושלמה בהצלחה?</string>
+    <string name="download_available_now">ההורדה זמינה עכשיו!</string>    <string name="installation_failed">ההתקנה נכשלה</string>    <string name="installation_timeout_message">האם התקנת האפליקציה הושלמה בהצלחה?</string>
     <string name="installation_succeeded">כן, היא הותקנה</string>
-    <string name="installation_failed_or_cancelled">לא, נכשלה או בוטלה</string>
-    <string name="download_not_counted">ההורדה לא נספרה - תוכל לנסות שוב</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">לא, נכשלה או בוטלה</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ אזהרה חשובה</string>
     <string name="onboarding_warning_message">אפליקציה זו אינה קשורה ל-softonic.com, uptodown.com או aadapk.com, aadapk.app. המקור הרשמי היחיד הוא github.com</string>
@@ -167,4 +134,64 @@
     <string name="error_download_tracking_failed">עדכון מצב ההורדה נכשל</string>
     <string name="error_loading_catalog">טעינת קטלוג האפליקציות נכשלה</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">העברת רישיון</string>
+    <string name="checking_license_status">בודק סטטוס רישיון…</string>
+    <string name="qr_code_icon">סמל קוד QR</string>
+    <string name="receiver_title">קבלת רישיון PRO</string>
+    <string name="receiver_subtitle">הצג קוד QR זה כדי להעביר רישיון למכשיר זה</string>
+    <string name="qr_code_to_scan">קוד QR להעברת רישיון</string>
+    <string name="receiver_instructions_title">איך זה עובד</string>
+    <string name="receiver_instructions_step1">במכשיר עם PRO, פתח את AAAD ועבור להעברת רישיון</string>
+    <string name="receiver_instructions_step2">הקש על כפתור סרוק קוד QR באותו מכשיר</string>
+    <string name="receiver_instructions_step3">סרוק קוד QR זה כדי להשלים את ההעברה</string>
+    <string name="transfer_license_icon">סמל העברת רישיון</string>
+    <string name="sender_title">העברת רישיון PRO</string>
+    <string name="sender_subtitle">העבר את הרישיון שלך למכשיר חדש</string>
+    <string name="sender_warning">⚠️ אזהרה: העברת הרישיון תסיר את סטטוס PRO ממכשיר זה ותפעיל אותו במכשיר החדש. לא ניתן לבטל פעולה זו.</string>
+    <string name="sender_instructions_title">איך להעביר</string>
+    <string name="sender_step_1">פתח את AAAD במכשיר החדש שלך</string>
+    <string name="sender_step_2">עבור לתפריט העברת רישיון</string>
+    <string name="sender_step_3">קוד QR יופיע במכשיר החדש</string>
+    <string name="sender_step_4">הקש על הכפתור למטה וסרוק את קוד ה-QR ההוא</string>
+    <string name="scan_qr_code">סרוק קוד QR</string>
+    <string name="camera_permission_required">נדרשת הרשאת מצלמה לסריקת קודי QR</string>
+    <string name="error_checking_license">בדיקת סטטוס הרישיון נכשלה. נסה שוב.</string>
+    <string name="error_generating_qr">יצירת קוד QR נכשלה</string>
+    <string name="license_received_success">הרישיון התקבל בהצלחה!</string>
+    <string name="scan_error_title">שגיאת סריקה</string>
+    <string name="scan_error_message">סריקת קוד QR נכשלה. נסה שוב.</string>
+    <string name="confirm_transfer_title">אישור העברה</string>
+    <string name="confirm_transfer_message">האם אתה בטוח שברצונך להעביר את רישיון ה-PRO שלך למכשיר החדש? זה יסיר את ה-PRO ממכשיר זה.</string>
+    <string name="confirm_transfer_yes">העבר רישיון</string>
+    <string name="confirm_transfer_no">ביטול</string>
+    <string name="license_transferred_success">הרישיון הועבר בהצלחה!</string>
+    <string name="error_transferring_license">העברת הרישיון נכשלה. נסה שוב.</string>
+    <string name="support_title">צריך עזרה?</string>
+    <string name="support_icon">סמל עזרה</string>
+    <string name="support_subtitle">אנחנו כאן לעזור לך!</string>
+    <string name="support_description">יש לך בעיות עם AAAD? שלח לנו אימייל ונחזור אליך בהקדם האפשרי. ככל שתספק יותר פרטים, כך נוכל לעזור מהר יותר!</string>
+    <string name="support_email_will_include">האימייל שלך יכלול:</string>
+    <string name="support_email_item_device">דגם מכשיר וגרסת Android</string>
+    <string name="support_email_item_version">מידע על גרסת AAAD</string>
+    <string name="support_email_item_description">מקום לתיאור הבעיה שלך</string>
+    <string name="support_include_logs">כלול יומני אבחון</string>
+    <string name="support_logs_explanation">מומלץ - עוזר לנו לפתור בעיות מהר יותר. מכיל רק מידע על המכשיר והגדרות אפליקציה, ללא נתונים אישיים.</string>
+    <string name="support_send_email">שלח אימייל לתמיכה</string>
+    <string name="support_privacy_note">אנו מכבדים את הפרטיות שלך. אין מידע אישי, סיסמאות או נתוני תשלום ביומנים.</string>
+    <string name="support_preparing_email">מכין אימייל…</string>
+    <string name="support_log_generation_failed">יצירת יומנים נכשלה, שולח אימייל ללא קובץ מצורף</string>
+    <string name="support_email_failed">פתיחת אפליקציית האימייל נכשלה. אנא שלח אימייל ישירות אל help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">בחר אפליקציית אימייל</string>
+    <string name="support_email_subject">בקשת תמיכה AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

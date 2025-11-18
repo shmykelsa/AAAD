@@ -17,6 +17,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.legs.appsforaa.managers.AuthManager;
 
 public class EnterProCode extends AppCompatActivity {
 
@@ -27,8 +28,21 @@ public class EnterProCode extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.code_input);
 
-
-        final String deviceId = getIntent().getExtras().getString("did");
+        // Get device ID from intent (passed from AboutPaymentActivity with Firebase UID)
+        // Or fallback to current auth UID if not provided
+        String deviceId = null;
+        if (getIntent().getExtras() != null) {
+            deviceId = getIntent().getExtras().getString("did");
+        }
+        if (deviceId == null) {
+            deviceId = AuthManager.INSTANCE.getCurrentUid();
+        }
+        if (deviceId == null) {
+            Toast.makeText(this, "Authentication required. Please restart the app.", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
+        final String finalDeviceId = deviceId;
 
         final EditText input = findViewById(R.id.input_text);
 
@@ -64,15 +78,15 @@ public class EnterProCode extends AppCompatActivity {
                             if (snapshot.exists()) {
                                 if (snapshot.getValue(Boolean.class)) {
                                     myRef.child(m_Text).removeValue();
-                                    secondRef.child(deviceId).setValue(Boolean.TRUE, new DatabaseReference.CompletionListener() {
+                                    secondRef.child(finalDeviceId).setValue(Boolean.TRUE, new DatabaseReference.CompletionListener() {
                                         @Override
                                         public void onComplete(@Nullable DatabaseError databaseError, @NonNull DatabaseReference databaseReference) {
                                             if (databaseError != null) {
                                                 Toast.makeText(getApplicationContext(), getString(R.string.connection_error), Toast.LENGTH_LONG).show();
                                             } else {
                                                 Toast.makeText(getApplicationContext(), getString(R.string.pro_unlocked), Toast.LENGTH_LONG).show();
-                                                // Return to MainActivity with refresh request
-                                                Intent intent = new Intent(EnterProCode.this, MainActivity.class);
+                                                // Return to MainActivityNew with refresh request
+                                                Intent intent = new Intent(EnterProCode.this, MainActivityNew.class);
                                                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                                                 intent.putExtra("refresh_pro_status", true);
                                                 startActivity(intent);

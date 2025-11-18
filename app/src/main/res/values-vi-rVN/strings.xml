@@ -3,14 +3,10 @@
     <string name="welcome_string">Chào mừng đến với Android Auto Apps Downloader (AAAD). Đây là ứng dụng/công cụ để cài những app đặc dụng trên Android auto cho những điện thoại chưa được root. Chọn ứng dụng mà bạn muốn cài đặt và chờ cho trình cài đặt hiện lên. Chi tiết về ứng dụng sẽ hện lên nếu bạn ấn và giữ vào ứng dụng.</string>
     <string name="title_activity_about_payment">PRO Version</string>
     <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
-    <string name="congratsPro">Chúc mừng, bạn đã trở thành</string>
-    <string name="notConnected">Https://crowdin. com/translate/aaad/10/en-vi? filter=basic&amp;value=0#</string>
-    <string name="About">Thông tin</string>
+    <string name="congratsPro">Chúc mừng, bạn đã trở thành</string>    <string name="About">Thông tin</string>
     <string name="have_promo_code">I have a promo code</string>
     <string name="promo_code">Nhập mã khuyến mãi</string>
-    <string name="input_promo_code_here">Nhập mã khuyến mãi tại đây</string>
-    <string name="fermata_control_dialog">%2$s%1$s %2$s đang chuẩn bị được tải xuống. Bạn có muốn cài đặt %3$s không?</string>
-    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
+    <string name="input_promo_code_here">Nhập mã khuyến mãi tại đây</string>    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
     <string name="no">no</string>
     <string name="warning_payment">Sau khi hoàn tất thanh toán, hãy nhấn vào \"Return to merchant\" để xác thực giao dịch.</string>
     <string name="attention">CHÚ Ý</string>
@@ -24,9 +20,7 @@
     <string name="cancelled_payment">Đã hủy giao dịch</string>
     <string name="please_enter_code">Vui lòng nhập mã kích hoạt</string>
     <string name="connection_error">Lỗi kết nối, không thể xác thực</string>
-    <string name="not_valid_code">Mã vừa nhập không đúng</string>
-    <string name="select_which">Cái nào?</string>
-    <string name="downloading_progress">Đang tải…</string>
+    <string name="not_valid_code">Mã vừa nhập không đúng</string>    <string name="downloading_progress">Đang tải…</string>
     <string name="aa_mirror_plus_description">Giống AAMirror nhưng nhiều chức năng hơn.</string>
     <string name="aapassenger_description">Ứng dụng này giúp hành khách có thể điều khiển một số tính năng trên Android Auto. Hành khách cần phải cài đặt ứng dụng AAPassenger.</string>
     <string name="s2a_description">Để ứng dụng chia sẻ màn hình hoàn thành và đầy đủ tính năng cho Android Auto. Bao gồm nhiều tính năng như tùy chỉnh chương trình chạy, chia màn hình, tùy chỉnh kích thước màn hình và nhiều tính năng nữa!</string>
@@ -36,33 +30,14 @@
     </string>
     <string name="fermata_description">"The most complete video and audio player for Android Auto, featuring a full player experience with many features such as network streams and also a web browser. It also comes with the companion app Fermata Control that allows to manage the playback outside the app and from the controls on steering wheel."</string>
     <string name="s2a_redirect">You will be redirected to screen2auto website. From there, select the version and open with AAAD.</string>
-    <string name="screen2auto_download">You are going to install Screen2Auto. Do you want to continue?</string>
-    <string name="press_back_warning">Please press BACK again to exit</string>
-    <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
+    <string name="screen2auto_download">You are going to install Screen2Auto. Do you want to continue?</string>    <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
     <string name="performance_monitor_description">This is a performance monitor, based on Martoreto\'s aa-stats. It\'s made specifically for use with the Volkswagen/Skoda/Seat/Audi MIB2 infotainment units, but it might also work on others, as long as they have Android Auto support. Needs also VAG extension to work on Volkswagen Cars.</string>
-    <string name="promotion">You are eligible for a 15% off</string>
-    <string name="first_section_name">Multimedia apps</string>
-    <string name="second_section_name">Mirroring apps</string>
-    <string name="third_section_name">Khác</string>
-    <string name="might_not_be_compatible">Unfortunately, it seems like your device is not compatible with Fermata.</string>
-    <string name="new_version_available">Đã có thể tải phiên bản mới</string>
-    <string name="go_to_new_version">Một phiên bản mới của AA AIO TWEAKER (phiên bản %1$s) đã được đăng trên GitHub. Bạn có muốn tải nó bây giờ?</string>
-    <string name="go_to_download">Go to download</string>
-    <string name="ignore_for_now">Bỏ qua bây giờ</string>
-    <string name="privacy_policy">"<![CDATA[ AAAD không hề lưu trữ giữ liệu về thẻ ngân hàng hoặc thông tin khách hàng. <br> Để xác minh thiết bị, AAAD lưu trữ số seri (serial number) mà hệ thông Android tạo ra riêng cho mỗi thiết bị. Số seri của thiết bị được AAAD xử lý để xác minh bạn có bản PRO, ngoài ra số seri không cho thông tinh nào khác bao gồm mẫu điện thoại, số IMEI hoặc địa điểm.<br> Giao dịch để nâng cấp lên bản Pro được thực hiện thông qua paypal. Và để phục vụ cho việc xác minh, hoàn tiền, email của bạn được lưu ở trên mạng trong Firebase database.]]>"</string>
-    <string name="privacy">Chính sách bảo mật</string>
-    <string name="loading">Loading...</string>
+    <string name="promotion">You are eligible for a 15% off</string>    <string name="loading">Loading...</string>
     <string name="go_pro">GO PRO</string>
     <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">With the new navigation apps coming into Android Auto, many of them lack of Google Assistant\'s support to navigate to addresses of contacts saved in the phone book. Nav2Contacts come to rescue! First, select the navigation app you want to use, then search the contact you want to navigate to and start the navigation right away!</string>
-    <string name="meeting_requirements">Ứng dụng này yêu cầu bạn có phiên bản Android %d, rất tiếc cho điều này!</string>
-    <string name="back_button_payment_close">Xin hay nhớ bấm nút màu xanh với dòng chữ \"Return to merchant website\"/\"Trở về trang người bán hàng\" sau khi hoàn tất giao dịch</string>
+    <string name="nav2contacts_description">With the new navigation apps coming into Android Auto, many of them lack of Google Assistant\'s support to navigate to addresses of contacts saved in the phone book. Nav2Contacts come to rescue! First, select the navigation app you want to use, then search the contact you want to navigate to and start the navigation right away!</string>    <string name="back_button_payment_close">Xin hay nhớ bấm nút màu xanh với dòng chữ \"Return to merchant website\"/\"Trở về trang người bán hàng\" sau khi hoàn tất giao dịch</string>
     <string name="help">Trợ giúp</string>
-    <string name="help_dialog">Bạn có muốn gửi một e-mail yêu cầu giúp đỡ ngay bây giờ không?</string>
-    <string name="cpu_architecture_warning">Kiến trúc của CPU trên điện thoại của bạn có thể không tương thích với đa số ứng dụng trên đây. Xin vui lòng tải thử một ứng dụng trước khi tiếp tục dùng.</string>
-    <string name="i_understand">Tôi đồng ý</string>
-    <string name="ignore">Bỏ qua</string>
-    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
+    <string name="help_dialog">Bạn có muốn gửi một e-mail yêu cầu giúp đỡ ngay bây giờ không?</string>    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
     <string name="i_want_to_transfer_license_from_here">I want to transfer license from here</string>
     <string name="license_transfer_help">Nếu bạn muốn chuiyeenr giấy phép từ điện thoại này sang điện thoại khác thì bạn đã đến đúng chỗ. Xin hãy chọn vào tùy chọn bạn muốn.</string>
     <string name="transfer_license">Chuyển tiếp giấy phép</string>
@@ -70,24 +45,16 @@
     <string name="license_here_confirm">Bạn có chắc chắn là bạn muốn chuyển giấy phép sang thiết bị/điện thoại này không?</string>
     <string name="qr_tutorial">Tuyệt vời, bây giờ bạn hãy bật thiết bị mà bạn muốn chuyển giấy phép ra khỏi và chọn \" Tôi muốn chuyển giấy phép từ đây\", và sau đó quét mã QR</string>
     <string name="license_done">Chuyển tiếp giấy phép thành công</string>
-    <string name="no_license_found">Bạn không có giấy phép cho thiết bị/điện thoại này</string>
-    <string name="unknown_sources_warning">Trước khi sử dụng, hãy cho phép điện thoại cài đặt ứng dụng từ những nguồn chưa biết. Không cho phép điều này có thể làm cho AAAD không hoạt động bình thường. Nhấn OK để đi vào cài đặt, và bạn sẽ phải kích hoạt tùy chọn để cài đặt từ nguồn chưa xác thực.</string>
-    <string name="qr_code_permission">Cần trao quyền sử dụng camera để quét mã QR</string>
+    <string name="no_license_found">Bạn không có giấy phép cho thiết bị/điện thoại này</string>    <string name="qr_code_permission">Cần trao quyền sử dụng camera để quét mã QR</string>
     <string name="success_transfer">Giấy phép đã được xác nhận</string>
     <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
     <string name="input_email">Please input your e-mail...</string>
     <string name="days_remaining">Còn %d ngày nữa đến lần tải xuống tiếp theo</string>
     <string name="hours_remaining">Còn %d giờ nữa đến lần tải xuống tiếp theo</string>
     <string name="less_than_hour">Còn ít hơn 1 giờ nữa đến lần tải xuống tiếp theo</string>
-    <string name="download_available_now">Tải xuống có sẵn ngay bây giờ!</string>
-    <string name="app_installed_successfully">Ứng dụng đã được cài đặt thành công!</string>
-    <string name="installation_failed">Cài đặt thất bại</string>
-    <string name="installation_timeout_title">Trạng thái cài đặt</string>
-    <string name="installation_timeout_message">Việc cài đặt ứng dụng đã hoàn thành thành công chưa?</string>
+    <string name="download_available_now">Tải xuống có sẵn ngay bây giờ!</string>    <string name="installation_failed">Cài đặt thất bại</string>    <string name="installation_timeout_message">Việc cài đặt ứng dụng đã hoàn thành thành công chưa?</string>
     <string name="installation_succeeded">Có, đã được cài đặt</string>
-    <string name="installation_failed_or_cancelled">Không, thất bại hoặc đã bị hủy</string>
-    <string name="download_not_counted">Lượt tải xuống không được tính - bạn có thể thử lại</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Không, thất bại hoặc đã bị hủy</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Cảnh báo quan trọng</string>
     <string name="onboarding_warning_message">Ứng dụng này KHÔNG liên kết với softonic.com, uptodown.com hoặc aadapk.com, aadapk.app. Nguồn chính thức duy nhất là github.com</string>
@@ -154,4 +121,64 @@
     <string name="error_download_tracking_failed">Cập nhật trạng thái tải xuống thất bại</string>
     <string name="error_loading_catalog">Tải danh mục ứng dụng thất bại</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Chuyển Giấy Phép</string>
+    <string name="checking_license_status">Đang kiểm tra trạng thái giấy phép…</string>
+    <string name="qr_code_icon">Biểu tượng mã QR</string>
+    <string name="receiver_title">Nhận Giấy Phép PRO</string>
+    <string name="receiver_subtitle">Hiển thị mã QR này để chuyển giấy phép sang thiết bị này</string>
+    <string name="qr_code_to_scan">Mã QR để chuyển giấy phép</string>
+    <string name="receiver_instructions_title">Cách hoạt động</string>
+    <string name="receiver_instructions_step1">Trên thiết bị có PRO, mở AAAD và chuyển đến Chuyển Giấy Phép</string>
+    <string name="receiver_instructions_step2">Nhấn vào nút Quét Mã QR trên thiết bị đó</string>
+    <string name="receiver_instructions_step3">Quét mã QR này để hoàn tất việc chuyển</string>
+    <string name="transfer_license_icon">Biểu tượng chuyển giấy phép</string>
+    <string name="sender_title">Chuyển Giấy Phép PRO</string>
+    <string name="sender_subtitle">Chuyển giấy phép của bạn sang thiết bị mới</string>
+    <string name="sender_warning">⚠️ Cảnh báo: Chuyển giấy phép sẽ xóa trạng thái PRO khỏi thiết bị này và kích hoạt nó trên thiết bị mới. Hành động này không thể hoàn tác.</string>
+    <string name="sender_instructions_title">Cách chuyển</string>
+    <string name="sender_step_1">Mở AAAD trên thiết bị mới của bạn</string>
+    <string name="sender_step_2">Chuyển đến menu Chuyển Giấy Phép</string>
+    <string name="sender_step_3">Mã QR sẽ xuất hiện trên thiết bị mới</string>
+    <string name="sender_step_4">Nhấn vào nút bên dưới và quét mã QR đó</string>
+    <string name="scan_qr_code">Quét Mã QR</string>
+    <string name="camera_permission_required">Cần quyền truy cập máy ảnh để quét mã QR</string>
+    <string name="error_checking_license">Không thể kiểm tra trạng thái giấy phép. Vui lòng thử lại.</string>
+    <string name="error_generating_qr">Không thể tạo mã QR</string>
+    <string name="license_received_success">Đã nhận giấy phép thành công!</string>
+    <string name="scan_error_title">Lỗi Quét</string>
+    <string name="scan_error_message">Không thể quét mã QR. Vui lòng thử lại.</string>
+    <string name="confirm_transfer_title">Xác Nhận Chuyển</string>
+    <string name="confirm_transfer_message">Bạn có chắc chắn muốn chuyển giấy phép PRO của mình sang thiết bị mới không? Điều này sẽ xóa PRO khỏi thiết bị này.</string>
+    <string name="confirm_transfer_yes">Chuyển Giấy Phép</string>
+    <string name="confirm_transfer_no">Hủy</string>
+    <string name="license_transferred_success">Đã chuyển giấy phép thành công!</string>
+    <string name="error_transferring_license">Không thể chuyển giấy phép. Vui lòng thử lại.</string>
+    <string name="support_title">Cần Giúp Đỡ?</string>
+    <string name="support_icon">Biểu tượng trợ giúp</string>
+    <string name="support_subtitle">Chúng tôi luôn sẵn sàng giúp đỡ bạn!</string>
+    <string name="support_description">Bạn gặp sự cố với AAAD? Gửi email cho chúng tôi và chúng tôi sẽ phản hồi trong thời gian sớm nhất. Càng cung cấp nhiều chi tiết, chúng tôi càng có thể giúp bạn nhanh hơn!</string>
+    <string name="support_email_will_include">Email của bạn sẽ bao gồm:</string>
+    <string name="support_email_item_device">Mẫu thiết bị và phiên bản Android</string>
+    <string name="support_email_item_version">Thông tin phiên bản AAAD</string>
+    <string name="support_email_item_description">Không gian để mô tả sự cố của bạn</string>
+    <string name="support_include_logs">Bao gồm nhật ký chẩn đoán</string>
+    <string name="support_logs_explanation">Được đề xuất - Giúp chúng tôi khắc phục sự cố nhanh hơn. Chỉ chứa thông tin thiết bị và cấu hình ứng dụng, không có dữ liệu cá nhân.</string>
+    <string name="support_send_email">Gửi Email Đến Hỗ Trợ</string>
+    <string name="support_privacy_note">Chúng tôi tôn trọng quyền riêng tư của bạn. Không có thông tin cá nhân, mật khẩu hoặc dữ liệu thanh toán được bao gồm trong nhật ký.</string>
+    <string name="support_preparing_email">Đang chuẩn bị email…</string>
+    <string name="support_log_generation_failed">Không thể tạo nhật ký, gửi email không có tệp đính kèm</string>
+    <string name="support_email_failed">Không thể mở ứng dụng email. Vui lòng gửi email trực tiếp đến help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Chọn ứng dụng email</string>
+    <string name="support_email_subject">Yêu Cầu Hỗ Trợ AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

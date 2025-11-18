@@ -4,14 +4,10 @@
 rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, až se instalátor objeví. Popisy aplikací jsou k dispozici při dlouhém stisknutí.</string>
     <string name="title_activity_about_payment">Pro verze</string>
     <string name="switch_to_pro_statement">Bezplatná verze AAAD vám umožňuje mít jeden zdarma ke stažení každý měsíc. Pokud chcete využívat neomezených stahování zdarma, můžete přepnout na PRO verzi a budete využívat plné funkce a aktualizace aplikací!</string>
-    <string name="congratsPro">Gratulujeme, máte PRO!</string>
-    <string name="notConnected">Není připojeno: nelze získat stav PRO verze</string>
-    <string name="About">O aplikaci</string>
+    <string name="congratsPro">Gratulujeme, máte PRO!</string>    <string name="About">O aplikaci</string>
     <string name="have_promo_code">I have a promo code</string>
     <string name="promo_code">Enter promo code</string>
-    <string name="input_promo_code_here">Zde můžete vložit promo kód</string>
-    <string name="fermata_control_dialog">Chystáte se stáhnout %1$s %2$s. Přejete si také nainstalovat %3$s?</string>
-    <string name="about_to_download">%1$sChystáte se stáhnout %1$s. Přejete si pokračovat?</string>
+    <string name="input_promo_code_here">Zde můžete vložit promo kód</string>    <string name="about_to_download">%1$sChystáte se stáhnout %1$s. Přejete si pokračovat?</string>
     <string name="no">Ne</string>
     <string name="warning_payment">Na konci platby prosím ručně stiskněte tlačítko \"Vrátit do obchodu\", aby byla transakce potvrzena.</string>
     <string name="attention">UPOZORNĚNÍ</string>
@@ -28,9 +24,7 @@ rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, a
     <string name="cancelled_payment">Purchase cancelled</string>
     <string name="please_enter_code">Zadejte kód, prosím.</string>
     <string name="connection_error">Chyba připojení, nebylo možné ověřit</string>
-    <string name="not_valid_code">Neplatný kód</string>
-    <string name="select_which">Který?</string>
-    <string name="downloading_progress">Stahování…</string>
+    <string name="not_valid_code">Neplatný kód</string>    <string name="downloading_progress">Stahování…</string>
     <string name="aa_mirror_plus_description">Alternativa k AAMirror s více funkcemi.</string>
     <string name="aapassenger_description">Tato aplikace byla vytvořena pro umožnění pasažérům spravovat některé funkce v Android Auto. Vyžaduje stažení AAPassenger. Pracovní stav je momentálně neznámý.</string>
     <string name="s2a_description">Nejdokonalejší a plně vybavená zrcadlící aplikace pro Android Auto. Obsahuje mnoho funkcí, jako je přizpůsobitelný spouštěč, rozdělená obrazovka, vlastní velikost obrazovky a mnohem více!</string>
@@ -41,33 +35,14 @@ rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, a
     </string>
     <string name="fermata_description">"Nejdokonalejší video a audio přehrávač pro Android Auto, s plnou funkčností přehrávače s mnoha funkcemi, jako jsou síťové streamy a také s webovým prohlížečem. Také přichází s doplňkovou aplikací Fermata Ovládání, která umožňuje spravovat přehrávání mimo aplikaci a ovládat je na volantu."</string>
     <string name="s2a_redirect">Budete přesměrováni na webovou stránku screen2auto. Odtud vyberte verzi a otevřete ji pomocí AAAD.</string>
-    <string name="screen2auto_download">You are going to install Screen2Auto. Do you want to continue?</string>
-    <string name="press_back_warning">Stiskněte prosím znovu ZPĚT pro ukončení</string>
-    <string name="aawidgets_description">Zrodil se s jedním úkolem. Přenést widgety do Android Auto!</string>
+    <string name="screen2auto_download">You are going to install Screen2Auto. Do you want to continue?</string>    <string name="aawidgets_description">Zrodil se s jedním úkolem. Přenést widgety do Android Auto!</string>
     <string name="performance_monitor_description">Jedná se o monitorovací funkci, založenou na Martoreho aa-statistikách. Je speciálně určeno pro použití v Volkswagen/Skoda/Seat/Audi MIB2 infotainmentech, ale může to fungovat i pro ostatní, pokud mají podporu systému Android Auto. Nutné je také rozšíření VAG pro práci na Volkswagen Cars.</string>
-    <string name="promotion">Máte nárok na slevu ve výši 15 %</string>
-    <string name="first_section_name">Multimediální aplikace</string>
-    <string name="second_section_name">Zrcadlující aplikace</string>
-    <string name="third_section_name">Ostatní</string>
-    <string name="might_not_be_compatible">Bohužel se zdá, že vaše zařízení není kompatibilní s Fermatou.</string>
-    <string name="new_version_available">K dispozici je nová verze!</string>
-    <string name="go_to_new_version">Na GitHubu je dostupná nová verze AAAD (verze %1$s). Chcete ji nyní stáhnout?</string>
-    <string name="go_to_download">Přejít na stažení</string>
-    <string name="ignore_for_now">Prozatím ignorovat</string>
-    <string name="privacy_policy">"<![CDATA[AAAD neukládá žádné informace o platební kartě ani osobní údaje o uživateli.<br>Pro účely ověření vybírá AAAD sériové číslo, které je bezpečně generováno systémem Android pro jedinečnou identifikaci zařízení. Sada zařízení je zpracována AAAD pro ověření verze PRO a neposkytuje žádné informace o modelu zařízení, IMIEI nebo umístění.<br>Platba pro verze je spravována výhradně přes PayPal a pro účely potvrzení a vrácení je mail uložen do online Firebase databáze.]]>"</string>
-    <string name="privacy">Ochrana osobních údajů</string>
-    <string name="loading">Načítání...</string>
+    <string name="promotion">Máte nárok na slevu ve výši 15 %</string>    <string name="loading">Načítání...</string>
     <string name="go_pro">Získat PRO verzi!</string>
     <string name="i_m_good">To je  v pohodě</string>
-    <string name="nav2contacts_description">S novými navigačními aplikacemi přicházejícími do Android Auto, mnohé z nich nemají podporu Google Assistant pro navigaci na adresy kontaktů uložených v telefonním seznamu. Nav2Contacts nás přicházejí zachránit! Nejprve vyberte navigační aplikaci, kterou chcete použít, poté vyhledejte kontakt, na který chcete navigovat a můžete zahájit navigaci!</string>
-    <string name="meeting_requirements">Tato aplikace vyžaduje alespoň Android %d, omlouváme se!</string>
-    <string name="back_button_payment_close">Prosím nezapomeňte po dokončení platby stisknout modré tlačítko \"Vrátit se k obchodníkovi\"</string>
+    <string name="nav2contacts_description">S novými navigačními aplikacemi přicházejícími do Android Auto, mnohé z nich nemají podporu Google Assistant pro navigaci na adresy kontaktů uložených v telefonním seznamu. Nav2Contacts nás přicházejí zachránit! Nejprve vyberte navigační aplikaci, kterou chcete použít, poté vyhledejte kontakt, na který chcete navigovat a můžete zahájit navigaci!</string>    <string name="back_button_payment_close">Prosím nezapomeňte po dokončení platby stisknout modré tlačítko \"Vrátit se k obchodníkovi\"</string>
     <string name="help">Nápověda</string>
-    <string name="help_dialog">Chcete nyní poslat e-mail pro pomoc?</string>
-    <string name="cpu_architecture_warning">Architektura procesoru vašeho telefonu nemusí být kompatibilní s většinou aplikací. Před pokračováním zkuste stáhnout alespoň jednu aplikaci.</string>
-    <string name="i_understand">Rozumím</string>
-    <string name="ignore">Ignorovat</string>
-    <string name="i_want_to_transfer_license_here">Sem chci převést licenci</string>
+    <string name="help_dialog">Chcete nyní poslat e-mail pro pomoc?</string>    <string name="i_want_to_transfer_license_here">Sem chci převést licenci</string>
     <string name="i_want_to_transfer_license_from_here">Odsud chci převést licenci</string>
     <string name="license_transfer_help">Pokud chcete převést licenci z jednoho telefonu na druhý, jste na správném místě. Vyberte prosím, co chcete udělat</string>
     <string name="transfer_license">Převod licence</string>
@@ -75,24 +50,16 @@ rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, a
     <string name="license_here_confirm">Jste si jisti, že chcete převést licenci do tohoto zařízení?</string>
     <string name="qr_tutorial">Skvělé, nyní otevřete zařízení, ze kterého chcete převést licenci a vyberte \"Odsud chci převést licenci\", pak naskenujte tento QR kód</string>
     <string name="license_done">Licence byla převedena</string>
-    <string name="no_license_found">Na tomto zařízení nemáte aktivní licenci</string>
-    <string name="unknown_sources_warning">Before proceeding, you have to enable the installation from unknown sources. Leaving this option off might cause troubles to AAAD. Press OK to go to settings now, you will have to activate the option for Unknown Sources.</string>
-    <string name="qr_code_permission">Oprávnění k fotoaparátu je potřebné pro naskenování QR kódu</string>
+    <string name="no_license_found">Na tomto zařízení nemáte aktivní licenci</string>    <string name="qr_code_permission">Oprávnění k fotoaparátu je potřebné pro naskenování QR kódu</string>
     <string name="success_transfer">Licence byla ověřena</string>
     <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
     <string name="input_email">Please input your e-mail...</string>
     <string name="days_remaining">%d dní zbývá do dalšího stahování</string>
     <string name="hours_remaining">%d hodin zbývá do dalšího stahování</string>
     <string name="less_than_hour">Méně než hodina zbývá do dalšího stahování</string>
-    <string name="download_available_now">Stahování je nyní k dispozici!</string>
-    <string name="app_installed_successfully">Aplikace byla úspěšně nainstalována!</string>
-    <string name="installation_failed">Instalace se nezdařila</string>
-    <string name="installation_timeout_title">Stav instalace</string>
-    <string name="installation_timeout_message">Dokončila se instalace aplikace úspěšně?</string>
+    <string name="download_available_now">Stahování je nyní k dispozici!</string>    <string name="installation_failed">Instalace se nezdařila</string>    <string name="installation_timeout_message">Dokončila se instalace aplikace úspěšně?</string>
     <string name="installation_succeeded">Ano, byla nainstalována</string>
-    <string name="installation_failed_or_cancelled">Ne, se nezdařila nebo byla zrušena</string>
-    <string name="download_not_counted">Stažení se nepočítá - můžete to zkusit znovu</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Ne, se nezdařila nebo byla zrušena</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Důležité upozornění</string>
     <string name="onboarding_warning_message">Tato aplikace NENÍ spojena se softonic.com, uptodown.com nebo aadapk.com, aadapk.app. Jediným oficiálním zdrojem je github.com</string>
@@ -181,4 +148,64 @@ rootované telefony. Vyberte aplikaci, kterou chcete nainstalovat a počkejte, a
     <string name="loading_checking_updates">Kontrola aktualizací…</string>
     <string name="loading_please_wait">Prosím čekejte…</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Přenést licenci</string>
+    <string name="checking_license_status">Kontrola stavu licence…</string>
+    <string name="qr_code_icon">Ikona QR kódu</string>
+    <string name="receiver_title">Přijmout PRO licenci</string>
+    <string name="receiver_subtitle">Zobrazit tento QR kód pro přenos licence na toto zařízení</string>
+    <string name="qr_code_to_scan">QR kód pro přenos licence</string>
+    <string name="receiver_instructions_title">Jak to funguje</string>
+    <string name="receiver_instructions_step1">Na zařízení s PRO otevřete AAAD a přejděte do Přenést licenci</string>
+    <string name="receiver_instructions_step2">Klepněte na tlačítko Naskenovat QR kód na tomto zařízení</string>
+    <string name="receiver_instructions_step3">Naskenujte tento QR kód pro dokončení přenosu</string>
+    <string name="transfer_license_icon">Ikona přenosu licence</string>
+    <string name="sender_title">Přenést PRO licenci</string>
+    <string name="sender_subtitle">Přeneste svou licenci na nové zařízení</string>
+    <string name="sender_warning">⚠️ Varování: Přenosem licence odeberete PRO stav z tohoto zařízení a aktivujete jej na novém zařízení. Tuto akci nelze vrátit zpět.</string>
+    <string name="sender_instructions_title">Jak přenést</string>
+    <string name="sender_step_1">Otevřete AAAD na novém zařízení</string>
+    <string name="sender_step_2">Přejděte do nabídky Přenést licenci</string>
+    <string name="sender_step_3">Na novém zařízení se zobrazí QR kód</string>
+    <string name="sender_step_4">Klepněte na tlačítko níže a naskenujte tento QR kód</string>
+    <string name="scan_qr_code">Naskenovat QR kód</string>
+    <string name="camera_permission_required">Pro skenování QR kódů je vyžadováno povolení kamery</string>
+    <string name="error_checking_license">Nepodařilo se zkontrolovat stav licence. Zkuste to znovu.</string>
+    <string name="error_generating_qr">Nepodařilo se vygenerovat QR kód</string>
+    <string name="license_received_success">Licence úspěšně přijata!</string>
+    <string name="scan_error_title">Chyba skenování</string>
+    <string name="scan_error_message">Nepodařilo se naskenovat QR kód. Zkuste to znovu.</string>
+    <string name="confirm_transfer_title">Potvrdit přenos</string>
+    <string name="confirm_transfer_message">Opravdu chcete přenést svou PRO licenci na nové zařízení? Tím odeberete PRO z tohoto zařízení.</string>
+    <string name="confirm_transfer_yes">Přenést licenci</string>
+    <string name="confirm_transfer_no">Zrušit</string>
+    <string name="license_transferred_success">Licence úspěšně přenesena!</string>
+    <string name="error_transferring_license">Nepodařilo se přenést licenci. Zkuste to znovu.</string>
+    <string name="support_title">Potřebujete pomoc?</string>
+    <string name="support_icon">Ikona nápovědy</string>
+    <string name="support_subtitle">Jsme tu, abychom vám pomohli!</string>
+    <string name="support_description">Máte problémy s AAAD? Pošlete nám e-mail a my vám odpovíme co nejdříve. Čím více podrobností poskytnete, tím rychleji vám můžeme pomoci!</string>
+    <string name="support_email_will_include">Váš e-mail bude obsahovat:</string>
+    <string name="support_email_item_device">Model zařízení a verze Android</string>
+    <string name="support_email_item_version">Informace o verzi AAAD</string>
+    <string name="support_email_item_description">Prostor pro popis vašeho problému</string>
+    <string name="support_include_logs">Zahrnout diagnostické protokoly</string>
+    <string name="support_logs_explanation">Doporučeno - Pomáhá nám rychleji řešit problémy. Obsahuje pouze informace o zařízení a konfiguraci aplikace, žádná osobní data.</string>
+    <string name="support_send_email">Odeslat e-mail na podporu</string>
+    <string name="support_privacy_note">Respektujeme vaše soukromí. Protokoly neobsahují osobní údaje, hesla ani platební data.</string>
+    <string name="support_preparing_email">Příprava e-mailu…</string>
+    <string name="support_log_generation_failed">Nepodařilo se vygenerovat protokoly, odesílání e-mailu bez přílohy</string>
+    <string name="support_email_failed">Nepodařilo se otevřít e-mailovou aplikaci. Pošlete e-mail přímo na help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Vybrat e-mailovou aplikaci</string>
+    <string name="support_email_subject">Žádost o podporu AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

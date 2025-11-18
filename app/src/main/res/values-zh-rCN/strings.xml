@@ -3,14 +3,10 @@
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">专业版</string>
     <string name="switch_to_pro_statement">AAAAD免费版本允许您每月免费下载一次。 如果您想享受无限免费下载，您可以切换到专业版，您将享有完整功能和应用更新！</string>
-    <string name="congratsPro">祝贺，你现在拥有专业版了！</string>
-    <string name="notConnected">未连接：无法获取到专业版激活状态</string>
-    <string name="About">关于</string>
+    <string name="congratsPro">祝贺，你现在拥有专业版了！</string>    <string name="About">关于</string>
     <string name="have_promo_code">我有优惠代码</string>
     <string name="promo_code">输入优惠码</string>
-    <string name="input_promo_code_here">在此输入优惠码</string>
-    <string name="fermata_control_dialog">您将要下载 %1$s %2$s。您是否也想安装 %3$s？</string>
-    <string name="about_to_download">您即将下载 %1$s。您想要继续吗？</string>
+    <string name="input_promo_code_here">在此输入优惠码</string>    <string name="about_to_download">您即将下载 %1$s。您想要继续吗？</string>
     <string name="no">否</string>
     <string name="warning_payment">在付款结束时，请点击“返回商家”来验证交易。</string>
     <string name="attention">注意！</string>
@@ -24,9 +20,7 @@
     <string name="cancelled_payment">支付已取消</string>
     <string name="please_enter_code">请输入验证码</string>
     <string name="connection_error">连接错误，无法验证</string>
-    <string name="not_valid_code">无效的代码</string>
-    <string name="select_which">哪一个？</string>
-    <string name="downloading_progress">正在下载…</string>
+    <string name="not_valid_code">无效的代码</string>    <string name="downloading_progress">正在下载…</string>
     <string name="aa_mirror_plus_description">AAMirror的替代，拥有更多功能。</string>
     <string name="aapassenger_description">此应用是为了允许乘员在 Android Auto 中管理某些功能。需要您下载AAPassenger。工作状态目前未知。</string>
     <string name="s2a_description">这是目前功能最全的Android Auto屏幕镜像应用程序。它包括许多功能，如自定义启动器、分屏、自定义屏幕尺寸等</string>
@@ -35,33 +29,14 @@
     <string name="carstream_description">CarStream原名\"YouTube Auto\"，是使用自定义应用SDK开发的首款应用。它最初的主要目的是可以在Android Auto上看YouTube，之后的版本具有许多功能的浏览器。    </string>
     <string name="fermata_description">"它是Android Auto上最完整的影片和音乐播放器，具有完整的播放器体验以及许多功能，例如网络串流以及网页浏览器。您还可以通过附加的Fermata Control控制应用程序在方向盘上控制播放暂停上下一首等功能。"</string>
     <string name="s2a_redirect">您将跳转到screen2auto网站。选择对应版本后打开AAAD</string>
-    <string name="screen2auto_download">您将要安装 Screen2Auto。想要继续吗？</string>
-    <string name="press_back_warning">再次返回即可退出</string>
-    <string name="aawidgets_description">生来就有一个挑战—为Android Auto新增一个Widget！</string>
+    <string name="screen2auto_download">您将要安装 Screen2Auto。想要继续吗？</string>    <string name="aawidgets_description">生来就有一个挑战—为Android Auto新增一个Widget！</string>
     <string name="performance_monitor_description">这是一个基于Martoreto的aa-statistics的强大镜像应用。 它专门用于大众/斯柯达/西雅特/奥迪(MIB2) 车机系统。 只要设备有Android Auto支持，其他品牌车辆也可以尝试使用。 （在大众汽车上需要VAG扩展）</string>
-    <string name="promotion">您享有15%折扣</string>
-    <string name="first_section_name">多媒体应用程序</string>
-    <string name="second_section_name">镜像应用程序</string>
-    <string name="third_section_name">其它</string>
-    <string name="might_not_be_compatible">很抱歉，你的设备与 Fermata不兼容。</string>
-    <string name="new_version_available">发现新版本</string>
-    <string name="go_to_new_version">新版本的 AAAD (版本 %1$s) 可在 GitHub 上下载。您想现在前往下载吗？</string>
-    <string name="go_to_download">前往下载</string>
-    <string name="ignore_for_now">暂时忽略</string>
-    <string name="privacy_policy">"<![CDATA[AAAD 不存储任何关于用户的信用卡信息或个人数据。<br>出于验证目的，AAAD收集了由Android安全生成的序号-ANDROID ID。 设备序列号由AAAD处理，以验证专业版许可证，并不收集有关设备型号、IMIEI或位置等重要信息。<br>专业版的付款完全由PayPal管理，出于确认和退款的使用，邮件被存储到云端Firebase数据库中。]]>"</string>
-    <string name="privacy">隐私条款</string>
-    <string name="loading">加载中...</string>
+    <string name="promotion">您享有15%折扣</string>    <string name="loading">加载中...</string>
     <string name="go_pro">获取专业版！</string>
     <string name="i_m_good">不了，谢谢。</string>
-    <string name="nav2contacts_description">随着新的导航应用支持Android Auto，许多应用缺少Google助手来导航到联系人中的联系人住址。使用Nav2Contacts来替代！ 首先，选择要使用的导航APP，然后搜索你想要导航的联系人并立即开始导航！</string>
-    <string name="meeting_requirements">这个应用最低兼容 Android %d，抱歉！</string>
-    <string name="back_button_payment_close">请在付款完成后按下“返回商家网站”蓝色按钮</string>
+    <string name="nav2contacts_description">随着新的导航应用支持Android Auto，许多应用缺少Google助手来导航到联系人中的联系人住址。使用Nav2Contacts来替代！ 首先，选择要使用的导航APP，然后搜索你想要导航的联系人并立即开始导航！</string>    <string name="back_button_payment_close">请在付款完成后按下“返回商家网站”蓝色按钮</string>
     <string name="help">帮助</string>
-    <string name="help_dialog">您想要立即发送电子邮件以获取帮助吗？</string>
-    <string name="cpu_architecture_warning">您的手机 CPU 架构可能与大多数应用不兼容。请在继续之前尝试下载至少一个应用程序。</string>
-    <string name="i_understand">我已知悉</string>
-    <string name="ignore">忽略</string>
-    <string name="i_want_to_transfer_license_here">我想转移许可证到这里</string>
+    <string name="help_dialog">您想要立即发送电子邮件以获取帮助吗？</string>    <string name="i_want_to_transfer_license_here">我想转移许可证到这里</string>
     <string name="i_want_to_transfer_license_from_here">我想从这里转出许可证</string>
     <string name="license_transfer_help">如果你想要将许可证从一个设备转移到另一个设备，请在此选择您需要的内容</string>
     <string name="transfer_license">转移许可证</string>
@@ -69,24 +44,16 @@
     <string name="license_here_confirm">您确定要将许可证转移到此设备？</string>
     <string name="qr_tutorial">太好了，现在打开您想要转出许可证的设备，并选择“我想从这里转移许可证”， 然后扫描这个二维码</string>
     <string name="license_done">许可证已转移</string>
-    <string name="no_license_found">您在此设备上没有有效的许可证</string>
-    <string name="unknown_sources_warning">在继续下一步之前，您必须允许未知来源的安装。没有开启这个选项可能会给AAAD造成问题。 按“确定”即可进入设置，您需要开启未知来源选项。</string>
-    <string name="qr_code_permission">应用需要访问摄像头的权限以扫描二维码</string>
+    <string name="no_license_found">您在此设备上没有有效的许可证</string>    <string name="qr_code_permission">应用需要访问摄像头的权限以扫描二维码</string>
     <string name="success_transfer">许可证有效</string>
     <string name="email_dialog" comment="&#10;Dialog window">如果需要，电子邮件将用于验证您的购买</string>
     <string name="input_email">请输入电子邮箱</string>
     <string name="days_remaining">距离下次下载还有%d天</string>
     <string name="hours_remaining">距离下次下载还有%d小时</string>
     <string name="less_than_hour">距离下次下载不到1小时</string>
-    <string name="download_available_now">现在可以下载！</string>
-    <string name="app_installed_successfully">应用安装成功！</string>
-    <string name="installation_failed">安装失败</string>
-    <string name="installation_timeout_title">安装状态</string>
-    <string name="installation_timeout_message">应用安装是否成功完成？</string>
+    <string name="download_available_now">现在可以下载！</string>    <string name="installation_failed">安装失败</string>    <string name="installation_timeout_message">应用安装是否成功完成？</string>
     <string name="installation_succeeded">是的，已安装</string>
-    <string name="installation_failed_or_cancelled">否，失败或已取消</string>
-    <string name="download_not_counted">下载未计算 - 您可以重试</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">否，失败或已取消</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ 重要警告</string>
     <string name="onboarding_warning_message">此应用程序与 softonic.com、uptodown.com 或 aadapk.com, aadapk.app 无关。唯一的官方来源是 github.com</string>
@@ -164,4 +131,64 @@
     <string name="error_download_tracking_failed">更新下载状态失败</string>
     <string name="error_loading_catalog">加载应用目录失败</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">转移许可证</string>
+    <string name="checking_license_status">正在检查许可证状态…</string>
+    <string name="qr_code_icon">二维码图标</string>
+    <string name="receiver_title">接收PRO许可证</string>
+    <string name="receiver_subtitle">显示此二维码以将许可证转移到此设备</string>
+    <string name="qr_code_to_scan">用于许可证转移的二维码</string>
+    <string name="receiver_instructions_title">使用方法</string>
+    <string name="receiver_instructions_step1">在具有PRO的设备上，打开AAAD并前往转移许可证</string>
+    <string name="receiver_instructions_step2">在该设备上点击扫描二维码按钮</string>
+    <string name="receiver_instructions_step3">扫描此二维码以完成转移</string>
+    <string name="transfer_license_icon">许可证转移图标</string>
+    <string name="sender_title">转移PRO许可证</string>
+    <string name="sender_subtitle">将您的许可证转移到新设备</string>
+    <string name="sender_warning">⚠️ 警告：转移许可证将从此设备删除PRO状态并在新设备上激活。此操作无法撤消。</string>
+    <string name="sender_instructions_title">如何转移</string>
+    <string name="sender_step_1">在新设备上打开AAAD</string>
+    <string name="sender_step_2">前往转移许可证菜单</string>
+    <string name="sender_step_3">新设备上将显示二维码</string>
+    <string name="sender_step_4">点击下方按钮并扫描该二维码</string>
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="camera_permission_required">需要相机权限才能扫描二维码</string>
+    <string name="error_checking_license">检查许可证状态失败。请重试。</string>
+    <string name="error_generating_qr">生成二维码失败</string>
+    <string name="license_received_success">许可证接收成功！</string>
+    <string name="scan_error_title">扫描错误</string>
+    <string name="scan_error_message">扫描二维码失败。请重试。</string>
+    <string name="confirm_transfer_title">确认转移</string>
+    <string name="confirm_transfer_message">您确定要将PRO许可证转移到新设备吗？这将从此设备删除PRO。</string>
+    <string name="confirm_transfer_yes">转移许可证</string>
+    <string name="confirm_transfer_no">取消</string>
+    <string name="license_transferred_success">许可证转移成功！</string>
+    <string name="error_transferring_license">转移许可证失败。请重试。</string>
+    <string name="support_title">需要帮助？</string>
+    <string name="support_icon">帮助图标</string>
+    <string name="support_subtitle">我们随时为您提供帮助！</string>
+    <string name="support_description">AAAD遇到问题？请发送电子邮件给我们，我们会尽快回复。您提供的详细信息越多，我们就能越快地帮助您！</string>
+    <string name="support_email_will_include">您的电子邮件将包括：</string>
+    <string name="support_email_item_device">设备型号和Android版本</string>
+    <string name="support_email_item_version">AAAD版本信息</string>
+    <string name="support_email_item_description">描述您问题的空间</string>
+    <string name="support_include_logs">包含诊断日志</string>
+    <string name="support_logs_explanation">推荐 - 帮助我们更快地解决问题。仅包含设备信息和应用配置，无个人数据。</string>
+    <string name="support_send_email">发送电子邮件至支持</string>
+    <string name="support_privacy_note">我们尊重您的隐私。日志中不包含个人信息、密码或支付数据。</string>
+    <string name="support_preparing_email">正在准备电子邮件…</string>
+    <string name="support_log_generation_failed">无法生成日志，发送无附件的电子邮件</string>
+    <string name="support_email_failed">无法打开电子邮件应用。请直接发送电子邮件至help.aaad@gmail.com。</string>
+    <string name="support_choose_email_app">选择电子邮件应用</string>
+    <string name="support_email_subject">AAAD支持请求</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

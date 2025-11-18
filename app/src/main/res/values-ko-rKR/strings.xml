@@ -3,14 +3,10 @@
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long pres</string>
     <string name="title_activity_about_payment">PRO Version</string>
     <string name="switch_to_pro_statement">Versioni falas i AAAD ju lejon të keni një shkarkim në muaj. Në qoftë se doni të shkarkoni pa limit ju duhet të blini versionin PRO, i cili ka të gjitha funksionet dhe pērditësimet!</string>
-    <string name="congratsPro">Congratulations, you have PRO version!</string>
-    <string name="notConnected">연결되지 않음: PRO 상태를 검색할 수 없습니다.</string>
-    <string name="About">앱에 대하여</string>
+    <string name="congratsPro">Congratulations, you have PRO version!</string>    <string name="About">앱에 대하여</string>
     <string name="have_promo_code">프로모션 코드를 가지고 있습니다.</string>
     <string name="promo_code">824030</string>
-    <string name="input_promo_code_here">824030</string>
-    <string name="fermata_control_dialog">%1$s %2$s을 다운로드하려고 합니다. %3$s도 설치하시겠습니까?</string>
-    <string name="about_to_download">다운로드에 %1$s가 걸립니다. 계속 진행하시겠습니까?</string>
+    <string name="input_promo_code_here">824030</string>    <string name="about_to_download">다운로드에 %1$s가 걸립니다. 계속 진행하시겠습니까?</string>
     <string name="no">아니오</string>
     <string name="warning_payment">지불이 완료되면 \"판매자에게 돌아가기\"를 수동으로 눌러 거래의 유효성을 확인하십시오.</string>
     <string name="attention">주의</string>
@@ -24,9 +20,7 @@
     <string name="cancelled_payment">구매 취소됨</string>
     <string name="please_enter_code">회원님의 코드를 입력하세요.</string>
     <string name="connection_error">연결에 문제가 발생하여 검증하지 못했습니다</string>
-    <string name="not_valid_code">유효한 코드가 아닙니다</string>
-    <string name="select_which">어느 쪽을 선택하시겠습니까?</string>
-    <string name="downloading_progress">다운로드 중…</string>
+    <string name="not_valid_code">유효한 코드가 아닙니다</string>    <string name="downloading_progress">다운로드 중…</string>
     <string name="aa_mirror_plus_description">몇 가지 추가 기능이 있는 AAMirror에 대한 대안앱입니다.</string>
     <string name="aapassenger_description">이 앱은 탑승객이 안드로이드 오토에서 일부 기능을 관리할 수 있도록 만들어졌습니다. 탑승객의 AAPassenger 다운로드가 필요합니다. 작업 상태는 현재 알 수 없습니다.</string>
     <string name="s2a_description">Android Auto용 가장 완전하고 전체 기능을 갖춘 미러링 앱입니다. 사용자 지정이 가능한 시작 프로그램, 분할 화면, 사용자 지정 화면 크기 등 다양한 기능이 포함되어 있습니다!</string>
@@ -35,33 +29,14 @@
     <string name="carstream_description">이전에 \"유튜브 오토\"로 알려졌던 카스트림은 커스텀 앱 SDK로 만들어진 최초의 앱들 중 하나입니다. 안드로이드 오토에 유튜브를 전달하는 것을 주 목적으로 탄생했고, 이후 많은 기능을 갖춘 웹 브라우저가 되었습니다.    </string>
     <string name="fermata_description">"Android Auto용 가장 완벽한 비디오 및 오디오 플레이어로 네트워크 스트림 및 웹 브라우저와 같은 다양한 기능을 갖춘 완전한 플레이어 환경을 제공합니다. 또한 앱 외부와 스티어링 휠의 컨트롤에서 재생을 관리할 수 있는 동반 앱 Fermata Control도 함께 제공됩니다."</string>
     <string name="s2a_redirect">Screen2auto 웹 사이트로 리디렉션됩니다. 거기에서 버전을 선택하고 AAAD로 엽니다.</string>
-    <string name="screen2auto_download">Screen2Auto를 설치하려고 합니다. 계속하시겠습니까?</string>
-    <string name="press_back_warning">종료하려면 BACK를 다시 누르십시오.</string>
-    <string name="aawidgets_description">단일 업무로 탄생. 안드로이드 오토로 위젯을 가져오십시오!</string>
+    <string name="screen2auto_download">Screen2Auto를 설치하려고 합니다. 계속하시겠습니까?</string>    <string name="aawidgets_description">단일 업무로 탄생. 안드로이드 오토로 위젯을 가져오십시오!</string>
     <string name="performance_monitor_description">이것은 Martoreto의 aa-stats를 기반으로 한 성능 모니터입니다. 이 제품은 폭스바겐/스코다/시트/아우디 MIB2 인포테인먼트 장치와 함께 사용하도록 특별히 제작되었지만, 안드로이드 오토를 지원하는 다른 장치에서도 사용할 수 있습니다. 폭스바겐 자동차 관련 작업을 위해 VAG 확장도 필요합니다.</string>
-    <string name="promotion">당신은 15% 할인 혜택을 받으실 수 있습니다.</string>
-    <string name="first_section_name">멀티미디어 앱스</string>
-    <string name="second_section_name">미러링 앱스</string>
-    <string name="third_section_name">기타</string>
-    <string name="might_not_be_compatible">안타깝게도, 당신의 장치는 페르마타와 호환되지 않는 것 같습니다.</string>
-    <string name="new_version_available">새 버전 이용 가능</string>
-    <string name="go_to_new_version">새로운 버전의 AAAD(버전 %1$s) 를 GitHub에서 사용할 수 있습니다. 지금 다운로드하시겠습니까?</string>
-    <string name="go_to_download">다운로드로 이동</string>
-    <string name="ignore_for_now">지금은 무시하십시오.</string>
-    <string name="privacy_policy">"<![CDATA[AAAD] 는 사용자에 대한 신용카드 정보 또는 개인 데이터를 저장하지 않습니다.<br> 검증을 위해, AAAD는 안드로이드에 의해 안전하게 생성된 일련 번호를 수집하여 장치를 고유하게 식별합니다. 장치 일련 번호는 PRO 버전을 확인하기 위해 AAAD에 의해 처리되며 장치 모델, IMEI 또는 위치에 대한 유용한 정보를 제공하지 않습니다.<br>프로 버전 지불은 전적으로 PayPal에 의해 관리되며 확인 및 환불을 위해 메일은 온라인 Firebase 데이터베이스에 저장됩니다.]]>"</string>
-    <string name="privacy">개인 정보 보호 정책</string>
-    <string name="loading">불러오는 중...</string>
+    <string name="promotion">당신은 15% 할인 혜택을 받으실 수 있습니다.</string>    <string name="loading">불러오는 중...</string>
     <string name="go_pro">07프로로 이동</string>
     <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">안드로이드 오토에 새로운 내비게이션 앱이 들어오면서, 그들 중 많은 수가 전화번호부에 저장된 연락처의 주소를 탐색할 수 있는 구글 어시스턴트의 지원이 부족합니다. Nav2Contacts로 구하세요! 먼저 사용할 탐색 앱을 선택한 다음 탐색할 연락처를 검색하여 바로 탐색을 시작하십시오!</string>
-    <string name="meeting_requirements">이 앱에는 Android %d 이상이 필요합니다. 죄송합니다!</string>
-    <string name="back_button_payment_close">결제가 완료된 후 파란색 버튼 \"판매처 웹 사이트로 돌아가기\"를 누르는 것을 기억하세요.</string>
+    <string name="nav2contacts_description">안드로이드 오토에 새로운 내비게이션 앱이 들어오면서, 그들 중 많은 수가 전화번호부에 저장된 연락처의 주소를 탐색할 수 있는 구글 어시스턴트의 지원이 부족합니다. Nav2Contacts로 구하세요! 먼저 사용할 탐색 앱을 선택한 다음 탐색할 연락처를 검색하여 바로 탐색을 시작하십시오!</string>    <string name="back_button_payment_close">결제가 완료된 후 파란색 버튼 \"판매처 웹 사이트로 돌아가기\"를 누르는 것을 기억하세요.</string>
     <string name="help">도움말</string>
-    <string name="help_dialog">지금 바로 이메일을 보내 도움을 요청하시겠습니까?</string>
-    <string name="cpu_architecture_warning">당신의 전화 CPU 아키텍처는 대부분의 앱과 호환되지 않을 수 있습니다. 계속하기 전에 하나 이상의 앱을 다운로드해 보십시오.</string>
-    <string name="i_understand">이해함</string>
-    <string name="ignore">무시</string>
-    <string name="i_want_to_transfer_license_here">여기에서 면허를 양도하고 싶습니다.</string>
+    <string name="help_dialog">지금 바로 이메일을 보내 도움을 요청하시겠습니까?</string>    <string name="i_want_to_transfer_license_here">여기에서 면허를 양도하고 싶습니다.</string>
     <string name="i_want_to_transfer_license_from_here">저는 여기에서 라이센스를 양도하고 싶습니다.</string>
     <string name="license_transfer_help">한 전화기에서 다른 전화기로 라이센스를 전송하려면 올바른 위치에 있어야 합니다. 수행할 작업을 선택하십시오.</string>
     <string name="transfer_license">라이센스 양도</string>
@@ -69,24 +44,16 @@
     <string name="license_here_confirm">Are you sure that you want to transfer the license to this device?</string>
     <string name="qr_tutorial">좋습니다. 이제 라이센스를 양도할 장치를 열고 \"여기서 라이센스를 양도합니다\"를 선택한 다음 이 QR 코드를 스캔합니다.</string>
     <string name="license_done">라이센스 양도됨</string>
-    <string name="no_license_found">824030</string>
-    <string name="unknown_sources_warning">계속하기 전에 알 수 없는 소스에서 설치를 사용하도록 설정해야 합니다. 이 옵션을 끄면 AAAD에 문제가 발생할 수 있습니다. 지금 설정으로 이동하려면 확인을 누르십시오. 알 수 없는 소스에 대한 옵션을 활성화해야 합니다. </string>
-    <string name="qr_code_permission">QR 코드를 스캔하려면 카메라 권한이 필요합니다.</string>
+    <string name="no_license_found">824030</string>    <string name="qr_code_permission">QR 코드를 스캔하려면 카메라 권한이 필요합니다.</string>
     <string name="success_transfer">80203</string>
     <string name="email_dialog" comment="&#10;Dialog window">이메일은 필요한 경우 구매를 확인하는 데 사용됩니다.</string>
     <string name="input_email">Kyutaemin7@gmail. com</string>
     <string name="days_remaining">다음 다운로드까지 %d일 남았습니다</string>
     <string name="hours_remaining">다음 다운로드까지 %d시간 남았습니다</string>
     <string name="less_than_hour">다음 다운로드까지 1시간 미만 남았습니다</string>
-    <string name="download_available_now">지금 다운로드 가능!</string>
-    <string name="app_installed_successfully">앱이 성공적으로 설치되었습니다!</string>
-    <string name="installation_failed">설치 실패</string>
-    <string name="installation_timeout_title">설치 상태</string>
-    <string name="installation_timeout_message">앱 설치가 성공적으로 완료되었습니까?</string>
+    <string name="download_available_now">지금 다운로드 가능!</string>    <string name="installation_failed">설치 실패</string>    <string name="installation_timeout_message">앱 설치가 성공적으로 완료되었습니까?</string>
     <string name="installation_succeeded">네, 설치되었습니다</string>
-    <string name="installation_failed_or_cancelled">아니오, 실패했거나 취소되었습니다</string>
-    <string name="download_not_counted">다운로드가 계산되지 않음 - 다시 시도할 수 있습니다</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">아니오, 실패했거나 취소되었습니다</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ 중요 경고</string>
     <string name="onboarding_warning_message">이 앱은 softonic.com, uptodown.com 또는 aadapk.com, aadapk.app과 관련이 없습니다. 유일한 공식 소스는 github.com입니다</string>
@@ -164,4 +131,64 @@
     <string name="error_download_tracking_failed">다운로드 상태 업데이트 실패</string>
     <string name="error_loading_catalog">앱 카탈로그 로드 실패</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">라이선스 전송</string>
+    <string name="checking_license_status">라이선스 상태 확인 중…</string>
+    <string name="qr_code_icon">QR 코드 아이콘</string>
+    <string name="receiver_title">PRO 라이선스 받기</string>
+    <string name="receiver_subtitle">이 QR 코드를 표시하여 이 기기로 라이선스 전송</string>
+    <string name="qr_code_to_scan">라이선스 전송용 QR 코드</string>
+    <string name="receiver_instructions_title">사용 방법</string>
+    <string name="receiver_instructions_step1">PRO가 있는 기기에서 AAAD를 열고 라이선스 전송으로 이동</string>
+    <string name="receiver_instructions_step2">해당 기기에서 QR 코드 스캔 버튼 탭</string>
+    <string name="receiver_instructions_step3">이 QR 코드를 스캔하여 전송 완료</string>
+    <string name="transfer_license_icon">라이선스 전송 아이콘</string>
+    <string name="sender_title">PRO 라이선스 전송</string>
+    <string name="sender_subtitle">새 기기로 라이선스 전송</string>
+    <string name="sender_warning">⚠️ 경고: 라이선스를 전송하면 이 기기에서 PRO 상태가 제거되고 새 기기에서 활성화됩니다. 이 작업은 취소할 수 없습니다.</string>
+    <string name="sender_instructions_title">전송 방법</string>
+    <string name="sender_step_1">새 기기에서 AAAD 열기</string>
+    <string name="sender_step_2">라이선스 전송 메뉴로 이동</string>
+    <string name="sender_step_3">새 기기에 QR 코드가 표시됨</string>
+    <string name="sender_step_4">아래 버튼을 탭하고 해당 QR 코드 스캔</string>
+    <string name="scan_qr_code">QR 코드 스캔</string>
+    <string name="camera_permission_required">QR 코드를 스캔하려면 카메라 권한이 필요합니다</string>
+    <string name="error_checking_license">라이선스 상태 확인에 실패했습니다. 다시 시도하세요.</string>
+    <string name="error_generating_qr">QR 코드 생성에 실패했습니다</string>
+    <string name="license_received_success">라이선스를 성공적으로 받았습니다!</string>
+    <string name="scan_error_title">스캔 오류</string>
+    <string name="scan_error_message">QR 코드 스캔에 실패했습니다. 다시 시도하세요.</string>
+    <string name="confirm_transfer_title">전송 확인</string>
+    <string name="confirm_transfer_message">PRO 라이선스를 새 기기로 전송하시겠습니까? 이 기기에서 PRO가 제거됩니다.</string>
+    <string name="confirm_transfer_yes">라이선스 전송</string>
+    <string name="confirm_transfer_no">취소</string>
+    <string name="license_transferred_success">라이선스가 성공적으로 전송되었습니다!</string>
+    <string name="error_transferring_license">라이선스 전송에 실패했습니다. 다시 시도하세요.</string>
+    <string name="support_title">도움이 필요하신가요?</string>
+    <string name="support_icon">도움말 아이콘</string>
+    <string name="support_subtitle">저희가 도와드리겠습니다!</string>
+    <string name="support_description">AAAD에 문제가 있으신가요? 이메일을 보내주시면 최대한 빨리 답변드리겠습니다. 더 많은 세부 정보를 제공할수록 더 빨리 도와드릴 수 있습니다!</string>
+    <string name="support_email_will_include">이메일에 포함될 내용:</string>
+    <string name="support_email_item_device">기기 모델 및 Android 버전</string>
+    <string name="support_email_item_version">AAAD 버전 정보</string>
+    <string name="support_email_item_description">문제 설명 공간</string>
+    <string name="support_include_logs">진단 로그 포함</string>
+    <string name="support_logs_explanation">권장 - 문제를 더 빨리 해결하는 데 도움이 됩니다. 기기 정보 및 앱 구성만 포함하며 개인 데이터는 포함하지 않습니다.</string>
+    <string name="support_send_email">지원팀에 이메일 보내기</string>
+    <string name="support_privacy_note">개인 정보를 존중합니다. 로그에는 개인 정보, 비밀번호 또는 결제 데이터가 포함되지 않습니다.</string>
+    <string name="support_preparing_email">이메일 준비 중…</string>
+    <string name="support_log_generation_failed">로그를 생성할 수 없습니다. 첨부 파일 없이 이메일 전송</string>
+    <string name="support_email_failed">이메일 앱을 열 수 없습니다. help.aaad@gmail.com으로 직접 이메일을 보내주세요.</string>
+    <string name="support_choose_email_app">이메일 앱 선택</string>
+    <string name="support_email_subject">AAAD 지원 요청</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

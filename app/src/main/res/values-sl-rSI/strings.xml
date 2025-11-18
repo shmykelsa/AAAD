@@ -3,14 +3,10 @@
     <string name="welcome_string">Dobrodošli v Android aplikaciji Auto Apps Downloader (AAAD). Ta pripomoček vam bo pomagal namestiti aplikacije po meri v Android Auto za telefone, ki niso rootani in je zato dostop do sistema Android le delno omogočen. Izberite aplikacijo, ki jo želite namestiti, in počakajte, da se prikaže namestitveni program. Opisi aplikacij so na voljo ob dolgem pritisku.</string>
     <string name="title_activity_about_payment">PRO različica</string>
     <string name="switch_to_pro_statement">Brezplačna različica AAAD vam omogoča en brezplačen prenos vsak mesec. Če želite uživati v neomejenem številu brezplačnih prenosov, lahko preklopite na različico PRO in uživali boste v vseh funkcionalnostih in posodobitvah aplikacije!</string>
-    <string name="congratsPro">Čestitke, imate različico PRO!</string>
-    <string name="notConnected">Ni povezave: ni bilo mogoče pridobiti statusa PRO</string>
-    <string name="About">O programu</string>
+    <string name="congratsPro">Čestitke, imate različico PRO!</string>    <string name="About">O programu</string>
     <string name="have_promo_code">Imam promocijsko kodo</string>
     <string name="promo_code">Vnesite promocijsko kodo</string>
-    <string name="input_promo_code_here">Tukaj vnesite promocijsko kodo</string>
-    <string name="fermata_control_dialog">Prenesli boste %1$s %2$s. Ali želite namestiti tudi %3$s?</string>
-    <string name="about_to_download">Prenesli boste %1$s. Ali želite nadaljevati?</string>
+    <string name="input_promo_code_here">Tukaj vnesite promocijsko kodo</string>    <string name="about_to_download">Prenesli boste %1$s. Ali želite nadaljevati?</string>
     <string name="no">ne</string>
     <string name="warning_payment">Na koncu plačila ročno izberite \"Vrni se trgovcu\", da se transakcija potrdi.</string>
     <string name="attention">POZOR</string>
@@ -27,9 +23,7 @@
     <string name="cancelled_payment">Nakup preklican</string>
     <string name="please_enter_code">Prosimo, vnesite kodo</string>
     <string name="connection_error">Napaka pri povezavi, preverjanje je onemogočeno</string>
-    <string name="not_valid_code">Neveljavna koda</string>
-    <string name="select_which">Kateri?</string>
-    <string name="downloading_progress">Prenašanje…</string>
+    <string name="not_valid_code">Neveljavna koda</string>    <string name="downloading_progress">Prenašanje…</string>
     <string name="aa_mirror_plus_description">Alternativa AAMirror-ju z nekaj več funkcijami.</string>
     <string name="aapassenger_description">Ta aplikacija je bila izdelana, da lahko sopotniki upravljajo nekatere funkcije v sistemu Android Auto. Potrebno je prenesti aplikacijo AAPassenger. Stanje delovanja trenutno ni znano.</string>
     <string name="s2a_description">Najbolj celovita aplikacija za zrcaljenje za Android Auto vključuje številne funkcije, kot so prilagodljiv zaganjalnik, razdeljeni zaslon, prilagojene velikosti zaslona in še veliko več!</string>
@@ -38,33 +32,14 @@
     <string name="carstream_description">Nekdaj poznana aplikacija \"YouTube Auto\", sedaj CarStream je bila ena prvih aplikacij, izdelanih s pomočjo paketa SDK za aplikacije po meri. Nastala je z glavnim namenom zagotavljanja storitve YouTube v sistemu Android Auto, nato pa je postala spletni brskalnik s številnimi dodatnimi zmožnostmi.    </string>
     <string name="fermata_description">"Najbolj izpopolnjen avdio-video predvajalnik za Android Auto, ki ponuja popolno izkušnjo predvajanja s številnimi funkcijami, kot je spletno pretakanje vsebin in spletni brskalnik. Na voljo je tudi spremljevalna aplikacija Fermata Control, ki omogoča upravljanje predvajanja zunaj aplikacije in z upravljalnimi elementi na volanu."</string>
     <string name="s2a_redirect">Preusmerjeni boste na spletno mesto screen2auto, kjer izberete različico in jo odprite s programom AAAD.</string>
-    <string name="screen2auto_download">Namestili boste aplikacijo Screen2Auto. Ali želite nadaljevati?</string>
-    <string name="press_back_warning">Za izhod ponovno pritisnite BACK</string>
-    <string name="aawidgets_description">Narejen za eno samo nalogo. Prenos aplikacij v Android Auto!</string>
+    <string name="screen2auto_download">Namestili boste aplikacijo Screen2Auto. Ali želite nadaljevati?</string>    <string name="aawidgets_description">Narejen za eno samo nalogo. Prenos aplikacij v Android Auto!</string>
     <string name="performance_monitor_description">To je nadzornik zmogljivosti, ki temelji na Martoretovi aa-stats. Izdelan je posebej za uporabo z infozabavnimi enotami Volkswagen/Skoda/Seat/Audi MIB2, vendar lahko deluje tudi na drugih, če imajo podporo za Android Auto. Potrebuje tudi razširitev VAG, da deluje na avtomobilih Volkswagen.</string>
-    <string name="promotion">Upravičeni ste do 15% popusta</string>
-    <string name="first_section_name">Večpredstavnostne aplikacije</string>
-    <string name="second_section_name">Aplikacije za zrcaljenje</string>
-    <string name="third_section_name">Drugo</string>
-    <string name="might_not_be_compatible">Žal je videti, kot da vaša naprava ni združljiva z aplikacijo Fermata.</string>
-    <string name="new_version_available">Na voljo je nova različica</string>
-    <string name="go_to_new_version">Nova različica AAAD (različica %1$s) je na voljo na GitHubu. Ali jo želite prenesti zdaj?</string>
-    <string name="go_to_download">Pojdite na prenos</string>
-    <string name="ignore_for_now">Za zdaj ignorirajte</string>
-    <string name="privacy_policy">"<![CDATA[AAAD ne shranjuje nobenih podatkov o kreditni kartici ali osebnih podatkov o uporabniku.<br>Za namene potrjevanja AAAD zbira serijsko številko, ki jo varno ustvari Android, da bi edinstveno identificiral napravo. AAAD serijsko številko naprave obdela za potrditev različice PRO in ne zbira nobenih uporabnih informacij o modelu naprave, IMIEI ali lokaciji.<br>Plačilo različice PRO upravlja izključno PayPal, za namene potrditve in vračila pa se pošta shrani v spletno zbirko podatkov Firebase.]]>"</string>
-    <string name="privacy">Pravilnik o zasebnosti</string>
-    <string name="loading">Nalaganje...</string>
+    <string name="promotion">Upravičeni ste do 15% popusta</string>    <string name="loading">Nalaganje...</string>
     <string name="go_pro">Preklopi na PRO</string>
     <string name="i_m_good">Dobro sem</string>
-    <string name="nav2contacts_description">Z novimi navigacijskimi aplikacijami, ki so vključene v sistem Android Auto, številne med njimi ne podpirajo navigacije do naslovov stikov, shranjenih v telefonskem imeniku, ki jo omogoča Google Assistant. Nav2Contacts priskoči na pomoč! Najprej izberite navigacijsko aplikacijo, ki jo želite uporabljati, nato poiščite stik, do katerega želite navigirati, in takoj začnite z navigacijo!</string>
-    <string name="meeting_requirements">Ta aplikacija zahteva vsaj Android %d, žal!</string>
-    <string name="back_button_payment_close">Po končanem plačilu ne pozabite pritisniti modrega gumba \"Return to merchant website\"</string>
+    <string name="nav2contacts_description">Z novimi navigacijskimi aplikacijami, ki so vključene v sistem Android Auto, številne med njimi ne podpirajo navigacije do naslovov stikov, shranjenih v telefonskem imeniku, ki jo omogoča Google Assistant. Nav2Contacts priskoči na pomoč! Najprej izberite navigacijsko aplikacijo, ki jo želite uporabljati, nato poiščite stik, do katerega želite navigirati, in takoj začnite z navigacijo!</string>    <string name="back_button_payment_close">Po končanem plačilu ne pozabite pritisniti modrega gumba \"Return to merchant website\"</string>
     <string name="help">Pomoč</string>
-    <string name="help_dialog">Ali želite poslati e-poštno sporočilo za pomoč?</string>
-    <string name="cpu_architecture_warning">Arhitektura procesorja vašega telefona morda ne bo združljiva z večino aplikacij. Pred nadaljevanjem poskusite prenesti vsaj eno aplikacijo.</string>
-    <string name="i_understand">Razumem</string>
-    <string name="ignore">Prezri</string>
-    <string name="i_want_to_transfer_license_here">Licenco želim prenesti sem</string>
+    <string name="help_dialog">Ali želite poslati e-poštno sporočilo za pomoč?</string>    <string name="i_want_to_transfer_license_here">Licenco želim prenesti sem</string>
     <string name="i_want_to_transfer_license_from_here">Licenco želim prenesti od tu</string>
     <string name="license_transfer_help">Če želite prenesti licenco iz enega telefona v drugega, ste na pravem mestu. Izberite, kaj želite storiti</string>
     <string name="transfer_license">Prenos licence</string>
@@ -72,24 +47,16 @@
     <string name="license_here_confirm">Ali ste prepričani, da želite prenesti licenco na to napravo?</string>
     <string name="qr_tutorial">Odlično, izberite napravo, iz katere želite prenesti licenco, in izberite \"Želim prenesti licenco od tu\", nato pa poskenirajte kodo QR</string>
     <string name="license_done">Licenca je prenešena</string>
-    <string name="no_license_found">V tej napravi nimate aktivne licence</string>
-    <string name="unknown_sources_warning">Preden nadaljujete, morate omogočiti namestitev aplikacij iz neznanih virov. Če je ta možnost izklopljena, lahko pride do težav s programom AAAD. Pritisnite V redu in pojdite v nastavitve, kjer boste morali aktivirati možnost za namestitev aplikacij iz neznanih virov.</string>
-    <string name="qr_code_permission">Za skeniranje QR kod je potrebno dovoljenje za dostop do fotoaparata</string>
+    <string name="no_license_found">V tej napravi nimate aktivne licence</string>    <string name="qr_code_permission">Za skeniranje QR kod je potrebno dovoljenje za dostop do fotoaparata</string>
     <string name="success_transfer">Licenca je potrjena</string>
     <string name="email_dialog" comment="&#10;Dialog window">Uporabljena bo e-pošta za potrditev nakupa, če bo potrebno</string>
     <string name="input_email">Prosimo vpišite svoj naslov za e-pošto...</string>
     <string name="days_remaining">Do naslednjega prenosa ostaja %d dni</string>
     <string name="hours_remaining">Do naslednjega prenosa ostaja %d ur</string>
     <string name="less_than_hour">Do naslednjega prenosa ostane manj kot 1 ura</string>
-    <string name="download_available_now">Prenos je zdaj na voljo!</string>
-    <string name="app_installed_successfully">Aplikacija je bila uspešno nameščena!</string>
-    <string name="installation_failed">Namestitev neuspešna</string>
-    <string name="installation_timeout_title">Status namestitve</string>
-    <string name="installation_timeout_message">Se je namestitev aplikacije uspešno zaključila?</string>
+    <string name="download_available_now">Prenos je zdaj na voljo!</string>    <string name="installation_failed">Namestitev neuspešna</string>    <string name="installation_timeout_message">Se je namestitev aplikacije uspešno zaključila?</string>
     <string name="installation_succeeded">Da, nameščena je</string>
-    <string name="installation_failed_or_cancelled">Ne, neuspešna je bila ali preklicana</string>
-    <string name="download_not_counted">Prenos se ne šteje - lahko poskusite znova</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Ne, neuspešna je bila ali preklicana</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Pomembno opozorilo</string>
     <string name="onboarding_warning_message">Ta aplikacija NI povezana s softonic.com, uptodown.com ali aadapk.com, aadapk.app. Edini uradni vir je github.com</string>
@@ -167,4 +134,11 @@
     <string name="error_download_tracking_failed">Posodobitev stanja prenosa ni uspela</string>
     <string name="error_loading_catalog">Nalaganje kataloga aplikacij ni uspelo</string>
 
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

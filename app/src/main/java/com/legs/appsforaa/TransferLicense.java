@@ -8,7 +8,6 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -31,6 +30,7 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
+import com.legs.appsforaa.managers.AuthManager;
 
 public class TransferLicense extends AppCompatActivity {
 
@@ -46,7 +46,13 @@ public class TransferLicense extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transfer_license);
 
-        deviceId =  Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
+        // Get authenticated user ID (should already be authenticated from MainActivity)
+        deviceId = AuthManager.INSTANCE.getCurrentUid();
+        if (deviceId == null) {
+            Toast.makeText(this, "Authentication required. Please restart the app.", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
 
         final Button transferHereButton = findViewById(R.id.receive);
         final Button transferFromHereButton = findViewById(R.id.donate);
@@ -128,8 +134,8 @@ public class TransferLicense extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.getValue(Boolean.class)) {
                                 Toast.makeText(getApplicationContext(), getString(R.string.success_transfer), Toast.LENGTH_LONG).show();
-                                // Return to MainActivity with refresh request
-                                Intent intent = new Intent(TransferLicense.this, MainActivity.class);
+                                // Return to MainActivityNew with refresh request
+                                Intent intent = new Intent(TransferLicense.this, MainActivityNew.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                                 intent.putExtra("refresh_pro_status", true);
                                 startActivity(intent);
@@ -194,8 +200,8 @@ public class TransferLicense extends AppCompatActivity {
                                             @Override
                                             public void onSuccess(Void aVoid) {
                                                 Toast.makeText(TransferLicense.this, getString(R.string.license_done), Toast.LENGTH_LONG).show();
-                                                // Return to MainActivity with refresh request
-                                                Intent intent = new Intent(TransferLicense.this, MainActivity.class);
+                                                // Return to MainActivityNew with refresh request
+                                                Intent intent = new Intent(TransferLicense.this, MainActivityNew.class);
                                                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                                                 intent.putExtra("refresh_pro_status", true);
                                                 startActivity(intent);

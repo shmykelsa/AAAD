@@ -3,14 +3,10 @@
     <string name="welcome_string">Добро пожаловать в Android Auto Apps Downloader (AAAD). Эта утилита поможет установить  приложения, адаптированные для работы в Android Auto на телефоны, не имеющие root. Выберите приложение, которое  хотите установить, и дождитесь окончания установки программы. При длительном нажатии на названии приложения доступно его описание.</string>
     <string name="title_activity_about_payment">Полная версия</string>
     <string name="switch_to_pro_statement">Бесплатная версия AAAD позволяет вам установить одно приложение раз в месяц. Если вы хотите убрать  ограничение, приобретите полную версию. Это позволит вам пользоваться всеми функциями и обновлениями приложений без ограничений!</string>
-    <string name="congratsPro">Congratulations, you have PRO version!</string>
-    <string name="notConnected">Нет соединения: не удалось получить полную версию</string>
-    <string name="About">О приложении</string>
+    <string name="congratsPro">Congratulations, you have PRO version!</string>    <string name="About">О приложении</string>
     <string name="have_promo_code">У меня есть промокод</string>
     <string name="promo_code">Введите промокод</string>
-    <string name="input_promo_code_here">Введите промокод</string>
-    <string name="fermata_control_dialog">Вы собираетесь установить %1$s %2$s. Хотели бы вы также установить %3$s?</string>
-    <string name="about_to_download">Вы собираетесь установить %1$s. Продолжить?</string>
+    <string name="input_promo_code_here">Введите промокод</string>    <string name="about_to_download">Вы собираетесь установить %1$s. Продолжить?</string>
     <string name="no">нет</string>
     <string name="warning_payment">После оплаты, пожалуйста, вручную нажмите \"Вернуться к продавцу\", для подтверждения транзакции. </string>
     <string name="attention">ВНИМАНИЕ!</string>
@@ -27,9 +23,7 @@
     <string name="cancelled_payment">Покупка отменена</string>
     <string name="please_enter_code">Пожалуйста, введите код</string>
     <string name="connection_error">Ошибка соединения, не удалось подтвердить</string>
-    <string name="not_valid_code">Неверный код</string>
-    <string name="select_which">Который из них?</string>
-    <string name="downloading_progress">Загружается…</string>
+    <string name="not_valid_code">Неверный код</string>    <string name="downloading_progress">Загружается…</string>
     <string name="aa_mirror_plus_description">Альтернатива AAMirror с более функциональными возможностями.</string>
     <string name="aapassenger_description">Это приложение было создано для того, чтобы пассажиры могли управлять некоторыми функциями Android Auto. Пассажиру требуется скачать AAPassenger. Работоспособность  на данный момент неизвестна.</string>
     <string name="s2a_description">Наиболее полноценное  приложение для зеркалирования телефона в Android Auto. Включает в себя множество функций, таких как настраиваемый лаунчер, разделение экрана, пользовательский размер экрана и многое другое!</string>
@@ -38,33 +32,14 @@
     <string name="carstream_description">Ранее известное как \"YouTube Auto\", Car Stream было одним из первых приложений, созданных с помощью SDK пользовательских приложений. Основная цель создания - это просмотр YouTube через Android Auto. В последующем оно стало веб-браузером с множеством возможностей.</string>
     <string name="fermata_description">"Полнофункциональный видео и аудио плеер для Android Auto, с  множеством функций, такими как потоковое вещание (IPTV),  веб-браузер, просмотр YouTube с функцией блокировки рекламы. Дополнительно к плееру  можно установить Fermata Control для управления воспроизведением через нижнюю панель Android Auto  и с помощью кнопок на руле."</string>
     <string name="s2a_redirect">Вы будете перенаправлены на сайт, для скачивания  Screen2Auto. Выберите там нужную версию и откройте её с помощью AAAD.</string>
-    <string name="screen2auto_download">Вы собираетесь установить Screen2Auto. Хотите продолжить?</string>
-    <string name="press_back_warning">Чтобы выйти, повторно нажмите кнопку НАЗАД.</string>
-    <string name="aawidgets_description">Создано для единственной цели - добавить виджет для Android Auto!</string>
+    <string name="screen2auto_download">Вы собираетесь установить Screen2Auto. Хотите продолжить?</string>    <string name="aawidgets_description">Создано для единственной цели - добавить виджет для Android Auto!</string>
     <string name="performance_monitor_description">Это монитор производительности, основанный на Martoreto\'s aa-stats. Он предназначен для использования в автомобилях Volkswagen/Skoda/Seat/Audi MIB2 infotainment, но он также может работать на других автомобилях, если они поддерживают Android Auto. Требуется также расширение VAG для работы на автомобилях Volkswagen.</string>
-    <string name="promotion">Вы можете воспользоваться скидкой 15%</string>
-    <string name="first_section_name">Мультимедийные приложения</string>
-    <string name="second_section_name">Зеркальные приложения</string>
-    <string name="third_section_name">Прочие приложения</string>
-    <string name="might_not_be_compatible">К сожалению, ваше устройство не совместимо с Fermata.</string>
-    <string name="new_version_available">Доступно обновление</string>
-    <string name="go_to_new_version">Новая версия AAAD (версия %1$s) доступна на GitHub. Загрузить ее сейчас?</string>
-    <string name="go_to_download">Скачать</string>
-    <string name="ignore_for_now">Пока что игнорировать</string>
-    <string name="privacy_policy">"<![CDATA[AAAD не сохраняет информацию о кредитной карте или персональные данные о пользователе.<br>Для целей проверки AAAD собирает серийный номер, который безопасно генерируется Android для идентификации устройства. Серийный номер устройства обрабатывается AAAD для проверки полной версии и не предоставляет никакой полезной информации о модели устройства, IMIEI или местоположении.<br>Оплата полной версии управляется только PayPal, а для подтверждения и возврата почта хранится в базе данных "Firebase".]]>"</string>
-    <string name="privacy">Политика конфиденциальности</string>
-    <string name="loading">Загрузка...</string>
+    <string name="promotion">Вы можете воспользоваться скидкой 15%</string>    <string name="loading">Загрузка...</string>
     <string name="go_pro">Приобретите PRO версию</string>
     <string name="i_m_good">Хорошо</string>
-    <string name="nav2contacts_description">Многие новые навигационные приложения в Android Auto  не поддерживают переход к адресам контактов, сохраненных в телефонной книге, с помощью Google Assistant. В этом случае Nav2Contacts придёт на помощь! Сначала выберите навигационное приложение, которое вы хотите использовать, а затем найдите контакт, к адресу которого вы хотите задать маршрут. После этого просто запустите навигацию!</string>
-    <string name="meeting_requirements">Это приложение требует по крайней мере %d версию Android, извините!</string>
-    <string name="back_button_payment_close">Пожалуйста, не забудьте нажать кнопку \"Вернуться к продавцу\" после завершения оплаты</string>
+    <string name="nav2contacts_description">Многие новые навигационные приложения в Android Auto  не поддерживают переход к адресам контактов, сохраненных в телефонной книге, с помощью Google Assistant. В этом случае Nav2Contacts придёт на помощь! Сначала выберите навигационное приложение, которое вы хотите использовать, а затем найдите контакт, к адресу которого вы хотите задать маршрут. После этого просто запустите навигацию!</string>    <string name="back_button_payment_close">Пожалуйста, не забудьте нажать кнопку \"Вернуться к продавцу\" после завершения оплаты</string>
     <string name="help">Помощь</string>
-    <string name="help_dialog">Вы хотите отправить e-mail прямо сейчас для получения помощи?</string>
-    <string name="cpu_architecture_warning">Архитектура процессора вашего телефона может быть несовместима с большинством приложений. Пожалуйста, попробуйте загрузить хотя бы одно приложение для того, чтобы продолжить.</string>
-    <string name="i_understand">Согласен</string>
-    <string name="ignore">Игнорировать</string>
-    <string name="i_want_to_transfer_license_here">Я хочу перенести лицензию с этого устройства</string>
+    <string name="help_dialog">Вы хотите отправить e-mail прямо сейчас для получения помощи?</string>    <string name="i_want_to_transfer_license_here">Я хочу перенести лицензию с этого устройства</string>
     <string name="i_want_to_transfer_license_from_here">Я хочу перенести лицензию на это устройство</string>
     <string name="license_transfer_help">Если вы хотите перенести лицензию с одного устройства на другое, вы находитесь в нужном месте. Пожалуйста, выберите то, что хотите сделать</string>
     <string name="transfer_license">Перенос лицензии</string>
@@ -72,24 +47,16 @@
     <string name="license_here_confirm">Вы уверены, что хотите перенести лицензию на это устройство?</string>
     <string name="qr_tutorial">Отлично, теперь откройте устройство, с которого вы хотите перенести лицензию, и выберите «Я хочу перенести лицензию с этого устройства», затем отсканируйте этот QR-код</string>
     <string name="license_done">Перенос лицензии</string>
-    <string name="no_license_found">У вас нет активной лицензии на этом устройстве</string>
-    <string name="unknown_sources_warning">Прежде чем продолжить, вы должны включить установку из неизвестных источников. Отключение этой опции может привести к проблемам с AAAD. Нажмите кнопку ОК, чтобы перейти в настройки, после этого  активируйте установку из неизвестных источников.</string>
-    <string name="qr_code_permission">Для сканирования QR-кодов необходимо предоставить доступ к камере!</string>
+    <string name="no_license_found">У вас нет активной лицензии на этом устройстве</string>    <string name="qr_code_permission">Для сканирования QR-кодов необходимо предоставить доступ к камере!</string>
     <string name="success_transfer">Лицензия подтверждена</string>
     <string name="email_dialog" comment="&#10;Dialog window">Адрес электронной почты будет использован для проверки вашей покупки, если это необходимо</string>
     <string name="input_email">Пожалуйста, введите свой адрес электронной почты</string>
     <string name="days_remaining">Осталось %d дней до следующего скачивания</string>
     <string name="hours_remaining">Осталось %d часов до следующего скачивания</string>
     <string name="less_than_hour">Менее часа до следующего скачивания</string>
-    <string name="download_available_now">Скачивание доступно сейчас!</string>
-    <string name="app_installed_successfully">Приложение успешно установлено!</string>
-    <string name="installation_failed">Установка не удалась</string>
-    <string name="installation_timeout_title">Статус установки</string>
-    <string name="installation_timeout_message">Завершилась ли установка приложения успешно?</string>
+    <string name="download_available_now">Скачивание доступно сейчас!</string>    <string name="installation_failed">Установка не удалась</string>    <string name="installation_timeout_message">Завершилась ли установка приложения успешно?</string>
     <string name="installation_succeeded">Да, оно установлено</string>
-    <string name="installation_failed_or_cancelled">Нет, не удалось или было отменено</string>
-    <string name="download_not_counted">Загрузка не засчитана - вы можете попробовать снова</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Нет, не удалось или было отменено</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Важное предупреждение</string>
     <string name="onboarding_warning_message">Это приложение НЕ связано с softonic.com, uptodown.com или aadapk.com, aadapk.app. Единственный официальный источник - github.com</string>
@@ -167,4 +134,64 @@
     <string name="error_download_tracking_failed">Не удалось обновить статус загрузки</string>
     <string name="error_loading_catalog">Не удалось загрузить каталог приложений</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Передать лицензию</string>
+    <string name="checking_license_status">Проверка статуса лицензии…</string>
+    <string name="qr_code_icon">Значок QR-кода</string>
+    <string name="receiver_title">Получить PRO-лицензию</string>
+    <string name="receiver_subtitle">Покажите этот QR-код для передачи лицензии на это устройство</string>
+    <string name="qr_code_to_scan">QR-код для передачи лицензии</string>
+    <string name="receiver_instructions_title">Как это работает</string>
+    <string name="receiver_instructions_step1">На устройстве с PRO откройте AAAD и перейдите в Передать лицензию</string>
+    <string name="receiver_instructions_step2">Нажмите кнопку Сканировать QR-код на этом устройстве</string>
+    <string name="receiver_instructions_step3">Отсканируйте этот QR-код для завершения передачи</string>
+    <string name="transfer_license_icon">Значок передачи лицензии</string>
+    <string name="sender_title">Передать PRO-лицензию</string>
+    <string name="sender_subtitle">Передайте свою лицензию на новое устройство</string>
+    <string name="sender_warning">⚠️ Внимание: Передача лицензии удалит PRO-статус с этого устройства и активирует его на новом устройстве. Это действие нельзя отменить.</string>
+    <string name="sender_instructions_title">Как передать</string>
+    <string name="sender_step_1">Откройте AAAD на новом устройстве</string>
+    <string name="sender_step_2">Перейдите в меню Передать лицензию</string>
+    <string name="sender_step_3">На новом устройстве появится QR-код</string>
+    <string name="sender_step_4">Нажмите кнопку ниже и отсканируйте этот QR-код</string>
+    <string name="scan_qr_code">Сканировать QR-код</string>
+    <string name="camera_permission_required">Для сканирования QR-кодов требуется разрешение камеры</string>
+    <string name="error_checking_license">Не удалось проверить статус лицензии. Попробуйте еще раз.</string>
+    <string name="error_generating_qr">Не удалось создать QR-код</string>
+    <string name="license_received_success">Лицензия успешно получена!</string>
+    <string name="scan_error_title">Ошибка сканирования</string>
+    <string name="scan_error_message">Не удалось отсканировать QR-код. Попробуйте еще раз.</string>
+    <string name="confirm_transfer_title">Подтвердите передачу</string>
+    <string name="confirm_transfer_message">Вы уверены, что хотите передать свою PRO-лицензию на новое устройство? Это удалит PRO с этого устройства.</string>
+    <string name="confirm_transfer_yes">Передать лицензию</string>
+    <string name="confirm_transfer_no">Отмена</string>
+    <string name="license_transferred_success">Лицензия успешно передана!</string>
+    <string name="error_transferring_license">Не удалось передать лицензию. Попробуйте еще раз.</string>
+    <string name="support_title">Нужна помощь?</string>
+    <string name="support_icon">Значок помощи</string>
+    <string name="support_subtitle">Мы здесь, чтобы помочь вам!</string>
+    <string name="support_description">Проблемы с AAAD? Отправьте нам электронное письмо, и мы ответим как можно скорее. Чем больше подробностей вы предоставите, тем быстрее мы сможем помочь!</string>
+    <string name="support_email_will_include">Ваше письмо будет включать:</string>
+    <string name="support_email_item_device">Модель устройства и версия Android</string>
+    <string name="support_email_item_version">Информация о версии AAAD</string>
+    <string name="support_email_item_description">Место для описания вашей проблемы</string>
+    <string name="support_include_logs">Включить журналы диагностики</string>
+    <string name="support_logs_explanation">Рекомендуется - Помогает нам быстрее решать проблемы. Содержит только информацию об устройстве и конфигурации приложения, без личных данных.</string>
+    <string name="support_send_email">Отправить письмо в поддержку</string>
+    <string name="support_privacy_note">Мы уважаем вашу конфиденциальность. В журналах нет личной информации, паролей или платежных данных.</string>
+    <string name="support_preparing_email">Подготовка письма…</string>
+    <string name="support_log_generation_failed">Не удалось создать журналы, отправка письма без вложения</string>
+    <string name="support_email_failed">Не удалось открыть почтовое приложение. Отправьте письмо напрямую на help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Выберите почтовое приложение</string>
+    <string name="support_email_subject">Запрос поддержки AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

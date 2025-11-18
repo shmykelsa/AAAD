@@ -3,14 +3,10 @@
     <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO sürümü</string>
     <string name="switch_to_pro_statement">AAAD\'nin ücretsiz sürümü, her ay bir ücretsiz indirme yapmanıza izin verir. Sınırsız ücretsiz indirmenin keyfini çıkarmak istiyorsanız, PRO sürümüne geçebilir ve tüm işlevlerin ve uygulama güncellemelerinin keyfini çıkarabilirsiniz!</string>
-    <string name="congratsPro">Tebrikler, PRO sürümünüz var!</string>
-    <string name="notConnected">Bağlı değil: PRO durumu alınamadı</string>
-    <string name="About">Hakkında</string>
+    <string name="congratsPro">Tebrikler, PRO sürümünüz var!</string>    <string name="About">Hakkında</string>
     <string name="have_promo_code">Promosyon kodum var</string>
     <string name="promo_code">tek93122</string>
-    <string name="input_promo_code_here">Promosyon kodunu buraya girebilirsiniz</string>
-    <string name="fermata_control_dialog">%1$s %2$s dosyasını indirmek üzeresiniz. Ayrıca %3$s yüklemek istiyor musunuz?</string>
-    <string name="about_to_download">%1$s dosyasını indirmek üzeresiniz. Devam etmek istiyor musunuz?</string>
+    <string name="input_promo_code_here">Promosyon kodunu buraya girebilirsiniz</string>    <string name="about_to_download">%1$s dosyasını indirmek üzeresiniz. Devam etmek istiyor musunuz?</string>
     <string name="no">hayır</string>
     <string name="warning_payment">Ödeme işleminin sonunda, işlemin onaylanması için lütfen manuel olarak \"Satıcıya geri dön\" seçeneğine basın.</string>
     <string name="attention">DİKKAT</string>
@@ -25,9 +21,7 @@
     <string name="cancelled_payment">Satın alma iptal edildi</string>
     <string name="please_enter_code">Lütfen bir kod girin</string>
     <string name="connection_error">Bağlantı hatası, doğrulanamadı</string>
-    <string name="not_valid_code">Geçerli bir kod değil</string>
-    <string name="select_which">Hangisini seçtiniz?</string>
-    <string name="downloading_progress">İndiriliyor…</string>
+    <string name="not_valid_code">Geçerli bir kod değil</string>    <string name="downloading_progress">İndiriliyor…</string>
     <string name="aa_mirror_plus_description">AAMirror\'a alternatif, daha fazla işlevle.</string>
     <string name="aapassenger_description">Bu uygulama, yolcuların Android Auto\'daki bazı işlevleri yönetebilmesi için yapıldı. Yolcunun AAPassenger\'ı indirmesini gerektirir. Çalışma durumu şu anda bilinmiyor.</string>
     <string name="s2a_description">Android Auto için en eksiksiz ve tam özellikli yansıtma uygulaması. Özelleştirilebilir bir başlatıcı, bölünmüş ekran, özel ekran boyutları ve çok daha fazlası gibi birçok özellik içerir!</string>
@@ -37,33 +31,14 @@
     <string name="fermata_description">"Ağ akışları ve ayrıca bir web tarayıcısı gibi birçok özellik ile tam bir oynatıcı deneyimi sunan Android Auto için en eksiksiz video ve ses oynatıcı. Ayrıca, oynatmayı uygulamanın dışında ve direksiyon simidindeki kontrollerden yönetmeye izin veren yardımcı uygulama Fermata Control ile birlikte gelir."</string>
     <string name="s2a_redirect">Screen2auto web sitesine yönlendirileceksiniz. Oradan sürümü seçin ve AAAD ile açın.
  İÇERİK TALEP EDİN.</string>
-    <string name="screen2auto_download">Screen2Auto\'yu kuracaksınız. Devam etmek istiyor musun?</string>
-    <string name="press_back_warning">Çıkmak için lütfen GERİ düğmesine tekrar basın</string>
-    <string name="aawidgets_description">Tek bir görevle doğdu. Android Auto\'ya bir widget getirin!</string>
+    <string name="screen2auto_download">Screen2Auto\'yu kuracaksınız. Devam etmek istiyor musun?</string>    <string name="aawidgets_description">Tek bir görevle doğdu. Android Auto\'ya bir widget getirin!</string>
     <string name="performance_monitor_description">Bu, Martoreto\'nun aa istatistiklerine dayanan bir performans monitörüdür. Özellikle Volkswagen / Skoda / Seat / Audi MIB2 bilgi-eğlence birimleriyle kullanım için yapılmıştır, ancak Android Auto desteğine sahip oldukları sürece başkalarında da çalışabilir. Volkswagen Otomobillerinde çalışmak için ayrıca VAG uzantısına ihtiyaç vardır.</string>
-    <string name="promotion">% 15 indirim hakkınız var</string>
-    <string name="first_section_name">Multimedya uygulamaları</string>
-    <string name="second_section_name">Yansıtma uygulamaları</string>
-    <string name="third_section_name">Diğer</string>
-    <string name="might_not_be_compatible">Maalesef, cihazınız Fermata ile uyumlu değil gibi görünüyor.</string>
-    <string name="new_version_available">Yeni sürüm mevcut</string>
-    <string name="go_to_new_version">GitHub\'da yeni bir AAAD sürümü (sürüm %1$s) mevcut. Şimdi indirmek ister misiniz?</string>
-    <string name="go_to_download">İndirmeye git</string>
-    <string name="ignore_for_now">Şimdilik yok say</string>
-    <string name="privacy_policy">"<![CDATA[AAAD, kullanıcıyla ilgili herhangi bir kredi kartı bilgisi veya kişisel veri saklamaz. <br> Doğrulama amacıyla AAAD, bir cihazı benzersiz bir şekilde tanımlamak için Android tarafından güvenli bir şekilde oluşturulmuş bir seri numarası toplar. Cihaz serisi, PRO sürümünü doğrulamak için AAAD tarafından işlenir ve cihaz modeli, IMIEI veya konum hakkında herhangi bir yararlı bilgi sağlamaz. <br> Pro sürümün ödemesi yalnızca PayPal tarafından yönetilir ve onay ve geri ödeme amacıyla posta çevrimiçi bir Firebase veritabanında saklanır.]]> İÇERİK TALEP"</string>
-    <string name="privacy">Gizlilik politikası</string>
-    <string name="loading">Yükleniyor...</string>
+    <string name="promotion">% 15 indirim hakkınız var</string>    <string name="loading">Yükleniyor...</string>
     <string name="go_pro">Pro sürüme geç</string>
     <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">Android Auto\'ya gelen yeni navigasyon uygulamalarıyla, çoğu Google Asistan\'ın telefon rehberinde kayıtlı kişilerin adreslerine gitme desteğinden yoksun. Nav2Contacts imdadınıza yetişti! Öncelikle kullanmak istediğiniz navigasyon uygulamasını seçin, ardından gitmek istediğiniz kişiyi arayın ve navigasyonu hemen başlatın!</string>
-    <string name="meeting_requirements">Maalesef, bu uygulama en az Android%d gerektiriyor!</string>
-    <string name="back_button_payment_close">Ödeme tamamlandıktan sonra LÜTFEN mavi düğmeye \"Satıcı web sitesine dön\" düğmesine basmayı unutmayın</string>
+    <string name="nav2contacts_description">Android Auto\'ya gelen yeni navigasyon uygulamalarıyla, çoğu Google Asistan\'ın telefon rehberinde kayıtlı kişilerin adreslerine gitme desteğinden yoksun. Nav2Contacts imdadınıza yetişti! Öncelikle kullanmak istediğiniz navigasyon uygulamasını seçin, ardından gitmek istediğiniz kişiyi arayın ve navigasyonu hemen başlatın!</string>    <string name="back_button_payment_close">Ödeme tamamlandıktan sonra LÜTFEN mavi düğmeye \"Satıcı web sitesine dön\" düğmesine basmayı unutmayın</string>
     <string name="help">Yardım</string>
-    <string name="help_dialog">Şu anda yardım için bir e-posta göndermek istiyor musunuz?</string>
-    <string name="cpu_architecture_warning">Telefonunuzun CPU mimarisi çoğu uygulama ile uyumlu olmayabilir. Lütfen devam etmeden önce en az bir uygulama indirmeyi deneyin.</string>
-    <string name="i_understand">Anladım</string>
-    <string name="ignore">Görmezden gel</string>
-    <string name="i_want_to_transfer_license_here">Buradan lisansı transfer etmek istiyorum</string>
+    <string name="help_dialog">Şu anda yardım için bir e-posta göndermek istiyor musunuz?</string>    <string name="i_want_to_transfer_license_here">Buradan lisansı transfer etmek istiyorum</string>
     <string name="i_want_to_transfer_license_from_here">Buradan lisansı transfer etmek istiyorum</string>
     <string name="license_transfer_help">Lisansı bir telefondan diğerine aktarmak istiyorsanız, doğru yerdesiniz. Lütfen ne yapmak istediğinizi seçiniz</string>
     <string name="transfer_license">Lisansı transfer et</string>
@@ -71,24 +46,16 @@
     <string name="license_here_confirm">Are you sure that you want to transfer the license to this device?</string>
     <string name="qr_tutorial">Harika, şimdi lisansı aktarmak istediğiniz cihazı açın ve \"Lisansı buradan aktarmak istiyorum\" u seçin, ardından bu QR kodunu tarayın</string>
     <string name="license_done">Lisans aktarıldı</string>
-    <string name="no_license_found">Bu cihazda aktif bir lisansınız yok</string>
-    <string name="unknown_sources_warning">Devam etmeden önce, yüklemeyi ayarlar bilinmeyen kaynaklardan etkinleştirmelisiniz. Bu seçeneği kapalı bırakmak AAAD\'de sorunlara neden olabilir. Şimdi ayarlara gitmek için TAMAM\'a basın, Bilinmeyen Kaynaklar seçeneğini etkinleştirmeniz gerekecektir.</string>
-    <string name="qr_code_permission">Kamera izini QR kodunu taramak için gereklidir</string>
+    <string name="no_license_found">Bu cihazda aktif bir lisansınız yok</string>    <string name="qr_code_permission">Kamera izini QR kodunu taramak için gereklidir</string>
     <string name="success_transfer">Lisansın geçerliliği</string>
     <string name="email_dialog" comment="&#10;Dialog window">Bu email eğer ihtuyaç olursa satın alma onayı için kullanılacaktır</string>
     <string name="input_email">E-posta adresinizi girin...</string>
     <string name="days_remaining">Sonraki indirmeye %d gün kaldı</string>
     <string name="hours_remaining">Sonraki indirmeye %d saat kaldı</string>
     <string name="less_than_hour">Sonraki indirmeye 1 saatten az kaldı</string>
-    <string name="download_available_now">İndirme şimdi mevcut!</string>
-    <string name="app_installed_successfully">Uygulama başarıyla yüklendi!</string>
-    <string name="installation_failed">Yükleme başarısız</string>
-    <string name="installation_timeout_title">Yükleme Durumu</string>
-    <string name="installation_timeout_message">Uygulama yüklemesi başarıyla tamamlandı mı?</string>
+    <string name="download_available_now">İndirme şimdi mevcut!</string>    <string name="installation_failed">Yükleme başarısız</string>    <string name="installation_timeout_message">Uygulama yüklemesi başarıyla tamamlandı mı?</string>
     <string name="installation_succeeded">Evet, yüklendi</string>
-    <string name="installation_failed_or_cancelled">Hayır, başarısız oldu veya iptal edildi</string>
-    <string name="download_not_counted">İndirme sayılmadı - tekrar deneyebilirsiniz</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Hayır, başarısız oldu veya iptal edildi</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Önemli uyarı</string>
     <string name="onboarding_warning_message">Bu uygulama softonic.com, uptodown.com veya aadapk.com, aadapk.app ile bağlantılı DEĞİLDİR. Tek resmi kaynak github.com\'dur</string>
@@ -155,4 +122,64 @@
     <string name="error_download_tracking_failed">İndirme durumu güncellenemedi</string>
     <string name="error_loading_catalog">Uygulama kataloğu yüklenemedi</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Lisansı Aktar</string>
+    <string name="checking_license_status">Lisans durumu kontrol ediliyor…</string>
+    <string name="qr_code_icon">QR kod simgesi</string>
+    <string name="receiver_title">PRO Lisansı Al</string>
+    <string name="receiver_subtitle">Bu cihaza lisans aktarmak için bu QR kodunu göster</string>
+    <string name="qr_code_to_scan">Lisans aktarımı için QR kodu</string>
+    <string name="receiver_instructions_title">Nasıl çalışır</string>
+    <string name="receiver_instructions_step1">PRO bulunan cihazda AAAD\'yi açın ve Lisansı Aktar\'a gidin</string>
+    <string name="receiver_instructions_step2">O cihazda QR Kodunu Tara düğmesine dokunun</string>
+    <string name="receiver_instructions_step3">Aktarımı tamamlamak için bu QR kodunu tarayın</string>
+    <string name="transfer_license_icon">Lisans aktarım simgesi</string>
+    <string name="sender_title">PRO Lisansını Aktar</string>
+    <string name="sender_subtitle">Lisansınızı yeni bir cihaza aktarın</string>
+    <string name="sender_warning">⚠️ Uyarı: Lisansınızı aktarmak bu cihazdan PRO durumunu kaldıracak ve yeni cihazda etkinleştirecektir. Bu işlem geri alınamaz.</string>
+    <string name="sender_instructions_title">Nasıl aktarılır</string>
+    <string name="sender_step_1">Yeni cihazınızda AAAD\'yi açın</string>
+    <string name="sender_step_2">Lisansı Aktar menüsüne gidin</string>
+    <string name="sender_step_3">Yeni cihazda bir QR kodu görünecek</string>
+    <string name="sender_step_4">Aşağıdaki düğmeye dokunun ve o QR kodunu tarayın</string>
+    <string name="scan_qr_code">QR Kodunu Tara</string>
+    <string name="camera_permission_required">QR kodlarını taramak için kamera izni gereklidir</string>
+    <string name="error_checking_license">Lisans durumu kontrol edilemedi. Lütfen tekrar deneyin.</string>
+    <string name="error_generating_qr">QR kodu oluşturulamadı</string>
+    <string name="license_received_success">Lisans başarıyla alındı!</string>
+    <string name="scan_error_title">Tarama Hatası</string>
+    <string name="scan_error_message">QR kodu taranamadı. Lütfen tekrar deneyin.</string>
+    <string name="confirm_transfer_title">Aktarımı Onayla</string>
+    <string name="confirm_transfer_message">PRO lisansınızı yeni cihaza aktarmak istediğinizden emin misiniz? Bu, bu cihazdan PRO\'yu kaldıracaktır.</string>
+    <string name="confirm_transfer_yes">Lisansı Aktar</string>
+    <string name="confirm_transfer_no">İptal</string>
+    <string name="license_transferred_success">Lisans başarıyla aktarıldı!</string>
+    <string name="error_transferring_license">Lisans aktarılamadı. Lütfen tekrar deneyin.</string>
+    <string name="support_title">Yardıma mı İhtiyacınız Var?</string>
+    <string name="support_icon">Yardım simgesi</string>
+    <string name="support_subtitle">Size yardımcı olmak için buradayız!</string>
+    <string name="support_description">AAAD ile ilgili sorun mu yaşıyorsunuz? Bize bir e-posta gönderin, en kısa sürede size geri döneceğiz. Ne kadar çok ayrıntı verirseniz, o kadar hızlı yardımcı olabiliriz!</string>
+    <string name="support_email_will_include">E-postanız şunları içerecektir:</string>
+    <string name="support_email_item_device">Cihaz modeli ve Android sürümü</string>
+    <string name="support_email_item_version">AAAD sürüm bilgisi</string>
+    <string name="support_email_item_description">Sorununuzu açıklayabileceğiniz alan</string>
+    <string name="support_include_logs">Tanı günlüklerini dahil et</string>
+    <string name="support_logs_explanation">Önerilir - Sorunları daha hızlı çözmemize yardımcı olur. Yalnızca cihaz bilgilerini ve uygulama yapılandırmasını içerir, kişisel veri içermez.</string>
+    <string name="support_send_email">Desteğe E-posta Gönder</string>
+    <string name="support_privacy_note">Gizliliğinize saygı duyuyoruz. Günlüklerde kişisel bilgi, şifre veya ödeme verileri bulunmamaktadır.</string>
+    <string name="support_preparing_email">E-posta hazırlanıyor…</string>
+    <string name="support_log_generation_failed">Günlükler oluşturulamadı, e-posta ek olmadan gönderiliyor</string>
+    <string name="support_email_failed">E-posta uygulaması açılamadı. Lütfen doğrudan help.aaad@gmail.com adresine e-posta gönderin.</string>
+    <string name="support_choose_email_app">E-posta uygulamasını seçin</string>
+    <string name="support_email_subject">AAAD Destek Talebi</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>

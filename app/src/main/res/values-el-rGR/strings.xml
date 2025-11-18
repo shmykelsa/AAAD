@@ -3,14 +3,10 @@
     <string name="welcome_string">Καλώς ήλθατε στο Android Auto Apps Downloader (AAAD). Αυτό το βοηθητικό πρόγραμμα θα βοηθήσει στην εγκατάσταση προσαρμοσμένων εφαρμογών για Android Auto για μη rooted τηλέφωνα. Επιλέξτε την εφαρμογή που θέλετε να εγκαταστήσετε και περιμένετε τον εγκαταστάτη να εμφανιστεί. Οι περιγραφές εφαρμογών είναι διαθέσιμες με παρατεταμένο πάτημα.</string>
     <string name="title_activity_about_payment">Πλήρης Έκδοση</string>
     <string name="switch_to_pro_statement">Η δωρεάν έκδοση του AAAD σας επιτρέπει να έχετε ένα δωρεάν download κάθε μήνα. Αν θέλετε να απολαύσετε απεριόριστες δωρεάν λήψεις, μπορείτε να μεταβείτε στην Πλήρη Έκδοση και θα απολαύσετε ολοκληρωμένες λειτουργίες και ενημερώσεις εφαρμογών!</string>
-    <string name="congratsPro">Συγχαρητήρια, έχετε την Πλήρη Έκδοση!</string>
-    <string name="notConnected">Δεν συνδέθηκε: δεν ήταν δυνατή η ανάκτηση κατάστασης PRO</string>
-    <string name="About">Σχετικά</string>
+    <string name="congratsPro">Συγχαρητήρια, έχετε την Πλήρη Έκδοση!</string>    <string name="About">Σχετικά</string>
     <string name="have_promo_code">Έχω έναν Κωδικό Προσφοράς</string>
     <string name="promo_code">Εισαγάγετε τον Κωδικό Προσφοράς</string>
-    <string name="input_promo_code_here">Εισαγωγή Κωδικού Προσφοράς εδώ</string>
-    <string name="fermata_control_dialog">Πρόκειται να κατεβάσετε το %1$s %2$s. Θέλετε επίσης να το εγκαταστήσετε %3$s;</string>
-    <string name="about_to_download">Πρόκειται να κατεβάσετε %1$s. Θέλετε να συνεχίσετε;</string>
+    <string name="input_promo_code_here">Εισαγωγή Κωδικού Προσφοράς εδώ</string>    <string name="about_to_download">Πρόκειται να κατεβάσετε %1$s. Θέλετε να συνεχίσετε;</string>
     <string name="no">όχι</string>
     <string name="warning_payment">Μόλις ολοκληρώσετε την πληρωμή, παρακαλώ πατήστε χειροκίνητα \"Επιστροφή στον έμπορο\" για την επικύρωση της συναλλαγής.</string>
     <string name="attention">ΠΡΟΣΟΧΗ!</string>
@@ -25,9 +21,7 @@
     <string name="cancelled_payment">Η αγορά ακυρώθηκε!</string>
     <string name="please_enter_code">Παρακαλώ εισάγετε τον κωδικό</string>
     <string name="connection_error">Σφάλμα σύνδεσης, αδυναμία επαλήθευσης</string>
-    <string name="not_valid_code">Μη έγκυρος κωδικός</string>
-    <string name="select_which">Ποια σελίδα;</string>
-    <string name="downloading_progress">Λήψη…</string>
+    <string name="not_valid_code">Μη έγκυρος κωδικός</string>    <string name="downloading_progress">Λήψη…</string>
     <string name="aa_mirror_plus_description">Εναλλακτική λύση για το AAMirror με επιπλέον λειτουργίες.</string>
     <string name="aapassenger_description">Αυτή η εφαρμογή έγινε για να επιτρέπεται στους επιβάτες να διαχειρίζονται ορισμένες λειτουργίες στο Android Auto. Απαιτεί από τον επιβάτη να κατεβάσει το AAPassenger. Η κατάσταση λειτουργίας είναι προς το παρόν άγνωστη.</string>
     <string name="s2a_description">Η πιο ολοκληρωμένη και πλήρως εξοπλισμένη εφαρμογή κατοπτρισμού για το Android Auto. Περιλαμβάνει πολλά χαρακτηριστικά όπως μια προσαρμόσιμη Οθόνη Εφαρμογών, Διαχωριστική Οθόνη, προσαρμοσμένα μεγέθη οθόνης και πολλά άλλα!</string>
@@ -37,33 +31,14 @@
     </string>
     <string name="fermata_description">"Το πιο πλήρες πρόγραμμα αναπαραγωγής βίντεο και ήχου για το Android Auto, διαθέτει μια πλήρη εμπειρία χρήστη, με πολλά χαρακτηριστικά, όπως ροές δικτύου και επίσης ένα πρόγραμμα περιήγησης ιστού. Έρχεται επίσης με την εφαρμογή Fermata Control που επιτρέπει τη διαχείριση της αναπαραγωγής έξω από την εφαρμογή και από τα χειριστήρια στο τιμόνι."</string>
     <string name="s2a_redirect">Θα μεταφερθείτε στην ιστοσελίδα screen2auto. Από εκεί, επιλέξτε την έκδοση και ανοίξτε με AAAD.</string>
-    <string name="screen2auto_download">Πρόκειται να εγκαταστήσετε το Screen2Auto. Θέλετε να συνεχίσετε?</string>
-    <string name="press_back_warning">Παρακαλώ ξαναπατήστε ΠΙΣΩ για έξοδο</string>
-    <string name="aawidgets_description">Δημιουργήθηκε με μόνο μια εργασία. Φορτώσετε ένα widget για Android Auto!</string>
+    <string name="screen2auto_download">Πρόκειται να εγκαταστήσετε το Screen2Auto. Θέλετε να συνεχίσετε?</string>    <string name="aawidgets_description">Δημιουργήθηκε με μόνο μια εργασία. Φορτώσετε ένα widget για Android Auto!</string>
     <string name="performance_monitor_description">Αυτό είναι ένα πρόγραμμα παρακολούθησης επιδόσεων, βασισμένη στα aa-στατιστικά του Martoreto. Είναι φτιαγμένο ειδικά για χρήση με τις μονάδες ψυχαγωγίας Volkswagen/Skoda/Seat/Audi MIB2, αλλά θα μπορούσε επίσης να λειτουργήσει και σε άλλα οχήματα, αρκεί να έχουν υποστήριξη Android Auto. Χρειάζεται επίσης η επέκταση της VAG προκειμένου να λειτουργήσει στα οχήματα της Volkswagen.</string>
-    <string name="promotion">Έχετε δικαίωμα για 15% έκπτωση</string>
-    <string name="first_section_name">Εφαρμογές πολυμέσων</string>
-    <string name="second_section_name">Εφαρμογές Κατοπτρισμού</string>
-    <string name="third_section_name">Άλλα</string>
-    <string name="might_not_be_compatible">Δυστυχώς, φαίνεται ότι η συσκευή σας δεν είναι συμβατή με Fermata.</string>
-    <string name="new_version_available">Μια νέα έκδοση είναι διαθέσιμη</string>
-    <string name="go_to_new_version">Μια νέα έκδοση του AAAD (έκδοση %1$s) είναι διαθέσιμη στο GitHub. Θέλετε να την κατεβάσετε τώρα?</string>
-    <string name="go_to_download">Μετάβαση στη λήψη</string>
-    <string name="ignore_for_now">Αγνοήστε για τώρα</string>
-    <string name="privacy_policy">"<![CDATA[Ο AAAD δεν αποθηκεύει στοιχεία πιστωτικής κάρτας ή προσωπικά δεδομένα σχετικά με τον χρήστη.<br>Για σκοπούς επικύρωσης, το AAAD συλλέγει έναν σειριακό αριθμό που παράγεται με ασφάλεια από το Android για να αναγνωρίσει μοναδικά μια συσκευή. Ο σειριακός της συσκευής επεξεργάζεται από την AAAD για να επικυρώσει την Πλήρη Έκδοση και δεν παρέχει καμία χρήσιμη πληροφορία σχετικά με το μοντέλο της συσκευής, IMIEI ή τοποθεσία.<br>Η πληρωμή της Πλήρης Έκδοσης γίνεται αποκλειστικά από το PayPal και για σκοπούς επιβεβαίωσης και επιστροφής χρημάτων το mail αποθηκεύεται σε μια ηλεκτρονική βάση δεδομένων Firebase.]]>"</string>
-    <string name="privacy">Πολιτική Προστασίας Προσωπικών Δεδομένων</string>
-    <string name="loading">Φόρτωση…</string>
+    <string name="promotion">Έχετε δικαίωμα για 15% έκπτωση</string>    <string name="loading">Φόρτωση…</string>
     <string name="go_pro">Αποκτήστε την Πλήρη Έκδοση</string>
     <string name="i_m_good">Είμαι Εντάξει</string>
-    <string name="nav2contacts_description">Με τις νέες εφαρμογές πλοήγησης που έρχονται στο Android Auto, πολλοί από αυτούς στερούνται την υποστήριξη του Βοηθού Google για την πλοήγηση σε διευθύνσεις επαφών που αποθηκεύονται στο τηλεφωνικό βιβλίο. Nav2Contacts έρχονται για διάσωση! Κατ \'αρχάς, επιλέξτε την εφαρμογή πλοήγησης που θέλετε να χρησιμοποιήσετε, στη συνέχεια, αναζητήστε την επαφή στην οποία θέλετε να πλοηγηθείτε και να ξεκινήσετε την πλοήγηση αμέσως!</string>
-    <string name="meeting_requirements">Αυτή η εφαρμογή απαιτεί τουλάχιστον Android %d, συγγνώμη!</string>
-    <string name="back_button_payment_close">ΠΑΡΑΚΑΛΩ θυμηθείτε να πατήσετε το μπλε κουμπί \"Επιστροφή στην ιστοσελίδα εμπόρου\" μετά την ολοκλήρωση της πληρωμής</string>
+    <string name="nav2contacts_description">Με τις νέες εφαρμογές πλοήγησης που έρχονται στο Android Auto, πολλοί από αυτούς στερούνται την υποστήριξη του Βοηθού Google για την πλοήγηση σε διευθύνσεις επαφών που αποθηκεύονται στο τηλεφωνικό βιβλίο. Nav2Contacts έρχονται για διάσωση! Κατ \'αρχάς, επιλέξτε την εφαρμογή πλοήγησης που θέλετε να χρησιμοποιήσετε, στη συνέχεια, αναζητήστε την επαφή στην οποία θέλετε να πλοηγηθείτε και να ξεκινήσετε την πλοήγηση αμέσως!</string>    <string name="back_button_payment_close">ΠΑΡΑΚΑΛΩ θυμηθείτε να πατήσετε το μπλε κουμπί \"Επιστροφή στην ιστοσελίδα εμπόρου\" μετά την ολοκλήρωση της πληρωμής</string>
     <string name="help">Βοήθεια</string>
-    <string name="help_dialog">Θέλετε να στείλετε ένα e-mail για βοήθεια αυτή τη στιγμή?</string>
-    <string name="cpu_architecture_warning">Η αρχιτεκτονική της CPU του τηλεφώνου σας μπορεί να μην είναι συμβατή με τις περισσότερες εφαρμογές. Προσπαθήστε να κατεβάσετε τουλάχιστον μία εφαρμογή πριν συνεχίσετε.</string>
-    <string name="i_understand">Το κατάλαβα</string>
-    <string name="ignore">Παράβλεψη</string>
-    <string name="i_want_to_transfer_license_here">Θέλω να μεταφέρω την άδεια εδώ</string>
+    <string name="help_dialog">Θέλετε να στείλετε ένα e-mail για βοήθεια αυτή τη στιγμή?</string>    <string name="i_want_to_transfer_license_here">Θέλω να μεταφέρω την άδεια εδώ</string>
     <string name="i_want_to_transfer_license_from_here">Θέλω να μεταφέρω άδεια από εδώ</string>
     <string name="license_transfer_help">Αν θέλετε να μεταφέρετε την άδεια από το ένα τηλέφωνο στο άλλο, είστε στο σωστό μέρος. Παρακαλώ επιλέξτε αυτό που θέλετε να κάνετε</string>
     <string name="transfer_license">Μεταφορά Αδείας</string>
@@ -71,24 +46,16 @@
     <string name="license_here_confirm">Είστε βέβαιοι ότι θέλετε να μεταφέρετε την άδεια σε αυτή τη συσκευή?</string>
     <string name="qr_tutorial">Ωραία, τώρα ανοίξτε τη συσκευή που θέλετε να μεταφέρετε την άδεια χρήσης και επιλέξτε «Θέλω να μεταφέρω την άδεια από εδώ», στη συνέχεια σαρώστε αυτόν τον κωδικό QR</string>
     <string name="license_done">Η άδεια μεταφέρθηκε</string>
-    <string name="no_license_found">Δεν έχετε ενεργή άδεια χρήσης σε αυτήν τη συσκευή</string>
-    <string name="unknown_sources_warning">Πριν συνεχίσετε, πρέπει να ενεργοποιήσετε την εγκατάσταση από άγνωστες πηγές. Εάν δεν ενεργοποιηθεί, μπορεί να προκληθούν προβλήματα στο AAAD. Πατήστε OK για να μεταβείτε στις ρυθμίσεις τώρα, θα πρέπει να ενεργοποιήσετε την επιλογή για άγνωστες πηγές.</string>
-    <string name="qr_code_permission">Η άδεια της κάμερας είναι απαραίτητη για τη σάρωση κωδικού QR</string>
+    <string name="no_license_found">Δεν έχετε ενεργή άδεια χρήσης σε αυτήν τη συσκευή</string>    <string name="qr_code_permission">Η άδεια της κάμερας είναι απαραίτητη για τη σάρωση κωδικού QR</string>
     <string name="success_transfer">Η άδεια επικυρώθηκε</string>
     <string name="email_dialog" comment="&#10;Dialog window">Το e-mail θα χρησιμοποιηθεί για να επαληθεύσει την αγορά σας, αν χρειαστεί</string>
     <string name="input_email">Nickpitas@outlook. com...</string>
     <string name="days_remaining">%d ημέρες απομένουν μέχρι την επόμενη λήψη</string>
     <string name="hours_remaining">%d ώρες απομένουν μέχρι την επόμενη λήψη</string>
     <string name="less_than_hour">Λιγότερο από 1 ώρα απομένει μέχρι την επόμενη λήψη</string>
-    <string name="download_available_now">Η λήψη είναι διαθέσιμη τώρα!</string>
-    <string name="app_installed_successfully">Η εφαρμογή εγκαταστάθηκε επιτυχώς!</string>
-    <string name="installation_failed">Η εγκατάσταση απέτυχε</string>
-    <string name="installation_timeout_title">Κατάσταση Εγκατάστασης</string>
-    <string name="installation_timeout_message">Ολοκληρώθηκε επιτυχώς η εγκατάσταση της εφαρμογής;</string>
+    <string name="download_available_now">Η λήψη είναι διαθέσιμη τώρα!</string>    <string name="installation_failed">Η εγκατάσταση απέτυχε</string>    <string name="installation_timeout_message">Ολοκληρώθηκε επιτυχώς η εγκατάσταση της εφαρμογής;</string>
     <string name="installation_succeeded">Ναι, εγκαταστάθηκε</string>
-    <string name="installation_failed_or_cancelled">Όχι, απέτυχε ή ακυρώθηκε</string>
-    <string name="download_not_counted">Η λήψη δεν μετρήθηκε - μπορείτε να δοκιμάσετε ξανά</string>
-    <!-- Onboarding Strings -->
+    <string name="installation_failed_or_cancelled">Όχι, απέτυχε ή ακυρώθηκε</string>    <!-- Onboarding Strings -->
         <!-- Page 1: Warning -->
     <string name="onboarding_warning_title">⚠️ Σημαντική προειδοποίηση</string>
     <string name="onboarding_warning_message">Αυτή η εφαρμογή ΔΕΝ συνδέεται με το softonic.com, uptodown.com ή aadapk.com, aadapk.app. Η μόνη επίσημη πηγή είναι το github.com</string>
@@ -177,4 +144,64 @@
     <string name="loading_checking_updates">Έλεγχος για ενημερώσεις…</string>
     <string name="loading_please_wait">Παρακαλώ περιμένετε…</string>
 
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Μεταφορά Άδειας</string>
+    <string name="checking_license_status">Έλεγχος κατάστασης άδειας…</string>
+    <string name="qr_code_icon">Εικονίδιο κώδικα QR</string>
+    <string name="receiver_title">Λήψη Άδειας PRO</string>
+    <string name="receiver_subtitle">Εμφανίστε αυτόν τον κωδικό QR για να μεταφέρετε μια άδεια σε αυτήν τη συσκευή</string>
+    <string name="qr_code_to_scan">Κωδικός QR για μεταφορά άδειας</string>
+    <string name="receiver_instructions_title">Πώς λειτουργεί</string>
+    <string name="receiver_instructions_step1">Στη συσκευή με PRO, ανοίξτε το AAAD και μεταβείτε στο Μεταφορά Άδειας</string>
+    <string name="receiver_instructions_step2">Πατήστε το κουμπί Σάρωση Κωδικού QR σε αυτήν τη συσκευή</string>
+    <string name="receiver_instructions_step3">Σαρώστε αυτόν τον κωδικό QR για να ολοκληρώσετε τη μεταφορά</string>
+    <string name="transfer_license_icon">Εικονίδιο μεταφοράς άδειας</string>
+    <string name="sender_title">Μεταφορά Άδειας PRO</string>
+    <string name="sender_subtitle">Μεταφέρετε την άδειά σας σε μια νέα συσκευή</string>
+    <string name="sender_warning">⚠️ Προειδοποίηση: Η μεταφορά της άδειάς σας θα αφαιρέσει την κατάσταση PRO από αυτήν τη συσκευή και θα την ενεργοποιήσει στη νέα συσκευή. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="sender_instructions_title">Πώς να μεταφέρετε</string>
+    <string name="sender_step_1">Ανοίξτε το AAAD στη νέα σας συσκευή</string>
+    <string name="sender_step_2">Μεταβείτε στο μενού Μεταφορά Άδειας</string>
+    <string name="sender_step_3">Θα εμφανιστεί ένας κωδικός QR στη νέα συσκευή</string>
+    <string name="sender_step_4">Πατήστε το κουμπί παρακάτω και σαρώστε αυτόν τον κωδικό QR</string>
+    <string name="scan_qr_code">Σάρωση Κωδικού QR</string>
+    <string name="camera_permission_required">Απαιτείται άδεια κάμερας για σάρωση κωδικών QR</string>
+    <string name="error_checking_license">Αποτυχία ελέγχου κατάστασης άδειας. Δοκιμάστε ξανά.</string>
+    <string name="error_generating_qr">Αποτυχία δημιουργίας κωδικού QR</string>
+    <string name="license_received_success">Η άδεια ελήφθη επιτυχώς!</string>
+    <string name="scan_error_title">Σφάλμα Σάρωσης</string>
+    <string name="scan_error_message">Αποτυχία σάρωσης κωδικού QR. Δοκιμάστε ξανά.</string>
+    <string name="confirm_transfer_title">Επιβεβαίωση Μεταφοράς</string>
+    <string name="confirm_transfer_message">Είστε βέβαιοι ότι θέλετε να μεταφέρετε την άδεια PRO στη νέα συσκευή; Αυτό θα αφαιρέσει το PRO από αυτήν τη συσκευή.</string>
+    <string name="confirm_transfer_yes">Μεταφορά Άδειας</string>
+    <string name="confirm_transfer_no">Ακύρωση</string>
+    <string name="license_transferred_success">Η άδεια μεταφέρθηκε επιτυχώς!</string>
+    <string name="error_transferring_license">Αποτυχία μεταφοράς άδειας. Δοκιμάστε ξανά.</string>
+    <string name="support_title">Χρειάζεστε Βοήθεια;</string>
+    <string name="support_icon">Εικονίδιο βοήθειας</string>
+    <string name="support_subtitle">Είμαστε εδώ για να σας βοηθήσουμε!</string>
+    <string name="support_description">Αντιμετωπίζετε προβλήματα με το AAAD; Στείλτε μας email και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατόν. Όσο περισσότερες λεπτομέρειες παρέχετε, τόσο πιο γρήγορα μπορούμε να βοηθήσουμε!</string>
+    <string name="support_email_will_include">Το email σας θα περιλαμβάνει:</string>
+    <string name="support_email_item_device">Μοντέλο συσκευής και έκδοση Android</string>
+    <string name="support_email_item_version">Πληροφορίες έκδοσης AAAD</string>
+    <string name="support_email_item_description">Χώρος για να περιγράψετε το πρόβλημά σας</string>
+    <string name="support_include_logs">Συμπερίληψη αρχείων καταγραφής διαγνωστικών</string>
+    <string name="support_logs_explanation">Συνιστάται - Μας βοηθά να επιλύσουμε προβλήματα γρηγορότερα. Περιέχει μόνο πληροφορίες συσκευής και ρυθμίσεις εφαρμογής, χωρίς προσωπικά δεδομένα.</string>
+    <string name="support_send_email">Αποστολή Email στην Υποστήριξη</string>
+    <string name="support_privacy_note">Σεβόμαστε το απόρρητό σας. Δεν περιλαμβάνονται προσωπικές πληροφορίες, κωδικοί πρόσβασης ή δεδομένα πληρωμής στα αρχεία καταγραφής.</string>
+    <string name="support_preparing_email">Προετοιμασία email…</string>
+    <string name="support_log_generation_failed">Αποτυχία δημιουργίας αρχείων καταγραφής, αποστολή email χωρίς συνημμένο</string>
+    <string name="support_email_failed">Αποτυχία ανοίγματος εφαρμογής email. Παρακαλώ στείλτε email απευθείας στο help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Επιλέξτε εφαρμογή email</string>
+    <string name="support_email_subject">Αίτημα Υποστήριξης AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Mirroring Apps</string>
+    <string name="third_section_name">Others</string>
+
+    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
 </resources>
