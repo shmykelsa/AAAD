@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Dobrodošli v Android aplikaciji Auto Apps Downloader (AAAD). Ta pripomoček vam bo pomagal namestiti aplikacije po meri v Android Auto za telefone, ki niso rootani in je zato dostop do sistema Android le delno omogočen. Izberite aplikacijo, ki jo želite namestiti, in počakajte, da se prikaže namestitveni program. Opisi aplikacij so na voljo ob dolgem pritisku.</string>
     <string name="title_activity_about_payment">PRO različica</string>
-    <string name="switch_to_pro_statement">Brezplačna različica AAAD vam omogoča en brezplačen prenos vsak mesec. Če želite uživati v neomejenem številu brezplačnih prenosov, lahko preklopite na različico PRO in uživali boste v vseh funkcionalnostih in posodobitvah aplikacije!</string>
-    <string name="congratsPro">Čestitke, imate različico PRO!</string>    <string name="About">O programu</string>
+    <string name="switch_to_pro_statement">Brezplačna različica AAAD omogoča en brezplačen prenos na mesec. Če želite prenašati več, nadgradite na PRO.</string>
+    <string name="congratsPro">Čestitamo, imate PRO različico!</string>    <string name="About">O programu</string>
     <string name="have_promo_code">Imam promocijsko kodo</string>
     <string name="promo_code">Vnesite promocijsko kodo</string>
-    <string name="input_promo_code_here">Tukaj vnesite promocijsko kodo</string>    <string name="about_to_download">Prenesli boste %1$s. Ali želite nadaljevati?</string>
-    <string name="no">ne</string>
+    <string name="input_promo_code_here">Vnesite kodo tukaj</string>    <string name="about_to_download">Prenesli boste %1$s. Ali želite nadaljevati?</string>
     <string name="warning_payment">Na koncu plačila ročno izberite \"Vrni se trgovcu\", da se transakcija potrdi.</string>
     <string name="attention">POZOR</string>
-    <string name="next_download_available">Naslednji prenos bo na voljo: %1$s</string>
+    <string name="next_download_available">Naslednji prenos na voljo: %1$s</string>
     <string name="connect_error">NAPAKA PRI POVEZAVI</string>
     <plurals name="remaining_downloads">
         <item quantity="one">Na voljo imate še 1 prenos</item>
@@ -19,38 +17,41 @@
         <item quantity="other">Nimate več prenosov na voljo</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) razvija in vzdržuje Shmykelsa.<br><br>Na voljo so aplikacije, ki jih omogočajo naslednji razvijalci:<br>]]>"</string>
-    <string name="pro_unlocked">Čestitke, različica PRO je odklenjena</string>
+    <string name="pro_unlocked">Čestitamo, PRO različica odklenjena</string>
     <string name="cancelled_payment">Nakup preklican</string>
-    <string name="please_enter_code">Prosimo, vnesite kodo</string>
-    <string name="connection_error">Napaka pri povezavi, preverjanje je onemogočeno</string>
+    <string name="please_enter_code">Vnesite svojo promocijsko kodo</string>
+    <string name="connection_error">Napaka povezave, ni bilo mogoče preveriti</string>
     <string name="not_valid_code">Neveljavna koda</string>    <string name="downloading_progress">Prenašanje…</string>
     <string name="aa_mirror_plus_description">Alternativa AAMirror-ju z nekaj več funkcijami.</string>
-    <string name="aapassenger_description">Ta aplikacija je bila izdelana, da lahko sopotniki upravljajo nekatere funkcije v sistemu Android Auto. Potrebno je prenesti aplikacijo AAPassenger. Stanje delovanja trenutno ni znano.</string>
+    <string name="aapassenger_description">Odklenite Android Auto v načinu vožnje</string>
     <string name="s2a_description">Najbolj celovita aplikacija za zrcaljenje za Android Auto vključuje številne funkcije, kot so prilagodljiv zaganjalnik, razdeljeni zaslon, prilagojene velikosti zaslona in še veliko več!</string>
-    <string name="aamirror_description">Prva in dolgo pričakovana aplikacija za zrcaljenje zaslona za Android Auto. Začetnik celotne skupine aplikacij, AAMirror, preprosto zrcali zaslon vašega telefona v avtomobilu.</string>
-    <string name="aa_stream_description">Še ena alternativa za AAMirror z nekaj dodatnimi funkcijami. Nedavno posodobljena in pripravljena za novejše različice Androida by Annexhack.</string>
+    <string name="aamirror_description">Zrcalite zaslon pametnega telefona v Android Auto</string>
+    <string name="aa_stream_description">Pretakajte videoposnetke v Android Auto</string>
     <string name="carstream_description">Nekdaj poznana aplikacija \"YouTube Auto\", sedaj CarStream je bila ena prvih aplikacij, izdelanih s pomočjo paketa SDK za aplikacije po meri. Nastala je z glavnim namenom zagotavljanja storitve YouTube v sistemu Android Auto, nato pa je postala spletni brskalnik s številnimi dodatnimi zmožnostmi.    </string>
-    <string name="fermata_description">"Najbolj izpopolnjen avdio-video predvajalnik za Android Auto, ki ponuja popolno izkušnjo predvajanja s številnimi funkcijami, kot je spletno pretakanje vsebin in spletni brskalnik. Na voljo je tudi spremljevalna aplikacija Fermata Control, ki omogoča upravljanje predvajanja zunaj aplikacije in z upravljalnimi elementi na volanu."</string>
-    <string name="s2a_redirect">Preusmerjeni boste na spletno mesto screen2auto, kjer izberete različico in jo odprite s programom AAAD.</string>
-    <string name="screen2auto_download">Namestili boste aplikacijo Screen2Auto. Ali želite nadaljevati?</string>    <string name="aawidgets_description">Narejen za eno samo nalogo. Prenos aplikacij v Android Auto!</string>
-    <string name="performance_monitor_description">To je nadzornik zmogljivosti, ki temelji na Martoretovi aa-stats. Izdelan je posebej za uporabo z infozabavnimi enotami Volkswagen/Skoda/Seat/Audi MIB2, vendar lahko deluje tudi na drugih, če imajo podporo za Android Auto. Potrebuje tudi razširitev VAG, da deluje na avtomobilih Volkswagen.</string>
-    <string name="promotion">Upravičeni ste do 15% popusta</string>    <string name="loading">Nalaganje...</string>
-    <string name="go_pro">Preklopi na PRO</string>
-    <string name="i_m_good">Dobro sem</string>
-    <string name="nav2contacts_description">Z novimi navigacijskimi aplikacijami, ki so vključene v sistem Android Auto, številne med njimi ne podpirajo navigacije do naslovov stikov, shranjenih v telefonskem imeniku, ki jo omogoča Google Assistant. Nav2Contacts priskoči na pomoč! Najprej izberite navigacijsko aplikacijo, ki jo želite uporabljati, nato poiščite stik, do katerega želite navigirati, in takoj začnite z navigacijo!</string>    <string name="back_button_payment_close">Po končanem plačilu ne pozabite pritisniti modrega gumba \"Return to merchant website\"</string>
+    <string name="fermata_description">Zapustite Android Auto brez zapuščanja avtomobila</string>
+    <string name="s2a_redirect">Za najboljšo izkušnjo priporočamo Screen2Auto</string>
+    <string name="screen2auto_download">Prenesi Screen2Auto</string>    <string name="aawidgets_description">Narejen za eno samo nalogo. Prenos aplikacij v Android Auto!</string>
+    <string name="performance_monitor_description">Spremljajte delovanje sistema v Android Auto</string>
+    <string name="promotion">Upravičeni ste do 15% popusta</string>    <string name="loading">Nalaganje…</string>
+    <string name="go_pro">PRIDOBI PRO</string>
+    <string name="i_m_good">Sem v redu</string>
+    <string name="nav2contacts_description">Hitro preidite na stike</string>    <string name="back_button_payment_close">Prekliči plačilo in zapri</string>
     <string name="help">Pomoč</string>
     <string name="help_dialog">Ali želite poslati e-poštno sporočilo za pomoč?</string>    <string name="i_want_to_transfer_license_here">Licenco želim prenesti sem</string>
-    <string name="i_want_to_transfer_license_from_here">Licenco želim prenesti od tu</string>
-    <string name="license_transfer_help">Če želite prenesti licenco iz enega telefona v drugega, ste na pravem mestu. Izberite, kaj želite storiti</string>
+    <string name="i_want_to_transfer_license_from_here">Želim prenesti licenco s te naprave</string>
+    <string name="license_transfer_help">Skenirajte QR kodo na drugi napravi za prenos licence</string>
     <string name="transfer_license">Prenos licence</string>
+    <string name="debug_mode_activate">Aktiviraj razhroščevanje</string>
+    <string name="debug_mode_performance_warning">Način razhroščevanja lahko vpliva na zmogljivost</string>
+    <string name="debug_mode_deactivated">Način razhroščevanja deaktiviran</string>
     <string name="confirm">Potrditev</string>
-    <string name="license_here_confirm">Ali ste prepričani, da želite prenesti licenco na to napravo?</string>
-    <string name="qr_tutorial">Odlično, izberite napravo, iz katere želite prenesti licenco, in izberite \"Želim prenesti licenco od tu\", nato pa poskenirajte kodo QR</string>
-    <string name="license_done">Licenca je prenešena</string>
-    <string name="no_license_found">V tej napravi nimate aktivne licence</string>    <string name="qr_code_permission">Za skeniranje QR kod je potrebno dovoljenje za dostop do fotoaparata</string>
-    <string name="success_transfer">Licenca je potrjena</string>
+    <string name="license_here_confirm">Ali želite prenesti licenco na to napravo?</string>
+    <string name="qr_tutorial">Odprite AAAD na drugi napravi in skenirajte to QR kodo</string>
+    <string name="license_done">Licenca uspešno prenesena!</string>
+    <string name="no_license_found">Veljavne licence ni bilo mogoče najti</string>    <string name="qr_code_permission">Za skeniranje QR kod je potrebno dovoljenje za dostop do fotoaparata</string>
+    <string name="success_transfer">Prenos uspešen</string>
     <string name="email_dialog" comment="&#10;Dialog window">Uporabljena bo e-pošta za potrditev nakupa, če bo potrebno</string>
-    <string name="input_email">Prosimo vpišite svoj naslov za e-pošto...</string>
+    <string name="input_email">Vnesite svoj e-poštni naslov</string>
     <string name="days_remaining">Do naslednjega prenosa ostaja %d dni</string>
     <string name="hours_remaining">Do naslednjega prenosa ostaja %d ur</string>
     <string name="less_than_hour">Do naslednjega prenosa ostane manj kot 1 ura</string>
@@ -63,8 +64,8 @@
     <string name="onboarding_official_source">Uradni vir: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
-    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_title">Dobrodošli v AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Prenašalnik aplikacij za Android Auto</string>
     <string name="onboarding_welcome_description">To orodje bo pomagalo namestiti prilagojene aplikacije na Android Auto za telefone brez roota. Drsajte, da se naučite uporabljati aplikacijo, nato dodelite zahtevana dovoljenja za začetek.</string>
 
     <!-- Page 2: App Selection -->
@@ -76,24 +77,31 @@
     <string name="onboarding_page_info_description">Če niste prepričani, katero aplikacijo namestiti, dolgo pritisnite gumb za opis.</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">Multimedijske aplikacije</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">Aplikacije za zrcaljenje</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">Drugo</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">Zahtevana nastavitev</string>
     <string name="onboarding_permissions_subtitle">Dodelite dovoljenja za namestitev prilagojenih aplikacij</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_unknown_sources_title">Namestite neznane aplikacije</string>
+    <string name="onboarding_unknown_sources_description">Potrebno za namestitev APK datotek iz zunanjih virov</string>
+    <string name="onboarding_notifications_title">Obvestila</string>
+    <string name="onboarding_notifications_description">Prejemajte obvestila o napredku prenosa in posodobitvah aplikacij</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Nastavitve razvijalca Android Auto (Priporočeno)</string>
+    <string name="onboarding_aa_dev_description">Neobvezen korak za izboljšanje vaše izkušnje z Android Auto</string>
+    <string name="onboarding_aa_dev_warning">Za najboljšo izkušnjo s prilagojenimi aplikacijami na Android Auto priporočamo omogočanje \"Neznanih virov\" v nastavitvah razvijalca Android Auto.</string>
+    <string name="onboarding_open_aa_dev">Prikaz nastavitev razvijalca</string>
+
     <string name="onboarding_play_protect_title">Google Play Protect</string>
     <string name="onboarding_play_protect_description">Začasno onemogočite za dovoljenje namestitve prilagojenih aplikacij</string>
     <string name="onboarding_play_protect_warning">Google Play Protect lahko blokira namestitev prilagojenih aplikacij. Začasno ga morate onemogočiti ali dovoliti AAAD, ko ste pozvani.</string>
@@ -103,12 +111,12 @@
     <string name="onboarding_next">Naprej</string>
     <string name="onboarding_previous">Nazaj</string>
     <string name="onboarding_skip">Preskoči</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">Odobri dovoljenja</string>
+    <string name="onboarding_continue">Nadaljuj v aplikacijo</string>
+    <string name="onboarding_get_started">Začni</string>
     <string name="onboarding_finish">Zaključi nastavitev</string>
     <string name="show_intro">Prikaži uvod</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">Preostali prenosi</string>
 
     <!-- Installation Status -->
     <string name="status_installed">Nameščeno</string>
@@ -136,9 +144,191 @@
 
 
     <!-- Section Names (for large screens) -->
-    <string name="first_section_name">Multimedia</string>
-    <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="first_section_name">Multimedija</string>
+    <string name="second_section_name">Aplikacije za zrcaljenje</string>
+    <string name="third_section_name">Drugo</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">Ta aplikacija spoštuje vašo zasebnost. Ne zbiramo, shranjujemo ali delimo nobenih osebnih podatkov brez vašega soglasja. Za več informacij nas prosim kontaktirajte.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Razvijalske nastavitve Android Auto</string>
+    <string name="android_auto_setup_icon">Ikona navodila za nastavitev Android Auto</string>
+    <string name="android_auto_setup_subtitle">Sledite tem korakom, da omogočite neznane vire za aplikacije po meri v Android Auto</string>
+    <string name="android_auto_open_settings">Odpri nastavitve Android Auto</string>
+    <string name="android_auto_setup_instructions_title">Navodila za nastavitev</string>
+    <string name="android_auto_step1_title">10-krat tapnite \"Različica\"</string>
+    <string name="android_auto_step1_description">V nastavitvah Android Auto se pomaknite na dno in 10-krat tapnite \"Različica\" (zadnji element), da odklenete razvijalske nastavitve.</string>
+    <string name="android_auto_step2_title">Potrdite razvijalski način</string>
+    <string name="android_auto_step2_description">Ko se prikaže poziv, tapnite \"Dovoli\" ali \"Omogoči\", da aktivirate razvijalske nastavitve za Android Auto.</string>
+    <string name="android_auto_step3_title">Odpri razvijalske nastavitve</string>
+    <string name="android_auto_step3_description">Tapnite ikono menija s tremi pikami v zgornjem desnem kotu in iz spustnega menija izberite \"Razvijalske nastavitve\".</string>
+    <string name="android_auto_step4_title">Omogoči neznane vire</string>
+    <string name="android_auto_step4_description">V meniju Razvijalske nastavitve poiščite in omogočite možnost \"Neznani viri\", da dovolite namestitev aplikacij tretjih oseb.</string>
+    <string name="android_auto_setup_done">Končano</string>
+    <string name="android_auto_settings_opened">Nastavitve Android Auto odprte. Sledite zgornjim korakom.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto odprt. Ročno se pomaknite do Nastavitev.</string>
+    <string name="android_auto_not_installed">Android Auto ni nameščen. Najprej ga namestite iz Play Store.</string>
+
+    <string name="action_retry">Poskusi znova</string>
+    <string name="action_download_update">Prenesi posodobitev</string>
+    <string name="action_install_update">Namesti posodobitev</string>
+    <string name="action_skip_update">Preskoči zdaj</string>
+    <string name="action_download_manual">Ročni prenos</string>
+    <string name="action_continue_offline">Nadaljuj brez povezave</string>
+    <string name="badge_update">POSODOBITEV</string>
+    <string name="check_for_updates">Preveri posodobitve</string>
+    <string name="aaad_update_section">Posodobitev AAAD na voljo</string>
+    <string name="aaad_update_available_subtitle">Nova različica na voljo za prenos</string>
+    <string name="aaad_update_downloaded">Posodobitev prenesena! Nameščanje…</string>
+    <string name="aaad_update_failed">Prenos posodobitve ni uspel. Poskusite prenesti ročno.</string>
+    <string name="aaad_current_version">Trenutna: %1$s</string>
+    <string name="aaad_latest_version">Najnovejša: %1$s</string>
+    <string name="authorization_failed">Avtorizacija prenosa ni uspela. Poskusite znova.</string>
+    <string name="authorization_error">Napaka avtorizacije. Preverite povezavo.</string>
+    <string name="camera_permission_required">Dovoljenje za kamero potrebno za skeniranje QR kod</string>
+    <string name="aabrowser_description">Brskajte po spletu z Android Auto</string>
+    <string name="benefit_icon">Prednost</string>
+    <string name="no_updates_available">Ni razpoložljivih posodobitev</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Izboljšana namestitev (izbirno)</string>
+    <string name="onboarding_shizuku_subtitle">Za napredne uporabnike Android 14+</string>
+    <string name="onboarding_shizuku_standard_mode">Standardni način (priporočeno)</string>
+    <string name="onboarding_shizuku_standard_description">Uporablja sistemski namestitveni program. Deluje za vse. Prikazuje pozive za namestitev.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Izboljšan način s Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Tiha namestitev brez pozivov. Zahteva enkratno nastavitev.</string>
+    <string name="onboarding_shizuku_status">Stanje Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">Ni nameščeno</string>
+    <string name="onboarding_shizuku_not_running">Nameščeno, vendar se ne izvaja</string>
+    <string name="onboarding_shizuku_no_permission">Se izvaja, vendar dovoljenje ni podeljeno</string>
+    <string name="onboarding_shizuku_ready">Pripravljeno za uporabo</string>
+    <string name="onboarding_shizuku_install">Namesti Shizuku</string>
+    <string name="onboarding_shizuku_start">Zaženi Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Podeli dovoljenje</string>
+    <string name="onboarding_shizuku_start_service">Shizuku nameščen - tapnite za zagon storitve</string>
+    <string name="onboarding_shizuku_start_button">Zaženi storitev Shizuku</string>
+    <string name="shizuku_service_not_started">Storitev Shizuku se ne izvaja. Odprite Shizuku in zaženite storitev.</string>
+    <string name="onboarding_shizuku_what_is_it">Kaj je Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku je orodje, ki aplikacijam omogoča uporabo dovoljenj na sistemski ravni prek brezžičnega razhroščevanja. Omogoča tiho namestitev aplikacij na Android 14+ brez root dostopa. AAAD lahko še vedno uporabljate brez njega!</string>
+    <string name="onboarding_shizuku_steps_title">Koraki nastavitve:</string>
+    <string name="onboarding_shizuku_step1">1. Namestite aplikacijo Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. Omogočite razvijalske možnosti</string>
+    <string name="onboarding_shizuku_step3">3. Omogočite brezžično razhroščevanje</string>
+    <string name="onboarding_shizuku_step4">4. Zaženite Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Podelite dovoljenje AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Izvedi več</string>
+
+    <!-- Error Messages -->
+    <string name="error_not_eligible">Nadgraditi morate na PRO ali počakati na naslednji brezplačni prenos.</string>
+    <string name="error_no_internet">Ni internetne povezave</string>
+    <string name="error_no_internet_message">Povežite se z internetom, da naložite podatke o aplikaciji in nadaljujete.</string>
+    <string name="error_initialization_failed">Inicializacija podatkov aplikacije ni uspela</string>
+    <string name="error_metadata_fetch_failed">Pridobivanje posodobitev aplikacij ni uspelo</string>
+    <string name="error_metadata_fetch_failed_message">Ni bilo mogoče pridobiti najnovejših podatkov o aplikaciji. Preverite internetno povezavo in poskusite znova.</string>
+    <string name="error_no_internet_title">Ni internetne povezave</string>
+    <string name="error_no_internet_description">AAAD za nalaganje podatkov o aplikaciji potrebuje internetno povezavo. Povežite se z WiFi ali mobilnimi podatki in poskusite znova.</string>
+    <string name="error_checking_license">Preverjanje stanja licence ni uspelo. Poskusite znova.</string>
+    <string name="error_generating_qr">Ustvarjanje QR kode ni uspelo</string>
+    <string name="scan_error_title">Napaka skeniranja</string>
+    <string name="scan_error_message">Skeniranje QR kode ni uspelo. Poskusite znova.</string>
+    <string name="error_transferring_license">Prenos licence ni uspel. Poskusite znova.</string>
+    <string name="network_error">Napaka omrežja. Preverite povezavo in poskusite znova.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_data">Nalaganje podatkov o aplikaciji…</string>
+    <string name="loading_checking_updates">Preverjanje posodobitev…</string>
+    <string name="loading_please_wait">Počakajte…</string>
+    <string name="loading_app_catalog">Nalaganje kataloga aplikacij…</string>
+    <string name="loading_fetching_icons">Nalaganje ikon aplikacij…</string>
+    <string name="loading_finalizing">Zaključevanje…</string>
+    <string name="loading_checking_internet">Preverjanje internetne povezave…</string>
+    <string name="downloading_aaad_update">Prenos posodobitve AAAD…</string>
+    <string name="progress_downloading">Prenašanje %1$s…</string>
+    <string name="progress_installing">Nameščanje %1$s…</string>
+    <string name="progress_checking_updates">Preverjanje posodobitev…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Kupi Pro</string>
+    <string name="pro_version_title">PRO različica</string>
+    <string name="pro_version_icon">Značka PRO različice</string>
+    <string name="pro_thank_you_title">Hvala!</string>
+    <string name="pro_thank_you_message">Hvala, ker podpirate AAAD z nakupom PRO! Vaš prispevek pomaga ohraniti ta projekt pri življenju in nam omogoča, da vam še naprej prinašamo najboljše aplikacije Android Auto.</string>
+    <string name="pro_since">PRO član od %s</string>
+    <string name="pro_since_legacy">PRO član</string>
+    <string name="pro_benefits_title">Vaše PRO ugodnosti</string>
+    <string name="pro_benefit_unlimited">Neomejeni prenosi aplikacij</string>
+    <string name="pro_benefit_no_cooldown">Brez čakalnega obdobja med prenosi</string>
+    <string name="pro_benefit_support">Podprite stalni razvoj</string>
+    <string name="pro_closing_message">Resnično cenimo vašo zaupanje in podporo. Uživajte v neomejenem dostopu do vseh aplikacij AAAD!</string>
+
+    <!-- Support -->
+    <string name="support_title">Potrebujete pomoč?</string>
+    <string name="support_icon">Ikona pomoči</string>
+    <string name="support_subtitle">Tu smo, da vam pomagamo!</string>
+    <string name="support_description">Imate težave z AAAD? Pošljite nam e-pošto in odgovorili vam bomo čim prej. Več podrobnosti kot navedete, hitreje vam lahko pomagamo!</string>
+    <string name="support_email_will_include">Vaša e-pošta bo vključevala:</string>
+    <string name="support_email_item_device">Model naprave in različica Android</string>
+    <string name="support_email_item_version">Informacije o različici AAAD</string>
+    <string name="support_email_item_description">Prostor za opis vaše težave</string>
+    <string name="support_include_logs">Vključi diagnostične dnevnike</string>
+    <string name="support_logs_explanation">Priporočeno - Pomaga nam hitrejše reševanje težav. Vsebuje samo informacije o napravi in konfiguraciji aplikacije, brez osebnih podatkov.</string>
+    <string name="support_send_email">Pošlji e-pošto podpori</string>
+    <string name="support_privacy_note">Spoštujemo vašo zasebnost. V dnevnikih ni osebnih informacij, gesel ali podatkov o plačilih.</string>
+    <string name="support_preparing_email">Priprava e-pošte…</string>
+    <string name="support_log_generation_failed">Ni bilo mogoče ustvariti dnevnikov, pošiljanje e-pošte brez priponke</string>
+    <string name="support_email_failed">Ni bilo mogoče odpreti aplikacije za e-pošto. Prosimo, pošljite e-pošto neposredno na help.aaad@gmail.com.</string>
+    <string name="support_no_email_app">Aplikacija za e-pošto ni nameščena. Namestite aplikacijo za e-pošto (Gmail, Outlook itd.) ali pošljite e-pošto neposredno na help.aaad@gmail.com z druge naprave.</string>
+    <string name="support_choose_email_app">Izberite aplikacijo za e-pošto</string>
+    <string name="support_attachment_not_supported">Priponka ni podprta, pošiljanje e-pošte brez dnevnikov</string>
+    <string name="support_attachment_failed_fallback">Ni bilo mogoče pripeti dnevnikov, pošiljanje e-pošte brez priponke</string>
+    <string name="support_email_subject">Zahteva za podporo AAAD</string>
+    <string name="support_email_body_greeting">Pozdravljeni AAAD podpora,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Posodobitev na voljo</string>
+    <string name="update_available_message">AAAD v%1$s je zdaj na voljo. Uporabljate v%2$s.\n\nAli želite prenesti najnovejšo različico?</string>
+    <string name="checking_for_aaad_updates">Preverjanje posodobitev AAAD…</string>
+    <string name="update_available_badge">POSODOBITEV</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque prinaša diagnostično aplikacijo za vozila OBD-II Torque Pro v Android Auto. Spremljajte delovanje svojega avtomobila, oglejte si diagnostične podatke in dostopajte do informacij o vozilu v realnem času neposredno z zaslona avtomobila.</string>
+    <string name="warning_offline">Niste povezani - podatki o aplikaciji so morda zastareli</string>
+    <string name="onboarding_preparing_catalog">Priprava kataloga aplikacij v ozadju…</string>
+    <string name="version_format">Različica %1$s</string>
+    <string name="installed_version_format">Nameščeno: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Aplikacije Android Auto</string>
+    <string name="hero_subtitle">Namestite aplikacije po meri za svojo izkušnjo z Android Auto</string>
+    <string name="refresh_apps">Osveži aplikacije</string>
+    <string name="privacy">Pravilnik o zasebnosti</string>
+    <string name="transfer_license_title">Prenesi licenco</string>
+    <string name="checking_license_status">Preverjanje stanja licence…</string>
+    <string name="qr_code_icon">Ikona QR kode</string>
+    <string name="receiver_title">Prejmi licenco PRO</string>
+    <string name="receiver_subtitle">Prikažite to QR kodo za prenos licence na to napravo</string>
+    <string name="qr_code_to_scan">QR koda za prenos licence</string>
+    <string name="receiver_instructions_title">Kako deluje</string>
+    <string name="receiver_instructions_step1">Na napravi s PRO odprite AAAD in pojdite na Prenesi licenco</string>
+    <string name="receiver_instructions_step2">Tapnite gumb Skeniraj QR kodo na tej napravi</string>
+    <string name="receiver_instructions_step3">Skenirajte to QR kodo za dokončanje prenosa</string>
+    <string name="transfer_license_icon">Ikona prenosa licence</string>
+    <string name="sender_title">Prenesi licenco PRO</string>
+    <string name="sender_subtitle">Prenesite svojo licenco na novo napravo</string>
+    <string name="sender_warning">⚠️ Opozorilo: Prenos vaše licence bo odstranil status PRO iz te naprave in ga aktiviral na novi napravi. Tega dejanja ni mogoče razveljaviti.</string>
+    <string name="sender_instructions_title">Kako prenesti</string>
+    <string name="sender_step_1">Odprite AAAD na svoji novi napravi</string>
+    <string name="sender_step_2">Pojdite v meni Prenesi licenco</string>
+    <string name="sender_step_3">Na novi napravi se bo prikazala QR koda</string>
+    <string name="sender_step_4">Tapnite spodnji gumb in skenirajte to QR kodo</string>
+    <string name="scan_qr_code">Skeniraj QR kodo</string>
+    <string name="license_received_success">Licenca uspešno prejeta!</string>
+    <string name="confirm_transfer_title">Potrdi prenos</string>
+    <string name="confirm_transfer_message">Ste prepričani, da želite prenesti svojo licenco PRO na novo napravo? To bo odstranilo PRO iz te naprave.</string>
+    <string name="confirm_transfer_yes">Prenesi licenco</string>
+    <string name="confirm_transfer_no">Prekliči</string>
+    <string name="license_transferred_success">Licenca uspešno prenesena!</string>
+    <string name="installation_timeout_message_secure">Časovna omejitev preverjanja namestitve je potekla. Vaš prenos je bil zaradi varnostnih razlogov vštet v vašo mesečno omejitev.</string>
+    <string name="download_was_counted">Prenos je bil vštet v vašo mesečno omejitev</string>
+    <string name="verifying_authorization">Preverjanje avtorizacije prenosa…</string>
+    <string name="please_sign_in">Prijavite se za prenos aplikacij</string>
 </resources>

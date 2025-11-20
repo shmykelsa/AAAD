@@ -25,9 +25,11 @@
         android:paddingHorizontal="24dp"
         app:layout_constraintTop_toBottomOf="@+id/app_icon"
         app:layout_constraintBottom_toTopOf="@id/central_textview"
-        android:textSize="20sp"
+        android:textAppearance="?attr/textAppearanceTitleLarge"
         android:textStyle="bold"
         android:text="@string/title_activity_about_payment"
+        android:maxLines="2"
+        android:ellipsize="end"
         android:paddingTop="15dp"/>
 
     <TextView
@@ -38,8 +40,10 @@
         android:paddingHorizontal="24dp"
         app:layout_constraintTop_toBottomOf="@+id/app_icon"
         app:layout_constraintBottom_toTopOf="@id/next_time_download"
-        android:textSize="16sp"
+        android:textAppearance="?attr/textAppearanceBodyLarge"
         android:text="@string/switch_to_pro_statement"
+        android:maxLines="4"
+        android:ellipsize="end"
         android:paddingTop="15dp"/>
 
     <TextView
@@ -52,8 +56,10 @@
         app:layout_constraintBottom_toTopOf="@id/bottom_layout"
         android:layout_marginBottom="40dp"
         android:text=""
-        android:textSize="16sp"
+        android:textAppearance="?attr/textAppearanceBodyLarge"
         android:textStyle="bold"
+        android:maxLines="2"
+        android:ellipsize="end"
         android:paddingTop="8dp"/>
 
     <LinearLayout

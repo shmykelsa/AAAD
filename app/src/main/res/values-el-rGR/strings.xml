@@ -1,55 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Καλώς ήλθατε στο Android Auto Apps Downloader (AAAD). Αυτό το βοηθητικό πρόγραμμα θα βοηθήσει στην εγκατάσταση προσαρμοσμένων εφαρμογών για Android Auto για μη rooted τηλέφωνα. Επιλέξτε την εφαρμογή που θέλετε να εγκαταστήσετε και περιμένετε τον εγκαταστάτη να εμφανιστεί. Οι περιγραφές εφαρμογών είναι διαθέσιμες με παρατεταμένο πάτημα.</string>
     <string name="title_activity_about_payment">Πλήρης Έκδοση</string>
-    <string name="switch_to_pro_statement">Η δωρεάν έκδοση του AAAD σας επιτρέπει να έχετε ένα δωρεάν download κάθε μήνα. Αν θέλετε να απολαύσετε απεριόριστες δωρεάν λήψεις, μπορείτε να μεταβείτε στην Πλήρη Έκδοση και θα απολαύσετε ολοκληρωμένες λειτουργίες και ενημερώσεις εφαρμογών!</string>
-    <string name="congratsPro">Συγχαρητήρια, έχετε την Πλήρη Έκδοση!</string>    <string name="About">Σχετικά</string>
-    <string name="have_promo_code">Έχω έναν Κωδικό Προσφοράς</string>
-    <string name="promo_code">Εισαγάγετε τον Κωδικό Προσφοράς</string>
-    <string name="input_promo_code_here">Εισαγωγή Κωδικού Προσφοράς εδώ</string>    <string name="about_to_download">Πρόκειται να κατεβάσετε %1$s. Θέλετε να συνεχίσετε;</string>
-    <string name="no">όχι</string>
+    <string name="switch_to_pro_statement">Η δωρεάν έκδοση του AAAD σας επιτρέπει να έχετε μία δωρεάν λήψη κάθε μήνα. Αν θέλετε να κατεβάσετε περισσότερα, αναβαθμίστε στο PRO.</string>
+    <string name="congratsPro">Συγχαρητήρια, έχετε την έκδοση PRO!</string>    <string name="About">Σχετικά</string>
+    <string name="have_promo_code">Έχω κωδικό προσφοράς</string>
+    <string name="promo_code">Εισαγάγετε κωδικό προσφοράς</string>
+    <string name="input_promo_code_here">Εισαγάγετε τον κωδικό εδώ</string>    <string name="about_to_download">Πρόκειται να κατεβάσετε %1$s. Θέλετε να συνεχίσετε;</string>
     <string name="warning_payment">Μόλις ολοκληρώσετε την πληρωμή, παρακαλώ πατήστε χειροκίνητα \"Επιστροφή στον έμπορο\" για την επικύρωση της συναλλαγής.</string>
-    <string name="attention">ΠΡΟΣΟΧΗ!</string>
-    <string name="next_download_available">Η επόμενη λήψη θα είναι διαθέσιμη στις: %1$s</string>
+    <string name="attention">ΠΡΟΣΟΧΗ</string>
+    <string name="next_download_available">Επόμενη λήψη διαθέσιμη: %1$s</string>
     <string name="connect_error">ΣΦΑΛΜΑ ΣΥΝΔΕΣΗΣ</string>
     <plurals name="remaining_downloads">
         <item quantity="one">Σας απομείνει ακόμα μια λήψη </item>
         <item quantity="other">Δεν σας απομένει καμία λήψη</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Εφαρμογές Downloader) έχει αναπτυχθεί και διατηρείται από τον Shmykelsa.<br><br>Οι διαθέσιμες εφαρμογές καθίστανται δυνατές από τους ακόλουθους προγραμματιστές:<br>]]>"</string>
-    <string name="pro_unlocked">Συγχαρητήρια, Πλήρης Έκδοση ξεκλειδώθηκε</string>
-    <string name="cancelled_payment">Η αγορά ακυρώθηκε!</string>
-    <string name="please_enter_code">Παρακαλώ εισάγετε τον κωδικό</string>
-    <string name="connection_error">Σφάλμα σύνδεσης, αδυναμία επαλήθευσης</string>
+    <string name="pro_unlocked">Συγχαρητήρια, έκδοση PRO ξεκλειδώθηκε</string>
+    <string name="cancelled_payment">Η αγορά ακυρώθηκε</string>
+    <string name="please_enter_code">Εισαγάγετε τον κωδικό προσφοράς σας</string>
+    <string name="connection_error">Σφάλμα σύνδεσης, δεν ήταν δυνατή η επαλήθευση</string>
     <string name="not_valid_code">Μη έγκυρος κωδικός</string>    <string name="downloading_progress">Λήψη…</string>
     <string name="aa_mirror_plus_description">Εναλλακτική λύση για το AAMirror με επιπλέον λειτουργίες.</string>
-    <string name="aapassenger_description">Αυτή η εφαρμογή έγινε για να επιτρέπεται στους επιβάτες να διαχειρίζονται ορισμένες λειτουργίες στο Android Auto. Απαιτεί από τον επιβάτη να κατεβάσει το AAPassenger. Η κατάσταση λειτουργίας είναι προς το παρόν άγνωστη.</string>
+    <string name="aapassenger_description">Ξεκλειδώστε το Android Auto σε λειτουργία οδήγησης</string>
     <string name="s2a_description">Η πιο ολοκληρωμένη και πλήρως εξοπλισμένη εφαρμογή κατοπτρισμού για το Android Auto. Περιλαμβάνει πολλά χαρακτηριστικά όπως μια προσαρμόσιμη Οθόνη Εφαρμογών, Διαχωριστική Οθόνη, προσαρμοσμένα μεγέθη οθόνης και πολλά άλλα!</string>
-    <string name="aamirror_description">Η πρώτη και μεγάλης διάρκειας εφαρμογή κατοπτρισμού οθόνης για Android Auto. Ο πρόγονος μιας οικογένειας, AAMirror απλά προβάλλει την οθόνη του τηλεφώνου σας, σε αυτή του αυτοκινήτου.</string>
-    <string name="aa_stream_description">Μια άλλη εναλλακτική λύση για AAMirror με μερικές επιπλέον λειτουργίες. Πρόσφατα αναβίωσε και διορθώθηκε για νεότερες εκδόσεις Android από τον Annexhack.</string>
+    <string name="aamirror_description">Καθρεφτίστε την οθόνη του smartphone σας στο Android Auto</string>
+    <string name="aa_stream_description">Μεταδώστε βίντεο στο Android Auto</string>
     <string name="carstream_description">Παλαιότερα γνωστή ως \"YouTube Auto\", η CarStream ήταν μία από τις πρώτες εφαρμογές που έγιναν με τις προσαρμοσμένες εφαρμογές SDK. Δημιουργήθηκε με κύριο σκοπό τη χρήση του YouTube στο Android Auto και στη συνέχεια εξελίχθηκε σε ένα πρόγραμμα περιήγησης στο διαδίκτυο με πολλές δυνατότητες.
     </string>
-    <string name="fermata_description">"Το πιο πλήρες πρόγραμμα αναπαραγωγής βίντεο και ήχου για το Android Auto, διαθέτει μια πλήρη εμπειρία χρήστη, με πολλά χαρακτηριστικά, όπως ροές δικτύου και επίσης ένα πρόγραμμα περιήγησης ιστού. Έρχεται επίσης με την εφαρμογή Fermata Control που επιτρέπει τη διαχείριση της αναπαραγωγής έξω από την εφαρμογή και από τα χειριστήρια στο τιμόνι."</string>
-    <string name="s2a_redirect">Θα μεταφερθείτε στην ιστοσελίδα screen2auto. Από εκεί, επιλέξτε την έκδοση και ανοίξτε με AAAD.</string>
-    <string name="screen2auto_download">Πρόκειται να εγκαταστήσετε το Screen2Auto. Θέλετε να συνεχίσετε?</string>    <string name="aawidgets_description">Δημιουργήθηκε με μόνο μια εργασία. Φορτώσετε ένα widget για Android Auto!</string>
-    <string name="performance_monitor_description">Αυτό είναι ένα πρόγραμμα παρακολούθησης επιδόσεων, βασισμένη στα aa-στατιστικά του Martoreto. Είναι φτιαγμένο ειδικά για χρήση με τις μονάδες ψυχαγωγίας Volkswagen/Skoda/Seat/Audi MIB2, αλλά θα μπορούσε επίσης να λειτουργήσει και σε άλλα οχήματα, αρκεί να έχουν υποστήριξη Android Auto. Χρειάζεται επίσης η επέκταση της VAG προκειμένου να λειτουργήσει στα οχήματα της Volkswagen.</string>
-    <string name="promotion">Έχετε δικαίωμα για 15% έκπτωση</string>    <string name="loading">Φόρτωση…</string>
-    <string name="go_pro">Αποκτήστε την Πλήρη Έκδοση</string>
-    <string name="i_m_good">Είμαι Εντάξει</string>
-    <string name="nav2contacts_description">Με τις νέες εφαρμογές πλοήγησης που έρχονται στο Android Auto, πολλοί από αυτούς στερούνται την υποστήριξη του Βοηθού Google για την πλοήγηση σε διευθύνσεις επαφών που αποθηκεύονται στο τηλεφωνικό βιβλίο. Nav2Contacts έρχονται για διάσωση! Κατ \'αρχάς, επιλέξτε την εφαρμογή πλοήγησης που θέλετε να χρησιμοποιήσετε, στη συνέχεια, αναζητήστε την επαφή στην οποία θέλετε να πλοηγηθείτε και να ξεκινήσετε την πλοήγηση αμέσως!</string>    <string name="back_button_payment_close">ΠΑΡΑΚΑΛΩ θυμηθείτε να πατήσετε το μπλε κουμπί \"Επιστροφή στην ιστοσελίδα εμπόρου\" μετά την ολοκλήρωση της πληρωμής</string>
+    <string name="fermata_description">Βγείτε από το Android Auto χωρίς να βγείτε από το αυτοκίνητο</string>
+    <string name="s2a_redirect">Για την καλύτερη εμπειρία, συνιστούμε το Screen2Auto</string>
+    <string name="screen2auto_download">Λήψη Screen2Auto</string>    <string name="aawidgets_description">Δημιουργήθηκε με μόνο μια εργασία. Φορτώσετε ένα widget για Android Auto!</string>
+    <string name="performance_monitor_description">Παρακολουθήστε την απόδοση του συστήματος στο Android Auto</string>
+    <string name="promotion">Δικαιούστε έκπτωση 15%</string>    <string name="loading">Φόρτωση…</string>
+    <string name="go_pro">ΑΠΟΚΤΗΣΤΕ PRO</string>
+    <string name="i_m_good">Είμαι καλά</string>
+    <string name="nav2contacts_description">Πλοηγηθείτε γρήγορα στις επαφές σας</string>    <string name="back_button_payment_close">Ακύρωση πληρωμής και κλείσιμο</string>
     <string name="help">Βοήθεια</string>
     <string name="help_dialog">Θέλετε να στείλετε ένα e-mail για βοήθεια αυτή τη στιγμή?</string>    <string name="i_want_to_transfer_license_here">Θέλω να μεταφέρω την άδεια εδώ</string>
-    <string name="i_want_to_transfer_license_from_here">Θέλω να μεταφέρω άδεια από εδώ</string>
-    <string name="license_transfer_help">Αν θέλετε να μεταφέρετε την άδεια από το ένα τηλέφωνο στο άλλο, είστε στο σωστό μέρος. Παρακαλώ επιλέξτε αυτό που θέλετε να κάνετε</string>
+    <string name="i_want_to_transfer_license_from_here">Θέλω να μεταφέρω την άδειά μου από αυτή τη συσκευή</string>
+    <string name="license_transfer_help">Σαρώστε τον κωδικό QR σε άλλη συσκευή για μεταφορά της άδειας</string>
     <string name="transfer_license">Μεταφορά Αδείας</string>
+    <string name="debug_mode_activate">Ενεργοποίηση αποσφαλμάτωσης</string>
+    <string name="debug_mode_performance_warning">Η λειτουργία αποσφαλμάτωσης μπορεί να επηρεάσει την απόδοση</string>
+    <string name="debug_mode_deactivated">Απενεργοποιήθηκε η λειτουργία αποσφαλμάτωσης</string>
     <string name="confirm">Επιβεβαίωση</string>
-    <string name="license_here_confirm">Είστε βέβαιοι ότι θέλετε να μεταφέρετε την άδεια σε αυτή τη συσκευή?</string>
-    <string name="qr_tutorial">Ωραία, τώρα ανοίξτε τη συσκευή που θέλετε να μεταφέρετε την άδεια χρήσης και επιλέξτε «Θέλω να μεταφέρω την άδεια από εδώ», στη συνέχεια σαρώστε αυτόν τον κωδικό QR</string>
-    <string name="license_done">Η άδεια μεταφέρθηκε</string>
-    <string name="no_license_found">Δεν έχετε ενεργή άδεια χρήσης σε αυτήν τη συσκευή</string>    <string name="qr_code_permission">Η άδεια της κάμερας είναι απαραίτητη για τη σάρωση κωδικού QR</string>
-    <string name="success_transfer">Η άδεια επικυρώθηκε</string>
+    <string name="license_here_confirm">Θέλετε να μεταφέρετε την άδειά σας σε αυτή τη συσκευή;</string>
+    <string name="qr_tutorial">Ανοίξτε το AAAD στην άλλη συσκευή σας και σαρώστε αυτόν τον κωδικό QR</string>
+    <string name="license_done">Η άδεια μεταφέρθηκε επιτυχώς!</string>
+    <string name="no_license_found">Δεν βρέθηκε έγκυρη άδεια</string>    <string name="qr_code_permission">Η άδεια της κάμερας είναι απαραίτητη για τη σάρωση κωδικού QR</string>
+    <string name="success_transfer">Επιτυχής μεταφορά</string>
     <string name="email_dialog" comment="&#10;Dialog window">Το e-mail θα χρησιμοποιηθεί για να επαληθεύσει την αγορά σας, αν χρειαστεί</string>
-    <string name="input_email">Nickpitas@outlook. com...</string>
+    <string name="input_email">Εισαγάγετε το email σας</string>
     <string name="days_remaining">%d ημέρες απομένουν μέχρι την επόμενη λήψη</string>
     <string name="hours_remaining">%d ώρες απομένουν μέχρι την επόμενη λήψη</string>
     <string name="less_than_hour">Λιγότερο από 1 ώρα απομένει μέχρι την επόμενη λήψη</string>
@@ -62,8 +63,8 @@
     <string name="onboarding_official_source">Επίσημη πηγή: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
-    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_title">Καλώς ήρθατε στο AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Πρόγραμμα λήψης εφαρμογών Android Auto</string>
     <string name="onboarding_welcome_description">Αυτό το εργαλείο θα βοηθήσει στην εγκατάσταση προσαρμοσμένων εφαρμογών στο Android Auto για τηλέφωνα χωρίς root. Σύρετε για να μάθετε πώς να χρησιμοποιείτε την εφαρμογή και στη συνέχεια παραχωρήστε τα απαιτούμενα δικαιώματα για να ξεκινήσετε.</string>
 
     <!-- Page 2: App Selection -->
@@ -75,24 +76,31 @@
     <string name="onboarding_page_info_description">Αν δεν είστε σίγουροι ποια εφαρμογή να εγκαταστήσετε, πατήστε παρατεταμένα το κουμπί για να δείτε μια περιγραφή.</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">Εφαρμογές πολυμέσων</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">Εφαρμογές αντικατοπτρισμού</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">Άλλα</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">Απαιτούμενη ρύθμιση</string>
     <string name="onboarding_permissions_subtitle">Παραχώρηση δικαιωμάτων για εγκατάσταση προσαρμοσμένων εφαρμογών</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_unknown_sources_title">Εγκατάσταση άγνωστων εφαρμογών</string>
+    <string name="onboarding_unknown_sources_description">Απαιτείται για την εγκατάσταση αρχείων APK από εξωτερικές πηγές</string>
+    <string name="onboarding_notifications_title">Ειδοποιήσεις</string>
+    <string name="onboarding_notifications_description">Λάβετε ειδοποιήσεις σχετικά με την πρόοδο λήψης και τις ενημερώσεις εφαρμογών</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Ρυθμίσεις προγραμματιστή Android Auto (Συνιστάται)</string>
+    <string name="onboarding_aa_dev_description">Προαιρετικό βήμα για βελτίωση της εμπειρίας σας με το Android Auto</string>
+    <string name="onboarding_aa_dev_warning">Για την καλύτερη εμπειρία με προσαρμοσμένες εφαρμογές στο Android Auto, συνιστούμε την ενεργοποίηση των \"Άγνωστων πηγών\" στις ρυθμίσεις προγραμματιστή Android Auto.</string>
+    <string name="onboarding_open_aa_dev">Προβολή ρυθμίσεων προγραμματιστή</string>
+
     <string name="onboarding_play_protect_title">Google Play Protect</string>
     <string name="onboarding_play_protect_description">Απενεργοποιήστε προσωρινά για να επιτρέψετε την εγκατάσταση προσαρμοσμένων εφαρμογών</string>
     <string name="onboarding_play_protect_warning">Το Google Play Protect μπορεί να αποκλείσει την εγκατάσταση προσαρμοσμένων εφαρμογών. Πρέπει να το απενεργοποιήσετε προσωρινά ή να επιτρέψετε το AAAD όταν σας ζητηθεί.</string>
@@ -102,12 +110,12 @@
     <string name="onboarding_next">Επόμενο</string>
     <string name="onboarding_previous">Προηγούμενο</string>
     <string name="onboarding_skip">Παράλειψη</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">Χορήγηση δικαιωμάτων</string>
+    <string name="onboarding_continue">Συνέχεια στην εφαρμογή</string>
+    <string name="onboarding_get_started">Ξεκινήστε</string>
     <string name="onboarding_finish">Ολοκλήρωση ρύθμισης</string>
     <string name="show_intro">Εμφάνιση εισαγωγής</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">Υπόλοιπες λήψεις</string>
 
     <!-- Installation Status -->
     <string name="status_installed">Εγκατεστημένο</string>
@@ -199,9 +207,133 @@
 
 
     <!-- Section Names (for large screens) -->
-    <string name="first_section_name">Multimedia</string>
-    <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="first_section_name">Πολυμέσα</string>
+    <string name="second_section_name">Εφαρμογές αντικατοπτρισμού</string>
+    <string name="third_section_name">Άλλα</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">Αυτή η εφαρμογή σέβεται την ιδιωτικότητά σας. Δεν συλλέγουμε, αποθηκεύουμε ή μοιραζόμαστε προσωπικές πληροφορίες χωρίς τη συγκατάθεσή σας. Για περισσότερες πληροφορίες, επικοινωνήστε μαζί μας.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Ρυθμίσεις προγραμματιστή Android Auto</string>
+    <string name="android_auto_setup_icon">Εικονίδιο οδηγού ρύθμισης Android Auto</string>
+    <string name="android_auto_setup_subtitle">Ακολουθήστε αυτά τα βήματα για να ενεργοποιήσετε άγνωστες πηγές για προσαρμοσμένες εφαρμογές στο Android Auto</string>
+    <string name="android_auto_open_settings">Άνοιγμα ρυθμίσεων Android Auto</string>
+    <string name="android_auto_setup_instructions_title">Οδηγίες ρύθμισης</string>
+    <string name="android_auto_step1_title">Πατήστε \"Έκδοση\" 10 φορές</string>
+    <string name="android_auto_step1_description">Στις ρυθμίσεις Android Auto, μεταβείτε στο τέλος και πατήστε \"Έκδοση\" (το τελευταίο στοιχείο) 10 φορές για να ξεκλειδώσετε τις ρυθμίσεις προγραμματιστή.</string>
+    <string name="android_auto_step2_title">Επιβεβαίωση λειτουργίας προγραμματιστή</string>
+    <string name="android_auto_step2_description">Όταν σας ζητηθεί, πατήστε \"Να επιτρέπεται\" ή \"Ενεργοποίηση\" για να ενεργοποιήσετε τις ρυθμίσεις προγραμματιστή για το Android Auto.</string>
+    <string name="android_auto_step3_title">Άνοιγμα ρυθμίσεων προγραμματιστή</string>
+    <string name="android_auto_step3_description">Πατήστε το εικονίδιο μενού με τρεις τελείες στην επάνω δεξιά γωνία και επιλέξτε \"Ρυθμίσεις προγραμματιστή\" από το αναπτυσσόμενο μενού.</string>
+    <string name="android_auto_step4_title">Ενεργοποίηση άγνωστων πηγών</string>
+    <string name="android_auto_step4_description">Στο μενού ρυθμίσεων προγραμματιστή, βρείτε και ενεργοποιήστε την επιλογή \"Άγνωστες πηγές\" για να επιτρέψετε την εγκατάσταση εφαρμογών τρίτων.</string>
+    <string name="android_auto_setup_done">Ολοκληρώθηκε</string>
+    <string name="android_auto_settings_opened">Οι ρυθμίσεις Android Auto άνοιξαν. Ακολουθήστε τα παραπάνω βήματα.</string>
+    <string name="android_auto_opened_navigate_to_settings">Το Android Auto άνοιξε. Μεταβείτε στις Ρυθμίσεις χειροκίνητα.</string>
+    <string name="android_auto_not_installed">Το Android Auto δεν είναι εγκατεστημένο. Εγκαταστήστε το πρώτα από το Play Store.</string>
+
+    <!-- Android Auto Setup Activity -->
+
+    <string name="action_download_update">Λήψη ενημέρωσης</string>
+    <string name="action_install_update">Εγκατάσταση ενημέρωσης</string>
+    <string name="action_skip_update">Παράλειψη τώρα</string>
+    <string name="action_download_manual">Χειροκίνητη λήψη</string>
+    <string name="badge_update">ΕΝΗΜΕΡΩΣΗ</string>
+    <string name="check_for_updates">Έλεγχος για ενημερώσεις</string>
+    <string name="aaad_update_section">Διαθέσιμη ενημέρωση AAAD</string>
+    <string name="aaad_update_available_subtitle">Διαθέσιμη νέα έκδοση για λήψη</string>
+    <string name="aaad_update_downloaded">Η ενημέρωση λήφθηκε! Εγκατάσταση…</string>
+    <string name="aaad_update_failed">Η λήψη της ενημέρωσης απέτυχε. Προσπαθήστε να κατεβάσετε χειροκίνητα.</string>
+    <string name="aaad_current_version">Τρέχουσα: %1$s</string>
+    <string name="aaad_latest_version">Τελευταία: %1$s</string>
+    <string name="authorization_failed">Η εξουσιοδότηση λήψης απέτυχε. Προσπαθήστε ξανά.</string>
+    <string name="authorization_error">Σφάλμα εξουσιοδότησης. Ελέγξτε τη σύνδεσή σας.</string>
+    <string name="aabrowser_description">Περιηγηθείτε στον ιστό με το Android Auto</string>
+    <string name="benefit_icon">Όφελος</string>
+    <string name="no_updates_available">Δεν υπάρχουν διαθέσιμες ενημερώσεις</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Βελτιωμένη εγκατάσταση (Προαιρετικό)</string>
+    <string name="onboarding_shizuku_subtitle">Για προχωρημένους χρήστες Android 14+</string>
+    <string name="onboarding_shizuku_standard_mode">Τυπική λειτουργία (Συνιστάται)</string>
+    <string name="onboarding_shizuku_standard_description">Χρησιμοποιεί το εργαλείο εγκατάστασης συστήματος. Λειτουργεί για όλους. Εμφανίζει προτροπές εγκατάστασης.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Βελτιωμένη λειτουργία με Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Αθόρυβη εγκατάσταση χωρίς προτροπές. Απαιτεί εφάπαξ ρύθμιση.</string>
+    <string name="onboarding_shizuku_status">Κατάσταση Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">Δεν είναι εγκατεστημένο</string>
+    <string name="onboarding_shizuku_not_running">Εγκατεστημένο αλλά δεν εκτελείται</string>
+    <string name="onboarding_shizuku_no_permission">Εκτελείται αλλά δεν έχει χορηγηθεί άδεια</string>
+    <string name="onboarding_shizuku_ready">Έτοιμο για χρήση</string>
+    <string name="onboarding_shizuku_install">Εγκατάσταση Shizuku</string>
+    <string name="onboarding_shizuku_start">Εκκίνηση Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Χορήγηση άδειας</string>
+    <string name="onboarding_shizuku_start_service">Το Shizuku εγκαταστάθηκε - πατήστε για εκκίνηση της υπηρεσίας</string>
+    <string name="onboarding_shizuku_start_button">Εκκίνηση υπηρεσίας Shizuku</string>
+    <string name="shizuku_service_not_started">Η υπηρεσία Shizuku δεν εκτελείται. Ανοίξτε το Shizuku και ξεκινήστε την υπηρεσία.</string>
+    <string name="onboarding_shizuku_what_is_it">Τι είναι το Shizuku;</string>
+    <string name="onboarding_shizuku_explanation">Το Shizuku είναι ένα εργαλείο που επιτρέπει στις εφαρμογές να χρησιμοποιούν δικαιώματα επιπέδου συστήματος μέσω ασύρματου εντοπισμού σφαλμάτων. Επιτρέπει την αθόρυβη εγκατάσταση εφαρμογών στο Android 14+ χωρίς root. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το AAAD χωρίς αυτό!</string>
+    <string name="onboarding_shizuku_steps_title">Βήματα ρύθμισης:</string>
+    <string name="onboarding_shizuku_step1">1. Εγκαταστήστε την εφαρμογή Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. Ενεργοποιήστε τις επιλογές προγραμματιστή</string>
+    <string name="onboarding_shizuku_step3">3. Ενεργοποιήστε τον ασύρματο εντοπισμό σφαλμάτων</string>
+    <string name="onboarding_shizuku_step4">4. Εκκινήστε το Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Χορηγήστε άδεια στο AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Μάθετε περισσότερα</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet_title">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
+    <string name="error_no_internet_description">Το AAAD απαιτεί σύνδεση στο διαδίκτυο για τη φόρτωση πληροφοριών εφαρμογών. Συνδεθείτε στο WiFi ή τα δεδομένα κινητής τηλεφωνίας και δοκιμάστε ξανά.</string>
+    <string name="network_error">Σφάλμα δικτύου. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_catalog">Φόρτωση καταλόγου εφαρμογών…</string>
+    <string name="loading_fetching_icons">Φόρτωση εικονιδίων εφαρμογών…</string>
+    <string name="loading_finalizing">Ολοκλήρωση…</string>
+    <string name="loading_checking_internet">Έλεγχος σύνδεσης διαδικτύου…</string>
+    <string name="downloading_aaad_update">Λήψη ενημέρωσης AAAD…</string>
+    <string name="progress_downloading">Λήψη %1$s…</string>
+    <string name="progress_installing">Εγκατάσταση %1$s…</string>
+    <string name="progress_checking_updates">Έλεγχος για ενημερώσεις…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Αγορά Pro</string>
+    <string name="pro_version_title">Έκδοση PRO</string>
+    <string name="pro_version_icon">Σήμα έκδοσης PRO</string>
+    <string name="pro_thank_you_title">Ευχαριστούμε!</string>
+    <string name="pro_thank_you_message">Σας ευχαριστούμε που υποστηρίζετε το AAAD με την αγορά PRO! Η συνεισφορά σας βοηθά να κρατήσουμε αυτό το έργο ζωντανό και μας επιτρέπει να συνεχίσουμε να σας φέρνουμε τις καλύτερες εφαρμογές Android Auto.</string>
+    <string name="pro_since">Μέλος PRO από %s</string>
+    <string name="pro_since_legacy">Μέλος PRO</string>
+    <string name="pro_benefits_title">Τα οφέλη PRO σας</string>
+    <string name="pro_benefit_unlimited">Απεριόριστες λήψεις εφαρμογών</string>
+    <string name="pro_benefit_no_cooldown">Χωρίς περίοδο αναμονής μεταξύ λήψεων</string>
+    <string name="pro_benefit_support">Υποστήριξη συνεχούς ανάπτυξης</string>
+    <string name="pro_closing_message">Εκτιμούμε πραγματικά την εμπιστοσύνη και την υποστήριξή σας. Απολαύστε την απεριόριστη πρόσβασή σας σε όλες τις εφαρμογές AAAD!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">Δεν έχει εγκατασταθεί εφαρμογή email. Εγκαταστήστε μια εφαρμογή email (Gmail, Outlook κ.λπ.) ή στείλτε email στο help.aaad@gmail.com απευθείας από άλλη συσκευή.</string>
+    <string name="support_attachment_not_supported">Το συνημμένο δεν υποστηρίζεται, αποστολή email χωρίς αρχεία καταγραφής</string>
+    <string name="support_attachment_failed_fallback">Αδυναμία προσθήκης αρχείων καταγραφής, αποστολή email χωρίς συνημμένο</string>
+    <string name="support_email_body_greeting">Γεια σας Υποστήριξη AAAD,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Διαθέσιμη ενημέρωση</string>
+    <string name="update_available_message">Η έκδοση AAAD v%1$s είναι τώρα διαθέσιμη. Χρησιμοποιείτε την v%2$s.\n\nΘέλετε να κατεβάσετε την τελευταία έκδοση;</string>
+    <string name="checking_for_aaad_updates">Έλεγχος για ενημερώσεις AAAD…</string>
+    <string name="update_available_badge">ΕΝΗΜΕΡΩΣΗ</string>
+
+    <!-- General -->
+    <string name="aatorque_description">Το AATorque φέρνει την εφαρμογή διαγνωστικών οχήματος OBD-II Torque Pro στο Android Auto. Παρακολουθήστε την απόδοση του αυτοκινήτου σας, προβάλετε διαγνωστικά δεδομένα και αποκτήστε πρόσβαση σε πληροφορίες οχήματος σε πραγματικό χρόνο απευθείας από την οθόνη του αυτοκινήτου σας.</string>
+    <string name="warning_offline">Είστε εκτός σύνδεσης - τα δεδομένα της εφαρμογής ενδέχεται να είναι παλιά</string>
+    <string name="onboarding_preparing_catalog">Προετοιμασία καταλόγου εφαρμογών στο παρασκήνιο…</string>
+    <string name="version_format">Έκδοση %1$s</string>
+    <string name="installed_version_format">Εγκατεστημένη: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Εφαρμογές Android Auto</string>
+    <string name="hero_subtitle">Εγκαταστήστε προσαρμοσμένες εφαρμογές για την εμπειρία σας με το Android Auto</string>
+    <string name="refresh_apps">Ανανέωση εφαρμογών</string>
+    <string name="privacy">Πολιτική απορρήτου</string>
+    <string name="installation_timeout_message_secure">Λήξη χρονικού ορίου επαλήθευσης εγκατάστασης. Η λήψη σας έχει καταμετρηθεί στο μηνιαίο όριό σας για λόγους ασφαλείας.</string>
+    <string name="download_was_counted">Η λήψη καταμετρήθηκε στο μηνιαίο όριό σας</string>
+    <string name="verifying_authorization">Επαλήθευση εξουσιοδότησης λήψης…</string>
+    <string name="please_sign_in">Συνδεθείτε για να κατεβάσετε εφαρμογές</string>
 </resources>

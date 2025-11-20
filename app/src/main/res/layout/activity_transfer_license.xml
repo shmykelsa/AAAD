@@ -36,6 +36,8 @@
         android:layout_height="wrap_content"
         android:text="@string/license_transfer_help"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="50dp"
         android:paddingHorizontal="30dp"/>
 

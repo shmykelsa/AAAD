@@ -61,7 +61,7 @@
 
         <!-- Declare specific packages we want to detect as installed (Android 11+) -->
         <!-- CarStream versions -->
-        <package android:name="com.carstream" />
+        <package android:name="maps.jaoloonda.android" />
 
         <!-- Multimedia apps -->
         <package android:name="me.aap.fermata.auto.dear.google.why" />
@@ -82,6 +82,9 @@
 
         <!-- Shizuku - Required for Android 11+ package visibility -->
         <package android:name="moe.shizuku.privileged.api" />
+
+        <!-- Android Auto - Required for accessing developer settings -->
+        <package android:name="com.google.android.projection.gearhead" />
     </queries>
 
     <application
@@ -182,6 +185,15 @@
             android:exported="false"
             android:label="@string/support_title"
             android:parentActivityName=".MainActivityNew"
+            android:theme="@style/Theme.AA_Apps_Downloader" />
+
+        <!-- Android Auto Setup Activity - Guide for Enabling Developer Settings -->
+        <activity
+            android:name=".AndroidAutoSetupActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:label="@string/android_auto_setup_title"
+            android:parentActivityName=".OnboardingActivityNew"
             android:theme="@style/Theme.AA_Apps_Downloader" />
 
         <provider

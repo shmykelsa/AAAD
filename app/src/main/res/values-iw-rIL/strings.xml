@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">ברוך הבא לאנדרואיד אוטו מוריד האפליקציות (AAAD). כלי זה יעזור לך להתקין אפליקציות מותאמות אישית על האנדרואיד אוטו שלך למכשירים ללא ROOT. בחר את האפליקציה שאתה רוצה להתקין וחכה שההתקנה תופיע. תיאור האפליקציה מופיע שלוחצים לחיצה ארוכה.</string>
     <string name="title_activity_about_payment">גרסת פרו</string>
-    <string name="switch_to_pro_statement">גרסא חינמית של AAAD מאפשרת לך הודעה אחת בחינם בכל חודש. אם אתה רוצה להנות מהורדות ללא הגבלה, אתה יכול לשדרג לגרסאת PRO ותוכל להנות מפונקציות מלאות ועדכוני תוכנה!</string>
-    <string name="congratsPro">מזל טוב, כעת יש לך גרסת PRO!</string>    <string name="About">אודות</string>
-    <string name="have_promo_code">יש לי קוד מבצע</string>
-    <string name="promo_code">הזן קוד מבצע</string>
-    <string name="input_promo_code_here">הזן קוד מבצע</string>    <string name="about_to_download">אתה מתחיל להוריד %1$s. האם להמשיך?</string>
-    <string name="no">לא</string>
+    <string name="switch_to_pro_statement">הגרסה החינמית של AAAD מאפשרת לך הורדה חינמית אחת בכל חודש. אם אתה רוצה להוריד יותר, שדרג ל-PRO.</string>
+    <string name="congratsPro">מזל טוב, יש לך גרסת PRO!</string>    <string name="About">אודות</string>
+    <string name="have_promo_code">יש לי קוד קידום</string>
+    <string name="promo_code">הזן קוד קידום</string>
+    <string name="input_promo_code_here">הזן קוד כאן</string>    <string name="about_to_download">אתה מתחיל להוריד %1$s. האם להמשיך?</string>
     <string name="warning_payment">לאחר סיום התשלום בבקשה לחץ חזור לחנות כדי השתשלום יושלם.</string>
     <string name="attention">שים לב</string>
-    <string name="next_download_available">ההורדה הבאה תהיה זמינה ב: %1$s</string>
+    <string name="next_download_available">ההורדה הבאה זמינה ב: %1$s</string>
     <string name="connect_error">שגיאת חיבור</string>
     <plurals name="remaining_downloads">
         <item quantity="one">נותרה לך הורדה אחת</item>
@@ -19,38 +17,41 @@
         <item quantity="other">לא נותרו לך עוד הורדות</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[ AAAD (אנדרואיד אוטו מנהל הורדות) מפותח ומתוחזק ע"י Shmykelsa. <br><br> התוכנות הזמינות בזכות המפתחים הבאים:<br>]]>"</string>
-    <string name="pro_unlocked">ברכות, מצב PRO הופעל</string>
+    <string name="pro_unlocked">מזל טוב, גרסת PRO נפתחה</string>
     <string name="cancelled_payment">הרכישה בוטלה</string>
-    <string name="please_enter_code">בבקשה הזן קוד</string>
+    <string name="please_enter_code">נא להזין את קוד הקידום שלך</string>
     <string name="connection_error">שגיאת חיבור, לא ניתן לאמת</string>
     <string name="not_valid_code">קוד שגוי</string>    <string name="downloading_progress">בהורדה…</string>
     <string name="aa_mirror_plus_description">חלופה ל־AAMirror עם כמה פונקציות נוספות.</string>
-    <string name="aapassenger_description">האפליקציה הזו נוצרה כדי להאפשר לנוסעים לנהל פונקציות של אנדאוריד אוטו. נדרש מהנוסע להוריד AAPassenger. איכות השימוש כרגע לא נודעת.</string>
+    <string name="aapassenger_description">ביטול נעילת Android Auto במצב נהיגה</string>
     <string name="s2a_description">התוכנה מלאת הפיצרים והשלמה ביותר כדי לשקף מסך לאנדרואיד אוטו. כוללת פיצרים רבים כמו התאמת ממשק הפעלה, חלוקת מסך, התאמת גודל מסך ועוד הרבה יותר!</string>
-    <string name="aamirror_description">התוכנה הראשונה וותיקה של שיקוף מסך לאנדוריד אוטו. הראשונה למשפחה. AAMirror פשוט משקפת את המסך של הטלפון שלך לרכב.</string>
-    <string name="aa_stream_description">עוד תוכנה אלטרנטיבית לAAMirror עם תכונות נוספות. לאחרונה חודשה ותוקנה כדי להתאים לגרסאות אנדרואיד חדשות יותר ע\"י Annexhack.</string>
+    <string name="aamirror_description">שיקוף מסך הטלפון החכם ל-Android Auto</string>
+    <string name="aa_stream_description">הזרמת סרטונים ב-Android Auto</string>
     <string name="carstream_description">הידועה גם כ\"YouTube Auto\", CarStream היא אחת התוכנות הראשונות שנוצרה ע\"י SDK מותאם. היא נולדה במטרה לספק יוטיוב לאנדרואיד אוטו ונפכה לדפדפן אינטרנט עם המון שימושים.    </string>
-    <string name="fermata_description">"הנגן הכי מלא לוידאו ואודיו לאנדאוריד אוטו, מאפשר ניגון בחוויה מלאה עם המון פיצרים כמו הזרמת רשת וגם דפדפן. הוא גם נהיה אפליקצית הדרכה מדריך לFermata Control שמאפשרת לך לנהל רשימות השמעה מחוץ לתוכנה ושליטה דרך הלחצנים בהגה."</string>
-    <string name="s2a_redirect">אתה מופנה לאתר המפתח של screen2auto. משם, בחר גרסא ופתח אותה ע\"י AAAD.</string>
-    <string name="screen2auto_download">אתה הולך להתקין Screen2Auto. האם להמשיך?</string>    <string name="aawidgets_description">נולד עם משימה אחת בלבד. להוסיף וויגטים לאנדרואיד אוטו!</string>
-    <string name="performance_monitor_description">זו תוכנת ניטור ביצועים, מבוססת על Martoreto\'s aa-stats. היא נוצרה במיוחד לפעול עם Volkswagen/Skoda/Seat/Audi MIB2 יחידות מידע, אבל אולי גם תעבוד עם נוספים, במידה ויש להם תמיכה באנדרואיד אוטו. צריך גם הרחבת VAG כדי לעבוד על רכבי Volkswagen.</string>
-    <string name="promotion">קיבלת 15% הנחה</string>    <string name="loading">טוען...</string>
-    <string name="go_pro">לעבור לPRO</string>
-    <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">עם תוכנות הניווט החדשות המגיעות לאנדרואיד אוטו, ברבים מהם חסרה תמיכת העוזרת האישית של גוגל לניווט לכתובת של אנשי הקשר השמורים בטלפון. Nav2Contacts באים לעזור! ראשית, בחר תוכנת ניווט שאתה רוצה להשתמש, לאמר מכן חפש את איש הקשר ונווט אליו כדי להתחיל בניווט אליו מיד!  </string>    <string name="back_button_payment_close"> בבקשה זכור ללחוץ על הכפתור הכחול \"חזור לאתר המפתח\" לאחר שהתשלום הושלם</string>
+    <string name="fermata_description">צא מ-Android Auto מבלי לצאת מהרכב</string>
+    <string name="s2a_redirect">לחוויה הטובה ביותר, אנו ממליצים על Screen2Auto</string>
+    <string name="screen2auto_download">הורד את Screen2Auto</string>    <string name="aawidgets_description">נולד עם משימה אחת בלבד. להוסיף וויגטים לאנדרואיד אוטו!</string>
+    <string name="performance_monitor_description">ניטור ביצועי המערכת ב-Android Auto</string>
+    <string name="promotion">אתה זכאי להנחה של 15%</string>    <string name="loading">טוען…</string>
+    <string name="go_pro">קבל PRO</string>
+    <string name="i_m_good">אני בסדר</string>
+    <string name="nav2contacts_description">ניווט מהיר לאנשי הקשר שלך</string>    <string name="back_button_payment_close">ביטול תשלום וסגירה</string>
     <string name="help">עזרה</string>
     <string name="help_dialog">לשלוח דוא״ל לקבלת עזרה כרגע?</string>    <string name="i_want_to_transfer_license_here"> ארצה להעביר לכאן רישיון</string>
-    <string name="i_want_to_transfer_license_from_here"> ארצה להעביר מכאן רישיון</string>
-    <string name="license_transfer_help">  אם אתה רוצה לעביר את הרשיון מטלפון אחר לאחר, אתה במקום הנכון. בבקשה בחר מה אתה רוצה לעשות</string>
+    <string name="i_want_to_transfer_license_from_here">אני רוצה להעביר את הרישיון שלי ממכשיר זה</string>
+    <string name="license_transfer_help">סרוק את קוד ה-QR במכשיר אחר כדי להעביר את הרישיון</string>
     <string name="transfer_license"> העבר רישיון</string>
+    <string name="debug_mode_activate">הפעל ניפוי באגים</string>
+    <string name="debug_mode_performance_warning">מצב ניפוי באגים עשוי להשפיע על הביצועים</string>
+    <string name="debug_mode_deactivated">מצב ניפוי באגים הושבת</string>
     <string name="confirm">אישור</string>
-    <string name="license_here_confirm">להעביר את הרישיון למכשיר הזה?</string>
-    <string name="qr_tutorial"> נהדר, עכשיו פתח את המכשיר שאתה רוצה להעביר ממנו את הרשיון ובחר \"אני רוצה להעביר את הרשיון מפה\", לאחר מכן סרוק את קוד הQR הזה</string>
-    <string name="license_done">הרישיון הועבר</string>
-    <string name="no_license_found"> אין לך רשיון פעיל במכשיר</string>    <string name="qr_code_permission">נדרש הרשאות מצלמה כדי לסרוק קוד </string>
-    <string name="success_transfer">הרישיון אומת</string>
+    <string name="license_here_confirm">האם ברצונך להעביר את הרישיון למכשיר זה?</string>
+    <string name="qr_tutorial">פתח את AAAD במכשיר האחר שלך וסרוק את קוד ה-QR הזה</string>
+    <string name="license_done">הרישיון הועבר בהצלחה!</string>
+    <string name="no_license_found">לא נמצא רישיון תקף</string>    <string name="qr_code_permission">נדרש הרשאות מצלמה כדי לסרוק קוד </string>
+    <string name="success_transfer">העברה הצליחה</string>
     <string name="email_dialog" comment="&#10;Dialog window"> כתובת הדוא״ל תשתמש כדי לאמת את הרכישה שלך, במידת הצורך </string>
-    <string name="input_email">נא למלא את כתובת הדוא״ל שלך… </string>
+    <string name="input_email">הזן את כתובת האימייל שלך</string>
     <string name="days_remaining">נותרו %d ימים עד ההורדה הבאה</string>
     <string name="hours_remaining">נותרו %d שעות עד ההורדה הבאה</string>
     <string name="less_than_hour">פחות משעה אחת נותרה עד ההורדה הבאה</string>
@@ -63,8 +64,8 @@
     <string name="onboarding_official_source">מקור רשמי: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
-    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_title">ברוכים הבאים ל-AAAD!</string>
+    <string name="onboarding_welcome_subtitle">מוריד אפליקציות Android Auto</string>
     <string name="onboarding_welcome_description">כלי עזר זה יעזור להתקין אפליקציות מותאמות אישית ב-Android Auto עבור טלפונים שאינם מרוטים. החלק כדי ללמוד כיצד להשתמש באפליקציה, ולאחר מכן הענק את ההרשאות הנדרשות כדי להתחיל.</string>
 
     <!-- Page 2: App Selection -->
@@ -76,25 +77,32 @@
     <string name="onboarding_page_info_description">אם אינך בטוח איזו אפליקציה להתקין, לחץ לחיצה ארוכה על הכפתור כדי לקבל תיאור.</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">אפליקציות מולטימדיה</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">אפליקציות שיקוף</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">אחר</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">הגדרה נדרשת</string>
     <string name="onboarding_permissions_subtitle">הענק הרשאות להתקנת אפליקציות מותאמות אישית</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
-    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_unknown_sources_title">התקן אפליקציות לא ידועות</string>
+    <string name="onboarding_unknown_sources_description">נדרש להתקנת קבצי APK ממקורות חיצוניים</string>
+    <string name="onboarding_notifications_title">הודעות</string>
+    <string name="onboarding_notifications_description">קבל הודעות על התקדמות ההורדה ועדכוני אפליקציות</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">הגדרות מפתחים של Android Auto (מומלץ)</string>
+    <string name="onboarding_aa_dev_description">שלב אופציונלי לשיפור חוויית ה-Android Auto שלך</string>
+    <string name="onboarding_aa_dev_warning">לחוויה הטובה ביותר עם אפליקציות מותאמות אישית ב-Android Auto, אנו ממליצים להפעיל \"מקורות לא ידועים\" בהגדרות המפתחים של Android Auto.</string>
+    <string name="onboarding_open_aa_dev">הצג הגדרות מפתחים</string>
+
+    <string name="onboarding_play_protect_title">Google Play הגנה</string>
     <string name="onboarding_play_protect_description">השבת באופן זמני כדי לאפשר התקנת אפליקציות מותאמות אישית</string>
     <string name="onboarding_play_protect_warning">Google Play Protect עשוי לחסום התקנת אפליקציות מותאמות אישית. עליך להשבית אותו זמנית או לאפשר AAAD כאשר תתבקש.</string>
     <string name="onboarding_open_play_protect">פתח הגדרות Play Protect</string>
@@ -103,12 +111,12 @@
     <string name="onboarding_next">הבא</string>
     <string name="onboarding_previous">הקודם</string>
     <string name="onboarding_skip">דלג</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">הענק הרשאות</string>
+    <string name="onboarding_continue">המשך לאפליקציה</string>
+    <string name="onboarding_get_started">התחל</string>
     <string name="onboarding_finish">סיים הגדרה</string>
     <string name="show_intro">הצג הקדמה</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">הורדות שנותרו</string>
 
     <!-- Installation Status -->
     <string name="status_installed">מותקן</string>
@@ -189,9 +197,142 @@
 
 
     <!-- Section Names (for large screens) -->
-    <string name="first_section_name">Multimedia</string>
-    <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="first_section_name">מולטימדיה</string>
+    <string name="second_section_name">אפליקציות שיקוף</string>
+    <string name="third_section_name">אחר</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">אפליקציה זו מכבדת את הפרטיות שלך. אנחנו לא אוספים, מאחסנים או משתפים מידע אישי ללא הסכמתך. למידע נוסף, אנא צור איתנו קשר.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">הגדרות מפתח של Android Auto</string>
+    <string name="android_auto_setup_icon">סמל מדריך התקנה של Android Auto</string>
+    <string name="android_auto_setup_subtitle">בצע שלבים אלה כדי להפעיל מקורות לא ידועים עבור אפליקציות מותאמות אישית ב-Android Auto</string>
+    <string name="android_auto_open_settings">פתח הגדרות Android Auto</string>
+    <string name="android_auto_setup_instructions_title">הוראות התקנה</string>
+    <string name="android_auto_step1_title">הקש על "גרסה" 10 פעמים</string>
+    <string name="android_auto_step1_description">בהגדרות Android Auto, גלול למטה והקש על "גרסה" (הפריט האחרון) 10 פעמים כדי לפתוח את הגדרות המפתח.</string>
+    <string name="android_auto_step2_title">אשר מצב מפתח</string>
+    <string name="android_auto_step2_description">כאשר תתבקש, הקש על "אפשר" או "הפעל" כדי להפעיל את הגדרות המפתח עבור Android Auto.</string>
+    <string name="android_auto_step3_title">פתח הגדרות מפתח</string>
+    <string name="android_auto_step3_description">הקש על סמל התפריט עם שלוש הנקודות בפינה הימנית העליונה ובחר "הגדרות מפתח" מהתפריט הנפתח.</string>
+    <string name="android_auto_step4_title">הפעל מקורות לא ידועים</string>
+    <string name="android_auto_step4_description">בתפריט הגדרות מפתח, מצא והפעל את האפשרות "מקורות לא ידועים" כדי לאפשר התקנה של אפליקציות צד שלישי.</string>
+    <string name="android_auto_setup_done">סיום</string>
+    <string name="android_auto_settings_opened">הגדרות Android Auto נפתחו. עקוב אחר השלבים למעלה.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto נפתח. אנא נווט להגדרות באופן ידני.</string>
+    <string name="android_auto_not_installed">Android Auto לא מותקן. אנא התקן אותו תחילה מ-Play Store.</string>
+
+    <string name="action_retry">נסה שוב</string>
+    <string name="action_download_update">הורד עדכון</string>
+    <string name="action_install_update">התקן עדכון</string>
+    <string name="action_skip_update">דלג עכשיו</string>
+    <string name="action_download_manual">הורדה ידנית</string>
+    <string name="action_continue_offline">המשך במצב לא מקוון</string>
+    <string name="badge_update">עדכון</string>
+    <string name="check_for_updates">בדוק עדכונים</string>
+    <string name="aaad_update_section">עדכון AAAD זמין</string>
+    <string name="aaad_update_available_subtitle">גרסה חדשה זמינה להורדה</string>
+    <string name="aaad_update_downloaded">העדכון הורד! מתקין…</string>
+    <string name="aaad_update_failed">הורדת העדכון נכשלה. נסה להוריד ידנית.</string>
+    <string name="aaad_current_version">נוכחית: %1$s</string>
+    <string name="aaad_latest_version">אחרונה: %1$s</string>
+    <string name="authorization_failed">אישור ההורדה נכשל. נסה שוב.</string>
+    <string name="authorization_error">שגיאת אישור. בדוק את החיבור.</string>
+    <string name="aabrowser_description">גלישה באינטרנט עם Android Auto</string>
+    <string name="benefit_icon">יתרון</string>
+    <string name="no_updates_available">אין עדכונים זמינים</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 התקנה משופרת (אופציונלי)</string>
+    <string name="onboarding_shizuku_subtitle">למשתמשי Android 14+ מתקדמים</string>
+    <string name="onboarding_shizuku_standard_mode">מצב סטנדרטי (מומלץ)</string>
+    <string name="onboarding_shizuku_standard_description">משתמש במתקין המערכת. עובד לכולם. מציג בקשות התקנה.</string>
+    <string name="onboarding_shizuku_enhanced_mode">מצב משופר עם Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">התקנה שקטה ללא בקשות. דורש הגדרה חד-פעמית.</string>
+    <string name="onboarding_shizuku_status">סטטוס Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">לא מותקן</string>
+    <string name="onboarding_shizuku_not_running">מותקן אך לא פועל</string>
+    <string name="onboarding_shizuku_no_permission">פועל אך הרשאה לא ניתנה</string>
+    <string name="onboarding_shizuku_ready">מוכן לשימוש</string>
+    <string name="onboarding_shizuku_install">התקן Shizuku</string>
+    <string name="onboarding_shizuku_start">הפעל Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">תן הרשאה</string>
+    <string name="onboarding_shizuku_start_service">Shizuku הותקן - הקש להפעלת השירות</string>
+    <string name="onboarding_shizuku_start_button">הפעל שירות Shizuku</string>
+    <string name="shizuku_service_not_started">שירות Shizuku אינו פועל. אנא פתח את Shizuku והפעל את השירות.</string>
+    <string name="onboarding_shizuku_what_is_it">מה זה Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku הוא כלי המאפשר לאפליקציות להשתמש בהרשאות ברמת מערכת דרך ניפוי באגים אלחוטי. הוא מאפשר התקנת אפליקציות שקטה ב-Android 14+ ללא root. אתה יכול עדיין להשתמש ב-AAAD בלעדיו!</string>
+    <string name="onboarding_shizuku_steps_title">שלבי הגדרה:</string>
+    <string name="onboarding_shizuku_step1">1. התקן אפליקציית Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. הפעל אפשרויות מפתח</string>
+    <string name="onboarding_shizuku_step3">3. הפעל ניפוי באגים אלחוטי</string>
+    <string name="onboarding_shizuku_step4">4. הפעל Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. תן הרשאה ל-AAAD</string>
+    <string name="onboarding_shizuku_learn_more">למד עוד</string>
+
+    <!-- Error Messages -->
+    <string name="error_not_eligible">עליך לשדרג ל-PRO או להמתין להורדה החינמית הבאה.</string>
+    <string name="error_no_internet">אין חיבור לאינטרנט</string>
+    <string name="error_no_internet_message">אנא התחבר לאינטרנט כדי לטעון מידע על האפליקציה ולהמשיך.</string>
+    <string name="error_initialization_failed">אתחול נתוני האפליקציה נכשל</string>
+    <string name="error_metadata_fetch_failed">טעינת עדכוני אפליקציה נכשלה</string>
+    <string name="error_metadata_fetch_failed_message">לא ניתן לאחזר את המידע האחרון על האפליקציה. בדוק את חיבור האינטרנט ונסה שוב.</string>
+    <string name="error_no_internet_title">אין חיבור לאינטרנט</string>
+    <string name="error_no_internet_description">AAAD דורש חיבור לאינטרנט כדי לטעון מידע על האפליקציה. התחבר ל-WiFi או לנתונים סלולריים ונסה שוב.</string>
+    <string name="network_error">שגיאת רשת. בדוק את החיבור ונסה שוב.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_data">טוען מידע על האפליקציה…</string>
+    <string name="loading_checking_updates">בודק עדכונים…</string>
+    <string name="loading_please_wait">אנא המתן…</string>
+    <string name="loading_app_catalog">טוען קטלוג אפליקציות…</string>
+    <string name="loading_fetching_icons">טוען סמלי אפליקציות…</string>
+    <string name="loading_finalizing">מסיים…</string>
+    <string name="loading_checking_internet">בודק חיבור לאינטרנט…</string>
+    <string name="downloading_aaad_update">מוריד עדכון AAAD…</string>
+    <string name="progress_downloading">מוריד %1$s…</string>
+    <string name="progress_installing">מתקין %1$s…</string>
+    <string name="progress_checking_updates">בודק עדכונים…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">רכוש Pro</string>
+    <string name="pro_version_title">גרסת PRO</string>
+    <string name="pro_version_icon">תג גרסת PRO</string>
+    <string name="pro_thank_you_title">תודה!</string>
+    <string name="pro_thank_you_message">תודה שתומך ב-AAAD עם רכישת PRO! תרומתך עוזרת לשמור על הפרויקט הזה חי ומאפשרת לנו להמשיך להביא לך את אפליקציות Android Auto הטובות ביותר.</string>
+    <string name="pro_since">חבר PRO מאז %s</string>
+    <string name="pro_since_legacy">חבר PRO</string>
+    <string name="pro_benefits_title">היתרונות שלך ב-PRO</string>
+    <string name="pro_benefit_unlimited">הורדות אפליקציות ללא הגבלה</string>
+    <string name="pro_benefit_no_cooldown">ללא זמן המתנה בין הורדות</string>
+    <string name="pro_benefit_support">תמיכה בפיתוח מתמשך</string>
+    <string name="pro_closing_message">אנחנו באמת מעריכים את האמון והתמיכה שלך. תהנה מהגישה הבלתי מוגבלת שלך לכל אפליקציות AAAD!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">אין אפליקציית אימייל מותקנת. אנא התקן אפליקציית אימייל (Gmail, Outlook וכו\') או שלח אימייל ישירות ל-help.aaad@gmail.com ממכשיר אחר.</string>
+    <string name="support_attachment_not_supported">קובץ מצורף לא נתמך, שולח אימייל ללא רישומים</string>
+    <string name="support_attachment_failed_fallback">לא ניתן לצרף רישומים, שולח אימייל ללא קובץ מצורף</string>
+    <string name="support_email_body_greeting">שלום תמיכת AAAD,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">עדכון זמין</string>
+    <string name="update_available_message">AAAD v%1$s זמין כעת. אתה משתמש ב-v%2$s.\n\nהאם תרצה להוריד את הגרסה האחרונה?</string>
+    <string name="checking_for_aaad_updates">בודק עדכוני AAAD…</string>
+    <string name="update_available_badge">עדכון</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque מביא את אפליקציית האבחון OBD-II Torque Pro ל-Android Auto. עקוב אחר ביצועי הרכב שלך, הצג נתוני אבחון וגש למידע על הרכב בזמן אמת ישירות מהצג של הרכב שלך.</string>
+    <string name="warning_offline">אתה לא מקוון - נתוני האפליקציה עשויים להיות מיושנים</string>
+    <string name="onboarding_preparing_catalog">מכין קטלוג אפליקציות ברקע…</string>
+    <string name="version_format">גרסה %1$s</string>
+    <string name="installed_version_format">מותקן: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">אפליקציות Android Auto</string>
+    <string name="hero_subtitle">התקן אפליקציות מותאמות אישית לחוויית Android Auto שלך</string>
+    <string name="refresh_apps">רענן אפליקציות</string>
+    <string name="privacy">מדיניות פרטיות</string>
+    <string name="installation_timeout_message_secure">אימות ההתקנה פג. ההורדה שלך נספרה במגבלה החודשית שלך מסיבות אבטחה.</string>
+    <string name="download_was_counted">ההורדה נספרה במגבלה החודשית שלך</string>
+    <string name="verifying_authorization">מאמת אישור הורדה…</string>
+    <string name="please_sign_in">אנא התחבר כדי להוריד אפליקציות</string>
 </resources>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">AAAD</string>
-    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. 11 App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO Version</string>
     <string name="switch_to_pro_statement">The free version of AAAD allows you to have one free download each month. If you want to enjoy unlimited free downloads, you can switch to PRO version and you will enjoy full functionalities and app updates!</string>
     <string name="congratsPro">Congratulations, you have PRO version!</string>    <string name="About">About</string>
     <string name="have_promo_code">I have a promo code</string>
     <string name="promo_code">Enter promo code</string>
     <string name="input_promo_code_here">Input promo code here</string>    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
-    <string name="no">no</string>
     <string name="warning_payment">Payment processing is securely handled by Stripe Inc. AAAD does not collect or store your payment information. At the end of the payment, please manually press \"Return to merchant\" for the transaction to be validated.</string>
     <string name="attention">ATTENTION</string>
     <string name="next_download_available">Next download will be available on: %1$s</string>
@@ -60,6 +58,13 @@
     <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
     <string name="onboarding_notifications_title">Notifications</string>
     <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto Developer Settings (Recommended)</string>
+    <string name="onboarding_aa_dev_description">Optional step to enhance your Android Auto experience</string>
+    <string name="onboarding_aa_dev_warning">For the best experience with custom apps on Android Auto, we recommend enabling \"Unknown sources\" in the Android Auto developer settings.</string>
+    <string name="onboarding_open_aa_dev">View Developer Settings</string>
+
     <string name="onboarding_play_protect_title">Google Play Protect</string>
     <string name="onboarding_play_protect_description">Temporarily disable to allow custom app installation</string>
     <string name="onboarding_play_protect_warning">Google Play Protect may block installation of custom apps. You need to temporarily disable it or allow AAAD when prompted.</string>
@@ -189,7 +194,7 @@
     <string name="downloads_remaining">Downloads remaining</string>    <string name="about_part_two" translatable="false">"<![CDATA[The app has been made possible by the following libraries:<br>BottomDialog by iGio90<br>Stripe Payment Processing<br>]]>"</string>
     <string name="privacy">Privacy Policy</string>
     <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
-    <string name="loading">Loading...</string>
+    <string name="loading">Loading…</string>
     <string name="go_pro">GO PRO</string>
     <string name="purchase_pro">Purchase Pro</string>
     <string name="i_m_good">I\'m good</string>
@@ -200,6 +205,9 @@
     <string name="i_want_to_transfer_license_from_here">I want to transfer license from here</string>
     <string name="license_transfer_help">If you want to transfer the license from one phone to the other, you are in the right place. Please select what you want to do</string>
     <string name="transfer_license">Transfer License</string>
+    <string name="debug_mode_activate">Activate debug</string>
+    <string name="debug_mode_performance_warning">Debug mode might impact on performance</string>
+    <string name="debug_mode_deactivated">Debug mode deactivated</string>
     <string name="confirm">Confirmation</string>
     <string name="license_here_confirm">Are you sure that you want to transfer the license to this device?</string>
     <string name="qr_tutorial">Great, now open the device that you want to transfer the license from and select \"I want to transfer the license from here\", then scan this QR code</string>
@@ -265,7 +273,7 @@
     <string name="support_email_body_describe">Please describe your issue below:</string>
     <string name="support_email_body_device_info">Device Information:</string>    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
     <string name="success_transfer">License validated</string>    <string name="email_dialog">The e-mail will be used in order to verify your purchase, if needed</string>
-    <string name="input_email">Please enter your e-mail...</string>
+    <string name="input_email">Please enter your e-mail…</string>
     <string name="days_remaining">%d days remaining until next download</string>
     <string name="hours_remaining">%d hours remaining until next download</string>
     <string name="less_than_hour">Less than 1 hour remaining until next download</string>
@@ -297,5 +305,31 @@
     <string name="first_section_name">Multimedia</string>
     <string name="second_section_name">Mirroring Apps</string>
     <string name="third_section_name">Others</string>
+
+    <!-- Server-Side Download Authorization -->
+    <string name="verifying_authorization">Verifying download authorization…</string>
+    <string name="authorization_failed">Download authorization failed. Please try again.</string>
+    <string name="authorization_error">Authorization error. Please check your connection.</string>
+    <string name="please_sign_in">Please sign in to download apps</string>
+    <string name="network_error">Network error. Please check your connection and try again.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto Developer Settings</string>
+    <string name="android_auto_setup_icon">Android Auto setup guide icon</string>
+    <string name="android_auto_setup_subtitle">Follow these steps to enable unknown sources for custom apps on Android Auto</string>
+    <string name="android_auto_open_settings">Open Android Auto Settings</string>
+    <string name="android_auto_setup_instructions_title">Setup Instructions</string>
+    <string name="android_auto_step1_title">Tap \"Version\" 10 Times</string>
+    <string name="android_auto_step1_description">In Android Auto settings, scroll to the bottom and tap on \"Version\" (the last item) 10 times to unlock developer settings.</string>
+    <string name="android_auto_step2_title">Confirm Developer Mode</string>
+    <string name="android_auto_step2_description">When prompted, tap \"Allow\" or \"Enable\" to activate developer settings for Android Auto.</string>
+    <string name="android_auto_step3_title">Open Developer Settings</string>
+    <string name="android_auto_step3_description">Tap the three-dot menu icon in the top right corner and select \"Developer settings\" from the dropdown menu.</string>
+    <string name="android_auto_step4_title">Enable Unknown Sources</string>
+    <string name="android_auto_step4_description">In the Developer settings menu, find and enable the \"Unknown sources\" option to allow installation of third-party apps.</string>
+    <string name="android_auto_setup_done">Done</string>
+    <string name="android_auto_settings_opened">Android Auto settings opened. Follow the steps above.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto opened. Please navigate to Settings manually.</string>
+    <string name="android_auto_not_installed">Android Auto is not installed. Please install it from the Play Store first.</string>
 
 </resources>

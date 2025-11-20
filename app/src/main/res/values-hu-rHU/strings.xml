@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Üdvözöljük az Android Auto Apps Downloader (AAAD). Ez a segédprogram segít az egyedi alkalmazások telepítésében az Android Auto alkalmazásban a nem root telefonokhoz. Válassza ki a telepíteni kívánt alkalmazást, és várja meg a telepítő megjelenését. Az alkalmazások leírása hosszú nyomás alatt elérhető.</string>
     <string name="title_activity_about_payment">Pro verzió</string>
-    <string name="switch_to_pro_statement">Az AAAD ingyenes verziója lehetővé teszi, hogy havonta egy ingyenes letöltést kapjon. Ha korlátlan ingyenes letöltéseket szeretne élvezni, válthat a PRO verzióra, és élvezheti a teljes funkcionalitást és az alkalmazásfrissítéseket!</string>
-    <string name="congratsPro">Gratulálunk, most a PRO verziót használja!</string>    <string name="About">Névjegy</string>
+    <string name="switch_to_pro_statement">Az AAAD ingyenes verziója havonta egy ingyenes letöltést tesz lehetővé. Ha többet szeretnél letölteni, válts PRO verzióra.</string>
+    <string name="congratsPro">Gratulálunk, PRO verziód van!</string>    <string name="About">Névjegy</string>
     <string name="have_promo_code">Van promóciós kódom</string>
     <string name="promo_code">Promóciós kód megadása</string>
-    <string name="input_promo_code_here">Ide írja be a promóciós kódot</string>    <string name="about_to_download">A(z) %1$s letöltésére készül. Szeretnéd folytatni?</string>
-    <string name="no">nem</string>
+    <string name="input_promo_code_here">Adja meg a kódot itt</string>    <string name="about_to_download">A(z) %1$s letöltésére készül. Szeretnéd folytatni?</string>
     <string name="warning_payment">A fizetés végén kérjük, nyomja meg manuálisan a „Visszatérés a kereskedőhöz” gombot a tranzakció érvényesítéséhez.</string>
-    <string name="attention">Figyelem</string>
-    <string name="next_download_available">A következő letöltés a következő helyen lesz elérhető: %1$s</string>
+    <string name="attention">FIGYELEM</string>
+    <string name="next_download_available">Következő letöltés elérhető: %1$s</string>
     <string name="connect_error">KAPCSOLÓDÁSI HIBA</string>
     <plurals name="remaining_downloads">
         <item quantity="one">Nincs több letöltés</item>
         <item quantity="other">Nincs több letöltés</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) Shmykelsa fejlesztő és karbantartó. <br><br>Az elérhető alkalmazásokat a következő fejlesztők teszik lehetővé:<br>]]>"</string>
-    <string name="pro_unlocked">Gratulálunk, Pro verzió engedélyezve</string>
-    <string name="cancelled_payment">Vásárlás megszakítva</string>
-    <string name="please_enter_code">Kérjük, írja be a kódot</string>
-    <string name="connection_error">Csatlakozási hiba, nem sikerült ellenőrizni</string>
+    <string name="pro_unlocked">Gratulálunk, PRO verzió feloldva</string>
+    <string name="cancelled_payment">Vásárlás törölve</string>
+    <string name="please_enter_code">Kérjük, adja meg promóciós kódját</string>
+    <string name="connection_error">Kapcsolati hiba, nem sikerült ellenőrizni</string>
     <string name="not_valid_code">Érvénytelen kód</string>    <string name="downloading_progress">Letöltés: </string>
     <string name="aa_mirror_plus_description">Az AAMirror alternatívája néhány további funkcióval.</string>
-    <string name="aapassenger_description">Ez az alkalmazás azért készült, hogy az utasok kezelhessék az Android Auto egyes funkcióit. Megköveteli, hogy az utas töltse le az AAPassenger programot. A működési állapot jelenleg ismeretlen.</string>
+    <string name="aapassenger_description">Oldja fel az Android Autót vezetési módban</string>
     <string name="s2a_description">A legteljesebb és legátfogobb tükröző alkalmazás az Android Auto számára. Számos olyan funkciót tartalmaz, mint egy testreszabható indító, osztott képernyő, egyedi képernyőméretek és még sok más!</string>
-    <string name="aamirror_description">Az első és tartós képernyőtükör alkalmazás az Android Auto alkalmazáshoz. Egy család őse, az AAMirror egyszerűen a telefon képernyőjét tükrözi az autónak.</string>
-    <string name="aa_stream_description">Az AAMirror másik alternatívája néhány extra funkcióval. Nemrégiben újjáélesztett és Annexhack javította az újabb Android-verziókhoz.</string>
+    <string name="aamirror_description">Tükrözze okostelefonja képernyőjét az Android Autóra</string>
+    <string name="aa_stream_description">Streamelés videók az Android Autón</string>
     <string name="carstream_description">A korábban \"YouTube Auto\" néven ismert CarStream volt az egyik első alkalmazás, amely az egyedi alkalmazások SDK-jával készült. Azzal a fő céllal született, hogy a YouTube-ot eljuttassa az Android Auto szolgáltatáshoz, majd számos képességű webböngészővé vált.</string>
-    <string name="fermata_description">"Az Android Auto legteljesebb video- és hanglejátszója, amely teljes lejátszóélményt kínál számos funkcióval, például hálózati adatfolyamokkal és webböngészővel. Ez a Fermata Control társalkalmazáshoz is tartozik, amely lehetővé teszi a lejátszás kezelését az alkalmazáson kívül és a kormánykerék kezelőszervein keresztül."</string>
-    <string name="s2a_redirect">Átirányít a screen2auto webhelyre. Innen válassza ki a verziót, és nyissa meg az AAAD segítségével.</string>
-    <string name="screen2auto_download">Telepíteni fogja a Screen2Auto alkalmazást. Folytatni kivánja?</string>    <string name="aawidgets_description">Egyetlen céllal született. Hozhat egy programfeladatot az Android Auto alkalmazásba!</string>
-    <string name="performance_monitor_description">Ez egy teljesítménymonitor, amely Martoreto\'s aa-statisztikáin alapszik. Kifejezetten a Volkswagen/Skoda/Seat/Audi MIB2 információs és szórakoztató egységekkel való használatra készült, de másokon is működhet, amennyiben rendelkeznek Android Auto támogatással. Szüksége van a VAG kiterjesztésére is a Volkswagen Cars-on való müködéshez.</string>
-    <string name="promotion">15% kedvezményre jogosult</string>    <string name="loading">Betöltés...</string>
-    <string name="go_pro">VÁLTS PRO-RA</string>
+    <string name="fermata_description">Lépjen ki az Android Autóból anélkül, hogy elhagyná az autót</string>
+    <string name="s2a_redirect">A legjobb élményhez a Screen2Autot ajánljuk</string>
+    <string name="screen2auto_download">Screen2Auto letöltése</string>    <string name="aawidgets_description">Egyetlen céllal született. Hozhat egy programfeladatot az Android Auto alkalmazásba!</string>
+    <string name="performance_monitor_description">Figyelje a rendszer teljesítményét az Android Autón</string>
+    <string name="promotion">Jogosult vagy 15% kedvezményre</string>    <string name="loading">Betöltés…</string>
+    <string name="go_pro">PRO BESZERZÉSE</string>
     <string name="i_m_good">Jól vagyok</string>
-    <string name="nav2contacts_description">Az új navigációs alkalmazások megjelenésével az Android Auto programba sokuknak nem áll rendelkezésre a Google Asszisztens támogatása a telefonkönyvbe mentett névjegyek címére történő navigáláshoz. A Nav2Contacts segítséget nyujt ebben! Először válassza ki a használni kívánt navigációs alkalmazást, majd keresse meg a navigálni kívánt névjegyet, és azonnal indítsa el a navigációt!</string>    <string name="back_button_payment_close">KÉRJÜK, ne felejtse el megnyomni a kék gombot: „Visszatérés a kereskedő webhelyére”, miután a fizetés teljes</string>
+    <string name="nav2contacts_description">Gyorsan navigáljon a névjegyekhez</string>    <string name="back_button_payment_close">Fizetés megszakítása és bezárás</string>
     <string name="help">Súgó</string>
     <string name="help_dialog">Szeretne most e-mailt küldeni segítségért?</string>    <string name="i_want_to_transfer_license_here">Engedély másolása másik eszközre</string>
-    <string name="i_want_to_transfer_license_from_here">Innen akarom átengedni az engedélyt</string>
-    <string name="license_transfer_help">Ha az engedélyt egyik telefonról a másikra szeretné átruházni, akkor jó helyen jár. Kérjük, válassza ki, mit szeretne csinálni</string>
+    <string name="i_want_to_transfer_license_from_here">Át szeretném vinni a licencem erről az eszközről</string>
+    <string name="license_transfer_help">Olvassa be a QR-kódot egy másik eszközön a licenc átviteléhez</string>
     <string name="transfer_license">Engedély másolása</string>
+    <string name="debug_mode_activate">Hibakeresés aktiválása</string>
+    <string name="debug_mode_performance_warning">A hibakeresési mód befolyásolhatja a teljesítményt</string>
+    <string name="debug_mode_deactivated">Hibakeresési mód kikapcsolva</string>
     <string name="confirm">Megerősítés</string>
-    <string name="license_here_confirm">Biztosan át kívánja adni az engedélyt erre az eszközre?</string>
-    <string name="qr_tutorial">Nagyszerű, most nyissa meg azt az eszközt, amelyről az engedélyt át kívánja adni, és válassza a \"Szeretném innen továbbítani az engedélyt\" lehetőséget, majd beolvassa ezt a QR-kódot</string>
-    <string name="license_done">Engedély átadva</string>
-    <string name="no_license_found">Nincs aktív engedélye ezen az eszközön</string>    <string name="qr_code_permission">A QR-kód beolvasásához a kamera engedélye szükséges</string>
-    <string name="success_transfer">Engedély érvényesítve</string>
+    <string name="license_here_confirm">Szeretné átvinni a licencet erre az eszközre?</string>
+    <string name="qr_tutorial">Nyissa meg az AAAD-t a másik eszközön és olvassa be ezt a QR-kódot</string>
+    <string name="license_done">Licenc sikeresen átvéve!</string>
+    <string name="no_license_found">Nem található érvényes licenc</string>    <string name="qr_code_permission">A QR-kód beolvasásához a kamera engedélye szükséges</string>
+    <string name="success_transfer">Átvitel sikeres</string>
     <string name="email_dialog" comment="&#10;Dialog window">Párbeszéd ablak</string>
-    <string name="input_email">Kérjük, adja meg e-mail címét...</string>
+    <string name="input_email">Adja meg az e-mail címét</string>
     <string name="days_remaining">%d nap van hátra a következő letöltésig</string>
     <string name="hours_remaining">%d óra van hátra a következő letöltésig</string>
     <string name="less_than_hour">Kevesebb mint 1 óra van hátra a következő letöltésig</string>
@@ -61,8 +62,8 @@
     <string name="onboarding_official_source">Hivatalos forrás: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
-    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_title">Üdvözöljük az AAAD-ban!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto alkalmazás letöltő</string>
     <string name="onboarding_welcome_description">Ez az eszköz segít egyedi alkalmazások telepítésében az Android Auto-ra rootolás nélküli telefonokon. Csúsztassa végig, hogy megtanulja az alkalmazás használatát, majd adja meg a szükséges engedélyeket a kezdéshez.</string>
 
     <!-- Page 2: App Selection -->
@@ -74,25 +75,32 @@
     <string name="onboarding_page_info_description">Ha nem biztos abban, hogy melyik alkalmazást telepítse, hosszan nyomja meg a gombot a leírás megtekintéséhez.</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">Multimédia alkalmazások</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">Tükrözési alkalmazások</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">Egyéb</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">Szükséges beállítás</string>
     <string name="onboarding_permissions_subtitle">Engedélyek megadása egyedi alkalmazások telepítéséhez</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
-    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_unknown_sources_title">Ismeretlen alkalmazások telepítése</string>
+    <string name="onboarding_unknown_sources_description">Szükséges az APK fájlok külső forrásokból való telepítéséhez</string>
+    <string name="onboarding_notifications_title">Értesítések</string>
+    <string name="onboarding_notifications_description">Értesítések fogadása a letöltési folyamatról és az alkalmazásfrissítésekről</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto fejlesztői beállítások (Ajánlott)</string>
+    <string name="onboarding_aa_dev_description">Opcionális lépés az Android Auto élmény javításához</string>
+    <string name="onboarding_aa_dev_warning">A legjobb élmény érdekében egyedi alkalmazásokkal az Android Autón, javasoljuk az \"Ismeretlen források\" engedélyezését az Android Auto fejlesztői beállításokban.</string>
+    <string name="onboarding_open_aa_dev">Fejlesztői beállítások megtekintése</string>
+
+    <string name="onboarding_play_protect_title">Google Play Védelem</string>
     <string name="onboarding_play_protect_description">Átmenetileg tiltsa le az egyedi alkalmazások telepítésének engedélyezéséhez</string>
     <string name="onboarding_play_protect_warning">A Google Play Protect blokkolhatja az egyedi alkalmazások telepítését. Átmenetileg le kell tiltania, vagy engedélyeznie kell az AAAD-t, amikor a rendszer kéri.</string>
     <string name="onboarding_open_play_protect">Play Protect beállítások megnyitása</string>
@@ -101,12 +109,12 @@
     <string name="onboarding_next">Következő</string>
     <string name="onboarding_previous">Előző</string>
     <string name="onboarding_skip">Kihagyás</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">Engedélyek megadása</string>
+    <string name="onboarding_continue">Tovább az alkalmazáshoz</string>
+    <string name="onboarding_get_started">Kezdés</string>
     <string name="onboarding_finish">Beállítás befejezése</string>
     <string name="show_intro">Bemutató megjelenítése</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">Hátralevő letöltések</string>
 
     <!-- Installation Status -->
     <string name="status_installed">Telepítve</string>
@@ -166,7 +174,7 @@
     <string name="sender_step_3">Egy QR-kód jelenik meg az új eszközön</string>
     <string name="sender_step_4">Érintsd meg az alábbi gombot és olvasd be azt a QR-kódot</string>
     <string name="scan_qr_code">QR-kód beolvasása</string>
-    <string name="camera_permission_required">Kamera engedély szükséges a QR-kódok beolvasásához</string>
+    <string name="camera_permission_required">Kameraengedély szükséges a QR-kódok beolvasásához</string>
     <string name="error_checking_license">Nem sikerült ellenőrizni a licenc állapotát. Próbáld újra.</string>
     <string name="error_generating_qr">Nem sikerült létrehozni a QR-kódot</string>
     <string name="license_received_success">Licenc sikeresen fogadva!</string>
@@ -198,9 +206,133 @@
 
 
     <!-- Section Names (for large screens) -->
-    <string name="first_section_name">Multimedia</string>
-    <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="first_section_name">Multimédia</string>
+    <string name="second_section_name">Tükrözési alkalmazások</string>
+    <string name="third_section_name">Egyéb</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">Ez az alkalmazás tiszteletben tartja az adatvédelmedet. Nem gyűjtünk, tárolunk vagy osztunk meg semmilyen személyes információt a hozzájárulásod nélkül. További információért kérjük, lépj kapcsolatba velünk.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto fejlesztői beállítások</string>
+    <string name="android_auto_setup_icon">Android Auto beállítási útmutató ikon</string>
+    <string name="android_auto_setup_subtitle">Kövesd ezeket a lépéseket az ismeretlen források engedélyezéséhez egyedi alkalmazásoknál az Android Autón</string>
+    <string name="android_auto_open_settings">Android Auto beállítások megnyitása</string>
+    <string name="android_auto_setup_instructions_title">Beállítási utasítások</string>
+    <string name="android_auto_step1_title">Érintsd meg a \"Verzió\"-t 10-szer</string>
+    <string name="android_auto_step1_description">Az Android Auto beállításokban görgess le az aljára és érintsd meg a \"Verzió\"-t (az utolsó elem) 10-szer a fejlesztői beállítások feloldásához.</string>
+    <string name="android_auto_step2_title">Fejlesztői mód megerősítése</string>
+    <string name="android_auto_step2_description">Amikor a rendszer kéri, érintsd meg az \"Engedélyezés\" vagy \"Bekapcsolás\" gombot a fejlesztői beállítások aktiválásához az Android Autón.</string>
+    <string name="android_auto_step3_title">Fejlesztői beállítások megnyitása</string>
+    <string name="android_auto_step3_description">Érintsd meg a három pontos menü ikont a jobb felső sarokban és válaszd ki a \"Fejlesztői beállítások\" menüpontot a legördülő menüből.</string>
+    <string name="android_auto_step4_title">Ismeretlen források engedélyezése</string>
+    <string name="android_auto_step4_description">A Fejlesztői beállítások menüben keresd meg és engedélyezd az \"Ismeretlen források\" opciót, hogy harmadik féltől származó alkalmazások telepítése lehetséges legyen.</string>
+    <string name="android_auto_setup_done">Kész</string>
+    <string name="android_auto_settings_opened">Android Auto beállítások megnyitva. Kövesd a fenti lépéseket.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto megnyitva. Kérjük, navigálj a Beállításokhoz manuálisan.</string>
+    <string name="android_auto_not_installed">Az Android Auto nincs telepítve. Kérjük, először telepítsd a Play Store-ból.</string>
+
+    <!-- Android Auto Setup Activity -->
+
+    <string name="action_download_update">Frissítés letöltése</string>
+    <string name="action_install_update">Frissítés telepítése</string>
+    <string name="action_skip_update">Átugr ás most</string>
+    <string name="action_download_manual">Kézi letöltés</string>
+    <string name="badge_update">FRISSÍTÉS</string>
+    <string name="check_for_updates">Frissítések ellenőrzése</string>
+    <string name="aaad_update_section">AAAD frissítés elérhető</string>
+    <string name="aaad_update_available_subtitle">Új verzió elérhető letöltésre</string>
+    <string name="aaad_update_downloaded">Frissítés letöltve! Telepítés…</string>
+    <string name="aaad_update_failed">Frissítés letöltése sikertelen. Próbálja meg kézzel letölteni.</string>
+    <string name="aaad_current_version">Jelenlegi: %1$s</string>
+    <string name="aaad_latest_version">Legújabb: %1$s</string>
+    <string name="authorization_failed">Letöltési engedélyezés sikertelen. Próbálja újra.</string>
+    <string name="authorization_error">Engedélyezési hiba. Ellenőrizze a kapcsolatot.</string>
+    <string name="aabrowser_description">Böngésszen az interneten az Android Autóval</string>
+    <string name="benefit_icon">Előny</string>
+    <string name="no_updates_available">Nincs elérhető frissítés</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Továbbfejlesztett telepítés (Opcionális)</string>
+    <string name="onboarding_shizuku_subtitle">Android 14+ haladó felhasználóknak</string>
+    <string name="onboarding_shizuku_standard_mode">Normál mód (Ajánlott)</string>
+    <string name="onboarding_shizuku_standard_description">A rendszer telepítőjét használja. Mindenkinél működik. Telepítési kérdéseket jelenít meg.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Továbbfejlesztett mód Shizuku-val</string>
+    <string name="onboarding_shizuku_enhanced_description">Csendes telepítés kérdések nélkül. Egyszeri beállítást igényel.</string>
+    <string name="onboarding_shizuku_status">Shizuku állapota:</string>
+    <string name="onboarding_shizuku_not_installed">Nincs telepítve</string>
+    <string name="onboarding_shizuku_not_running">Telepítve, de nem fut</string>
+    <string name="onboarding_shizuku_no_permission">Fut, de nincs engedély megadva</string>
+    <string name="onboarding_shizuku_ready">Használatra kész</string>
+    <string name="onboarding_shizuku_install">Shizuku telepítése</string>
+    <string name="onboarding_shizuku_start">Shizuku indítása</string>
+    <string name="onboarding_shizuku_grant_permission">Engedély megadása</string>
+    <string name="onboarding_shizuku_start_service">Shizuku telepítve - érintse meg a szolgáltatás elindításához</string>
+    <string name="onboarding_shizuku_start_button">Shizuku szolgáltatás indítása</string>
+    <string name="shizuku_service_not_started">A Shizuku szolgáltatás nem fut. Nyissa meg a Shizuku-t és indítsa el a szolgáltatást.</string>
+    <string name="onboarding_shizuku_what_is_it">Mi az a Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">A Shizuku egy eszköz, amely lehetővé teszi az alkalmazások számára rendszerszintű engedélyek használatát vezeték nélküli hibakeresés útján. Lehetővé teszi a csendes alkalmazástelepítést Android 14+-on root nélkül. Az AAAD-t még mindig használhatja nélküle!</string>
+    <string name="onboarding_shizuku_steps_title">Beállítási lépések:</string>
+    <string name="onboarding_shizuku_step1">1. Telepítse a Shizuku alkalmazást</string>
+    <string name="onboarding_shizuku_step2">2. Engedélyezze a Fejlesztői beállításokat</string>
+    <string name="onboarding_shizuku_step3">3. Engedélyezze a Vezeték nélküli hibakeresést</string>
+    <string name="onboarding_shizuku_step4">4. Indítsa el a Shizuku-t</string>
+    <string name="onboarding_shizuku_step5">5. Adjon engedélyt az AAAD-nak</string>
+    <string name="onboarding_shizuku_learn_more">Tudjon meg többet</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet_title">Nincs internetkapcsolat</string>
+    <string name="error_no_internet_description">Az AAAD internetkapcsolatot igényel az alkalmazásinformációk betöltéséhez. Csatlakozzon WiFi-hez vagy mobiladatokhoz, és próbálja újra.</string>
+    <string name="network_error">Hálózati hiba. Ellenőrizze a kapcsolatot, és próbálja újra.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_catalog">Alkalmazáskatalógus betöltése…</string>
+    <string name="loading_fetching_icons">Alkalmazásikonok betöltése…</string>
+    <string name="loading_finalizing">Befejezés…</string>
+    <string name="loading_checking_internet">Internetkapcsolat ellenőrzése…</string>
+    <string name="downloading_aaad_update">AAAD frissítés letöltése…</string>
+    <string name="progress_downloading">%1$s letöltése…</string>
+    <string name="progress_installing">%1$s telepítése…</string>
+    <string name="progress_checking_updates">Frissítések ellenőrzése…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Pro vásárlás</string>
+    <string name="pro_version_title">PRO verzió</string>
+    <string name="pro_version_icon">PRO verzió jelvény</string>
+    <string name="pro_thank_you_title">Köszönjük!</string>
+    <string name="pro_thank_you_message">Köszönjük, hogy PRO vásárlásával támogatja az AAAD-t! Hozzájárulása segít életben tartani ezt a projektet, és lehetővé teszi számunkra, hogy továbbra is a legjobb Android Auto alkalmazásokat hozzuk el Önnek.</string>
+    <string name="pro_since">PRO tag %s óta</string>
+    <string name="pro_since_legacy">PRO tag</string>
+    <string name="pro_benefits_title">Az Ön PRO előnyei</string>
+    <string name="pro_benefit_unlimited">Korlátlan alkalmazásletöltések</string>
+    <string name="pro_benefit_no_cooldown">Nincs várakozási idő a letöltések között</string>
+    <string name="pro_benefit_support">Támogatja a folyamatos fejlesztést</string>
+    <string name="pro_closing_message">Őszintén értékeljük bizalmát és támogatását. Élvezze korlátlan hozzáférését az összes AAAD alkalmazáshoz!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">Nincs telepítve e-mail alkalmazás. Telepítsen egy e-mail alkalmazást (Gmail, Outlook stb.), vagy küldjön e-mailt közvetlenül a help.aaad@gmail.com címre másik eszközről.</string>
+    <string name="support_attachment_not_supported">A melléklet nem támogatott, e-mail küldése naplók nélkül</string>
+    <string name="support_attachment_failed_fallback">A naplók csatolása nem sikerült, e-mail küldése melléklet nélkül</string>
+    <string name="support_email_body_greeting">Üdvözöljük AAAD Támogatás,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Frissítés elérhető</string>
+    <string name="update_available_message">Az AAAD v%1$s már elérhető. Ön a v%2$s-t használja.\n\nSzeretné letölteni a legújabb verziót?</string>
+    <string name="checking_for_aaad_updates">AAAD frissítések keresése…</string>
+    <string name="update_available_badge">FRISSÍTÉS</string>
+
+    <!-- General -->
+    <string name="aatorque_description">Az AATorque az OBD-II járműdiagnosztikai alkalmazás Torque Pro-t hozza el az Android Auto-ba. Figyelje autója teljesítményét, tekintse meg a diagnosztikai adatokat és férjen hozzá a valós idejű járműinformációkhoz közvetlenül autója kijelzőjéről.</string>
+    <string name="warning_offline">Offline van - az alkalmazásadatok elavultak lehetnek</string>
+    <string name="onboarding_preparing_catalog">Alkalmazáskatalógus előkészítése a háttérben…</string>
+    <string name="version_format">Verzió %1$s</string>
+    <string name="installed_version_format">Telepítve: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Android Auto alkalmazások</string>
+    <string name="hero_subtitle">Telepítsen egyéni alkalmazásokat Android Auto élményéhez</string>
+    <string name="refresh_apps">Alkalmazások frissítése</string>
+    <string name="privacy">Adatvédelmi irányelvek</string>
+    <string name="installation_timeout_message_secure">A telepítés ellenőrzése időtúllépés miatt megszakadt. Letöltése biztonsági okokból beleszámít havi korlátjába.</string>
+    <string name="download_was_counted">A letöltés beleszámít a havi korlátba</string>
+    <string name="verifying_authorization">Letöltési jogosultság ellenőrzése…</string>
+    <string name="please_sign_in">Jelentkezzen be az alkalmazások letöltéséhez</string>
 </resources>

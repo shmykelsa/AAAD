@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
-import com.legs.appsforaa.utils.Logger
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
@@ -13,7 +12,11 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.lifecycle.lifecycleScope
-import com.google.firebase.database.*
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
+import com.legs.appsforaa.utils.Logger
 import com.legs.appsforaa.utils.applyBottomInsetPadding
 import com.stripe.android.PaymentConfiguration
 import com.stripe.android.Stripe
@@ -26,8 +29,6 @@ import org.json.JSONObject
 import java.io.OutputStreamWriter
 import java.net.HttpURLConnection
 import java.net.URL
-import java.text.SimpleDateFormat
-import java.util.*
 
 class AboutPaymentActivity : AppCompatActivity() {
 
@@ -50,7 +51,7 @@ class AboutPaymentActivity : AppCompatActivity() {
 
         val extras = intent.extras
         val nextTry = extras?.getLong("date")
-        val promo = extras?.getBoolean("promotion") ?: false
+        extras?.getBoolean("promotion") ?: false
 
         // Initialize Stripe
         PaymentConfiguration.init(
@@ -60,7 +61,12 @@ class AboutPaymentActivity : AppCompatActivity() {
         stripe = Stripe(applicationContext, BuildConfig.STRIPE_PUBLISHABLE_KEY)
 
         // Initialize PaymentSheet
-        paymentSheet = PaymentSheet(this, ::onPaymentSheetResult)
+        // Note: Stripe SDK 22.x is transitioning to Builder pattern, but current constructor works fine
+        // Will migrate to PaymentSheet.Builder when the API stabilizes
+        @Suppress("DEPRECATION")
+        paymentSheet = PaymentSheet(this) { result ->
+            onPaymentSheetResult(result)
+        }
 
         // Authenticate and initialize (MUST happen before database access)
         lifecycleScope.launch {
@@ -126,7 +132,7 @@ class AboutPaymentActivity : AppCompatActivity() {
         val proButton = findViewById<View>(R.id.proButton)
         
         upperTextView.text = getString(R.string.congratsPro)
-        centralTextView.text = "You have unlimited downloads!"
+        centralTextView.text = getString(R.string.pro_benefit_unlimited)
         proButton.visibility = View.GONE
     }
 

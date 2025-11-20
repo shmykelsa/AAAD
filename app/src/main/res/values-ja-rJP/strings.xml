@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">PRO Version</string>
-    <string name="switch_to_pro_statement">AAADの無料版は、毎月1回だけ無料ダウンロードができます。 無制限に無料ダウンロードしたい場合は、PROバージョンに切り替えましょう。PROバージョンでは完全な機能とアプリのアップデートがお楽しみいただけます</string>
-    <string name="congratsPro">Congratulations, you have PRO version!</string>    <string name="About">About</string>
-    <string name="have_promo_code">プロモコードをお持ちの方はこちらへ</string>
-    <string name="promo_code">プロモコードを入力してください</string>
-    <string name="input_promo_code_here">こちらにプロモコードを入力してください</string>    <string name="about_to_download">%1$sをダウンロードしようとしています。続行しますか？</string>
-    <string name="no">いいえ</string>
+    <string name="switch_to_pro_statement">AAADの無料版では、月に1回無料でダウンロードできます。もっとダウンロードしたい場合は、PROにアップグレードしてください。</string>
+    <string name="congratsPro">おめでとうございます、PRO版をお持ちです！</string>    <string name="About">About</string>
+    <string name="have_promo_code">プロモコードがあります</string>
+    <string name="promo_code">プロモコードを入力</string>
+    <string name="input_promo_code_here">コードをここに入力</string>    <string name="about_to_download">%1$sをダウンロードしようとしています。続行しますか？</string>
     <string name="warning_payment">支払いの終了時、取引を検証するために手動で「Return to merchant」を押してください</string>
-    <string name="attention">重要</string>
-    <string name="next_download_available">次のダウンロードが利用可能になるのは: %1$s</string>
+    <string name="attention">注意</string>
+    <string name="next_download_available">次のダウンロード可能日時: %1$s</string>
     <string name="connect_error">接続エラー</string>
     <plurals name="remaining_downloads">
         <item quantity="other">ダウンロード回数がありません</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD(Android Auto Apps Downloader) はShmykelsa氏によって開発され、管理されています。 <br><br>利用可能なアプリは、次の開発者によって実現しました:<br>]]>"</string>
-    <string name="pro_unlocked">おめでとうございます。PROバージョンがアンロックされました</string>
-    <string name="cancelled_payment">購入をキャンセルしました</string>
-    <string name="please_enter_code">コードを入力してください</string>
-    <string name="connection_error">接続エラー。検証できませんでした</string>
+    <string name="pro_unlocked">おめでとうございます、PRO版がアンロックされました</string>
+    <string name="cancelled_payment">購入がキャンセルされました</string>
+    <string name="please_enter_code">プロモコードを入力してください</string>
+    <string name="connection_error">接続エラー、確認できませんでした</string>
     <string name="not_valid_code">無効なコードです</string>    <string name="downloading_progress">ダウンロード中…</string>
     <string name="aa_mirror_plus_description">AAMirrorの代わりとなるミラーリングアプリ。 より機能が充実しています</string>
-    <string name="aapassenger_description">このアプリは同乗者がAndroid Autoの機能を操作できるように作られました。同乗者がAAPassengerをダウンロードする必要があります。作業状態は現在分かりません</string>
+    <string name="aapassenger_description">運転モードでAndroid Autoのロックを解除</string>
     <string name="s2a_description">Android Auto用の最も完全でフル機能のミラーリングアプリ。カスタマイズ可能なランチャー、分割スクリーン、スクリーンサイズのカスタマイズなど多くの機能が含まれています</string>
-    <string name="aamirror_description">Android Autoで最も早い時期からあり、そして長く続いている画面ミラーリングアプリ。 元祖AAMirrorはただシンプルにスマホの画面を車に映し出します</string>
-    <string name="aa_stream_description">そもう一つのAAMirror代替アプリで、いくつか追加機能があります。最近、 新しいAndroidバージョンに対応するため、Annexhack氏によって復活し改良されました</string>
+    <string name="aamirror_description">スマートフォンの画面をAndroid Autoにミラーリング</string>
+    <string name="aa_stream_description">Android Autoで動画をストリーミング</string>
     <string name="carstream_description">「YouTube Auto」としても知られるCarStreamは、カスタムアプリSDKでも最初期のアプリ。 Android AutoでYouTubeを見るために開発され、そして多くの機能を備えたウェブブラウザになりました
     </string>
-    <string name="fermata_description">"Android Auto用の最も完全なビデオ兼オーディオプレーヤーです。 ネットワークストリームやウェブブラウザなどの多くの機能を備えています。 また、アプリ外やステアリングホイール上のリモコンスイッチから再生を操作できるコンパニオンアプリFermata Controlが付属しています"</string>
-    <string name="s2a_redirect">screen2auto ウェブサイトにリダイレクトします。 そこからバージョンを選択し、AAADで開いてください</string>
-    <string name="screen2auto_download">Screen2Autoをインストールしようとしています。 続行しますか？</string>    <string name="aawidgets_description">たったひとつの役割のために誕生しました。Android Autoにウィジェットをもたらします</string>
-    <string name="performance_monitor_description">これは、Martoreto氏によるaa-statsに基づいたパフォーマンスモニタです。 これは、特にフォルクスワーゲン/シュコダ/セアト/アウディMIB2純正ナビで使用するために作られています 。 ですが、Android Autoのサポートがあれば、上記以外でも対応する可能性があります。 フォルクスワーゲン車で動作するためにはVAG拡張も必要です。</string>
-    <string name="promotion">あなたは15％オフの対象です</string>    <string name="loading">ロード中...</string>
+    <string name="fermata_description">車から降りずにAndroid Autoを終了</string>
+    <string name="s2a_redirect">最高の体験のためにScreen2Autoをお勧めします</string>
+    <string name="screen2auto_download">Screen2Autoをダウンロード</string>    <string name="aawidgets_description">たったひとつの役割のために誕生しました。Android Autoにウィジェットをもたらします</string>
+    <string name="performance_monitor_description">Android Autoでシステムパフォーマンスを監視</string>
+    <string name="promotion">15％割引の対象です</string>    <string name="loading">読み込み中…</string>
     <string name="go_pro">PROにする</string>
-    <string name="i_m_good">結構です</string>
-    <string name="nav2contacts_description">新しいナビゲーションアプリをAndroid Autoに追加しても、 多くの場合は、電話帳にある連絡先の住所に道案内するGoogle Assistantのサポート機能に対応していません。そこで Nav2Contactsの出番です。 まず、使用するナビゲーションアプリを選択し、次に目的地の連絡先を検索してください。 すぐに道案内が始まりますよ</string>    <string name="back_button_payment_close">お支払いが完了したら、「Return to merchant website」ボタンを押してください。</string>
+    <string name="i_m_good">大丈夫です</string>
+    <string name="nav2contacts_description">連絡先に素早くナビゲート</string>    <string name="back_button_payment_close">支払いをキャンセルして閉じる</string>
     <string name="help">ヘルプ</string>
     <string name="help_dialog">今すぐヘルプのためにE メールを送信しますか?</string>    <string name="i_want_to_transfer_license_here">このデバイスにライセンスを転送する</string>
-    <string name="i_want_to_transfer_license_from_here">このデバイスからライセンスを転送する</string>
-    <string name="license_transfer_help">一つのスマホから別のスマホにライセンスを転送したい場合は、こちらからどうぞ。 やりたいことを選んでください</string>
+    <string name="i_want_to_transfer_license_from_here">このデバイスからライセンスを転送したい</string>
+    <string name="license_transfer_help">別のデバイスでQRコードをスキャンしてライセンスを転送</string>
     <string name="transfer_license">ライセンスの転送</string>
+    <string name="debug_mode_activate">デバッグを有効化</string>
+    <string name="debug_mode_performance_warning">デバッグモードはパフォーマンスに影響する可能性があります</string>
+    <string name="debug_mode_deactivated">デバッグモードが無効化されました</string>
     <string name="confirm">確認</string>
-    <string name="license_here_confirm">Are you sure that you want to transfer the license to this device?</string>
-    <string name="qr_tutorial">よくできました。 今からライセンス転送元のデバイスを開き、 「このデバイスからライセンスを転送する」を選択してください 。 そして、このQRコードをスキャンしてください</string>
-    <string name="license_done">ライセンスが転送されました</string>
-    <string name="no_license_found">このデバイスに有効なライセンスがありません</string>    <string name="qr_code_permission">QRコードをスキャンするにはカメラの権限が必要です</string>
-    <string name="success_transfer">ライセンスが有効になりました</string>
+    <string name="license_here_confirm">このデバイスにライセンスを転送しますか？</string>
+    <string name="qr_tutorial">別のデバイスでAAADを開き、このQRコードをスキャンしてください</string>
+    <string name="license_done">ライセンスの転送が完了しました！</string>
+    <string name="no_license_found">有効なライセンスが見つかりません</string>    <string name="qr_code_permission">QRコードをスキャンするにはカメラの権限が必要です</string>
+    <string name="success_transfer">転送成功</string>
     <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
-    <string name="input_email">Pengoat96@gmail. com</string>
+    <string name="input_email">メールアドレスを入力</string>
     <string name="days_remaining">次のダウンロードまで%d日残っています</string>
     <string name="hours_remaining">次のダウンロードまで%d時間残っています</string>
     <string name="less_than_hour">次のダウンロードまで1時間未満です</string>
@@ -61,8 +62,8 @@
     <string name="onboarding_official_source">公式ソース: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
-    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_title">AAADへようこそ！</string>
+    <string name="onboarding_welcome_subtitle">Android Autoアプリダウンローダー</string>
     <string name="onboarding_welcome_description">このユーティリティは、ルート化されていない電話のAndroid Autoにカスタムアプリをインストールするのに役立ちます。アプリの使用方法を学ぶためにスワイプし、次に開始するために必要な権限を付与してください。</string>
 
     <!-- Page 2: App Selection -->
@@ -74,25 +75,32 @@
     <string name="onboarding_page_info_description">どのアプリをインストールすればよいかわからない場合は、ボタンを長押しして説明を表示してください。</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">マルチメディアアプリ</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">ミラーリングアプリ</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">その他</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">必要なセットアップ</string>
     <string name="onboarding_permissions_subtitle">カスタムアプリをインストールするための権限を付与</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
-    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_unknown_sources_title">提供元不明のアプリをインストール</string>
+    <string name="onboarding_unknown_sources_description">外部ソースからAPKファイルをインストールするために必要</string>
+    <string name="onboarding_notifications_title">通知</string>
+    <string name="onboarding_notifications_description">ダウンロードの進行状況とアプリの更新に関する通知を受け取る</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto 開発者向けオプション（推奨）</string>
+    <string name="onboarding_aa_dev_description">Android Auto の体験を向上させるためのオプションステップ</string>
+    <string name="onboarding_aa_dev_warning">Android Auto でカスタムアプリを最適に使用するには、Android Auto 開発者向けオプションで「提供元不明のアプリ」を有効にすることをお勧めします。</string>
+    <string name="onboarding_open_aa_dev">開発者向けオプションを表示</string>
+
+    <string name="onboarding_play_protect_title">Google Play プロテクト</string>
     <string name="onboarding_play_protect_description">カスタムアプリのインストールを許可するために一時的に無効にする</string>
     <string name="onboarding_play_protect_warning">Google Play Protectはカスタムアプリのインストールをブロックする可能性があります。一時的に無効にするか、プロンプトが表示されたらAAADを許可する必要があります。</string>
     <string name="onboarding_open_play_protect">Play Protect設定を開く</string>
@@ -101,12 +109,12 @@
     <string name="onboarding_next">次へ</string>
     <string name="onboarding_previous">前へ</string>
     <string name="onboarding_skip">スキップ</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">権限を許可</string>
+    <string name="onboarding_continue">アプリに進む</string>
+    <string name="onboarding_get_started">開始</string>
     <string name="onboarding_finish">セットアップを完了</string>
     <string name="show_intro">イントロを表示</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">残りのダウンロード</string>
 
     <!-- Installation Status -->
     <string name="status_installed">インストール済み</string>
@@ -155,7 +163,7 @@
     <string name="sender_step_3">新しいデバイスにQRコードが表示される</string>
     <string name="sender_step_4">下のボタンをタップしてそのQRコードをスキャン</string>
     <string name="scan_qr_code">QRコードをスキャン</string>
-    <string name="camera_permission_required">QRコードをスキャンするにはカメラの許可が必要です</string>
+    <string name="camera_permission_required">QRコードをスキャンするにはカメラ権限が必要です</string>
     <string name="error_checking_license">ライセンス状態の確認に失敗しました。もう一度お試しください。</string>
     <string name="error_generating_qr">QRコードの生成に失敗しました</string>
     <string name="license_received_success">ライセンスの受信に成功しました！</string>
@@ -187,9 +195,130 @@
 
 
     <!-- Section Names (for large screens) -->
-    <string name="first_section_name">Multimedia</string>
-    <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="first_section_name">マルチメディア</string>
+    <string name="second_section_name">ミラーリングアプリ</string>
+    <string name="third_section_name">その他</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">このアプリはあなたのプライバシーを尊重します。同意なしに個人情報を収集、保存、共有することはありません。詳細については、お問い合わせください。</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto 開発者設定</string>
+    <string name="android_auto_setup_icon">Android Auto セットアップガイドアイコン</string>
+    <string name="android_auto_setup_subtitle">Android Auto でカスタムアプリに提供元不明のアプリを有効にするには、次の手順に従ってください</string>
+    <string name="android_auto_open_settings">Android Auto 設定を開く</string>
+    <string name="android_auto_setup_instructions_title">セットアップ手順</string>
+    <string name="android_auto_step1_title">\"バージョン\"を10回タップ</string>
+    <string name="android_auto_step1_description">Android Auto の設定で一番下までスクロールし、\"バージョン\"（最後の項目）を10回タップして開発者設定のロックを解除します。</string>
+    <string name="android_auto_step2_title">開発者モードを確認</string>
+    <string name="android_auto_step2_description">プロンプトが表示されたら、\"許可\"または\"有効にする\"をタップして、Android Auto の開発者設定を有効にします。</string>
+    <string name="android_auto_step3_title">開発者設定を開く</string>
+    <string name="android_auto_step3_description">右上の3点メニューアイコンをタップし、ドロップダウンメニューから\"開発者設定\"を選択します。</string>
+    <string name="android_auto_step4_title">提供元不明のアプリを有効にする</string>
+    <string name="android_auto_step4_description">開発者設定メニューで、\"提供元不明のアプリ\"オプションを見つけて有効にし、サードパーティアプリのインストールを許可します。</string>
+    <string name="android_auto_setup_done">完了</string>
+    <string name="android_auto_settings_opened">Android Auto 設定が開きました。上記の手順に従ってください。</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto が開きました。手動で設定に移動してください。</string>
+    <string name="android_auto_not_installed">Android Auto がインストールされていません。まず Play Store からインストールしてください。</string>
+
+    <string name="action_retry">再試行</string>
+    <string name="action_download_update">アップデートをダウンロード</string>
+    <string name="action_install_update">アップデートをインストール</string>
+    <string name="action_skip_update">今はスキップ</string>
+    <string name="action_download_manual">手動ダウンロード</string>
+    <string name="action_continue_offline">オフラインで続行</string>
+    <string name="badge_update">更新</string>
+    <string name="check_for_updates">アップデートを確認</string>
+    <string name="aaad_update_section">AAADアップデート利用可能</string>
+    <string name="aaad_update_available_subtitle">ダウンロード可能な新バージョン</string>
+    <string name="aaad_update_downloaded">アップデートをダウンロードしました！インストール中…</string>
+    <string name="aaad_update_failed">アップデートのダウンロードに失敗しました。手動でダウンロードしてください。</string>
+    <string name="aaad_current_version">現在: %1$s</string>
+    <string name="aaad_latest_version">最新: %1$s</string>
+    <string name="authorization_failed">ダウンロード認証に失敗しました。もう一度お試しください。</string>
+    <string name="authorization_error">認証エラー。接続を確認してください。</string>
+    <string name="aabrowser_description">Android AutoでWebを閲覧</string>
+    <string name="benefit_icon">特典</string>
+    <string name="no_updates_available">利用可能な更新はありません</string>
+
+    <!-- Professional translations added by Claude -->
+    <string name="aatorque_description">AATorqueは、OBD-II車両診断アプリTorque ProをAndroid Autoに導入します。車のディスプレイから直接、車両のパフォーマンスを監視し、診断データを表示し、リアルタイムの車両情報にアクセスできます。</string>
+    <string name="onboarding_shizuku_title">🚀 拡張インストール（オプション）</string>
+    <string name="onboarding_shizuku_subtitle">Android 14+ パワーユーザー向け</string>
+    <string name="onboarding_shizuku_standard_mode">標準モード（推奨）</string>
+    <string name="onboarding_shizuku_standard_description">システムインストーラーを使用します。すべての人に機能します。インストールプロンプトを表示します。</string>
+    <string name="onboarding_shizuku_enhanced_mode">Shizuku拡張モード</string>
+    <string name="onboarding_shizuku_enhanced_description">プロンプトなしのサイレントインストール。一度の設定が必要です。</string>
+    <string name="onboarding_shizuku_status">Shizukuステータス：</string>
+    <string name="onboarding_shizuku_not_installed">インストールされていません</string>
+    <string name="onboarding_shizuku_not_running">インストール済みですが実行されていません</string>
+    <string name="onboarding_shizuku_no_permission">実行中ですが権限が付与されていません</string>
+    <string name="onboarding_shizuku_ready">使用可能</string>
+    <string name="onboarding_shizuku_install">Shizukuをインストール</string>
+    <string name="onboarding_shizuku_start">Shizukuを起動</string>
+    <string name="onboarding_shizuku_grant_permission">権限を付与</string>
+    <string name="onboarding_shizuku_start_service">Shizukuがインストールされました - タップしてサービスを開始</string>
+    <string name="onboarding_shizuku_start_button">Shizukuサービスを開始</string>
+    <string name="shizuku_service_not_started">Shizukuサービスが実行されていません。Shizukuを開いてサービスを開始してください。</string>
+    <string name="onboarding_shizuku_what_is_it">Shizukuとは？</string>
+    <string name="onboarding_shizuku_explanation">Shizukuは、ワイヤレスデバッグを介してシステムレベルの権限をアプリが使用できるようにするツールです。rootなしでAndroid 14+でサイレントアプリインストールを可能にします。Shizukuなしでも AAADを使用できます！</string>
+    <string name="onboarding_shizuku_steps_title">セットアップ手順：</string>
+    <string name="onboarding_shizuku_step1">1. Shizukuアプリをインストール</string>
+    <string name="onboarding_shizuku_step2">2. 開発者オプションを有効化</string>
+    <string name="onboarding_shizuku_step3">3. ワイヤレスデバッグを有効化</string>
+    <string name="onboarding_shizuku_step4">4. Shizukuを起動</string>
+    <string name="onboarding_shizuku_step5">5. AAADに権限を付与</string>
+    <string name="onboarding_shizuku_learn_more">詳細</string>
+    <string name="loading_app_catalog">アプリカタログを読み込んでいます…</string>
+    <string name="loading_fetching_icons">アプリアイコンを読み込んでいます…</string>
+    <string name="loading_finalizing">完了中…</string>
+    <string name="loading_checking_internet">インターネット接続を確認中…</string>
+    <string name="error_no_internet_title">インターネット接続なし</string>
+    <string name="error_no_internet_description">AAADはアプリ情報を読み込むためにインターネット接続が必要です。WiFiまたはモバイルデータに接続して再試行してください。</string>
+    <string name="warning_offline">オフラインです - アプリデータが古い可能性があります</string>
+    <string name="update_available_title">アップデート可能</string>
+    <string name="update_available_message">AAAD v%1$sが利用可能になりました。現在v%2$sを使用しています。\n\n最新バージョンをダウンロードしますか？</string>
+    <string name="downloading_aaad_update">AAADアップデートをダウンロード中…</string>
+    <string name="onboarding_preparing_catalog">バックグラウンドでアプリカタログを準備中…</string>
+    <string name="progress_downloading">%1$sをダウンロード中…</string>
+    <string name="progress_installing">%1$sをインストール中…</string>
+    <string name="progress_checking_updates">アップデートを確認中…</string>
+    <string name="checking_for_aaad_updates">AAADアップデートを確認中…</string>
+    <string name="version_format">バージョン %1$s</string>
+    <string name="installed_version_format">インストール済み: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Android Autoアプリ</string>
+    <string name="hero_subtitle">Android Auto体験用のカスタムアプリをインストール</string>
+    <string name="refresh_apps">アプリを更新</string>
+    <string name="privacy">プライバシーポリシー</string>
+    <string name="purchase_pro">PROを購入</string>
+    <string name="support_no_email_app">メールアプリがインストールされていません。メールアプリ（Gmail、Outlookなど）をインストールするか、別のデバイスから直接help.aaad@gmail.comにメールを送信してください。</string>
+    <string name="support_attachment_not_supported">添付ファイルがサポートされていません。ログなしでメールを送信します</string>
+    <string name="support_attachment_failed_fallback">ログを添付できませんでした。添付ファイルなしでメールを送信します</string>
+    <string name="support_email_body_greeting">AAADサポート様、</string>
+    <string name="installation_timeout_message_secure">インストール確認がタイムアウトしました。セキュリティ上の理由により、ダウンロードは月間制限にカウントされました。</string>
+    <string name="download_was_counted">ダウンロードは月間制限にカウントされました</string>
+    <string name="pro_version_title">PROバージョン</string>
+    <string name="pro_version_icon">PROバージョンバッジ</string>
+    <string name="pro_thank_you_title">ありがとうございます！</string>
+    <string name="pro_thank_you_message">PRO購入でAAADをサポートしていただきありがとうございます！あなたの貢献はこのプロジェクトの継続を支援し、最高のAndroid Autoアプリを提供し続けることを可能にします。</string>
+    <string name="pro_since">%s からPROメンバー</string>
+    <string name="pro_since_legacy">PROメンバー</string>
+    <string name="pro_benefits_title">PROの特典</string>
+    <string name="pro_benefit_unlimited">無制限のアプリダウンロード</string>
+    <string name="pro_benefit_no_cooldown">ダウンロード間の待機時間なし</string>
+    <string name="pro_benefit_support">継続的な開発のサポート</string>
+    <string name="pro_closing_message">あなたの信頼とサポートに心から感謝いたします。すべてのAAADアプリへの無制限アクセスをお楽しみください！</string>
+    <string name="update_available_badge">アップデート</string>
+    <string name="verifying_authorization">ダウンロード認証を確認中…</string>
+    <string name="please_sign_in">アプリをダウンロードするにはサインインしてください</string>
+    <string name="network_error">ネットワークエラー。接続を確認して再試行してください。</string>
+    <string name="error_not_eligible">PROバージョンにアップグレードするか、次の無料ダウンロードをお待ちください。</string>
+    <string name="error_no_internet">インターネット接続がありません</string>
+    <string name="error_no_internet_message">アプリデータをダウンロードして続行するには、インターネットに接続してください。</string>
+    <string name="error_initialization_failed">アプリデータの初期化に失敗しました</string>
+    <string name="error_metadata_fetch_failed">アプリの更新の取得に失敗しました</string>
+    <string name="error_metadata_fetch_failed_message">最新のアプリ情報を取得できませんでした。インターネット接続を確認して、もう一度お試しください。</string>
+    <string name="loading_app_data">アプリデータを読み込んでいます…</string>
+    <string name="loading_checking_updates">更新を確認しています…</string>
+    <string name="loading_please_wait">しばらくお待ちください…</string>
 </resources>

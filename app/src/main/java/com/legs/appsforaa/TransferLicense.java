@@ -213,7 +213,7 @@ public class TransferLicense extends AppCompatActivity {
 
                             }
                         });
-                alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(R.string.no),
+                alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, getString(android.R.string.no),
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();

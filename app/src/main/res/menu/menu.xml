@@ -19,7 +19,14 @@
         android:title="@string/show_intro"/>
 
     <item
-        android:id="@+id/version" />
+        android:id="@+id/debug_mode"
+        android:title="@string/debug_mode_activate"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/version"
+        android:title="@string/version_format"
+        android:enabled="false" />
 
 
 </menu>

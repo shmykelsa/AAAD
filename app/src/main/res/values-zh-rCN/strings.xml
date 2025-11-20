@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Welcome to Android Auto Apps Downloader (AAAD). This utility will help install custom apps on Android Auto for non rooted phones. Select the app you want to install and wait for the installer to come up. App descriptions are available on long press.</string>
     <string name="title_activity_about_payment">专业版</string>
-    <string name="switch_to_pro_statement">AAAAD免费版本允许您每月免费下载一次。 如果您想享受无限免费下载，您可以切换到专业版，您将享有完整功能和应用更新！</string>
-    <string name="congratsPro">祝贺，你现在拥有专业版了！</string>    <string name="About">关于</string>
-    <string name="have_promo_code">我有优惠代码</string>
-    <string name="promo_code">输入优惠码</string>
-    <string name="input_promo_code_here">在此输入优惠码</string>    <string name="about_to_download">您即将下载 %1$s。您想要继续吗？</string>
-    <string name="no">否</string>
+    <string name="switch_to_pro_statement">AAAD免费版允许您每月免费下载一次。如果您想下载更多，请升级到PRO。</string>
+    <string name="congratsPro">恭喜，您拥有PRO版本！</string>    <string name="About">关于</string>
+    <string name="have_promo_code">我有促销码</string>
+    <string name="promo_code">输入促销码</string>
+    <string name="input_promo_code_here">在此输入代码</string>    <string name="about_to_download">您即将下载 %1$s。您想要继续吗？</string>
     <string name="warning_payment">在付款结束时，请点击“返回商家”来验证交易。</string>
-    <string name="attention">注意！</string>
-    <string name="next_download_available">下一次下载机会将在： %1$s</string>
+    <string name="attention">注意</string>
+    <string name="next_download_available">下次下载可用时间：%1$s</string>
     <string name="connect_error">连接错误</string>
     <plurals name="remaining_downloads">
         <item quantity="other">剩余1次下载机会</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) 是由 Shmykelsa 开发和管理的。<br><br>以下开发者使应用成为可能：<br>]]>"</string>
-    <string name="pro_unlocked">恭喜，专业版已解锁</string>
-    <string name="cancelled_payment">支付已取消</string>
-    <string name="please_enter_code">请输入验证码</string>
+    <string name="pro_unlocked">恭喜，PRO版本已解锁</string>
+    <string name="cancelled_payment">购买已取消</string>
+    <string name="please_enter_code">请输入您的促销代码</string>
     <string name="connection_error">连接错误，无法验证</string>
     <string name="not_valid_code">无效的代码</string>    <string name="downloading_progress">正在下载…</string>
     <string name="aa_mirror_plus_description">AAMirror的替代，拥有更多功能。</string>
-    <string name="aapassenger_description">此应用是为了允许乘员在 Android Auto 中管理某些功能。需要您下载AAPassenger。工作状态目前未知。</string>
+    <string name="aapassenger_description">在驾驶模式下解锁Android Auto</string>
     <string name="s2a_description">这是目前功能最全的Android Auto屏幕镜像应用程序。它包括许多功能，如自定义启动器、分屏、自定义屏幕尺寸等</string>
-    <string name="aamirror_description">这是第一个长期可用的Android Auto屏幕镜像应用程序。 AAMirror 应用系列将您的手机屏幕镜像到汽车上</string>
-    <string name="aa_stream_description">AAMirror 的另一个替代应用具有一些额外的功能。最近由@Annexhack负责更新修复了安卓版本。</string>
+    <string name="aamirror_description">将智能手机屏幕镜像到Android Auto</string>
+    <string name="aa_stream_description">在Android Auto上播放视频</string>
     <string name="carstream_description">CarStream原名\"YouTube Auto\"，是使用自定义应用SDK开发的首款应用。它最初的主要目的是可以在Android Auto上看YouTube，之后的版本具有许多功能的浏览器。    </string>
-    <string name="fermata_description">"它是Android Auto上最完整的影片和音乐播放器，具有完整的播放器体验以及许多功能，例如网络串流以及网页浏览器。您还可以通过附加的Fermata Control控制应用程序在方向盘上控制播放暂停上下一首等功能。"</string>
-    <string name="s2a_redirect">您将跳转到screen2auto网站。选择对应版本后打开AAAD</string>
-    <string name="screen2auto_download">您将要安装 Screen2Auto。想要继续吗？</string>    <string name="aawidgets_description">生来就有一个挑战—为Android Auto新增一个Widget！</string>
-    <string name="performance_monitor_description">这是一个基于Martoreto的aa-statistics的强大镜像应用。 它专门用于大众/斯柯达/西雅特/奥迪(MIB2) 车机系统。 只要设备有Android Auto支持，其他品牌车辆也可以尝试使用。 （在大众汽车上需要VAG扩展）</string>
-    <string name="promotion">您享有15%折扣</string>    <string name="loading">加载中...</string>
-    <string name="go_pro">获取专业版！</string>
-    <string name="i_m_good">不了，谢谢。</string>
-    <string name="nav2contacts_description">随着新的导航应用支持Android Auto，许多应用缺少Google助手来导航到联系人中的联系人住址。使用Nav2Contacts来替代！ 首先，选择要使用的导航APP，然后搜索你想要导航的联系人并立即开始导航！</string>    <string name="back_button_payment_close">请在付款完成后按下“返回商家网站”蓝色按钮</string>
+    <string name="fermata_description">无需下车即可退出Android Auto</string>
+    <string name="s2a_redirect">为获得最佳体验，我们推荐Screen2Auto</string>
+    <string name="screen2auto_download">下载Screen2Auto</string>    <string name="aawidgets_description">生来就有一个挑战—为Android Auto新增一个Widget！</string>
+    <string name="performance_monitor_description">在Android Auto上监控系统性能</string>
+    <string name="promotion">您有资格享受15%的折扣</string>    <string name="loading">加载中…</string>
+    <string name="go_pro">升级PRO</string>
+    <string name="i_m_good">我很好</string>
+    <string name="nav2contacts_description">快速导航到您的联系人</string>    <string name="back_button_payment_close">取消付款并关闭</string>
     <string name="help">帮助</string>
     <string name="help_dialog">您想要立即发送电子邮件以获取帮助吗？</string>    <string name="i_want_to_transfer_license_here">我想转移许可证到这里</string>
-    <string name="i_want_to_transfer_license_from_here">我想从这里转出许可证</string>
-    <string name="license_transfer_help">如果你想要将许可证从一个设备转移到另一个设备，请在此选择您需要的内容</string>
+    <string name="i_want_to_transfer_license_from_here">我想从此设备转移我的许可证</string>
+    <string name="license_transfer_help">在另一台设备上扫描二维码以转移您的许可证</string>
     <string name="transfer_license">转移许可证</string>
+    <string name="debug_mode_activate">激活调试</string>
+    <string name="debug_mode_performance_warning">调试模式可能影响性能</string>
+    <string name="debug_mode_deactivated">调试模式已停用</string>
     <string name="confirm">确认</string>
-    <string name="license_here_confirm">您确定要将许可证转移到此设备？</string>
-    <string name="qr_tutorial">太好了，现在打开您想要转出许可证的设备，并选择“我想从这里转移许可证”， 然后扫描这个二维码</string>
-    <string name="license_done">许可证已转移</string>
-    <string name="no_license_found">您在此设备上没有有效的许可证</string>    <string name="qr_code_permission">应用需要访问摄像头的权限以扫描二维码</string>
-    <string name="success_transfer">许可证有效</string>
+    <string name="license_here_confirm">您想将许可证转移到此设备吗？</string>
+    <string name="qr_tutorial">在您的另一台设备上打开AAAD并扫描此二维码</string>
+    <string name="license_done">许可证转移成功！</string>
+    <string name="no_license_found">未找到有效许可证</string>    <string name="qr_code_permission">应用需要访问摄像头的权限以扫描二维码</string>
+    <string name="success_transfer">转移成功</string>
     <string name="email_dialog" comment="&#10;Dialog window">如果需要，电子邮件将用于验证您的购买</string>
-    <string name="input_email">请输入电子邮箱</string>
+    <string name="input_email">输入您的电子邮件</string>
     <string name="days_remaining">距离下次下载还有%d天</string>
     <string name="hours_remaining">距离下次下载还有%d小时</string>
     <string name="less_than_hour">距离下次下载不到1小时</string>
@@ -60,8 +61,8 @@
     <string name="onboarding_official_source">官方来源：github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
-    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_title">欢迎使用AAAD！</string>
+    <string name="onboarding_welcome_subtitle">Android Auto应用下载器</string>
     <string name="onboarding_welcome_description">此工具将帮助为非root手机在Android Auto上安装自定义应用程序。滑动以了解如何使用该应用程序，然后授予所需权限以开始使用。</string>
 
     <!-- Page 2: App Selection -->
@@ -73,24 +74,31 @@
     <string name="onboarding_page_info_description">如果您不确定要安装哪个应用程序，请长按按钮查看描述。</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">多媒体应用</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">镜像应用</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">其他</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">必需设置</string>
     <string name="onboarding_permissions_subtitle">授予权限以安装自定义应用程序</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_unknown_sources_title">安装未知应用</string>
+    <string name="onboarding_unknown_sources_description">从外部来源安装APK文件所需</string>
+    <string name="onboarding_notifications_title">通知</string>
+    <string name="onboarding_notifications_description">获取下载进度和应用更新的通知</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto 开发者设置（推荐）</string>
+    <string name="onboarding_aa_dev_description">增强 Android Auto 体验的可选步骤</string>
+    <string name="onboarding_aa_dev_warning">为了在 Android Auto 上获得自定义应用的最佳体验，我们建议在 Android Auto 开发者设置中启用\"未知来源\"。</string>
+    <string name="onboarding_open_aa_dev">查看开发者设置</string>
+
     <string name="onboarding_play_protect_title">Google Play 保护机制</string>
     <string name="onboarding_play_protect_description">暂时禁用以允许安装自定义应用程序</string>
     <string name="onboarding_play_protect_warning">Google Play 保护机制可能会阻止安装自定义应用程序。您需要暂时禁用它或在提示时允许 AAAD。</string>
@@ -100,12 +108,12 @@
     <string name="onboarding_next">下一步</string>
     <string name="onboarding_previous">上一步</string>
     <string name="onboarding_skip">跳过</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">授予权限</string>
+    <string name="onboarding_continue">继续使用应用</string>
+    <string name="onboarding_get_started">开始使用</string>
     <string name="onboarding_finish">完成设置</string>
     <string name="show_intro">显示介绍</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">剩余下载次数</string>
 
     <!-- Installation Status -->
     <string name="status_installed">已安装</string>
@@ -154,7 +162,7 @@
     <string name="sender_step_3">新设备上将显示二维码</string>
     <string name="sender_step_4">点击下方按钮并扫描该二维码</string>
     <string name="scan_qr_code">扫描二维码</string>
-    <string name="camera_permission_required">需要相机权限才能扫描二维码</string>
+    <string name="camera_permission_required">扫描二维码需要相机权限</string>
     <string name="error_checking_license">检查许可证状态失败。请重试。</string>
     <string name="error_generating_qr">生成二维码失败</string>
     <string name="license_received_success">许可证接收成功！</string>
@@ -186,9 +194,130 @@
 
 
     <!-- Section Names (for large screens) -->
-    <string name="first_section_name">Multimedia</string>
-    <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="first_section_name">多媒体</string>
+    <string name="second_section_name">镜像应用</string>
+    <string name="third_section_name">其他</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">本应用尊重您的隐私。未经您的同意，我们不会收集、存储或分享任何个人信息。如需更多信息，请联系我们。</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto 开发者设置</string>
+    <string name="android_auto_setup_icon">Android Auto 设置指南图标</string>
+    <string name="android_auto_setup_subtitle">按照这些步骤为 Android Auto 上的自定义应用启用未知来源</string>
+    <string name="android_auto_open_settings">打开 Android Auto 设置</string>
+    <string name="android_auto_setup_instructions_title">设置说明</string>
+    <string name="android_auto_step1_title">点击"版本" 10 次</string>
+    <string name="android_auto_step1_description">在 Android Auto 设置中，滚动到底部并点击"版本"（最后一项）10 次以解锁开发者设置。</string>
+    <string name="android_auto_step2_title">确认开发者模式</string>
+    <string name="android_auto_step2_description">出现提示时，点击"允许"或"启用"以激活 Android Auto 的开发者设置。</string>
+    <string name="android_auto_step3_title">打开开发者设置</string>
+    <string name="android_auto_step3_description">点击右上角的三点菜单图标，然后从下拉菜单中选择"开发者设置"。</string>
+    <string name="android_auto_step4_title">启用未知来源</string>
+    <string name="android_auto_step4_description">在开发者设置菜单中，找到并启用"未知来源"选项，以允许安装第三方应用。</string>
+    <string name="android_auto_setup_done">完成</string>
+    <string name="android_auto_settings_opened">Android Auto 设置已打开。请按照上述步骤操作。</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto 已打开。请手动导航到设置。</string>
+    <string name="android_auto_not_installed">未安装 Android Auto。请先从 Play Store 安装。</string>
+
+    <string name="action_retry">重试</string>
+    <string name="action_download_update">下载更新</string>
+    <string name="action_install_update">安装更新</string>
+    <string name="action_skip_update">暂时跳过</string>
+    <string name="action_download_manual">手动下载</string>
+    <string name="action_continue_offline">离线继续</string>
+    <string name="badge_update">更新</string>
+    <string name="check_for_updates">检查更新</string>
+    <string name="aaad_update_section">AAAD更新可用</string>
+    <string name="aaad_update_available_subtitle">新版本可供下载</string>
+    <string name="aaad_update_downloaded">更新已下载！正在安装…</string>
+    <string name="aaad_update_failed">更新下载失败。请尝试手动下载。</string>
+    <string name="aaad_current_version">当前版本：%1$s</string>
+    <string name="aaad_latest_version">最新版本：%1$s</string>
+    <string name="authorization_failed">下载授权失败。请重试。</string>
+    <string name="authorization_error">授权错误。请检查您的连接。</string>
+    <string name="aabrowser_description">在Android Auto上浏览网页</string>
+    <string name="benefit_icon">优惠</string>
+    <string name="no_updates_available">没有可用更新</string>
+
+    <!-- Professional translations added by Claude -->
+    <string name="aatorque_description">AATorque 将 OBD-II 车辆诊断应用 Torque Pro 带到 Android Auto。直接从汽车显示屏监控您的车辆性能、查看诊断数据并访问实时车辆信息。</string>
+    <string name="onboarding_shizuku_title">🚀 增强安装（可选）</string>
+    <string name="onboarding_shizuku_subtitle">适用于 Android 14+ 高级用户</string>
+    <string name="onboarding_shizuku_standard_mode">标准模式（推荐）</string>
+    <string name="onboarding_shizuku_standard_description">使用系统安装程序。适用于所有人。显示安装提示。</string>
+    <string name="onboarding_shizuku_enhanced_mode">Shizuku 增强模式</string>
+    <string name="onboarding_shizuku_enhanced_description">无提示静默安装。需要一次性设置。</string>
+    <string name="onboarding_shizuku_status">Shizuku 状态：</string>
+    <string name="onboarding_shizuku_not_installed">未安装</string>
+    <string name="onboarding_shizuku_not_running">已安装但未运行</string>
+    <string name="onboarding_shizuku_no_permission">正在运行但未授予权限</string>
+    <string name="onboarding_shizuku_ready">准备就绪</string>
+    <string name="onboarding_shizuku_install">安装 Shizuku</string>
+    <string name="onboarding_shizuku_start">启动 Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">授予权限</string>
+    <string name="onboarding_shizuku_start_service">Shizuku 已安装 - 点击启动服务</string>
+    <string name="onboarding_shizuku_start_button">启动 Shizuku 服务</string>
+    <string name="shizuku_service_not_started">Shizuku 服务未运行。请打开 Shizuku 并启动服务。</string>
+    <string name="onboarding_shizuku_what_is_it">什么是 Shizuku？</string>
+    <string name="onboarding_shizuku_explanation">Shizuku 是一个工具，允许应用通过无线调试使用系统级权限。它可以在 Android 14+ 上实现无需 root 的静默应用安装。您仍然可以在没有它的情况下使用 AAAD！</string>
+    <string name="onboarding_shizuku_steps_title">设置步骤：</string>
+    <string name="onboarding_shizuku_step1">1. 安装 Shizuku 应用</string>
+    <string name="onboarding_shizuku_step2">2. 启用开发者选项</string>
+    <string name="onboarding_shizuku_step3">3. 启用无线调试</string>
+    <string name="onboarding_shizuku_step4">4. 启动 Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. 授予 AAAD 权限</string>
+    <string name="onboarding_shizuku_learn_more">了解更多</string>
+    <string name="loading_app_catalog">正在加载应用目录…</string>
+    <string name="loading_fetching_icons">正在加载应用图标…</string>
+    <string name="loading_finalizing">正在完成…</string>
+    <string name="loading_checking_internet">正在检查互联网连接…</string>
+    <string name="error_no_internet_title">无互联网连接</string>
+    <string name="error_no_internet_description">AAAD 需要互联网连接来加载应用信息。请连接到 WiFi 或移动数据后重试。</string>
+    <string name="warning_offline">您处于离线状态 - 应用数据可能已过时</string>
+    <string name="update_available_title">有可用更新</string>
+    <string name="update_available_message">AAAD v%1$s 现已可用。您正在使用 v%2$s。\n\n要下载最新版本吗？</string>
+    <string name="downloading_aaad_update">正在下载 AAAD 更新…</string>
+    <string name="onboarding_preparing_catalog">正在后台准备应用目录…</string>
+    <string name="progress_downloading">正在下载 %1$s…</string>
+    <string name="progress_installing">正在安装 %1$s…</string>
+    <string name="progress_checking_updates">正在检查更新…</string>
+    <string name="checking_for_aaad_updates">正在检查 AAAD 更新…</string>
+    <string name="version_format">版本 %1$s</string>
+    <string name="installed_version_format">已安装：%1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Android Auto 应用</string>
+    <string name="hero_subtitle">为您的 Android Auto 体验安装自定义应用</string>
+    <string name="refresh_apps">刷新应用</string>
+    <string name="privacy">隐私政策</string>
+    <string name="purchase_pro">购买 PRO</string>
+    <string name="support_no_email_app">未安装电子邮件应用。请安装电子邮件应用（Gmail、Outlook 等）或直接从其他设备发送电子邮件至 help.aaad@gmail.com。</string>
+    <string name="support_attachment_not_supported">不支持附件，发送不带日志的电子邮件</string>
+    <string name="support_attachment_failed_fallback">无法附加日志，发送不带附件的电子邮件</string>
+    <string name="support_email_body_greeting">您好 AAAD 支持团队，</string>
+    <string name="installation_timeout_message_secure">安装验证超时。出于安全原因，您的下载已计入您的月度限额。</string>
+    <string name="download_was_counted">下载已计入您的月度限额</string>
+    <string name="pro_version_title">PRO 版本</string>
+    <string name="pro_version_icon">PRO 版本徽章</string>
+    <string name="pro_thank_you_title">谢谢！</string>
+    <string name="pro_thank_you_message">感谢您通过购买 PRO 支持 AAAD！您的贡献有助于维持这个项目，并使我们能够继续为您提供最好的 Android Auto 应用。</string>
+    <string name="pro_since">自 %s 起成为 PRO 会员</string>
+    <string name="pro_since_legacy">PRO 会员</string>
+    <string name="pro_benefits_title">您的 PRO 权益</string>
+    <string name="pro_benefit_unlimited">无限应用下载</string>
+    <string name="pro_benefit_no_cooldown">下载之间无等待时间</string>
+    <string name="pro_benefit_support">支持持续开发</string>
+    <string name="pro_closing_message">我们真诚感谢您的信任和支持。尽情享受对所有 AAAD 应用的无限访问！</string>
+    <string name="update_available_badge">更新</string>
+    <string name="verifying_authorization">正在验证下载授权…</string>
+    <string name="please_sign_in">请登录以下载应用</string>
+    <string name="network_error">网络错误。请检查您的连接并重试。</string>
+    <string name="error_not_eligible">您需要升级到 PRO 或等待下次免费下载。</string>
+    <string name="error_no_internet">无互联网连接</string>
+    <string name="error_no_internet_message">请连接到互联网以加载应用信息并继续。</string>
+    <string name="error_initialization_failed">应用数据初始化失败</string>
+    <string name="error_metadata_fetch_failed">获取应用更新失败</string>
+    <string name="error_metadata_fetch_failed_message">无法检索最新的应用信息。请检查您的互联网连接并重试。</string>
+    <string name="loading_app_data">正在加载应用信息…</string>
+    <string name="loading_checking_updates">正在检查更新…</string>
+    <string name="loading_please_wait">请稍候…</string>
 </resources>

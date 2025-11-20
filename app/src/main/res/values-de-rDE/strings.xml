@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Willkommen bei Android Auto Apps Downloader (AAAD). Dieses Programm hilft bei der Installation von benutzerdefinierten Apps in Android Auto auf nicht-gerooteten Telefonen.
-Wähle die App aus welche du installieren möchtest und warte bis die Installer-Meldung erscheint. App-Beschreibungen über langes Drücken verfügbar.</string>
     <string name="title_activity_about_payment">Pro Version</string>
-    <string name="switch_to_pro_statement">Mit der kostenlosen Version von AAAD können Sie jeden Monat eine App kostenlos herunterladen und installieren. Wenn Sie unbegrenzte kostenlose Downloads genießen möchten, können Sie zur PRO-Version wechseln und alle Funktionen und App-Updates genießen!</string>
-    <string name="congratsPro">Gratuliere, Sie besitzen die Pro-Version!</string>    <string name="About">Infos</string>
-    <string name="have_promo_code">Ich habe einen Gutschein-Code</string>
-    <string name="promo_code">Gutscheincode eingeben</string>
-    <string name="input_promo_code_here">Gutschein-Code hier eingeben</string>    <string name="about_to_download">Sie sind dabei %1$s herunterzuladen. Möchten Sie fortfahren?</string>
-    <string name="no">Nein</string>
+    <string name="switch_to_pro_statement">Die kostenlose Version von AAAD erlaubt einen kostenlosen Download pro Monat. Wenn Sie mehr herunterladen möchten, aktualisieren Sie bitte auf PRO.</string>
+    <string name="congratsPro">Glückwunsch, Sie haben die PRO-Version!</string>    <string name="About">Infos</string>
+    <string name="have_promo_code">Ich habe einen Promo-Code</string>
+    <string name="promo_code">Promo-Code eingeben</string>
+    <string name="input_promo_code_here">Promo-Code hier eingeben</string>    <string name="about_to_download">Sie sind dabei %1$s herunterzuladen. Möchten Sie fortfahren?</string>
     <string name="warning_payment">Die Zahlungsabwicklung wird sicher von Stripe Inc. übernommen. AAAD sammelt oder speichert keine Zahlungsinformationen. Bitte am Ende der Zahlung manuell auf \"Zurück zum Händler\" klicken, um die Transaktion abzuschließen.</string>
     <string name="attention">ACHTUNG</string>
     <string name="next_download_available">Nächster Download verfügbar am: %1$s</string>
@@ -18,40 +15,43 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
         <item quantity="other">Sie haben keinen Download übrig</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) wird von Shmykelsa entwickelt und verwaltet.<br><br>Die verfügbaren Apps werden von den folgenden Entwicklern bereitgestellt:<br>]]>"</string>
-    <string name="pro_unlocked">Glückwunsch, Pro Version ist freigeschaltet</string>
+    <string name="pro_unlocked">Glückwunsch, PRO-Version freigeschaltet</string>
     <string name="cancelled_payment">Kauf abgebrochen</string>
-    <string name="please_enter_code">Bitte Code eingeben</string>
-    <string name="connection_error">Verbindungsfehler, Verifizierung konnte nicht durchgeführt werden</string>
+    <string name="please_enter_code">Bitte geben Sie Ihren Promo-Code ein</string>
+    <string name="connection_error">Verbindungsfehler, Überprüfung nicht möglich</string>
     <string name="not_valid_code">Ungültiger Code</string>    <string name="downloading_progress">Herunterladen …</string>
     <string name="aa_mirror_plus_description">Alternative zu AAMirror mit einigen weiteren Funktionen.</string>
-    <string name="aapassenger_description">This app was made for allowing passengers to manage some functionalities in Android Auto. Requires the passenger to download AAPassenger. Working state is currently unknown.</string>
+    <string name="aapassenger_description">Entsperren Sie Android Auto im Fahrmodus</string>
     <string name="s2a_description">Die vollständigste und umfassendste Screen-Mirror-App für Android Auto. Enthält viele Funktionen wie einen anpassbaren Launcher, einen Split-Screen, benutzerdefinierte Bildschirmgrößen und vieles mehr!</string>
-    <string name="aamirror_description">Die erste und langlebige Screen-Mirror-App für Android Auto. Der Vorreiter einer Familie, AAMirror spiegelt einfach den Bildschirm Ihres Telefons zum Auto.</string>
-    <string name="aa_stream_description">Another alternative to AAMirror with some extra functionalities. Recently revived and fixed for newer Android versions by Annexhack.</string>
+    <string name="aamirror_description">Spiegeln Sie Ihren Smartphone-Bildschirm auf Android Auto</string>
+    <string name="aa_stream_description">Streamen Sie Videos auf Android Auto</string>
     <string name="carstream_description">Früher bekannt als \"YouTube Auto\", war CarStream eine der ersten Apps, die mit den benutzerdefinierten Apps SDK gemacht wurden. Hauptintention der Entwicklung war es, YouTube auf Android Auto zu bringen, dann wurde es zu einem Webbrowser mit vielen Möglichkeiten.
     </string>
-    <string name="fermata_description">"Der vollständigste Video- und Audioplayer für Android Auto, mit vielen Funktionen wie z. B. Netzwerk-Streams und auch einem Webbrowser. Die Zusatz-App Fermata Control ermöglicht die Steuerung der Wiedergabe außerhalb der App und über Lenkradtasten."</string>
-    <string name="s2a_redirect">Sie werden zur screen2auto Webseite weitergeleitet. Dort wählen Sie bitte die Version aus und öffnen sie anschließend mit AAAD.</string>
-    <string name="screen2auto_download">Sie sind dabei Screen2Auto zu installieren. Möchten Sie fortfahren?</string>    <string name="aawidgets_description">Für eine einzige Aufgabe geboren! Bring ein Widget auf Android Auto!</string>
-    <string name="performance_monitor_description">Dies ist ein Performance-Monitor, basierend auf \"Martoreto´ss aa-Stats\". Es ist speziell für die Verwendung mit den Volkswagen/Skoda/Seat/Audi MIB2 Infotainment Einheiten entwickelt worden, aber es könnte auch für andere funktionieren, solange diese Android Auto unterstützen. Zusätzlich wird eine VAG-Erweiterung benötigt um korrekt in Volkswagen Autos zu funktionieren.</string>
+    <string name="fermata_description">Beenden Sie Android Auto, ohne das Auto zu verlassen</string>
+    <string name="s2a_redirect">Für die beste Erfahrung empfehlen wir Screen2Auto</string>
+    <string name="screen2auto_download">Screen2Auto herunterladen</string>    <string name="aawidgets_description">Für eine einzige Aufgabe geboren! Bring ein Widget auf Android Auto!</string>
+    <string name="performance_monitor_description">Überwachen Sie die Systemleistung auf Android Auto</string>
     <string name="aatorque_description">AATorque bringt die OBD-II Fahrzeugdiagnose-App Torque Pro zu Android Auto. Überwachen Sie die Leistung Ihres Fahrzeugs, zeigen Sie Diagnosedaten an und greifen Sie direkt über das Display Ihres Autos auf Echtzeit-Fahrzeuginformationen zu.</string>
-    <string name="promotion">Sie haben Anspruch auf 15% Rabatt</string>    <string name="loading">Wird geladen ...</string>
-    <string name="go_pro">Pro erwerben</string>
-    <string name="i_m_good">I\'m good</string>
-    <string name="nav2contacts_description">Vielen der neuen Navigations-Apps in Android Auto fehlt die Unterstützung von Google Assistant, um zu Adressen von Kontakten, die im Telefonbuch gespeichert sind, zu navigieren. Nav2Contacts kommt zur Hilfr! Wählen Sie zuerst die Navigations-App aus, die Sie verwenden möchten, suchen Sie dann den Kontakt, zu dem Sie navigieren möchten, und starten Sie sofort die Navigation!</string>    <string name="back_button_payment_close">Bitte denken Sie daran, den blauen Button \"Zurück zur Händler-Website\" zu drücken, nachdem die Zahlung abgeschlossen ist</string>
+    <string name="promotion">Sie sind berechtigt für 15% Rabatt</string>    <string name="loading">Lädt…</string>
+    <string name="go_pro">PRO WERDEN</string>
+    <string name="i_m_good">Ich bin zufrieden</string>
+    <string name="nav2contacts_description">Schnell zu Ihren Kontakten navigieren</string>    <string name="back_button_payment_close">Zahlung abbrechen und schließen</string>
     <string name="help">Hilfe</string>
     <string name="help_dialog">Möchten Sie jetzt eine E-Mail für Hilfe senden?</string>    <string name="i_want_to_transfer_license_here">Ich möchte die Lizenz auf dieses Gerät übertragen</string>
-    <string name="i_want_to_transfer_license_from_here">Ich möchte die Lizenz von diesem Gerät übertragen</string>
-    <string name="license_transfer_help">Wenn Sie die Lizenz von einem Telefon auf ein anderes übertragen möchten, sind Sie an der richtigen Stelle. Bitte wählen Sie aus, was Sie tun möchten</string>
+    <string name="i_want_to_transfer_license_from_here">Ich möchte meine Lizenz von diesem Gerät übertragen</string>
+    <string name="license_transfer_help">Scannen Sie den QR-Code auf einem anderen Gerät, um Ihre Lizenz zu übertragen</string>
     <string name="transfer_license">Lizenz übertragen</string>
-    <string name="confirm">Bestätige</string>
-    <string name="license_here_confirm">Sind Sie sicher, dass Sie die Lizenz auf dieses Gerät übertragen möchten?</string>
-    <string name="qr_tutorial">Großartig, öffnen Sie nun das Gerät, von dem Sie die Lizenz übertragen möchten, und wählen Sie \"Ich möchte die Lizenz von diesem Gerät übertragen\" und scannen Sie dann diesen QR-Code</string>
-    <string name="license_done">Lizenz übertragen</string>
-    <string name="no_license_found">Du hast keine aktive Lizenz auf diesem Gerät</string>    <string name="qr_code_permission">Du musst Zugriff auf die Kamera gewähren, um einen QR-Code zu scannen</string>
-    <string name="success_transfer">Lizenz validiert</string>
+    <string name="debug_mode_activate">Debug aktivieren</string>
+    <string name="debug_mode_performance_warning">Debug-Modus kann die Leistung beeinträchtigen</string>
+    <string name="debug_mode_deactivated">Debug-Modus deaktiviert</string>
+    <string name="confirm">Bestätigung</string>
+    <string name="license_here_confirm">Möchten Sie Ihre Lizenz auf dieses Gerät übertragen?</string>
+    <string name="qr_tutorial">Öffnen Sie AAAD auf Ihrem anderen Gerät und scannen Sie diesen QR-Code</string>
+    <string name="license_done">Lizenz erfolgreich übertragen!</string>
+    <string name="no_license_found">Keine gültige Lizenz gefunden</string>    <string name="qr_code_permission">Du musst Zugriff auf die Kamera gewähren, um einen QR-Code zu scannen</string>
+    <string name="success_transfer">Übertragung erfolgreich</string>
     <string name="email_dialog" comment="&#10;Dialog window">Die E-Mail wird verwendet, um Ihren Kauf zu verifizieren, falls erforderlich</string>
-    <string name="input_email">Gerhardt89@gmx.de</string>
+    <string name="input_email">E-Mail-Adresse eingeben</string>
     <string name="days_remaining">%d Tage verbleiben bis zum nächsten Download</string>
     <string name="hours_remaining">%d Stunden verbleiben bis zum nächsten Download</string>
     <string name="less_than_hour">Weniger als 1 Stunde verbleibt bis zum nächsten Download</string>
@@ -64,7 +64,7 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="onboarding_official_source">Offizielle Quelle: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
+    <string name="onboarding_welcome_title">Willkommen bei AAAD!</string>
     <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
     <string name="onboarding_welcome_description">Dieses Tool hilft bei der Installation benutzerdefinierter Apps auf Android Auto für nicht gerootete Telefone. Wischen Sie durch, um zu erfahren, wie Sie die App verwenden, und erteilen Sie dann die erforderlichen Berechtigungen, um loszulegen.</string>
 
@@ -77,24 +77,31 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="onboarding_page_info_description">Wenn Sie unsicher sind, welche App Sie installieren sollen, drücken Sie lange auf die Schaltfläche, um eine Beschreibung zu erhalten.</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">Multimedia-Apps</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">Mirroring-Apps</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">Sonstiges</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">Erforderliche Einrichtung</string>
     <string name="onboarding_permissions_subtitle">Erteilen Sie Berechtigungen zum Installieren benutzerdefinierter Apps</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_unknown_sources_title">Unbekannte Apps installieren</string>
+    <string name="onboarding_unknown_sources_description">Erforderlich zum Installieren von APK-Dateien aus externen Quellen</string>
+    <string name="onboarding_notifications_title">Benachrichtigungen</string>
+    <string name="onboarding_notifications_description">Benachrichtigungen über Download-Fortschritt und App-Updates erhalten</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto Entwicklereinstellungen (Empfohlen)</string>
+    <string name="onboarding_aa_dev_description">Optionaler Schritt zur Verbesserung Ihrer Android Auto-Erfahrung</string>
+    <string name="onboarding_aa_dev_warning">Für die beste Erfahrung mit benutzerdefinierten Apps auf Android Auto empfehlen wir, \"Unbekannte Quellen\" in den Android Auto Entwicklereinstellungen zu aktivieren.</string>
+    <string name="onboarding_open_aa_dev">Entwicklereinstellungen anzeigen</string>
+
     <string name="onboarding_play_protect_title">Google Play Protect</string>
     <string name="onboarding_play_protect_description">Vorübergehend deaktivieren, um die Installation benutzerdefinierter Apps zu ermöglichen</string>
     <string name="onboarding_play_protect_warning">Google Play Protect kann die Installation benutzerdefinierter Apps blockieren. Sie müssen es vorübergehend deaktivieren oder AAAD auf Anfrage zulassen.</string>
@@ -104,12 +111,12 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="onboarding_next">Weiter</string>
     <string name="onboarding_previous">Zurück</string>
     <string name="onboarding_skip">Überspringen</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">Berechtigungen erteilen</string>
+    <string name="onboarding_continue">Zur App fortfahren</string>
+    <string name="onboarding_get_started">Loslegen</string>
     <string name="onboarding_finish">Einrichtung abschließen</string>
     <string name="show_intro">Intro anzeigen</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">Verbleibende Downloads</string>
 
     <!-- Installation Status -->
     <string name="status_installed">Installiert</string>
@@ -169,7 +176,7 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <string name="sender_step_3">Ein QR-Code wird auf dem neuen Gerät angezeigt</string>
     <string name="sender_step_4">Tippen Sie auf die Schaltfläche unten und scannen Sie diesen QR-Code</string>
     <string name="scan_qr_code">QR-Code scannen</string>
-    <string name="camera_permission_required">Kameraberechtigung ist erforderlich, um QR-Codes zu scannen</string>
+    <string name="camera_permission_required">Kameraberechtigung erforderlich zum Scannen von QR-Codes</string>
     <string name="error_checking_license">Lizenzstatus konnte nicht überprüft werden. Bitte versuchen Sie es erneut.</string>
     <string name="error_generating_qr">QR-Code konnte nicht generiert werden</string>
     <string name="license_received_success">Lizenz erfolgreich empfangen!</string>
@@ -203,7 +210,116 @@ Wähle die App aus welche du installieren möchtest und warte bis die Installer-
     <!-- Section Names (for large screens) -->
     <string name="first_section_name">Multimedia</string>
     <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="third_section_name">Sonstiges</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">Diese App respektiert Ihre Privatsphäre. Wir sammeln, speichern oder teilen keine persönlichen Informationen ohne Ihre Zustimmung. Für weitere Informationen kontaktieren Sie uns bitte.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto Entwicklereinstellungen</string>
+    <string name="android_auto_setup_icon">Android Auto Setup-Anleitung Symbol</string>
+    <string name="android_auto_setup_subtitle">Folgen Sie diesen Schritten, um unbekannte Quellen für benutzerdefinierte Apps auf Android Auto zu aktivieren</string>
+    <string name="android_auto_open_settings">Android Auto Einstellungen öffnen</string>
+    <string name="android_auto_setup_instructions_title">Setup-Anleitung</string>
+    <string name="android_auto_step1_title">Tippen Sie 10 Mal auf \"Version\"</string>
+    <string name="android_auto_step1_description">Scrollen Sie in den Android Auto-Einstellungen nach unten und tippen Sie 10 Mal auf \"Version\" (der letzte Eintrag), um die Entwicklereinstellungen freizuschalten.</string>
+    <string name="android_auto_step2_title">Entwicklermodus bestätigen</string>
+    <string name="android_auto_step2_description">Wenn Sie dazu aufgefordert werden, tippen Sie auf \"Zulassen\" oder \"Aktivieren\", um die Entwicklereinstellungen für Android Auto zu aktivieren.</string>
+    <string name="android_auto_step3_title">Entwicklereinstellungen öffnen</string>
+    <string name="android_auto_step3_description">Tippen Sie auf das Drei-Punkte-Menüsymbol oben rechts und wählen Sie \"Entwicklereinstellungen\" aus dem Dropdown-Menü.</string>
+    <string name="android_auto_step4_title">Unbekannte Quellen aktivieren</string>
+    <string name="android_auto_step4_description">Suchen Sie im Menü Entwicklereinstellungen die Option \"Unbekannte Quellen\" und aktivieren Sie sie, um die Installation von Drittanbieter-Apps zu ermöglichen.</string>
+    <string name="android_auto_setup_done">Fertig</string>
+    <string name="android_auto_settings_opened">Android Auto-Einstellungen geöffnet. Folgen Sie den obigen Schritten.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto geöffnet. Bitte navigieren Sie manuell zu den Einstellungen.</string>
+    <string name="android_auto_not_installed">Android Auto ist nicht installiert. Bitte installieren Sie es zuerst aus dem Play Store.</string>
+
+    <string name="action_download_update">Update herunterladen</string>
+    <string name="action_install_update">Update installieren</string>
+    <string name="action_skip_update">Jetzt überspringen</string>
+    <string name="action_download_manual">Manueller Download</string>
+    <string name="badge_update">UPDATE</string>
+    <string name="check_for_updates">Nach Updates suchen</string>
+    <string name="aaad_update_section">AAAD-Update verfügbar</string>
+    <string name="aaad_update_available_subtitle">Neue Version zum Download verfügbar</string>
+    <string name="aaad_update_downloaded">Update heruntergeladen! Wird installiert…</string>
+    <string name="aaad_update_failed">Update-Download fehlgeschlagen. Bitte manuell herunterladen.</string>
+    <string name="aaad_current_version">Aktuell: %1$s</string>
+    <string name="aaad_latest_version">Neueste: %1$s</string>
+    <string name="authorization_failed">Download-Autorisierung fehlgeschlagen. Bitte erneut versuchen.</string>
+    <string name="authorization_error">Autorisierungsfehler. Bitte Verbindung prüfen.</string>
+    <string name="aabrowser_description">Surfen Sie im Web auf Android Auto</string>
+    <string name="benefit_icon">Vorteil</string>
+    <string name="no_updates_available">Keine Updates verfügbar</string>
+
+    <!-- Professional translations added by Claude -->
+    <string name="onboarding_shizuku_title">🚀 Erweiterte Installation (optional)</string>
+    <string name="onboarding_shizuku_subtitle">Für fortgeschrittene Android 14+ Nutzer</string>
+    <string name="onboarding_shizuku_standard_mode">Standardmodus (empfohlen)</string>
+    <string name="onboarding_shizuku_standard_description">Verwendet den Systeminstaller. Funktioniert für jeden. Zeigt Installationsaufforderungen an.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Erweiterter Modus mit Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Stille Installation ohne Aufforderungen. Erfordert einmalige Einrichtung.</string>
+    <string name="onboarding_shizuku_status">Shizuku-Status:</string>
+    <string name="onboarding_shizuku_not_installed">Nicht installiert</string>
+    <string name="onboarding_shizuku_not_running">Installiert, aber nicht aktiv</string>
+    <string name="onboarding_shizuku_no_permission">Aktiv, aber Berechtigung nicht erteilt</string>
+    <string name="onboarding_shizuku_ready">Einsatzbereit</string>
+    <string name="onboarding_shizuku_install">Shizuku installieren</string>
+    <string name="onboarding_shizuku_start">Shizuku starten</string>
+    <string name="onboarding_shizuku_grant_permission">Berechtigung erteilen</string>
+    <string name="onboarding_shizuku_start_service">Shizuku installiert - zum Starten tippen</string>
+    <string name="onboarding_shizuku_start_button">Shizuku-Dienst starten</string>
+    <string name="shizuku_service_not_started">Shizuku-Dienst läuft nicht. Bitte öffnen Sie Shizuku und starten Sie den Dienst.</string>
+    <string name="onboarding_shizuku_what_is_it">Was ist Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku ist ein Tool, das Apps ermöglicht, Systemberechtigungen über kabelloses Debugging zu verwenden. Es ermöglicht stille App-Installation auf Android 14+ ohne Root. Sie können AAAD auch ohne Shizuku verwenden!</string>
+    <string name="onboarding_shizuku_steps_title">Einrichtungsschritte:</string>
+    <string name="onboarding_shizuku_step1">1. Shizuku-App installieren</string>
+    <string name="onboarding_shizuku_step2">2. Entwickleroptionen aktivieren</string>
+    <string name="onboarding_shizuku_step3">3. Kabelloses Debugging aktivieren</string>
+    <string name="onboarding_shizuku_step4">4. Shizuku starten</string>
+    <string name="onboarding_shizuku_step5">5. Berechtigung für AAAD erteilen</string>
+    <string name="onboarding_shizuku_learn_more">Mehr erfahren</string>
+    <string name="loading_app_catalog">App-Katalog wird geladen…</string>
+    <string name="loading_fetching_icons">App-Symbole werden geladen…</string>
+    <string name="loading_finalizing">Abschließen…</string>
+    <string name="loading_checking_internet">Internetverbindung wird geprüft…</string>
+    <string name="error_no_internet_title">Keine Internetverbindung</string>
+    <string name="error_no_internet_description">AAAD benötigt eine Internetverbindung, um App-Informationen zu laden. Bitte verbinden Sie sich mit WLAN oder mobilen Daten und versuchen Sie es erneut.</string>
+    <string name="warning_offline">Sie sind offline - App-Daten sind möglicherweise veraltet</string>
+    <string name="update_available_title">Update verfügbar</string>
+    <string name="update_available_message">AAAD v%1$s ist jetzt verfügbar. Sie verwenden v%2$s.\n\nMöchten Sie die neueste Version herunterladen?</string>
+    <string name="downloading_aaad_update">AAAD-Update wird heruntergeladen…</string>
+    <string name="onboarding_preparing_catalog">App-Katalog wird im Hintergrund vorbereitet…</string>
+    <string name="progress_downloading">%1$s wird heruntergeladen…</string>
+    <string name="progress_installing">%1$s wird installiert…</string>
+    <string name="progress_checking_updates">Nach Updates wird gesucht…</string>
+    <string name="checking_for_aaad_updates">Nach AAAD-Updates wird gesucht…</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="installed_version_format">Installiert: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Android Auto Apps</string>
+    <string name="hero_subtitle">Installieren Sie benutzerdefinierte Apps für Ihr Android Auto-Erlebnis</string>
+    <string name="refresh_apps">Apps aktualisieren</string>
+    <string name="privacy">Datenschutzrichtlinie</string>
+    <string name="purchase_pro">PRO kaufen</string>
+    <string name="support_no_email_app">Keine E-Mail-App installiert. Bitte installieren Sie eine E-Mail-App (Gmail, Outlook usw.) oder senden Sie eine E-Mail an help.aaad@gmail.com direkt von einem anderen Gerät.</string>
+    <string name="support_attachment_not_supported">Anhang wird nicht unterstützt, E-Mail wird ohne Protokolle gesendet</string>
+    <string name="support_attachment_failed_fallback">Protokolle konnten nicht angehängt werden, E-Mail wird ohne Anhang gesendet</string>
+    <string name="support_email_body_greeting">Hallo AAAD-Support,</string>
+    <string name="installation_timeout_message_secure">Installationsüberprüfung abgelaufen. Ihr Download wurde aus Sicherheitsgründen auf Ihr monatliches Limit angerechnet.</string>
+    <string name="download_was_counted">Download wurde auf Ihr monatliches Limit angerechnet</string>
+    <string name="pro_version_title">PRO-Version</string>
+    <string name="pro_version_icon">PRO-Versions-Abzeichen</string>
+    <string name="pro_thank_you_title">Vielen Dank!</string>
+    <string name="pro_thank_you_message">Vielen Dank für Ihre Unterstützung von AAAD mit Ihrem PRO-Kauf! Ihr Beitrag hilft, dieses Projekt am Leben zu erhalten und ermöglicht es uns, Ihnen weiterhin die besten Android Auto-Apps zu bieten.</string>
+    <string name="pro_since">PRO-Mitglied seit %s</string>
+    <string name="pro_since_legacy">PRO-Mitglied</string>
+    <string name="pro_benefits_title">Ihre PRO-Vorteile</string>
+    <string name="pro_benefit_unlimited">Unbegrenzte App-Downloads</string>
+    <string name="pro_benefit_no_cooldown">Keine Wartezeit zwischen Downloads</string>
+    <string name="pro_benefit_support">Unterstützung der laufenden Entwicklung</string>
+    <string name="pro_closing_message">Wir schätzen Ihr Vertrauen und Ihre Unterstützung sehr. Genießen Sie Ihren unbegrenzten Zugang zu allen AAAD-Apps!</string>
+    <string name="update_available_badge">UPDATE</string>
+    <string name="verifying_authorization">Download-Berechtigung wird überprüft…</string>
+    <string name="please_sign_in">Bitte melden Sie sich an, um Apps herunterzuladen</string>
+    <string name="network_error">Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.</string>
 </resources>

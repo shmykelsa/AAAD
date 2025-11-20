@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="welcome_string">Добро пожаловать в Android Auto Apps Downloader (AAAD). Эта утилита поможет установить  приложения, адаптированные для работы в Android Auto на телефоны, не имеющие root. Выберите приложение, которое  хотите установить, и дождитесь окончания установки программы. При длительном нажатии на названии приложения доступно его описание.</string>
     <string name="title_activity_about_payment">Полная версия</string>
-    <string name="switch_to_pro_statement">Бесплатная версия AAAD позволяет вам установить одно приложение раз в месяц. Если вы хотите убрать  ограничение, приобретите полную версию. Это позволит вам пользоваться всеми функциями и обновлениями приложений без ограничений!</string>
-    <string name="congratsPro">Congratulations, you have PRO version!</string>    <string name="About">О приложении</string>
+    <string name="switch_to_pro_statement">Бесплатная версия AAAD позволяет загружать одно приложение бесплатно каждый месяц. Если вы хотите загружать больше, переходите на PRO.</string>
+    <string name="congratsPro">Поздравляем, у вас PRO версия!</string>    <string name="About">О приложении</string>
     <string name="have_promo_code">У меня есть промокод</string>
     <string name="promo_code">Введите промокод</string>
-    <string name="input_promo_code_here">Введите промокод</string>    <string name="about_to_download">Вы собираетесь установить %1$s. Продолжить?</string>
-    <string name="no">нет</string>
+    <string name="input_promo_code_here">Введите код здесь</string>    <string name="about_to_download">Вы собираетесь установить %1$s. Продолжить?</string>
     <string name="warning_payment">После оплаты, пожалуйста, вручную нажмите \"Вернуться к продавцу\", для подтверждения транзакции. </string>
-    <string name="attention">ВНИМАНИЕ!</string>
-    <string name="next_download_available">Следующая установка будет доступна: %1$s</string>
+    <string name="attention">ВНИМАНИЕ</string>
+    <string name="next_download_available">Следующая загрузка будет доступна: %1$s</string>
     <string name="connect_error">ОШИБКА СОЕДИНЕНИЯ</string>
     <plurals name="remaining_downloads">
         <item quantity="one">Вы можете произвести одну установку</item>
@@ -19,38 +17,41 @@
         <item quantity="other">У вас закончились бесплатные установки</item>
     </plurals>
     <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) разработан и наполнен приложениями Shmykelsa.<br><br>Доступные приложения созданы следующими разработчиками:<br>]]>"</string>
-    <string name="pro_unlocked">Поздравляем, полная версия разблокирована!</string>
+    <string name="pro_unlocked">Поздравляем, PRO версия разблокирована</string>
     <string name="cancelled_payment">Покупка отменена</string>
-    <string name="please_enter_code">Пожалуйста, введите код</string>
-    <string name="connection_error">Ошибка соединения, не удалось подтвердить</string>
+    <string name="please_enter_code">Пожалуйста, введите промокод</string>
+    <string name="connection_error">Ошибка подключения, не удалось проверить</string>
     <string name="not_valid_code">Неверный код</string>    <string name="downloading_progress">Загружается…</string>
     <string name="aa_mirror_plus_description">Альтернатива AAMirror с более функциональными возможностями.</string>
-    <string name="aapassenger_description">Это приложение было создано для того, чтобы пассажиры могли управлять некоторыми функциями Android Auto. Пассажиру требуется скачать AAPassenger. Работоспособность  на данный момент неизвестна.</string>
+    <string name="aapassenger_description">Разблокируйте Android Auto в режиме вождения</string>
     <string name="s2a_description">Наиболее полноценное  приложение для зеркалирования телефона в Android Auto. Включает в себя множество функций, таких как настраиваемый лаунчер, разделение экрана, пользовательский размер экрана и многое другое!</string>
-    <string name="aamirror_description">Самое первое  зеркалирующее приложение для Android Auto. AAMirror просто отображает экран телефона на ГУ.</string>
-    <string name="aa_stream_description">Another alternative to AAMirror with some extra functionalities. Recently revived and fixed for newer Android versions by Annexhack.</string>
+    <string name="aamirror_description">Отразите экран смартфона на Android Auto</string>
+    <string name="aa_stream_description">Транслируйте видео на Android Auto</string>
     <string name="carstream_description">Ранее известное как \"YouTube Auto\", Car Stream было одним из первых приложений, созданных с помощью SDK пользовательских приложений. Основная цель создания - это просмотр YouTube через Android Auto. В последующем оно стало веб-браузером с множеством возможностей.</string>
-    <string name="fermata_description">"Полнофункциональный видео и аудио плеер для Android Auto, с  множеством функций, такими как потоковое вещание (IPTV),  веб-браузер, просмотр YouTube с функцией блокировки рекламы. Дополнительно к плееру  можно установить Fermata Control для управления воспроизведением через нижнюю панель Android Auto  и с помощью кнопок на руле."</string>
-    <string name="s2a_redirect">Вы будете перенаправлены на сайт, для скачивания  Screen2Auto. Выберите там нужную версию и откройте её с помощью AAAD.</string>
-    <string name="screen2auto_download">Вы собираетесь установить Screen2Auto. Хотите продолжить?</string>    <string name="aawidgets_description">Создано для единственной цели - добавить виджет для Android Auto!</string>
-    <string name="performance_monitor_description">Это монитор производительности, основанный на Martoreto\'s aa-stats. Он предназначен для использования в автомобилях Volkswagen/Skoda/Seat/Audi MIB2 infotainment, но он также может работать на других автомобилях, если они поддерживают Android Auto. Требуется также расширение VAG для работы на автомобилях Volkswagen.</string>
-    <string name="promotion">Вы можете воспользоваться скидкой 15%</string>    <string name="loading">Загрузка...</string>
-    <string name="go_pro">Приобретите PRO версию</string>
-    <string name="i_m_good">Хорошо</string>
-    <string name="nav2contacts_description">Многие новые навигационные приложения в Android Auto  не поддерживают переход к адресам контактов, сохраненных в телефонной книге, с помощью Google Assistant. В этом случае Nav2Contacts придёт на помощь! Сначала выберите навигационное приложение, которое вы хотите использовать, а затем найдите контакт, к адресу которого вы хотите задать маршрут. После этого просто запустите навигацию!</string>    <string name="back_button_payment_close">Пожалуйста, не забудьте нажать кнопку \"Вернуться к продавцу\" после завершения оплаты</string>
+    <string name="fermata_description">Выйдите из Android Auto, не выходя из машины</string>
+    <string name="s2a_redirect">Для лучшего опыта рекомендуем Screen2Auto</string>
+    <string name="screen2auto_download">Скачать Screen2Auto</string>    <string name="aawidgets_description">Создано для единственной цели - добавить виджет для Android Auto!</string>
+    <string name="performance_monitor_description">Мониторьте производительность системы в Android Auto</string>
+    <string name="promotion">Вы имеете право на скидку 15%</string>    <string name="loading">Загрузка…</string>
+    <string name="go_pro">ПОЛУЧИТЬ PRO</string>
+    <string name="i_m_good">Всё в порядке</string>
+    <string name="nav2contacts_description">Быстро переходите к контактам</string>    <string name="back_button_payment_close">Отменить платеж и закрыть</string>
     <string name="help">Помощь</string>
     <string name="help_dialog">Вы хотите отправить e-mail прямо сейчас для получения помощи?</string>    <string name="i_want_to_transfer_license_here">Я хочу перенести лицензию с этого устройства</string>
-    <string name="i_want_to_transfer_license_from_here">Я хочу перенести лицензию на это устройство</string>
-    <string name="license_transfer_help">Если вы хотите перенести лицензию с одного устройства на другое, вы находитесь в нужном месте. Пожалуйста, выберите то, что хотите сделать</string>
+    <string name="i_want_to_transfer_license_from_here">Я хочу перенести лицензию с этого устройства</string>
+    <string name="license_transfer_help">Отсканируйте QR-код на другом устройстве для переноса лицензии</string>
     <string name="transfer_license">Перенос лицензии</string>
+    <string name="debug_mode_activate">Активировать отладку</string>
+    <string name="debug_mode_performance_warning">Режим отладки может повлиять на производительность</string>
+    <string name="debug_mode_deactivated">Режим отладки деактивирован</string>
     <string name="confirm">Подтверждение</string>
-    <string name="license_here_confirm">Вы уверены, что хотите перенести лицензию на это устройство?</string>
-    <string name="qr_tutorial">Отлично, теперь откройте устройство, с которого вы хотите перенести лицензию, и выберите «Я хочу перенести лицензию с этого устройства», затем отсканируйте этот QR-код</string>
-    <string name="license_done">Перенос лицензии</string>
-    <string name="no_license_found">У вас нет активной лицензии на этом устройстве</string>    <string name="qr_code_permission">Для сканирования QR-кодов необходимо предоставить доступ к камере!</string>
-    <string name="success_transfer">Лицензия подтверждена</string>
+    <string name="license_here_confirm">Хотите перенести лицензию на это устройство?</string>
+    <string name="qr_tutorial">Откройте AAAD на другом устройстве и отсканируйте этот QR-код</string>
+    <string name="license_done">Лицензия успешно перенесена!</string>
+    <string name="no_license_found">Действительная лицензия не найдена</string>    <string name="qr_code_permission">Для сканирования QR-кодов необходимо предоставить доступ к камере!</string>
+    <string name="success_transfer">Перенос выполнен успешно</string>
     <string name="email_dialog" comment="&#10;Dialog window">Адрес электронной почты будет использован для проверки вашей покупки, если это необходимо</string>
-    <string name="input_email">Пожалуйста, введите свой адрес электронной почты</string>
+    <string name="input_email">Введите адрес электронной почты</string>
     <string name="days_remaining">Осталось %d дней до следующего скачивания</string>
     <string name="hours_remaining">Осталось %d часов до следующего скачивания</string>
     <string name="less_than_hour">Менее часа до следующего скачивания</string>
@@ -63,8 +64,8 @@
     <string name="onboarding_official_source">Официальный источник: github.com/shmykelsa/AAAD</string>
 
     <!-- Page 2: Welcome -->
-    <string name="onboarding_welcome_title">Welcome to AAAD!</string>
-    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_title">Добро пожаловать в AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Загрузчик приложений для Android Auto</string>
     <string name="onboarding_welcome_description">Эта утилита поможет установить пользовательские приложения на Android Auto для телефонов без root. Пролистайте, чтобы узнать, как использовать приложение, затем предоставьте необходимые разрешения для начала работы.</string>
 
     <!-- Page 2: App Selection -->
@@ -76,24 +77,31 @@
     <string name="onboarding_page_info_description">Если вы не уверены, какое приложение установить, нажмите и удерживайте кнопку, чтобы увидеть описание.</string>
 
     <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_multimedia_title">Multimedia apps</string>
+    <string name="onboarding_page_multimedia_title">Мультимедийные приложения</string>
     <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
 
     <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_mirroring_title">Mirroring apps</string>
+    <string name="onboarding_page_mirroring_title">Приложения для зеркалирования</string>
     <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
 
     <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
-    <string name="onboarding_page_others_title">Others</string>
+    <string name="onboarding_page_others_title">Прочее</string>
     <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
 
     <!-- Page 5: Permissions & Setup -->
     <string name="onboarding_permissions_title">Необходимая настройка</string>
     <string name="onboarding_permissions_subtitle">Предоставьте разрешения для установки пользовательских приложений</string>
-    <string name="onboarding_unknown_sources_title">Install Unknown Apps</string>
-    <string name="onboarding_unknown_sources_description">Required to install APK files from external sources</string>
-    <string name="onboarding_notifications_title">Notifications</string>
-    <string name="onboarding_notifications_description">Get notified about download progress and app updates</string>
+    <string name="onboarding_unknown_sources_title">Установка неизвестных приложений</string>
+    <string name="onboarding_unknown_sources_description">Требуется для установки APK-файлов из внешних источников</string>
+    <string name="onboarding_notifications_title">Уведомления</string>
+    <string name="onboarding_notifications_description">Получайте уведомления о ходе загрузки и обновлениях приложений</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Настройки разработчика Android Auto (Рекомендуется)</string>
+    <string name="onboarding_aa_dev_description">Необязательный шаг для улучшения работы Android Auto</string>
+    <string name="onboarding_aa_dev_warning">Для лучшей работы с пользовательскими приложениями на Android Auto рекомендуем включить \"Неизвестные источники\" в настройках разработчика Android Auto.</string>
+    <string name="onboarding_open_aa_dev">Просмотреть настройки разработчика</string>
+
     <string name="onboarding_play_protect_title">Google Play Защита</string>
     <string name="onboarding_play_protect_description">Временно отключите, чтобы разрешить установку пользовательских приложений</string>
     <string name="onboarding_play_protect_warning">Google Play Защита может блокировать установку пользовательских приложений. Вам нужно временно отключить её или разрешить AAAD при появлении запроса.</string>
@@ -103,12 +111,12 @@
     <string name="onboarding_next">Далее</string>
     <string name="onboarding_previous">Назад</string>
     <string name="onboarding_skip">Пропустить</string>
-    <string name="onboarding_grant_permissions">Grant Permissions</string>
-    <string name="onboarding_continue">Continue to App</string>
-    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_grant_permissions">Предоставить разрешения</string>
+    <string name="onboarding_continue">Перейти к приложению</string>
+    <string name="onboarding_get_started">Начать</string>
     <string name="onboarding_finish">Завершить настройку</string>
     <string name="show_intro">Показать введение</string>
-    <string name="downloads_remaining">Downloads remaining</string>
+    <string name="downloads_remaining">Осталось загрузок</string>
 
     <!-- Installation Status -->
     <string name="status_installed">Установлено</string>
@@ -157,7 +165,7 @@
     <string name="sender_step_3">На новом устройстве появится QR-код</string>
     <string name="sender_step_4">Нажмите кнопку ниже и отсканируйте этот QR-код</string>
     <string name="scan_qr_code">Сканировать QR-код</string>
-    <string name="camera_permission_required">Для сканирования QR-кодов требуется разрешение камеры</string>
+    <string name="camera_permission_required">Требуется разрешение на использование камеры для сканирования QR-кодов</string>
     <string name="error_checking_license">Не удалось проверить статус лицензии. Попробуйте еще раз.</string>
     <string name="error_generating_qr">Не удалось создать QR-код</string>
     <string name="license_received_success">Лицензия успешно получена!</string>
@@ -189,9 +197,130 @@
 
 
     <!-- Section Names (for large screens) -->
-    <string name="first_section_name">Multimedia</string>
-    <string name="second_section_name">Mirroring Apps</string>
-    <string name="third_section_name">Others</string>
+    <string name="first_section_name">Мультимедиа</string>
+    <string name="second_section_name">Приложения зеркалирования</string>
+    <string name="third_section_name">Прочее</string>
 
-    <string name="privacy_policy">This app respects your privacy. We do not collect, store, or share any personal information without your consent. For more information, please contact us.</string>
+    <string name="privacy_policy">Это приложение уважает вашу конфиденциальность. Мы не собираем, не храним и не передаем личную информацию без вашего согласия. Для получения дополнительной информации, пожалуйста, свяжитесь с нами.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Настройки разработчика Android Auto</string>
+    <string name="android_auto_setup_icon">Значок руководства по настройке Android Auto</string>
+    <string name="android_auto_setup_subtitle">Следуйте этим шагам, чтобы разрешить неизвестные источники для пользовательских приложений в Android Auto</string>
+    <string name="android_auto_open_settings">Открыть настройки Android Auto</string>
+    <string name="android_auto_setup_instructions_title">Инструкции по настройке</string>
+    <string name="android_auto_step1_title">Нажмите \"Версия\" 10 раз</string>
+    <string name="android_auto_step1_description">В настройках Android Auto прокрутите вниз до конца и нажмите \"Версия\" (последний пункт) 10 раз, чтобы разблокировать настройки разработчика.</string>
+    <string name="android_auto_step2_title">Подтвердите режим разработчика</string>
+    <string name="android_auto_step2_description">Когда появится запрос, нажмите \"Разрешить\" или \"Включить\", чтобы активировать настройки разработчика для Android Auto.</string>
+    <string name="android_auto_step3_title">Открыть настройки разработчика</string>
+    <string name="android_auto_step3_description">Нажмите значок меню с тремя точками в правом верхнем углу и выберите \"Настройки разработчика\" из выпадающего меню.</string>
+    <string name="android_auto_step4_title">Разрешить неизвестные источники</string>
+    <string name="android_auto_step4_description">В меню настроек разработчика найдите и включите опцию \"Неизвестные источники\", чтобы разрешить установку сторонних приложений.</string>
+    <string name="android_auto_setup_done">Готово</string>
+    <string name="android_auto_settings_opened">Настройки Android Auto открыты. Следуйте шагам выше.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto открыт. Пожалуйста, перейдите в Настройки вручную.</string>
+    <string name="android_auto_not_installed">Android Auto не установлен. Пожалуйста, установите его сначала из Play Store.</string>
+
+    <string name="action_retry">Повторить</string>
+    <string name="action_download_update">Загрузить обновление</string>
+    <string name="action_install_update">Установить обновление</string>
+    <string name="action_skip_update">Пропустить сейчас</string>
+    <string name="action_download_manual">Ручная загрузка</string>
+    <string name="action_continue_offline">Продолжить офлайн</string>
+    <string name="badge_update">ОБНОВЛЕНИЕ</string>
+    <string name="check_for_updates">Проверить обновления</string>
+    <string name="aaad_update_section">Доступно обновление AAAD</string>
+    <string name="aaad_update_available_subtitle">Новая версия доступна для загрузки</string>
+    <string name="aaad_update_downloaded">Обновление загружено! Установка…</string>
+    <string name="aaad_update_failed">Не удалось загрузить обновление. Попробуйте загрузить вручную.</string>
+    <string name="aaad_current_version">Текущая: %1$s</string>
+    <string name="aaad_latest_version">Последняя: %1$s</string>
+    <string name="authorization_failed">Ошибка авторизации загрузки. Попробуйте еще раз.</string>
+    <string name="authorization_error">Ошибка авторизации. Проверьте соединение.</string>
+    <string name="aabrowser_description">Просматривайте веб-страницы в Android Auto</string>
+    <string name="benefit_icon">Преимущество</string>
+    <string name="no_updates_available">Обновления отсутствуют</string>
+
+    <!-- Professional translations added by Claude -->
+    <string name="aatorque_description">AATorque переносит приложение диагностики автомобилей OBD-II Torque Pro в Android Auto. Отслеживайте производительность вашего автомобиля, просматривайте диагностические данные и получайте доступ к информации о транспортном средстве в реальном времени прямо с дисплея автомобиля.</string>
+    <string name="onboarding_shizuku_title">🚀 Улучшенная установка (необязательно)</string>
+    <string name="onboarding_shizuku_subtitle">Для опытных пользователей Android 14+</string>
+    <string name="onboarding_shizuku_standard_mode">Стандартный режим (рекомендуется)</string>
+    <string name="onboarding_shizuku_standard_description">Использует системный установщик. Работает для всех. Показывает запросы на установку.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Улучшенный режим со Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Тихая установка без запросов. Требует однократной настройки.</string>
+    <string name="onboarding_shizuku_status">Статус Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">Не установлено</string>
+    <string name="onboarding_shizuku_not_running">Установлено, но не запущено</string>
+    <string name="onboarding_shizuku_no_permission">Запущено, но разрешение не предоставлено</string>
+    <string name="onboarding_shizuku_ready">Готово к использованию</string>
+    <string name="onboarding_shizuku_install">Установить Shizuku</string>
+    <string name="onboarding_shizuku_start">Запустить Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Предоставить разрешение</string>
+    <string name="onboarding_shizuku_start_service">Shizuku установлено - нажмите, чтобы запустить службу</string>
+    <string name="onboarding_shizuku_start_button">Запустить службу Shizuku</string>
+    <string name="shizuku_service_not_started">Служба Shizuku не запущена. Пожалуйста, откройте Shizuku и запустите службу.</string>
+    <string name="onboarding_shizuku_what_is_it">Что такое Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku - это инструмент, который позволяет приложениям использовать системные разрешения через беспроводную отладку. Он позволяет тихо устанавливать приложения на Android 14+ без root. Вы все еще можете использовать AAAD без него!</string>
+    <string name="onboarding_shizuku_steps_title">Шаги настройки:</string>
+    <string name="onboarding_shizuku_step1">1. Установите приложение Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. Включите параметры разработчика</string>
+    <string name="onboarding_shizuku_step3">3. Включите беспроводную отладку</string>
+    <string name="onboarding_shizuku_step4">4. Запустите Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Предоставьте разрешение AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Узнать больше</string>
+    <string name="loading_app_catalog">Загрузка каталога приложений…</string>
+    <string name="loading_fetching_icons">Загрузка значков приложений…</string>
+    <string name="loading_finalizing">Завершение…</string>
+    <string name="loading_checking_internet">Проверка подключения к интернету…</string>
+    <string name="error_no_internet_title">Нет подключения к интернету</string>
+    <string name="error_no_internet_description">AAAD требует подключения к интернету для загрузки информации о приложениях. Пожалуйста, подключитесь к WiFi или мобильным данным и повторите попытку.</string>
+    <string name="warning_offline">Вы не в сети - данные приложения могут быть устаревшими</string>
+    <string name="update_available_title">Доступно обновление</string>
+    <string name="update_available_message">Теперь доступно AAAD v%1$s. Вы используете v%2$s.\n\nХотите загрузить последнюю версию?</string>
+    <string name="downloading_aaad_update">Загрузка обновления AAAD…</string>
+    <string name="onboarding_preparing_catalog">Подготовка каталога приложений в фоновом режиме…</string>
+    <string name="progress_downloading">Загрузка %1$s…</string>
+    <string name="progress_installing">Установка %1$s…</string>
+    <string name="progress_checking_updates">Проверка обновлений…</string>
+    <string name="checking_for_aaad_updates">Проверка обновлений AAAD…</string>
+    <string name="version_format">Версия %1$s</string>
+    <string name="installed_version_format">Установлено: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Приложения Android Auto</string>
+    <string name="hero_subtitle">Установите пользовательские приложения для вашего опыта Android Auto</string>
+    <string name="refresh_apps">Обновить приложения</string>
+    <string name="privacy">Политика конфиденциальности</string>
+    <string name="purchase_pro">Купить PRO</string>
+    <string name="support_no_email_app">Не установлено приложение электронной почты. Пожалуйста, установите приложение электронной почты (Gmail, Outlook и т.д.) или отправьте электронное письмо на help.aaad@gmail.com непосредственно с другого устройства.</string>
+    <string name="support_attachment_not_supported">Вложение не поддерживается, отправка письма без журналов</string>
+    <string name="support_attachment_failed_fallback">Не удалось прикрепить журналы, отправка письма без вложения</string>
+    <string name="support_email_body_greeting">Здравствуйте, служба поддержки AAAD,</string>
+    <string name="installation_timeout_message_secure">Время проверки установки истекло. Ваша загрузка была учтена в вашем месячном лимите по соображениям безопасности.</string>
+    <string name="download_was_counted">Загрузка была учтена в вашем месячном лимите</string>
+    <string name="pro_version_title">Версия PRO</string>
+    <string name="pro_version_icon">Значок версии PRO</string>
+    <string name="pro_thank_you_title">Спасибо!</string>
+    <string name="pro_thank_you_message">Спасибо за поддержку AAAD вашей покупкой PRO! Ваш вклад помогает поддерживать этот проект и позволяет нам продолжать предоставлять вам лучшие приложения Android Auto.</string>
+    <string name="pro_since">PRO-участник с %s</string>
+    <string name="pro_since_legacy">PRO-участник</string>
+    <string name="pro_benefits_title">Ваши PRO-преимущества</string>
+    <string name="pro_benefit_unlimited">Неограниченные загрузки приложений</string>
+    <string name="pro_benefit_no_cooldown">Без периода ожидания между загрузками</string>
+    <string name="pro_benefit_support">Поддержка текущей разработки</string>
+    <string name="pro_closing_message">Мы искренне ценим ваше доверие и поддержку. Наслаждайтесь неограниченным доступом ко всем приложениям AAAD!</string>
+    <string name="verifying_authorization">Проверка авторизации загрузки…</string>
+    <string name="please_sign_in">Пожалуйста, войдите, чтобы загружать приложения</string>
+    <string name="network_error">Ошибка сети. Пожалуйста, проверьте ваше подключение и повторите попытку.</string>
+    <string name="update_available_badge">ОБНОВЛЕНИЕ</string>
+    <string name="error_not_eligible">Вам нужно обновиться до PRO или дождаться следующей бесплатной загрузки.</string>
+    <string name="error_no_internet">Нет подключения к Интернету</string>
+    <string name="error_no_internet_message">Подключитесь к Интернету, чтобы загрузить данные приложения и продолжить.</string>
+    <string name="error_initialization_failed">Не удалось инициализировать данные приложения</string>
+    <string name="error_metadata_fetch_failed">Не удалось получить обновления приложения</string>
+    <string name="error_metadata_fetch_failed_message">Не удалось получить последнюю информацию о приложении. Проверьте подключение к Интернету и повторите попытку.</string>
+    <string name="loading_app_data">Загрузка данных приложения…</string>
+    <string name="loading_checking_updates">Проверка обновлений…</string>
+    <string name="loading_please_wait">Пожалуйста, подождите…</string>
 </resources>
