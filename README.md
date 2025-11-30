@@ -85,7 +85,7 @@ Well yes, you could, but they would not appear in Android Auto. Since the beginn
 
 ### I have a warning from Google Play Protect warning me about your app! Is this app a malware?
 
-AAAD does not contain any malware, and neither the apps inside it. Google obviously doesn't like Android Auto modding because of driving security. If you want to avoid any warning you'd want to know that Google Play Protect does not really have any anti-virus feature, rather it just warns of apps that Google doesn't like because of various reasons (e.g. installing other apps like Google Play Store does or contain third party in app purchase system). You can safely disable it by heading into Google Play Store's settings.
+AAAD does not contain any malware, and neither the apps inside it. Google obviously doesn't like Android Auto modding because of security while driving. Google decided to put a fake warning on via Google Play Protect, however it is not a legit anti-virus. Matter of fact, AAAD got blacklisted once (because Play Store doesn't like app installing other apps or with third party in app purchase system), but then it magically disappeared with no code change. So you can safely go ahead and disable Google Play Protect for the sake of installing AAAD's apps, but you can also keep it disabled forever as it is just a joke and it does not even have all the fake banking apps blacklisted, making it pretty useless.
 
 ### Why only these apps? Where is YouTube? Where is Netflix? Where is Instagram?
 
