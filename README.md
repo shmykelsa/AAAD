@@ -40,6 +40,22 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **Google Play Protect erased the downloaded apps** - There's a deeper explanation [down here](#i-have-a-warning-from-google-play-protect-warning-me-about-your-app-is-this-app-a-malware). Please take a depp look before proceeding with installing any app. The install button is usually hidden and the big blue button **WILL NOT** install the app you've chosen. Please use the "Install anyway" button instead. 
 
+### Honorable Mentions
+
+AAAD apps were made possible thanks to: 
+
+  Annexhack - Screen2Auto, AAStream, AA Mirror Plus
+  Andrey Pavlenko - Fermata Auto
+  Slashmax - AAMirror
+  Kiran Kumar, Eselter, Kristakos, Paesani2006 - CarStream
+  ns130291 - Widgets For Android Auto
+  jilleb - Performance Monitor
+  agronick - AATorque
+  kododake - AA Browser
+  Martoreto - AA Passenger
+  FrankieNL - Nav2Contacts
+
+AAAD downloads directly from official source of publicly available Android Auto softwares. Paid applications or apps already in Play Store will not be available in AAAD. 
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
