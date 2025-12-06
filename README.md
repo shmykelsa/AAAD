@@ -40,7 +40,7 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **Google Play Protect erased the downloaded apps** - There's a deeper explanation [down here](#i-have-a-warning-from-google-play-protect-warning-me-about-your-app-is-this-app-a-malware). Please take a depp look before proceeding with installing any app. The install button is usually hidden and the big blue button **WILL NOT** install the app you've chosen. Please use the "Install anyway" button instead. 
 
-### Honorable Mentions
+# Honorable Mentions
 
 AAAD apps were made possible thanks to: 
 
