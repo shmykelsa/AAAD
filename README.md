@@ -32,7 +32,7 @@ AAAD is free and offers in app purchases. The free version of the app allows up 
 
 **A factory reset wipes the license away** - [Click here](mailto:help.aaad@gmail.com?subject=PROWIPED&body=Hello%2C%0D%0A%0D%0Amy%20license%20was%20lost%20after%20a%20device%20reset.%0D%0A%0D%0AThe%20e-mail%20I%E2%80%99ve%20registered%20for%20my%20payment%20is%3A%20****MODIFY%20HERE****%0D%0A%0D%0ARegards%0D%0A%0D%0A>)
 
-**Google Play Protect erased the downloaded apps** - There's a deeper explanation [down here](#i-have-a-warning-from-google-play-protect-warning-me-about-your-app-is-this-app-a-malware). Please take a depp look before proceeding with installing any app. The install button is usually hidden and the big blue button **WILL NOT** install the app you've chosen. Please use the "Install anyway" button instead. 
+**Google Play Protect erased the downloaded apps** - There's a deeper explanation [down here](#i-have-a-warning-from-google-play-protect-warning-me-about-your-app-is-this-app-a-malware). Please take a deep look before proceeding with installing any app. The install button is usually hidden and the big blue button **WILL NOT** install the app you've chosen. Please use the "Install anyway" button instead. 
 
 # Honorable Mentions
 
@@ -49,7 +49,7 @@ AAAD apps were made possible thanks to:
   Martoreto - AA Passenger
   FrankieNL - Nav2Contacts
 
-AAAD downloads directly from official source of publicly available Android Auto softwares. Paid applications or apps already in Play Store will not be available in AAAD. 
+AAAD downloads directly from official source of publicly available Android Auto apps. Paid applications or apps already in Play Store will not be available in AAAD. 
 
 ### [GO TO DOWNLOAD](https://github.com/shmykelsa/AAAD/releases)
 
@@ -107,7 +107,7 @@ AAAD includes basically almost every Android Auto app known to date, and the onl
 
 AAAD will always download latest version of an app. If one of the apps that you've installed through AAAD gets an update, you can open AAAD and download the update. At the moment, there's no update checker, but I'm planning on making it! 
 
-### Will you hold my bank account/credit card informations?
+### Will you hold my bank account/credit card information?
 
 No. All the details of payment are held by Stripe Inc. and not processed nor passed to myself in any way. Also, I don't really care. 
 
@@ -121,7 +121,7 @@ No. AAAD is not a subscription, and once a license is obtained you won't be char
 
 ### What happens if I change my device?
 
-You can transfer a license with the feature "Transfer license" on the top right menu. The license will be crypted inside the device with a key that we will not hold in any way and the above method is the only way to move a license for AAAD pro.
+You can transfer a license with the feature "Transfer license" on the top right menu. The license will be encrypted inside the device with a key that we will not hold in any way and the above method is the only way to move a license for AAAD pro.
 
 ### What happens if I uninstall AAAD?
 
@@ -129,7 +129,7 @@ Nothing. The date for next download will not be impacted and neither your AAAD p
 
 # License
 
-Part of the source code of the app is shared so that changes can be implemented by whoever wants to do so for personal use, the full version of the software is **NOT** free, and you are not allowed to redistirbute modified versions of it, neither as a free application, niether as a commercial product. If you are intending to do so please seek my explicit writing approval for doing so. However you are allowed to modify the software as you wish as long as the modified version is **only** ever used by yourself. For more informations [please read the EULA](https://github.com/shmykelsa/AAAD/blob/main/LICENSE).
+Part of the source code of the app is shared so that changes can be implemented by whoever wants to do so for personal use, the full version of the software is **NOT** free, and you are not allowed to redistribute modified versions of it, neither as a free application, neither as a commercial product. If you are intending to do so please seek my explicit writing approval for doing so. However you are allowed to modify the software as you wish as long as the modified version is **only** ever used by yourself. For more information [please read the EULA](https://github.com/shmykelsa/AAAD/blob/main/LICENSE).
 
 ### Copyright
 Gabriele Rizzo (shmykelsa) © - 2023 - Lecce, Italia
